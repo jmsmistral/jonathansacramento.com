@@ -1,11 +1,40 @@
+html {
+    // Used to have a 1:10 ratio between rem's and pixels
+    font-size: 62.5%;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    background-color: $background-color;
+    color: $foreground-color;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: $m-size;
+
+    -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
-    color: $header-color;
+    font-size: $l-size;
 }
 
-.is-active {
-    font-weight: bold;
+a {
+    outline: 0;
+}
+
+// Override default hover to remove underline
+a:hover {
+    text-decoration: none !important;
+    // color: lighten($foreground-color, 20%) !important;
+    color: $hover-color !important;
+    border-bottom: 0.2rem solid $hover-color;
+}
+
+// Used for laying-out the header properly
+.hidden {
+    visibility: hidden;
 }

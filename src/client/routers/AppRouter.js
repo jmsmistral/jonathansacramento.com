@@ -5,7 +5,8 @@ import {
 
 import Header from '../components/Header';
 import Home from '../components/Home';
-import About from '../components/About';
+import Code from '../components/Code';
+import Blog from '../components/Blog';
 import NotFound from '../components/NotFound';
 
 
@@ -15,7 +16,8 @@ const AppRouter = () => (
       <Header />
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/about" component={About} exact />
+        <Route path="/blog" component={Blog} exact />
+        <Route path="/code" component={Code} exact />
         <Route component={NotFound} />
       </Switch>
     </div>

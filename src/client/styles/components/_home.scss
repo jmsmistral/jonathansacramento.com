@@ -1,0 +1,38 @@
+img {
+    margin-left: 2rem !important;
+}
+
+.home__title {
+    font-size: 4rem;
+    margin: 2rem 3rem 3rem 5rem;
+}
+
+.home__subtitle {
+    font-size: 2rem;
+    margin: 2rem 3rem 3rem 5rem;
+}
+
+
+.home__image {
+    border-radius: 50%;
+    margin: 0.5rem 0.5rem;
+}
+
+.home__blurb {
+    margin-top: 2rem;
+}
+
+.letter-changer {
+    color: $hover-color;
+  }
+  .letter-changer:after {
+    content:"";
+    animation: letter-changer 5s linear infinite;
+  }
+  @keyframes letter-changer {
+    0% { content:"Python"; color: #ff652f; }
+    20% { content:"Javascript"; }
+    40% { content:"C"; }
+    60% { content:"SQL"; }
+    80% { content:"BASH"; }
+  }
