@@ -1,10 +1,10 @@
 {
-  "name": "react-web-app-template",
+  "name": "jonathansacramento.com",
   "version": "0.1.0",
-  "description": "A template for kick-starting react web applications",
+  "description": "Jonathan Sacramento Personal Website",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmsmistral/react-web-app-template"
+    "url": "git+https://github.com/jmsmistral/jonathansacramento.com"
   },
   "main": "app.js",
   "type": "module",
@@ -22,9 +22,7 @@
   "keywords": [
     "react",
     "web",
-    "template",
-    "client",
-    "server"
+    "personal"
   ],
   "author": "Jonathan Sacramento",
   "license": "GPL-3.0-or-later",
@@ -36,8 +34,13 @@
     "@babel/preset-env": "7.4.5",
     "@babel/preset-react": "7.0.0",
     "@babel/register": "7.4.4",
+    "@fortawesome/fontawesome-svg-core": "1.2.19",
+    "@fortawesome/free-brands-svg-icons": "5.9.0",
+    "@fortawesome/free-solid-svg-icons": "5.9.0",
+    "@fortawesome/react-fontawesome": "0.1.4",
     "babel-loader": "8.0.6",
     "body-parser": "1.18.3",
+    "bootstrap": "4.3.1",
     "chalk": "2.4.1",
     "css-loader": "2.1.1",
     "debug": "4.1.1",
@@ -48,6 +51,7 @@
     "nodemon": "1.18.9",
     "normalize.css": "8.0.1",
     "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.9",
     "react-dom": "16.8.6",
     "react-modal": "3.8.1",
     "react-router-dom": "5.0.1",
