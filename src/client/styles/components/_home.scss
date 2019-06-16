@@ -1,38 +1,131 @@
-img {
-    margin-left: 2rem !important;
+.banner {
+  justify-content: center;
 }
 
-.home__title {
-    font-size: 4rem;
-    margin: 2rem 3rem 3rem 5rem;
-}
-
-.home__subtitle {
-    font-size: 2rem;
-    margin: 2rem 3rem 3rem 5rem;
-}
-
-
-.home__image {
+.banner__image {
     border-radius: 50%;
-    margin: 0.5rem 0.5rem;
 }
 
-.home__blurb {
+.banner__text {
+
+  margin: 2rem 0 0 3rem;
+}
+
+.banner__text__title {
+    font-size: $xl-size;
+    // margin: 2rem 3rem 3rem 5rem;
+}
+
+.banner__text__title__name {
+  color: lighten($foreground-color, 30%);
+}
+
+.banner__text__subtitle {
+    font-size: $m-size;
     margin-top: 2rem;
+    // margin: 2rem 3rem 3rem 5rem;
+  }
+
+.code-language-changer {
+  color: $foreground-color-yellow;
 }
 
-.letter-changer {
-    color: $hover-color;
-  }
-  .letter-changer:after {
-    content:"";
-    animation: letter-changer 5s linear infinite;
-  }
-  @keyframes letter-changer {
-    0% { content:"Python"; color: #ff652f; }
-    20% { content:"Javascript"; }
-    40% { content:"C"; }
-    60% { content:"SQL"; }
-    80% { content:"BASH"; }
-  }
+.code-language-changer:after {
+  content:"Javascript";
+  animation: code-language-changer 9s linear infinite;
+}
+@keyframes code-language-changer {
+  0%  { content:"Javascript"; }
+  20% { content:"Python"; color: #ff652f; }
+  40% { content:"C";  }
+  60% { content:"SQL"; color: #14a76c; }
+  80% { content:"BASH"; }
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.about__bullet__grey {
+  margin-right: 1.5rem;
+  color: $foreground-color;
+}
+
+.about__bullet__yellow {
+  margin-right: 1.5rem;
+  color: $foreground-color-yellow;
+}
+
+.about__bullet__red {
+  margin-right: 1.5rem;
+  color: $foreground-color-red;
+}
+
+.about__bullet__green {
+  margin-right: 1.5rem;
+  color: $foreground-color-green;
+}
+
+.about__bullet__purple {
+  margin-right: 1.5rem;
+  color: $foreground-color-purple;
+}
+
+.about__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+.about__link {
+  color: lighten($foreground-color, 30%);
+}
+
+// Skills
+.skill-changer {
+  color: $foreground-color-yellow;
+}
+
+.skill-changer:after {
+  content:"a strong delivery focus and attention to detail";
+  animation: skill-changer 9s linear infinite;
+}
+@keyframes skill-changer {
+  0%  { content:"a strong delivery focus and attention to detail"; }
+  20% { content:"a track-record of implementing complex software projects"; color: #ff652f; }
+  40% { content:"experience managing multi-disciplinary teams"; }
+  60% { content:"commitment to best practices"; color: #14a76c; }
+  80% { content:"deep business understanding"; }
+}
+
+// Career
+.career-changer {
+  color: $foreground-color-yellow;
+}
+
+.career-changer:after {
+  content:"worked as a consultant for Oliver Wyman";
+  animation: career-changer 9s linear infinite;
+}
+@keyframes career-changer {
+  0%  { content:"worked as a consultant for Oliver Wyman"; }
+  20% { content:"written a templating language from scratch"; color: #ff652f; }
+  40% { content:"co-founded a telco analytics startup"; }
+  60% { content:"authored a thesis on real-time snow rendering (wat)"; color: #14a76c;}
+  80% { content:"taught hundreds of students how to code"; }
+}
+
+// Hobbies
+.hobby-changer {
+  color: $foreground-color-yellow;
+}
+
+.hobby-changer:after {
+  content:"spend time outdoors";
+  animation: hobby-changer 9s linear infinite;
+}
+@keyframes hobby-changer {
+  0%  { content:"spend time outdoors"; }
+  20% { content:"meditate"; color: #ff652f; }
+  40% { content:"code"; }
+  60% { content:"garden"; color: #14a76c;}
+  80% { content:"watch football"; }
+}

@@ -1,34 +1,97 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faCode, faChartBar, faUserNinja, faGlasses, faCircle
+} from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => (
   <div>
-    <div className="container">
-      <div className="row">
+    <div className="page-container">
+      <div className="row-container banner">
         <img
-          className="home__image"
+          className="banner__image"
           src="/profile.png"
           alt="profile"
           width="150"
           height="150"
         />
-        <div className="flex-column">
-          <h1 className="home__title">JONATHAN SACRAMENTO</h1>
-          <h2 className="home__subtitle">
-            I love writing
+        <div className="column-container banner__text">
+          <h1 className="banner__text__title">
+            Hi! I'm
             {' '}
-            <span className="letter-changer" />
+            <strong className="banner__text__title__name">Jonathan</strong>
+            .
+          </h1>
+          <h2 className="banner__text__subtitle">
+                I love writing
             {' '}
-            code.
+            <span className="code-language-changer" />
+            {' '}
+                code.
           </h2>
         </div>
       </div>
-      <p className="home__blurb">I work as an Lead Engineer for Oliver Wyman (OW Digital) based in Barcelona.</p>
 
-      <p>I help clients make better business decisions through data-driven applications. I bring strong delivery focus and attention to detail, combined with a track-record of implementing complex software projects, managing multi-disciplinary teams and deep business understanding.</p>
-      <p>These are some of the clients I've worked with.</p>
-      <p>Previously I've worked as a Consultant for Oliver Wyman. I also co-founded a startup developing decision-support tools for clients in the telco space. Checkout my LinkedIn for more!</p>
-      <p>When I'm not working, I like to spend time outdoors, meditate, and code pet-projects.</p>
-      <p>Get in touch if you want to chat!</p>
+      <div className="column-container about">
+        <h2 className="section-title">About</h2>
+
+        <p>
+          {/* <FontAwesomeIcon icon={faCircle} size="1x" className="about__bullet__yellow" /> */}
+          I work as an
+          {' '}
+          <span className="about__highlight">Lead Engineer</span>
+          {' '}
+          for Oliver Wyman Digital based in Barcelona.
+        </p>
+
+        <p>
+          {/* <FontAwesomeIcon icon={faCircle} size="1x" className="about__bullet__red" /> */}
+          I help clients make
+          {' '}
+          <span className="about__highlight">better business decisions</span>
+          {' '}
+          through
+          {' '}
+          <span className="about__highlight">data-driven applications</span>
+          .
+        </p>
+
+        <p>
+          {/* <FontAwesomeIcon icon={faCircle} size="1x" className="about__bullet__green" /> */}
+          I bring
+          {' '}
+          <span className="skill-changer" />
+          .
+        </p>
+
+        <p>
+          {/* <FontAwesomeIcon icon={faCircle} size="1x" className="about__bullet__purple" /> */}
+          Previously I have
+          {' '}
+          <span className="career-changer" />
+          .
+        </p>
+
+        <p>
+          {/* <FontAwesomeIcon icon={faCircle} size="1x" className="about__bullet__purple" /> */}
+          When I'm not working, I like to
+          {' '}
+          <span className="hobby-changer" />
+          .
+        </p>
+
+        <p>
+          <NavLink to="/clients" className="about__link">These</NavLink>
+          {' '}
+          are some of the clients I've worked with.
+        </p>
+        <p>
+          <a href="mailto:jmsmistral@gmail.com" className="about__link">Get in touch</a>
+          {' '}
+          if you want to chat!
+        </p>
+      </div>
     </div>
   </div>
 );

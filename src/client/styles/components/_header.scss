@@ -18,6 +18,6 @@ nav {
 }
 
 .is-active {
-    color: lighten($foreground-color, 20%) !important;
-    border-bottom: 0.2px solid lighten($foreground-color, 20%);
+    color: lighten($foreground-color, 30%) !important;
+    border-bottom: 0.2rem solid lighten($foreground-color, 30%);
 }

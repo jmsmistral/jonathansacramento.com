@@ -1,5 +1,24 @@
-.container {
+.page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    // Center content
     max-width: 80rem;
     margin: 0 auto;
+
+    // Initially place
     margin-top: 13rem;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
