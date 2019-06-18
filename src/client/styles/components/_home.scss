@@ -32,7 +32,7 @@
 
 .code-language-changer:after {
   content:"Javascript";
-  animation: code-language-changer 9s linear infinite;
+  animation: code-language-changer 12s linear infinite;
 }
 @keyframes code-language-changer {
   0%  { content:"Javascript"; }
@@ -86,14 +86,14 @@
 
 .skill-changer:after {
   content:"a strong delivery focus and attention to detail";
-  animation: skill-changer 9s linear infinite;
+  animation: skill-changer 12s linear infinite;
 }
 @keyframes skill-changer {
   0%  { content:"a strong delivery focus and attention to detail"; }
   20% { content:"a track-record of implementing complex software projects"; color: #ff652f; }
   40% { content:"experience managing multi-disciplinary teams"; }
-  60% { content:"commitment to best practices"; color: #14a76c; }
-  80% { content:"deep business understanding"; }
+  60% { content:"deep business understanding"; color: #14a76c; }
+  80% { content:"commitment to best practices"; }
 }
 
 // Career
@@ -103,14 +103,14 @@
 
 .career-changer:after {
   content:"worked as a consultant for Oliver Wyman";
-  animation: career-changer 9s linear infinite;
+  animation: career-changer 12s linear infinite;
 }
 @keyframes career-changer {
   0%  { content:"worked as a consultant for Oliver Wyman"; }
   20% { content:"written a templating language from scratch"; color: #ff652f; }
   40% { content:"co-founded a telco analytics startup"; }
   60% { content:"authored a thesis on real-time snow rendering (wat)"; color: #14a76c;}
-  80% { content:"taught hundreds of students how to code"; }
+  80% { content:"taught consultants how to code in python"; }
 }
 
 // Hobbies
@@ -120,7 +120,7 @@
 
 .hobby-changer:after {
   content:"spend time outdoors";
-  animation: hobby-changer 9s linear infinite;
+  animation: hobby-changer 12s linear infinite;
 }
 @keyframes hobby-changer {
   0%  { content:"spend time outdoors"; }
