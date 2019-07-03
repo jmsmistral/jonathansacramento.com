@@ -8,7 +8,7 @@
     margin: 0 auto;
 
     // Initially place
-    margin-top: 13rem;
+    margin-top: 11rem;
 }
 
 .row-container {
@@ -21,4 +21,40 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+// Home-specific containers
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.home-page-container__banner {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-container__sub-banner {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $foreground-color-yellow;
 }

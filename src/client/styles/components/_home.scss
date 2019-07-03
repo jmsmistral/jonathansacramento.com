@@ -1,38 +1,30 @@
 .banner {
   justify-content: center;
+  align-content: center;
 }
 
-.banner__image {
-    border-radius: 50%;
+.banner__title {
+  margin-top: 2rem;
+  font-size: $xxxl-size;
 }
 
-.banner__text {
-
-  margin: 2rem 0 0 3rem;
-}
-
-.banner__text__title {
-    font-size: $xl-size;
-    // margin: 2rem 3rem 3rem 5rem;
-}
-
-.banner__text__title__name {
+.banner__title__name {
   color: lighten($foreground-color, 30%);
 }
 
-.banner__text__subtitle {
-    font-size: $m-size;
-    margin-top: 2rem;
-    // margin: 2rem 3rem 3rem 5rem;
-  }
+.banner__subtitle {
+  font-size: $m-size;
+  margin-top: 2rem;
+}
 
+// Code changer
 .code-language-changer {
   color: $foreground-color-yellow;
 }
 
 .code-language-changer:after {
   content:"Javascript";
-  animation: code-language-changer 9s linear infinite;
+  animation: code-language-changer 12s linear infinite;
 }
 @keyframes code-language-changer {
   0%  { content:"Javascript"; }
@@ -42,58 +34,56 @@
   80% { content:"BASH"; }
 }
 
-.about {
-  margin-top: 5rem;
+.sub-banner__title_one {
+  font-size: $l-size;
+  color: $background-color;
 }
 
-.about__bullet__grey {
-  margin-right: 1.5rem;
-  color: $foreground-color;
+.sub-banner__title_two {
+  margin-top: 1.5rem;
+  font-size: $l-size;
+  color: $background-color;
 }
 
-.about__bullet__yellow {
-  margin-right: 1.5rem;
-  color: $foreground-color-yellow;
+.sub-banner__title__highlight {
+  color: darken($background-color, 30%);
 }
 
-.about__bullet__red {
-  margin-right: 1.5rem;
-  color: $foreground-color-red;
+.home-page-container .fadein-banner {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
 }
 
-.about__bullet__green {
-  margin-right: 1.5rem;
-  color: $foreground-color-green;
+.home-page-container .fadein-subbanner {
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -o-animation: fadein 4s;
 }
 
-.about__bullet__purple {
-  margin-right: 1.5rem;
-  color: $foreground-color-purple;
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.about__highlight {
-  color: lighten($foreground-color, 30%);
-}
 
-.about__link {
-  color: lighten($foreground-color, 30%);
-}
-
-// Skills
-.skill-changer {
-  color: $foreground-color-yellow;
-}
 
 .skill-changer:after {
   content:"a strong delivery focus and attention to detail";
-  animation: skill-changer 9s linear infinite;
+  animation: skill-changer 12s linear infinite;
 }
 @keyframes skill-changer {
   0%  { content:"a strong delivery focus and attention to detail"; }
   20% { content:"a track-record of implementing complex software projects"; color: #ff652f; }
   40% { content:"experience managing multi-disciplinary teams"; }
-  60% { content:"commitment to best practices"; color: #14a76c; }
-  80% { content:"deep business understanding"; }
+  60% { content:"deep business understanding"; color: #14a76c; }
+  80% { content:"commitment to best practices"; }
 }
 
 // Career
@@ -103,14 +93,14 @@
 
 .career-changer:after {
   content:"worked as a consultant for Oliver Wyman";
-  animation: career-changer 9s linear infinite;
+  animation: career-changer 12s linear infinite;
 }
 @keyframes career-changer {
   0%  { content:"worked as a consultant for Oliver Wyman"; }
   20% { content:"written a templating language from scratch"; color: #ff652f; }
   40% { content:"co-founded a telco analytics startup"; }
   60% { content:"authored a thesis on real-time snow rendering (wat)"; color: #14a76c;}
-  80% { content:"taught hundreds of students how to code"; }
+  80% { content:"taught consultants how to code in python"; }
 }
 
 // Hobbies
@@ -120,7 +110,7 @@
 
 .hobby-changer:after {
   content:"spend time outdoors";
-  animation: hobby-changer 9s linear infinite;
+  animation: hobby-changer 12s linear infinite;
 }
 @keyframes hobby-changer {
   0%  { content:"spend time outdoors"; }
