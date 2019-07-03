@@ -1,4 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faCode, faChartBar, faUserNinja, faGlasses, faCircle
+} from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => (
   <div className="home-page-container">
