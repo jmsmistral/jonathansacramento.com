@@ -12,6 +12,7 @@ const Header = () => (
       <div className="hidden" />
       <Nav>
         <NavLink to="/" exact className="header__link" activeClassName="is-active">home</NavLink>
+        <NavLink to="/bio" exact className="header__link" activeClassName="is-active">bio</NavLink>
         <NavLink to="/blog" exact className="header__link" activeClassName="is-active">blog</NavLink>
         <NavLink to="/code" exact className="header__link" activeClassName="is-active">code</NavLink>
         <a href="https://github.com/jmsmistral" className="header__link"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
