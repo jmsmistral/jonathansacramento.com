@@ -1,9 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faCode, faChartBar, faUserNinja, faGlasses, faCircle
-} from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => (
   <div className="home-page-container">
@@ -11,17 +6,17 @@ const Home = () => (
     <div className="home-page-container__banner">
 
       <h1 className="banner__title fadein-banner">
-              Hi! I'm
+        {"Hi! I'm"}
         {' '}
         <strong className="banner__title__name">Jonathan</strong>
-              .
+        {'.'}
       </h1>
       <h2 className="banner__subtitle fadein-banner">
-              I love writing
+        {'I love writing'}
         {' '}
         <span className="code-language-changer" />
         {' '}
-              code.
+        {'code.'}
       </h2>
 
     </div>
