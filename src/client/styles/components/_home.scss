@@ -1,31 +1,23 @@
 .banner {
   justify-content: center;
+  align-content: center;
 }
 
-.banner__image {
-    border-radius: 50%;
+.banner__title {
+  margin-top: 2rem;
+  font-size: $xxxl-size;
 }
 
-.banner__text {
-
-  margin: 2rem 0 0 3rem;
-}
-
-.banner__text__title {
-    font-size: $xl-size;
-    // margin: 2rem 3rem 3rem 5rem;
-}
-
-.banner__text__title__name {
+.banner__title__name {
   color: lighten($foreground-color, 30%);
 }
 
-.banner__text__subtitle {
-    font-size: $m-size;
-    margin-top: 2rem;
-    // margin: 2rem 3rem 3rem 5rem;
-  }
+.banner__subtitle {
+  font-size: $m-size;
+  margin-top: 2rem;
+}
 
+// Code changer
 .code-language-changer {
   color: $foreground-color-yellow;
 }
@@ -42,47 +34,45 @@
   80% { content:"BASH"; }
 }
 
-.about {
-  margin-top: 5rem;
+.sub-banner__title_one {
+  font-size: $l-size;
+  color: $background-color;
 }
 
-.about__bullet__grey {
-  margin-right: 1.5rem;
-  color: $foreground-color;
+.sub-banner__title_two {
+  margin-top: 1.5rem;
+  font-size: $l-size;
+  color: $background-color;
 }
 
-.about__bullet__yellow {
-  margin-right: 1.5rem;
-  color: $foreground-color-yellow;
+.sub-banner__title__highlight {
+  color: darken($background-color, 30%);
 }
 
-.about__bullet__red {
-  margin-right: 1.5rem;
-  color: $foreground-color-red;
+.home-page-container .fadein-banner {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
 }
 
-.about__bullet__green {
-  margin-right: 1.5rem;
-  color: $foreground-color-green;
+.home-page-container .fadein-subbanner {
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -o-animation: fadein 4s;
 }
 
-.about__bullet__purple {
-  margin-right: 1.5rem;
-  color: $foreground-color-purple;
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.about__highlight {
-  color: lighten($foreground-color, 30%);
-}
 
-.about__link {
-  color: lighten($foreground-color, 30%);
-}
-
-// Skills
-.skill-changer {
-  color: $foreground-color-yellow;
-}
 
 .skill-changer:after {
   content:"a strong delivery focus and attention to detail";

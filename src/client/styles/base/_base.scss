@@ -1,11 +1,16 @@
 html {
+    height: 100%;
+
     // Used to have a 1:10 ratio between rem's and pixels
     font-size: 62.5%;
 }
 
 body {
+    height: 100%;
+
     background-color: $background-color;
     color: $foreground-color;
+    // font-family: 'et-book', sans-serif; //'Noto Sans HK', sans-serif;
     font-family: 'Noto Sans HK', sans-serif;
     font-size: $s-size;
 
@@ -19,7 +24,7 @@ body {
 }
 
 h1 {
-    font-size: $l-size;
+    font-size: $xl-size;
 }
 
 h2 {
