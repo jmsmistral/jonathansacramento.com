@@ -19,7 +19,7 @@
 
 // Code changer
 .code-language-changer {
-  color: $foreground-color-yellow;
+  color: $color-pallete-yellow;
 }
 
 .code-language-changer:after {
@@ -28,9 +28,9 @@
 }
 @keyframes code-language-changer {
   0%  { content:"Javascript"; }
-  20% { content:"Python"; color: #ff652f; }
+  20% { content:"Python"; color: $color-pallete-red; }
   40% { content:"C";  }
-  60% { content:"SQL"; color: #14a76c; }
+  60% { content:"SQL"; color: $color-pallete-green; }
   80% { content:"BASH"; }
 }
 
@@ -70,52 +70,4 @@
   to {
     opacity: 1;
   }
-}
-
-
-
-.skill-changer:after {
-  content:"a strong delivery focus and attention to detail";
-  animation: skill-changer 12s linear infinite;
-}
-@keyframes skill-changer {
-  0%  { content:"a strong delivery focus and attention to detail"; }
-  20% { content:"a track-record of implementing complex software projects"; color: #ff652f; }
-  40% { content:"experience managing multi-disciplinary teams"; }
-  60% { content:"deep business understanding"; color: #14a76c; }
-  80% { content:"commitment to best practices"; }
-}
-
-// Career
-.career-changer {
-  color: $foreground-color-yellow;
-}
-
-.career-changer:after {
-  content:"worked as a consultant for Oliver Wyman";
-  animation: career-changer 12s linear infinite;
-}
-@keyframes career-changer {
-  0%  { content:"worked as a consultant for Oliver Wyman"; }
-  20% { content:"written a templating language from scratch"; color: #ff652f; }
-  40% { content:"co-founded a telco analytics startup"; }
-  60% { content:"authored a thesis on real-time snow rendering (wat)"; color: #14a76c;}
-  80% { content:"taught consultants how to code in python"; }
-}
-
-// Hobbies
-.hobby-changer {
-  color: $foreground-color-yellow;
-}
-
-.hobby-changer:after {
-  content:"spend time outdoors";
-  animation: hobby-changer 12s linear infinite;
-}
-@keyframes hobby-changer {
-  0%  { content:"spend time outdoors"; }
-  20% { content:"meditate"; color: #ff652f; }
-  40% { content:"code"; }
-  60% { content:"garden"; color: #14a76c;}
-  80% { content:"watch football"; }
 }

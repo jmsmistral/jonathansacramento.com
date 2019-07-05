@@ -1,13 +1,9 @@
 html {
-    height: 100%;
-
     // Used to have a 1:10 ratio between rem's and pixels
     font-size: 62.5%;
 }
 
 body {
-    height: 100%;
-
     background-color: $background-color;
     color: $foreground-color;
     // font-family: 'et-book', sans-serif; //'Noto Sans HK', sans-serif;
@@ -42,8 +38,8 @@ a {
 // Override default hover to remove underline
 a:hover {
     text-decoration: none !important;
-    color: $foreground-color-yellow !important;
-    border-bottom: 0.2rem solid $foreground-color-yellow;
+    color: $color-pallete-yellow !important;
+    border-bottom: 0.2rem solid $color-pallete-yellow;
 }
 
 .section-title {
