@@ -1,0 +1,114 @@
+// Section 1
+.bio-section-one {
+
+
+  // Space under nav bar
+  margin-top: 8rem;
+}
+
+.bio__section-one__title {
+}
+
+.bio__section-one__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+
+// Section 2
+.bio-section-two {
+  color: $background-color;
+}
+
+.bio__section-two__title {
+  font-size: $l-size;
+}
+
+.bio__section-two__highlight {
+  color: darken($background-color, 30%);
+}
+
+
+// Section 3
+.bio-section-three {
+  color: lighten($foreground-color, 45%);
+}
+
+.bio__section-three__title {
+  font-size: $l-size;
+}
+
+.bio__section-three__highlight {
+  color: lighten($foreground-color, 70%);
+}
+
+
+// Section 4
+.bio-section-four {
+  color: $background-color;
+  // color: lighten($foreground-color, 45%);
+}
+
+.bio__section-four__title {
+  font-size: $l-size;
+}
+
+.bio__section-four__highlight {
+  color: darken($background-color, 30%);
+  // color: lighten($foreground-color, 70%);
+}
+
+
+
+.bio__section__row {
+  margin-top: 2rem;
+}
+
+.bio__section_list-item {
+  margin-top: 1rem;
+}
+
+.skill-changer:after {
+  content:"a strong delivery focus and attention to detail";
+  animation: skill-changer 12s linear infinite;
+}
+@keyframes skill-changer {
+  0%  { content:"a strong delivery focus and attention to detail"; }
+  20% { content:"a track-record of implementing complex software projects"; color: #ff652f; }
+  40% { content:"experience managing multi-disciplinary teams"; }
+  60% { content:"deep business understanding"; color: #14a76c; }
+  80% { content:"commitment to best practices"; }
+}
+
+// Career
+.career-changer {
+  color: $color-pallete-yellow;
+}
+
+.career-changer:after {
+  content:"worked as a consultant for Oliver Wyman";
+  animation: career-changer 12s linear infinite;
+}
+@keyframes career-changer {
+  0%  { content:"worked as a consultant for Oliver Wyman"; }
+  20% { content:"written a templating language from scratch"; color: #ff652f; }
+  40% { content:"co-founded a telco analytics startup"; }
+  60% { content:"authored a thesis on real-time snow rendering (wat)"; color: #14a76c;}
+  80% { content:"taught consultants how to code in python"; }
+}
+
+// Hobbies
+.hobby-changer {
+  color: $color-pallete-yellow;
+}
+
+.hobby-changer:after {
+  content:"spend time outdoors";
+  animation: hobby-changer 12s linear infinite;
+}
+@keyframes hobby-changer {
+  0%  { content:"spend time outdoors"; }
+  20% { content:"meditate"; color: #ff652f; }
+  40% { content:"code"; }
+  60% { content:"garden"; color: #14a76c;}
+  80% { content:"watch football"; }
+}
