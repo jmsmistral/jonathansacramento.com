@@ -8,7 +8,7 @@
   font-size: $xxxl-size;
 }
 
-.banner__title__name {
+.banner__highlight {
   color: lighten($foreground-color, 30%);
 }
 
@@ -34,18 +34,15 @@
   80% { content:"BASH"; }
 }
 
-.sub-banner__title_one {
+.sub-banner__title {
+  @media screen and (min-width: 780px) {
+    margin: 1.5rem;
+  }
   font-size: $l-size;
   color: $background-color;
 }
 
-.sub-banner__title_two {
-  margin-top: 1.5rem;
-  font-size: $l-size;
-  color: $background-color;
-}
-
-.sub-banner__title__highlight {
+.sub-banner__highlight {
   color: darken($background-color, 30%);
 }
 

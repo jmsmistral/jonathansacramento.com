@@ -3,12 +3,12 @@ import React from 'react';
 const Home = () => (
   <div className="home-page-container">
 
-    <div className="home-page-container__banner">
+    <div className="home-page-container__banner all-padding">
 
       <h1 className="banner__title fadein-banner">
         {"Hi! I'm"}
         {' '}
-        <strong className="banner__title__name">Jonathan</strong>
+        <strong className="banner__highlight">Jonathan</strong>
         {'.'}
       </h1>
       <h2 className="banner__subtitle fadein-banner">
@@ -22,18 +22,18 @@ const Home = () => (
     </div>
 
 
-    <div className="home-page-container__sub-banner">
+    <div className="home-page-container__sub-banner all-padding">
 
-      <h2 className="sub-banner__title_one fadein-subbanner">
+      <h2 className="sub-banner__title fadein-subbanner">
             I help clients make
         {' '}
-        <strong className="sub-banner__title__highlight">better business decisions</strong>
+        <strong className="sub-banner__highlight">better business decisions</strong>
       </h2>
 
-      <h2 className="sub-banner__title_two fadein-subbanner">
+      <h2 className="sub-banner__title fadein-subbanner">
             through
         {' '}
-        <strong className="sub-banner__title__highlight">data-driven applications</strong>
+        <strong className="sub-banner__highlight">data-driven applications</strong>
             .
       </h2>
 

@@ -52,3 +52,10 @@ a:hover {
 .hidden {
     visibility: hidden;
 }
+
+
+html, body, #app, #app>div, .home-page-container, .home-page-container__sub-banner {
+    @media screen and (max-width: 780px) {
+        height: 100%
+    }
+}

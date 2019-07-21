@@ -1,0 +1,32 @@
+.blog__item__title {
+  // font-weight: bold;
+  color: lighten($foreground-color, 30%);
+}
+
+.blog__item__date {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.blog__item__date-value {
+  font-size: $xs-size;
+  margin-left: 1rem;
+}
+
+.blog__item__tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.blog__item__tags-value {
+  font-size: $xs-size;
+  margin-left: 1rem;
+}
