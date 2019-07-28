@@ -53,50 +53,6 @@
     padding-top: 3rem;
 }
 
-
-
-// Home-specific containers
-.home-page-container {
-    @media screen and (min-width: 780px) {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        min-height: 100vh;
-        max-height: 100vh;
-    }
-}
-
-.home-page-container__banner {
-    @media screen and (min-width: 780px) {
-        flex: 1 1 auto;
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-.home-page-container__sub-banner {
-    @media screen and (min-width: 780px) {
-        flex: 1 1 auto;
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    background-color: $color-pallete-yellow;
-}
-
 // Bio-specific containers
 .bio-page-container {
     @media screen and (min-width: 780px) {

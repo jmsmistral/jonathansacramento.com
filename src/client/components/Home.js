@@ -1,44 +1,67 @@
 import React from 'react';
+import {
+  Container, Row, Col
+} from 'react-bootstrap';
 
 const Home = () => (
-  <div className="home-page-container">
+  <div className="home-page">
+    <Container>
+      <Row className="h-100">
+        <Col xs={12} className="align-self-center">
 
-    <div className="home-page-container__banner all-padding">
+          <Row>
+            <Col xs={12} className="text-center">
+              <h1 className="banner__title fadein-banner">
+                {"Hi! I'm"}
+                {' '}
+                <strong className="banner__highlight">Jonathan</strong>
+                {'.'}
+              </h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} className="text-center">
+              <h2 className="banner__subtitle fadein-banner">
+                {'I love writing'}
+                {' '}
+                <span className="code-language-changer" />
+                {' '}
+                {'code.'}
+              </h2>
+            </Col>
+          </Row>
 
-      <h1 className="banner__title fadein-banner">
-        {"Hi! I'm"}
-        {' '}
-        <strong className="banner__highlight">Jonathan</strong>
-        {'.'}
-      </h1>
-      <h2 className="banner__subtitle fadein-banner">
-        {'I love writing'}
-        {' '}
-        <span className="code-language-changer" />
-        {' '}
-        {'code.'}
-      </h2>
+          <Row className="sub-banner">
+            <Col xs={12} className="text-center">
+              <h2 className="sub-banner__title fadein-subbanner">
+                I help clients make
+                {' '}
+                <strong className="sub-banner__highlight">better business decisions</strong>
+              </h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} className="text-center">
+              <h2 className="sub-banner__subtitle fadein-subbanner">
+                through
+                {' '}
+                <strong className="sub-banner__highlight">data-driven applications</strong>
+                .
+              </h2>
+            </Col>
+          </Row>
 
-    </div>
+        </Col>
+      </Row>
 
+      {/* <Container className="sub-banner">
+        <Row className="justify-content-md-center">
+        </Row>
+        <Row className="justify-content-md-center">
+        </Row>
+      </Container> */}
 
-    <div className="home-page-container__sub-banner all-padding">
-
-      <h2 className="sub-banner__title fadein-subbanner">
-            I help clients make
-        {' '}
-        <strong className="sub-banner__highlight">better business decisions</strong>
-      </h2>
-
-      <h2 className="sub-banner__title fadein-subbanner">
-            through
-        {' '}
-        <strong className="sub-banner__highlight">data-driven applications</strong>
-            .
-      </h2>
-
-    </div>
-
+    </Container>
   </div>
 );
 
