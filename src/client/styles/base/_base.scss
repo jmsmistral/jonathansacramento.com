@@ -32,9 +32,6 @@ h2 {
 
 a {
     outline: 0;
-}
-
-a {
     color: $foreground-color;
 }
 
@@ -55,7 +52,6 @@ a:hover {
 .hidden {
     visibility: hidden;
 }
-
 
 html, body, #app, #app>div, #app>div>div.home-page, #app>div>div.home-page>.container  {
     height: 100%

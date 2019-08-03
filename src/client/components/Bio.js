@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Container, Row, Col
 } from 'react-bootstrap';
@@ -8,22 +9,13 @@ const Bio = () => (
   <div className="content">
     <Container>
       <Row>
-        <Col xs={12} className="text-center">
-          <h1 className="bio__banner__title">
-            Welcome to
-            {' '}
-            <strong className="banner__highlight">my journey</strong>
-            ...
-          </h1>
-        </Col>
-
         <Col xs={12} className="bio__sub-banner text-center">
           <p className="bio__sub-banner__title">
-            I work as an
+            I work as a
             {' '}
             <span className="banner__highlight">Lead Engineer</span>
             {' '}
-            for Oliver Wyman Digital based in
+            based in
             {' '}
             <span className="banner__highlight">Barcelona</span>
           </p>
@@ -39,14 +31,21 @@ const Bio = () => (
             <span className="banner__highlight">data-driven applications</span>
           </p>
         </Col>
+        <Col xs={12} className="text-center">
+          <p className="bio__sub-banner__title">
+            <Link to="/" className="bio__link">These</Link>
+            {' '}
+            are some of the clients I have worked with
+          </p>
+        </Col>
 
         <Col xs={12} className="bio__section text-center">
           <h2 className="bio__section__title">
-            <strong className="bio__section__title__highlight">I bring</strong>
+            <span className="bio__section__title__highlight">I bring</span>
           </h2>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">strong delivery focus</strong>
+            <span className="bio__section__highlight">strong delivery focus</span>
             {' '}
               and attention to detail
           </p>
@@ -54,11 +53,11 @@ const Bio = () => (
           <p className="bio__section__row">
               a
             {' '}
-            <strong className="bio__section__highlight">track-record</strong>
+            <span className="bio__section__highlight">track-record</span>
             {' '}
               of
             {' '}
-            <strong className="bio__section__highlight">implementing complex</strong>
+            <span className="bio__section__highlight">implementing complex</span>
             {' '}
               projects
           </p>
@@ -66,11 +65,11 @@ const Bio = () => (
           <p className="bio__section__row">
               deep
             {' '}
-            <strong className="bio__section__highlight">business understanding</strong>
+            <span className="bio__section__highlight">business understanding</span>
           </p>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">experience managing</strong>
+            <span className="bio__section__highlight">experience managing</span>
             {' '}
               multi-disciplinary teams
           </p>
@@ -78,83 +77,83 @@ const Bio = () => (
           <p className="bio__section__row">
               commitment to
             {' '}
-            <strong className="bio__section__highlight">best practices</strong>
+            <span className="bio__section__highlight">best practices</span>
           </p>
         </Col>
 
         <Col xs={12} className="bio__section text-center">
           {/* sample */}
           <h2 className="bio__section__title">
-            <strong className="bio__section__title__highlight">Previously I have</strong>
+            <span className="bio__section__title__highlight">Previously I have</span>
           </h2>
 
           <p className="bio__section__row">
             worked as a
             {' '}
-            <strong className="bio__section__highlight">consultant</strong>
+            <span className="bio__section__highlight">consultant</span>
             {' '}
             for Oliver Wyman
           </p>
 
           <p className="bio__section__row">
             {' '}
-            <strong className="bio__section__highlight">co-founded</strong>
+            <span className="bio__section__highlight">co-founded</span>
             {' '}
             a telco
             {' '}
-            <strong className="bio__section__highlight">analytics startup</strong>
+            <span className="bio__section__highlight">analytics startup</span>
           </p>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">developed</strong>
+            <span className="bio__section__highlight">developed</span>
             {' '}
             a
             {' '}
-            <strong className="bio__section__highlight">templating language</strong>
+            <span className="bio__section__highlight">templating language</span>
             {' '}
             from scratch
           </p>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">taught</strong>
+            <span className="bio__section__highlight">taught</span>
             {' '}
             consultants
             {' '}
-            <strong className="bio__section__highlight">how to code in python</strong>
+            <span className="bio__section__highlight">how to code in python</span>
           </p>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">authored a thesis</strong>
+            <span className="bio__section__highlight">authored a thesis</span>
             {' '}
             on real-time
             {' '}
-            <strong className="bio__section__highlight">snow rendering (wat)</strong>
+            <span className="bio__section__highlight">snow rendering (wat)</span>
           </p>
         </Col>
 
         <Col xs={12} className="bio__section text-center">
           <h2 className="bio__section__title">
-            <strong className="bio__section__title__highlight">When I am not working, I</strong>
+            <span className="bio__section__title__highlight">When I am not working, I</span>
           </h2>
 
           <p className="bio__section__row">
             spend time
             {' '}
-            <strong className="bio__section__highlight">outdoors</strong>
+            <span className="bio__section__highlight">outdoors</span>
           </p>
 
           <p className="bio__section__row">
             practice
             {' '}
-            <strong className="bio__section__highlight">medidation</strong>
+            <span className="bio__section__highlight">medidation</span>
           </p>
 
           <p className="bio__section__row">
-            <strong className="bio__section__highlight">code</strong>
+            <span className="bio__section__highlight">code</span>
             {' '}
             pet
             {' '}
-            <strong className="bio__section__highlight">open source</strong>
+            <span className="bio__section__highlight">open source</span>
             {' '}
             projects
           </p>
@@ -162,13 +161,13 @@ const Bio = () => (
           <p className="bio__section__row">
             sometimes
             {' '}
-            <strong className="bio__section__highlight">garden</strong>
+            <span className="bio__section__highlight">garden</span>
           </p>
 
           <p className="bio__section__row">
             watch
             {' '}
-            <strong className="bio__section__highlight">football</strong>
+            <span className="bio__section__highlight">football</span>
           </p>
         </Col>
 
@@ -178,38 +177,6 @@ const Bio = () => (
       </Row>
     </Container>
   </div>
-
-
-  // <div className="bio-page-container">
-
-  //   {/* Banner */}
-  //   <div className="bio-page-container__banner all-padding">
-
-
-  //   </div>
-
-
-  //   {/* Sub-Banner */}
-  //   <div className="bio-page-container__sub-banner all-padding">
-
-
-  //     {/* Section one */}
-  //     <div className="bio-page-container__sub-banner__section all-margin">
-
-  //     </div>
-
-  //     {/* Section two */}
-  //     <div className="bio-page-container__sub-banner__section all-margin">
-  //     </div>
-
-  //     {/* Section three */}
-  //     <div className="bio-page-container__sub-banner__section all-margin">
-
-  //     </div>
-
-  //   </div>
-
-  // </div>
 );
 
 export default Bio;

@@ -1,3 +1,7 @@
+.bio__link {
+  border-bottom: 0.2rem solid $foreground-color;
+}
+
 .bio__banner__title {
   font-size: $xxl-size;
 }
@@ -29,4 +33,5 @@
 .bio__section__row {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: lighten($foreground-color, 15%);
 }
