@@ -1,6 +1,31 @@
-// Banner
+.bio__banner__title {
+  font-size: $xxl-size;
+}
 
-// Sub-Banner
+.bio__sub-banner {
+  margin-top: 3rem;
+}
+
+.bio__sub-banner__title {
+  font-size: $m-size;
+}
+
+.bio__section {
+  margin-top: 5rem;
+}
+
+.bio__section__title {
+  font-size: $m-size;
+}
+
+.bio__section__title__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+.bio__section__highlight {
+  color: $color-pallete-yellow-dark;
+}
+
 .bio__section__row {
   margin-top: 2rem;
   margin-bottom: 1rem;
