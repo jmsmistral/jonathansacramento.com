@@ -3,6 +3,7 @@ const blogPosts = [
   {
     id    : 1,
     title : 'Predicting churn without machine learning',
+    link  : '',
     date  : 'April 16, 2017',
     tags  : [
       'data',
@@ -13,6 +14,7 @@ const blogPosts = [
   {
     id    : 2,
     title : 'Clean SQL',
+    link  : '',
     date  : 'November 19, 2016',
     tags  : [
       'sql',
@@ -23,6 +25,7 @@ const blogPosts = [
   {
     id    : 3,
     title : 'Improve your Postgres workflow with vim and dbext',
+    link  : '',
     date  : 'January 22, 2016',
     tags  : [
       'productivity',
@@ -33,6 +36,7 @@ const blogPosts = [
   {
     id    : 4,
     title : 'On transposing data',
+    link  : '',
     date  : 'September 25, 2015',
     tags  : [
       'data',
