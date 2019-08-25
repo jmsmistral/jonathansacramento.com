@@ -1,179 +1,181 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import {
+  Container, Row, Col
+} from 'react-bootstrap';
+
 
 const Bio = () => (
-  <div className="bio-page-container">
+  <div className="content">
+    <Container>
+      <Row>
+        <Col xs={12} className="bio__sub-banner text-center">
+          <p className="bio__sub-banner__title">
+            I work as a
+            {' '}
+            <span className="banner__highlight">Lead Engineer</span>
+            {' '}
+            based in
+            {' '}
+            <span className="banner__highlight">Barcelona</span>
+          </p>
+        </Col>
+        <Col xs={12} className="text-center">
+          <p className="bio__sub-banner__title">
+            I help clients make
+            {' '}
+            <span className="banner__highlight">better business decisions</span>
+            {' '}
+            through
+            {' '}
+            <span className="banner__highlight">data-driven applications</span>
+          </p>
+        </Col>
+        <Col xs={12} className="text-center">
+          <p className="bio__sub-banner__title">
+            <Link to="/" className="bio__link">These</Link>
+            {' '}
+            are some of the clients I have worked with
+          </p>
+        </Col>
 
-    <div className="bio-page-container__section-one bio-section-one section-padding">
+        <Col xs={12} className="bio__section text-center">
+          <h2 className="bio__section__title">
+            <span className="bio__section__title__highlight">I bring</span>
+          </h2>
 
-      <h1 className="bio__section-one__title">
-        Welcome to
-        {' '}
-        <strong className="bio__section-one__highlight">my journey</strong>
-        ...
-      </h1>
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">strong delivery focus</span>
+            {' '}
+              and attention to detail
+          </p>
 
-      <p className="bio__section__row">
-        I work as an
-        {' '}
-        <span className="bio__section-one__highlight">Lead Engineer</span>
-        {' '}
-        for Oliver Wyman Digital based in
-        {' '}
-        <span className="bio__section-one__highlight">Barcelona</span>
-      </p>
+          <p className="bio__section__row">
+              a
+            {' '}
+            <span className="bio__section__highlight">track-record</span>
+            {' '}
+              of
+            {' '}
+            <span className="bio__section__highlight">implementing complex</span>
+            {' '}
+              projects
+          </p>
 
-      <p className="bio__section__row">
-        I help clients make
-        {' '}
-        <span className="bio__section-one__highlight">better business decisions</span>
-        {' '}
-        through
-        {' '}
-        <span className="bio__section-one__highlight">data-driven applications</span>
-      </p>
+          <p className="bio__section__row">
+              deep
+            {' '}
+            <span className="bio__section__highlight">business understanding</span>
+          </p>
 
-    </div>
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">experience managing</span>
+            {' '}
+              multi-disciplinary teams
+          </p>
 
+          <p className="bio__section__row">
+              commitment to
+            {' '}
+            <span className="bio__section__highlight">best practices</span>
+          </p>
+        </Col>
 
-    <div className="bio-page-container__section-two bio-section-two section-padding">
+        <Col xs={12} className="bio__section text-center">
+          {/* sample */}
+          <h2 className="bio__section__title">
+            <span className="bio__section__title__highlight">Previously I have</span>
+          </h2>
 
-      <h2 className="bio__section-two__title">
-        <strong className="bio__section-two__highlight">I bring</strong>
-      </h2>
+          <p className="bio__section__row">
+            worked as a
+            {' '}
+            <span className="bio__section__highlight">consultant</span>
+            {' '}
+            for Oliver Wyman
+          </p>
 
-      <p className="bio__section__row">
-        <strong className="bio__section-two__highlight">strong delivery focus</strong>
-        {' '}
-          and attention to detail
-      </p>
+          <p className="bio__section__row">
+            {' '}
+            <span className="bio__section__highlight">co-founded</span>
+            {' '}
+            a telco
+            {' '}
+            <span className="bio__section__highlight">analytics startup</span>
+          </p>
 
-      <p className="bio__section__row">
-          a
-        {' '}
-        <strong className="bio__section-two__highlight">track-record</strong>
-        {' '}
-          of
-        {' '}
-        <strong className="bio__section-two__highlight">implementing complex software</strong>
-        {' '}
-          projects
-      </p>
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">developed</span>
+            {' '}
+            a
+            {' '}
+            <span className="bio__section__highlight">templating language</span>
+            {' '}
+            from scratch
+          </p>
 
-      <p className="bio__section__row">
-          deep
-        {' '}
-        <strong className="bio__section-two__highlight">business understanding</strong>
-      </p>
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">taught</span>
+            {' '}
+            consultants
+            {' '}
+            <span className="bio__section__highlight">how to code in python</span>
+          </p>
 
-      <p className="bio__section__row">
-        <strong className="bio__section-two__highlight">experience managing</strong>
-        {' '}
-          multi-disciplinary teams
-      </p>
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">authored a thesis</span>
+            {' '}
+            on real-time
+            {' '}
+            <span className="bio__section__highlight">snow rendering (wat)</span>
+          </p>
+        </Col>
 
-      <p className="bio__section__row">
-          commitment to
-        {' '}
-        <strong className="bio__section-two__highlight">best practices</strong>
-      </p>
+        <Col xs={12} className="bio__section text-center">
+          <h2 className="bio__section__title">
+            <span className="bio__section__title__highlight">When I am not working, I</span>
+          </h2>
 
-    </div>
+          <p className="bio__section__row">
+            spend time
+            {' '}
+            <span className="bio__section__highlight">outdoors</span>
+          </p>
 
+          <p className="bio__section__row">
+            practice
+            {' '}
+            <span className="bio__section__highlight">medidation</span>
+          </p>
 
-    <div className="bio-page-container__section-three bio-section-three section-padding">
+          <p className="bio__section__row">
+            <span className="bio__section__highlight">code</span>
+            {' '}
+            pet
+            {' '}
+            <span className="bio__section__highlight">open source</span>
+            {' '}
+            projects
+          </p>
 
-      <h2 className="bio__section-three__title">
-        <strong className="bio__section-three__highlight">Previously I have</strong>
-      </h2>
+          <p className="bio__section__row">
+            sometimes
+            {' '}
+            <span className="bio__section__highlight">garden</span>
+          </p>
 
-      <p className="bio__section__row">
-        worked as a
-        {' '}
-        <strong className="bio__section-three__highlight">consultant</strong>
-        {' '}
-        for Oliver Wyman
-      </p>
+          <p className="bio__section__row">
+            watch
+            {' '}
+            <span className="bio__section__highlight">football</span>
+          </p>
+        </Col>
 
-      <p className="bio__section__row">
-        {' '}
-        <strong className="bio__section-three__highlight">co-founded</strong>
-        {' '}
-        a telco
-        {' '}
-        <strong className="bio__section-three__highlight">analytics startup</strong>
-      </p>
-
-      <p className="bio__section__row">
-        <strong className="bio__section-three__highlight">developed</strong>
-        {' '}
-        a
-        {' '}
-        <strong className="bio__section-three__highlight">templating language</strong>
-        {' '}
-        from scratch
-      </p>
-
-      <p className="bio__section__row">
-        <strong className="bio__section-three__highlight">taught</strong>
-        {' '}
-        consultants how to
-        {' '}
-        <strong className="bio__section-three__highlight">code in python</strong>
-      </p>
-
-      <p className="bio__section__row">
-        <strong className="bio__section-three__highlight">authored a thesis</strong>
-        {' '}
-        on real-time snow rendering
-        {' '}
-        <strong className="bio__section-three__highlight">(wat)</strong>
-      </p>
-
-    </div>
-
-
-    <div className="bio-page-container__section-four bio-section-four section-padding">
-
-      <h2 className="bio__section-four__title">
-        <strong className="bio__section-four__highlight">When I am not working, I</strong>
-      </h2>
-
-      <p className="bio__section__row">
-        spend time
-        {' '}
-        <strong className="bio__section-four__highlight">outdoors</strong>
-      </p>
-
-      <p className="bio__section__row">
-        practice
-        {' '}
-        <strong className="bio__section-four__highlight">medidation</strong>
-      </p>
-
-      <p className="bio__section__row">
-        <strong className="bio__section-four__highlight">code</strong>
-        {' '}
-        pet
-        {' '}
-        <strong className="bio__section-four__highlight">open source</strong>
-        {' '}
-        projects
-      </p>
-
-      <p className="bio__section__row">
-        sometimes
-        {' '}
-        <strong className="bio__section-four__highlight">garden</strong>
-      </p>
-
-      <p className="bio__section__row">
-        watch
-        {' '}
-        <strong className="bio__section-four__highlight">football</strong>
-      </p>
-
-    </div>
-
+        <Col xs={12} className="bio__section text-center">
+          {/* sample */}
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 

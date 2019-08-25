@@ -1,0 +1,17 @@
+.blog-post {
+  margin-top: 3rem;
+}
+
+.blog-post__title {
+  color: lighten($foreground-color, 30%);
+}
+
+.blog-post__date-value {
+  font-size: $xs-size;
+  margin-left: 1rem;
+}
+
+.blog-post__tags-value {
+  font-size: $xs-size;
+  margin-left: 1rem;
+}

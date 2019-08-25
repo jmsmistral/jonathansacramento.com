@@ -1,0 +1,12 @@
+.code-repo {
+  margin-top: 3rem;
+}
+
+.code-repo__title {
+  color: lighten($foreground-color, 30%);
+}
+
+.code-repo__description {
+  font-size: $xs-size;
+  margin-left: 1rem;
+}

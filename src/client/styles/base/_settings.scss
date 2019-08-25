@@ -4,10 +4,10 @@ $foreground-color: #747474;
 
 $color-pallete-white: #e8f7ee;
 $color-pallete-grey: #8e9691;
-$color-pallete-yellow: #ffeb45;
-$color-pallete-yellow-light: #e8df7b;
+$color-pallete-yellow: #FFD151;
+$color-pallete-yellow-dark: #FFD151; //#ccb735;
 $color-pallete-red: #e56f40;
-$color-pallete-green: #c5d86d;
+$color-pallete-green: #17ad6b;
 $color-pallete-blue: #034078;
 $color-pallete-purple: #674ae6;
 
@@ -19,10 +19,12 @@ $color-pallete-purple: #674ae6;
 // #ff652f portland orange
 // #f18f01 tangerine
 // #fabc3c maximum yellow red
-// #ffe400 vivid yellow (default)
+// #ffeb45 gargoyle gas
+// #ffe400 vivid yellow
 // #fff587 yellow crayola
-// #e8df7b flax (yellow)
+// #e8df7b flax
 // #16db65 malachite
+// #FFD151 mustard
 // #1b998b jungle green
 // #17ad6b crayola green
 // #8fd694 light green
@@ -38,3 +40,4 @@ $xl-size: 3.8rem;
 $l-size: 2.8rem;
 $m-size: 2.4rem;
 $s-size: 1.8rem;
+$xs-size: 1.4rem;

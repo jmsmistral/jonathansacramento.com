@@ -1,20 +1,14 @@
-.banner {
-  justify-content: center;
-  align-content: center;
-}
-
 .banner__title {
-  margin-top: 2rem;
   font-size: $xxxl-size;
 }
 
-.banner__title__name {
-  color: lighten($foreground-color, 30%);
+.banner__subtitle {
+  font-size: $l-size;
+  margin-top: 2rem;
 }
 
-.banner__subtitle {
-  font-size: $m-size;
-  margin-top: 2rem;
+.banner__highlight {
+  color: lighten($foreground-color, 30%);
 }
 
 // Code changer
@@ -34,29 +28,31 @@
   80% { content:"BASH"; }
 }
 
-.sub-banner__title_one {
+.sub-banner {
+  margin-top: 10rem;
+}
+
+.sub-banner__title {
   font-size: $l-size;
-  color: $background-color;
 }
 
-.sub-banner__title_two {
-  margin-top: 1.5rem;
+.sub-banner__subtitle {
+  margin-top: 2rem;
   font-size: $l-size;
-  color: $background-color;
 }
 
-.sub-banner__title__highlight {
-  color: darken($background-color, 30%);
+.sub-banner__highlight {
+  color: lighten($foreground-color, 30%);
 }
 
-.home-page-container .fadein-banner {
+.fadein-banner {
   animation: fadein 2s;
   -moz-animation: fadein 2s;
   -webkit-animation: fadein 2s;
   -o-animation: fadein 2s;
 }
 
-.home-page-container .fadein-subbanner {
+.fadein-subbanner {
   animation: fadein 4s;
   -moz-animation: fadein 4s;
   -webkit-animation: fadein 4s;

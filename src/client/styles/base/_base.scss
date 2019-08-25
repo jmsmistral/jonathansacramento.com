@@ -6,9 +6,12 @@ html {
 body {
     background-color: $background-color;
     color: $foreground-color;
-    // font-family: 'et-book', sans-serif; //'Noto Sans HK', sans-serif;
+
     font-family: 'Noto Sans HK', sans-serif;
     font-size: $s-size;
+
+    // So content appears below navbar
+    // padding-top: 12rem;
 
     -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
     -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
@@ -29,9 +32,6 @@ h2 {
 
 a {
     outline: 0;
-}
-
-a {
     color: $foreground-color;
 }
 
@@ -51,4 +51,8 @@ a:hover {
 // Used for laying-out the header properly
 .hidden {
     visibility: hidden;
+}
+
+html, body, #app, #app>div, #app>div>div.home-page, #app>div>div.home-page>.container  {
+    height: 100%
 }
