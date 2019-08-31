@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/jmsmistral/jonathansacramento.com"
   },
+  "homepage": "https://jmsmistral.github.io/jonathansacramento.com",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -17,12 +18,16 @@
     "test:server": "./node_modules/.bin/mocha --require @babel/register ./tests/server/**/*.test.js",
     "dev-server:client": "./node_modules/.bin/webpack-dev-server",
     "start:server": "DEBUG=app* nodemon ./src/server/app.js",
-    "start:client": "DEBUG=app* nodemon ./src/client/server.js"
+    "start:client": "DEBUG=app* nodemon ./src/client/server.js",
+    "predeploy": "npm run build:client:prod",
+    "deploy": "./node_modules/gh-pages/bin/gh-pages.js -d ./public"
   },
   "keywords": [
     "react",
+    "personal",
     "web",
-    "personal"
+    "blog",
+    "code"
   ],
   "author": "Jonathan Sacramento",
   "license": "GPL-3.0-or-later",
