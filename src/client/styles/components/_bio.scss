@@ -1,13 +1,10 @@
 .bio__link {
+  color: lighten($foreground-color, 15%);
   border-bottom: 0.2rem solid $foreground-color;
 }
 
 .bio__banner__title {
   font-size: $xxl-size;
-}
-
-.bio__sub-banner {
-  margin-top: 3rem;
 }
 
 .bio__sub-banner__title {
