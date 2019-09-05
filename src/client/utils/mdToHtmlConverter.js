@@ -1,7 +1,6 @@
 // Utility for converting Markdown blog post files to HTML
 // to be rendered client-side by React.
 
-// const fs = require('fs').promises;
 const fs = require('fs');
 const path = require('path');
 
@@ -23,10 +22,12 @@ mdConverter.setOptions({
 });
 
 // Blog posts file path
-const postsDir = '../posts/';
+// Note: path relative to the repo root dir
+const postsDir = './src/client/posts/';
 
 // Output file path
-const outputDir = '../config/';
+// Note: path relative to the repo root dir
+const outputDir = './src/client/config/';
 const outputFileName = 'blog-posts.js';
 
 function getBlogPostRoute(fileName) {
