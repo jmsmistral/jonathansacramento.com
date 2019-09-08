@@ -17,6 +17,7 @@
     "test:client": "./node_modules/.bin/jest ./tests/client/ --collectCoverageFrom=**/tests/client/**/*.test.js",
     "test:server": "./node_modules/.bin/mocha --require @babel/register ./tests/server/**/*.test.js",
     "dev-server:client": "./node_modules/.bin/webpack-dev-server",
+    "dev-server:client:docker": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0",
     "start:client": "DEBUG=app* nodemon ./src/client/server.js",
     "build:blog": "node ./src/client/utils/mdToHtmlConverter.js",
     "predeploy": "npm run build:blog && npm run build:client:prod",

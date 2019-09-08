@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+  - master
+
+before_install:
+  - docker build -t personal-website .
+
+script:
+  - docker run personal-website
