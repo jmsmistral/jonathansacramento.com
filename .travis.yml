@@ -11,7 +11,7 @@ before_install:
   - docker build -t personal-website .
 
 script:
-  - docker run personal-website
+  - docker run -v $(pwd)/public:/app/public personal-website
 
 deploy:
   provider: pages
