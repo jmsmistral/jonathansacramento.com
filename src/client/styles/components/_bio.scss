@@ -32,3 +32,15 @@
   margin-bottom: 1rem;
   color: lighten($foreground-color, 15%);
 }
+
+
+// Only for large screens
+@media (min-width: 992px) {
+  .bio__section__left {
+    padding-left: 33%;
+  }
+
+  .bio__section__right {
+    padding-right: 33%;
+  }
+}
