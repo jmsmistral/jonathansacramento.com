@@ -8,6 +8,7 @@ import Home from '../components/Home';
 import Bio from '../components/Bio';
 import Code from '../components/Code';
 import Blog from '../components/Blog';
+import BlogPost from '../components/BlogPost';
 import NotFound from '../components/NotFound';
 
 
@@ -19,6 +20,7 @@ const AppRouter = () => (
         <Route path="/" component={Home} exact />
         <Route path="/bio" component={Bio} exact />
         <Route path="/blog" component={Blog} exact />
+        <Route path="/blogpost/:route" component={BlogPost} exact/>
         <Route path="/code" component={Code} exact />
         <Route component={NotFound} />
       </Switch>

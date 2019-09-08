@@ -1,0 +1,99 @@
+.post__title {
+  margin-bottom: 2rem;
+  color: lighten($foreground-color, 30%);
+}
+
+.post__date {
+  // text-align: left !important;
+  margin-bottom: 7rem;
+  color: $foreground-color;
+}
+
+.post__content {
+  margin-bottom: 6rem;
+}
+
+.post__content h2, h3, h4, h5, h6 {
+  margin-bottom: 1.5rem;
+  color: lighten($foreground-color, 30%);
+  line-height: 2;
+}
+
+.post__content p {
+  margin-bottom: 2rem;
+  line-height: 2;
+}
+
+.post__content a {
+  color: lighten($foreground-color, 15%);
+  border-bottom: 0.2rem solid $foreground-color;
+}
+
+.post__content a:hover {
+  text-decoration: none !important;
+  color: $color-pallete-yellow !important;
+  border-bottom: 0.2rem solid $color-pallete-yellow;
+}
+
+.post__content ul, ol {
+  margin-bottom: 2rem;
+}
+
+.post__content li {
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+
+.post__content blockquote {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+  font-style: italic;
+  line-height: 2;
+}
+
+.post__content strong {
+  color: lighten($foreground-color, 15%);
+}
+
+.post__content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $foreground-color;
+}
+
+.post__content hr {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 75%;
+  border-top: 1px solid $foreground-color;
+}
+
+.post__content pre {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.post__content pre > code {
+  padding: 2rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $foreground-color;
+  // background-color: $background-color;
+}
+
+// Override Bootstrap container min-width
+// so that the content is not as 
+@media (min-width: 992px) {
+  .post__width {
+      max-width: 700px;
+  }
+}
