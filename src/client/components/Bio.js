@@ -140,6 +140,12 @@ const Bio = () => (
             spend time
             {' '}
             <span className="bio__section__highlight">outdoors</span>
+            {' '}
+            and visit
+            {' '}
+            <span className="bio__section__highlight">specialty coffee</span>
+            {' '}
+            shops
           </p>
 
           <p className="bio__section__row">
@@ -159,15 +165,22 @@ const Bio = () => (
           </p>
 
           <p className="bio__section__row">
-            sometimes
+            sometimes get my hands dirty with some
             {' '}
-            <span className="bio__section__highlight">garden</span>
+            <span className="bio__section__highlight">gardening</span>
           </p>
 
           <p className="bio__section__row">
             watch
             {' '}
             <span className="bio__section__highlight">football</span>
+            ...
+            {' '}
+            I am an avid
+            {' '}
+            <span className="bio__section__highlight">FC Barcelona</span>
+            {' '}
+            fan
           </p>
         </Col>
 
