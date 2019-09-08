@@ -7,11 +7,8 @@ body {
     background-color: $background-color;
     color: $foreground-color;
 
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif !important;
     font-size: $s-size;
-
-    // So content appears below navbar
-    // padding-top: 12rem;
 
     -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
     -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
@@ -51,6 +48,11 @@ a:hover {
 // Used for laying-out the header properly
 .hidden {
     visibility: hidden;
+}
+
+// Used for displaying fonts properly on Safari and Firefox
+strong {
+    font-weight: 400;
 }
 
 html, body, #app, #app>div, #app>div>div.home-page, #app>div>div.home-page>.container  {

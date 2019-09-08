@@ -36,7 +36,7 @@ const Home = () => (
               <h2 className="sub-banner__title fadein-subbanner">
                 I help clients make
                 {' '}
-                <strong className="sub-banner__highlight">better business decisions</strong>
+                <span className="sub-banner__highlight">better business decisions</span>
               </h2>
             </Col>
           </Row>
