@@ -4,10 +4,21 @@
 const fs = require('fs');
 const path = require('path');
 
+// TODO: investigate the use of kramdown: https://kramdown.gettalong.org/syntax.html#math-blocks
+//  or use kramed: 
+//    https://github.com/GitbookIO/kramed
+//    https://github.com/GitbookIO/kramed/blob/master/test/tests/math.text
 const mdConverter = require('marked');
+const mdRenderer = new mdConverter.Renderer();
+
+// Override image renderer to make images responsive
+mdRenderer.image = function (src, title, alt) {
+  let res = `<img src="${src}" class="img-fluid" title="${title}" alt="${alt}">`;
+  return res;
+}
 
 mdConverter.setOptions({
-  renderer: new mdConverter.Renderer(),
+  renderer: mdRenderer,
   highlight: function(code) {
     return require('highlightjs').highlightAuto(code).value;
   },
@@ -82,7 +93,7 @@ function convertBlogPosts() {
               date: getBlogPostDate(file)
           });
       }
-      console.log(blogPosts);
+      // console.log(blogPosts);
       console.log('Completed successfully!');
       return blogPosts;
   } catch(err) {
