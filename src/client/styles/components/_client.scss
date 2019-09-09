@@ -1,0 +1,29 @@
+.client__banner__title {
+  font-size: $m-size;
+  line-height: 2;
+}
+
+.client__section {
+  margin-top: 5rem;
+}
+
+.client__logo {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $foreground-color;
+  background-color: lighten($foreground-color, 30%);
+}
+
+// Override Bootstrap container min-width
+// so that the content is not as 
+// @media (min-width: 992px) {
+//   .client__logo-section__width {
+//       max-width: 700px;
+//   }
+// }
