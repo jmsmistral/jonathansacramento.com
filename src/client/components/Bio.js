@@ -9,7 +9,7 @@ const Bio = () => (
   <div className="content">
     <Container>
       <Row>
-        <Col xs={12} className="bio__sub-banner text-center">
+        <Col xs={12} className="text-center">
           <p className="bio__sub-banner__title">
             I work as a
             {' '}
@@ -33,7 +33,7 @@ const Bio = () => (
         </Col>
         <Col xs={12} className="text-center">
           <p className="bio__sub-banner__title">
-            <Link to="/" className="bio__link">These</Link>
+            <Link to="/clients" className="bio__link">These</Link>
             {' '}
             are some of the clients I have worked with
           </p>
