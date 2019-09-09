@@ -6,7 +6,6 @@ import {
 import { blogPosts } from '../config/blog-posts';
 
 const BlogPost = (props) => {
-  // TODO: if id out of bounds, then return a custom message!
   console.log(props.match.params.route)
   let blogPostRoute = props.match.params.route;
   // Get the HTML content from the blog-posts array
