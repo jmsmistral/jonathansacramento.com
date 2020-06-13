@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // TODO: investigate the use of kramdown: https://kramdown.gettalong.org/syntax.html#math-blocks
-//  or use kramed: 
+//  or use kramed:
 //    https://github.com/GitbookIO/kramed
 //    https://github.com/GitbookIO/kramed/blob/master/test/tests/math.text
 const mdConverter = require('marked');
@@ -81,7 +81,7 @@ function convertBlogPosts() {
       let blogPosts = [];
       let counter = 0;
       const files = fs.readdirSync(postsDir);
-      for(file of files) {
+      for(const file of files) {
           console.log('Converting ' + file);
           const filePath = path.join(postsDir, file);
           let content = fs.readFileSync(filePath, 'utf8');
@@ -104,7 +104,7 @@ function convertBlogPosts() {
 function writeOutputConfig(blogPosts) {
   let outputString = `
   const blogPosts = ${JSON.stringify(blogPosts)};
-  
+
   module.exports = {
       blogPosts,
   };
