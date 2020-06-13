@@ -10,7 +10,14 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 // Manually collapse the navbar because react-bootstap sucks
 function collapseNavbar(event) {
-  document.querySelector('#app > div > div > nav > button').click();
+  // First check that the responsive button
+  // is visible. Triggering the click when the
+  // navbar hasn't contracted will make the
+  // navbar flicker.
+  let navbarToggleButton = document.querySelector('#app > div > div > nav > button');
+  if (window.getComputedStyle(navbarToggleButton).display !== 'none') {
+    navbarToggleButton.click();
+  }
 }
 
 const Header = () => (

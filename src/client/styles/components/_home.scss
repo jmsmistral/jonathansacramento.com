@@ -11,6 +11,10 @@
   color: lighten($foreground-color, 30%);
 }
 
+.banner__strikethrough {
+  text-decoration: line-through;
+}
+
 // Code changer
 .code-language-changer {
   color: $color-pallete-yellow;
