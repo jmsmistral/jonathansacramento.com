@@ -11,16 +11,20 @@ const Bio = () => (
       <Row>
         <Col xs={12} className="text-center">
           <p className="bio__sub-banner__title">
-            I work as a
+            I work as an
             {' '}
-            <span className="banner__highlight">Lead Engineer</span>
+            <span className="banner__highlight">Engineer</span>
             {' '}
             based in
             {' '}
-            <span className="banner__highlight">Barcelona</span>
+            <span className="banner__strikethrough">London</span>
+            {' '}
+            <span className="banner__strikethrough">Barcelona</span>
+            {' '}
+            <span className="banner__highlight">Abu Dhabi</span>
           </p>
         </Col>
-        <Col xs={12} className="text-center">
+        {/* <Col xs={12} className="text-center">
           <p className="bio__sub-banner__title">
             I help clients make
             {' '}
@@ -30,7 +34,7 @@ const Bio = () => (
             {' '}
             <span className="banner__highlight">data-driven applications</span>
           </p>
-        </Col>
+        </Col> */}
         <Col xs={12} className="text-center">
           <p className="bio__sub-banner__title">
             <Link to="/clients" className="bio__link">These</Link>
@@ -45,7 +49,9 @@ const Bio = () => (
           </h2>
 
           <p className="bio__section__row">
-            <span className="bio__section__highlight">strong delivery focus</span>
+            strong
+            {' '}
+            <span className="bio__section__highlight">delivery focus</span>
             {' '}
               and attention to detail
           </p>
