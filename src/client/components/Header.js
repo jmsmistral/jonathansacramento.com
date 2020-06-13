@@ -14,7 +14,7 @@ const Header = () => (
       <Navbar.Toggle aria-controls="r-navbar-nav" />
       <Navbar.Collapse id="r-navbar-nav">
         <Container>
-          <Nav className="mr-auto justify-content-md-center">
+          <Nav className="ml-auto mr-auto justify-content-md-center">
             <Nav.Item><NavLink to="/" exact className="header__link" activeClassName="is-active">home</NavLink></Nav.Item>
             <Nav.Item><NavLink to="/bio" exact className="header__link" activeClassName="is-active">bio</NavLink></Nav.Item>
             <Nav.Item><NavLink to="/blog" exact className="header__link" activeClassName="is-active">blog</NavLink></Nav.Item>
