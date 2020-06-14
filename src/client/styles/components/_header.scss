@@ -31,6 +31,15 @@ nav {
     border-bottom: 0.2rem solid lighten($foreground-color, 30%);
 }
 
+// Override default hover to remove underline
+a:hover {
+    text-decoration: none !important;
+    color: $color-pallete-yellow !important;
+    border-bottom: none;
+}
+
+
+
 // Needed to make the responsive navbar toggle icon
 // to show in a color other than black
 .navbar-toggler {

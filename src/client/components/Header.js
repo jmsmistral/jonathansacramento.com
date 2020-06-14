@@ -8,17 +8,29 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
+// Manually collapse the navbar because react-bootstap sucks
+function collapseNavbar(event) {
+  // First check that the responsive button
+  // is visible. Triggering the click when the
+  // navbar hasn't contracted will make the
+  // navbar flicker.
+  let navbarToggleButton = document.querySelector('#app > div > div > nav > button');
+  if (window.getComputedStyle(navbarToggleButton).display !== 'none') {
+    navbarToggleButton.click();
+  }
+}
+
 const Header = () => (
   <div>
     <Navbar collapseOnSelect expand="lg" fixed="top">
-      <Navbar.Toggle aria-controls="r-navbar-nav" />
-      <Navbar.Collapse id="r-navbar-nav">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Container>
-          <Nav className="mr-auto justify-content-md-center">
-            <Nav.Item><NavLink to="/" exact className="header__link" activeClassName="is-active">home</NavLink></Nav.Item>
-            <Nav.Item><NavLink to="/bio" exact className="header__link" activeClassName="is-active">bio</NavLink></Nav.Item>
-            <Nav.Item><NavLink to="/blog" exact className="header__link" activeClassName="is-active">blog</NavLink></Nav.Item>
-            <Nav.Item><NavLink to="/code" exact className="header__link" activeClassName="is-active">code</NavLink></Nav.Item>
+          <Nav className="ml-auto mr-auto justify-content-md-center">
+            <Nav.Item><NavLink to="/" exact className="header__link" activeClassName="is-active" onClick={collapseNavbar}>home</NavLink></Nav.Item>
+            <Nav.Item><NavLink to="/bio" exact className="header__link" activeClassName="is-active" onClick={collapseNavbar}>bio</NavLink></Nav.Item>
+            <Nav.Item><NavLink to="/blog" exact className="header__link" activeClassName="is-active" onClick={collapseNavbar}>blog</NavLink></Nav.Item>
+            <Nav.Item><NavLink to="/code" exact className="header__link" activeClassName="is-active" onClick={collapseNavbar}>code</NavLink></Nav.Item>
             <Nav.Item><a href="https://github.com/jmsmistral" className="header__link"><FontAwesomeIcon icon={faGithub} size="lg" /></a></Nav.Item>
             <Nav.Item><a href="https://twitter.com/jmsmistral" className="header__link"><FontAwesomeIcon icon={faTwitter} size="lg" /></a></Nav.Item>
             <Nav.Item><a href="https://www.linkedin.com/pub/jonathan-sacramento/65/920/584" className="header__link"><FontAwesomeIcon icon={faLinkedin} size="lg" /></a></Nav.Item>
