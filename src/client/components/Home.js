@@ -2,6 +2,16 @@ import React from 'react';
 import {
   Container, Row, Col
 } from 'react-bootstrap';
+import makeCarousel from 'react-reveal/makeCarousel';
+import Fade from 'react-reveal/Fade';
+
+
+const CarouselUI = ({ children }) => (
+  <div>
+    {children}
+  </div>
+);
+const Carousel = makeCarousel(CarouselUI);
 
 const Home = () => (
   <div className="home-page">
@@ -13,21 +23,43 @@ const Home = () => (
             <Col xs={12} className="text-center">
               <h1 className="banner__title fadein-banner">
                 {"Hi! I'm"}
-                {' '}
+                {" "}
                 <strong className="banner__highlight">Jonathan</strong>
-                {'.'}
+                {"."}
               </h1>
             </Col>
           </Row>
+
           <Row>
-            <Col xs={12} className="text-center">
+            <Col xs={6} className="text-right banner__code-changer-static">
               <h2 className="banner__subtitle fadein-banner">
-                {'I love writing'}
-                {' '}
-                <span className="code-language-changer" />
-                {' '}
-                {'code.'}
+                {'I love coding in '}
               </h2>
+            </Col>
+            <Col xs={6} className="text-left">
+                <Carousel defaultWait={3000} maxTurns={Infinity}>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer python">Python</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer js">Javascript</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer c">C</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer node">Node</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer sql">SQL</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer spark">Spark</h2>
+                  </Fade>
+                  <Fade top>
+                    <h2 className="banner__subtitle banner__code-changer react">React</h2>
+                  </Fade>
+                </Carousel>
             </Col>
           </Row>
 
@@ -53,13 +85,6 @@ const Home = () => (
 
         </Col>
       </Row>
-
-      {/* <Container className="sub-banner">
-        <Row className="justify-content-md-center">
-        </Row>
-        <Row className="justify-content-md-center">
-        </Row>
-      </Container> */}
 
     </Container>
   </div>

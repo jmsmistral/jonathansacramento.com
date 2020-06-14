@@ -15,22 +15,42 @@
   text-decoration: line-through;
 }
 
-// Code changer
-.code-language-changer {
+.banner__code-changer {
+  margin-left: 2rem !important;
+}
+
+.banner__code-changer-static {
+  padding-right: 0 !important;
+}
+
+.python {
+  color: $color-pallete-green;
+}
+
+.js {
   color: $color-pallete-yellow;
 }
 
-.code-language-changer:after {
-  content:"Javascript";
-  animation: code-language-changer 12s linear infinite;
+.sql {
+  color: $color-pallete-purple;
 }
-@keyframes code-language-changer {
-  0%  { content:"Javascript"; }
-  20% { content:"Python"; color: $color-pallete-red; }
-  40% { content:"C";  }
-  60% { content:"SQL"; color: $color-pallete-green; }
-  80% { content:"BASH"; }
+
+.c {
+  color: $color-pallete-blue;
 }
+
+.spark {
+  color: $color-pallete-orange;
+}
+
+.react {
+  color: $color-pallete-light-blue;
+}
+
+.node {
+  color: $color-pallete-light-green;
+}
+
 
 .sub-banner {
   margin-top: 10rem;
