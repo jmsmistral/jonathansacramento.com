@@ -7,9 +7,11 @@ import {
 
 const Bio = () => (
   <div className="content">
+
     <Container>
       <Row>
-        <Col xs={12} className="text-center">
+        <Col xs={2}></Col>
+        <Col xs={8} className="text-left">
           <p className="bio__sub-banner__title">
             I work as an
             {' '}
@@ -24,26 +26,20 @@ const Bio = () => (
             <span className="banner__highlight">Abu Dhabi</span>
           </p>
         </Col>
-        {/* <Col xs={12} className="text-center">
-          <p className="bio__sub-banner__title">
-            I help clients make
-            {' '}
-            <span className="banner__highlight">better business decisions</span>
-            {' '}
-            through
-            {' '}
-            <span className="banner__highlight">data-driven applications</span>
-          </p>
-        </Col> */}
-        <Col xs={12} className="text-center">
+        <Col xs={2}></Col>
+
+        <Col xs={2}></Col>
+        <Col xs={8} className="text-left">
           <p className="bio__sub-banner__title">
             <Link to="/clients" className="bio__link">These</Link>
             {' '}
             are some of the clients I have worked with
           </p>
         </Col>
+        <Col xs={2}></Col>
 
-        <Col xs={12} className="bio__section text-center">
+        <Col xs={2}></Col>
+        <Col xs={8} className="bio__section text-left">
           <h2 className="bio__section__title">
             <span className="bio__section__title__highlight">I bring</span>
           </h2>
@@ -86,8 +82,10 @@ const Bio = () => (
             <span className="bio__section__highlight">best practices</span>
           </p>
         </Col>
+        <Col xs={2}></Col>
 
-        <Col xs={12} className="bio__section text-center">
+        <Col xs={2}></Col>
+        <Col xs={8} className="bio__section text-left">
           {/* sample */}
           <h2 className="bio__section__title">
             <span className="bio__section__title__highlight">Previously I have</span>
@@ -136,8 +134,10 @@ const Bio = () => (
             <span className="bio__section__highlight">snow rendering (wat)</span>
           </p>
         </Col>
+        <Col xs={2}></Col>
 
-        <Col xs={12} className="bio__section text-center">
+        <Col xs={2}></Col>
+        <Col xs={8} className="bio__section text-left">
           <h2 className="bio__section__title">
             <span className="bio__section__title__highlight">When I am not working, I</span>
           </h2>
@@ -189,12 +189,15 @@ const Bio = () => (
             fan
           </p>
         </Col>
+        <Col xs={2}></Col>
 
         <Col xs={12} className="bio__section text-center">
           {/* sample */}
         </Col>
+
       </Row>
     </Container>
+
   </div>
 );
 
