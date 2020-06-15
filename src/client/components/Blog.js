@@ -16,7 +16,7 @@ const Blog = () => (
     <Container>
         {
           blogPostsReversed.map(post => (
-            <Row>
+            <Row key={post.id}>
               <Col xs={2}></Col>
               <Col key={post.id} xs={8} className="blog-post text-left">
                 <Row>
