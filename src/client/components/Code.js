@@ -10,31 +10,33 @@ import { codeProjects } from '../config/code-projects';
 const Code = () => (
   <div className="content">
     <Container>
-      <Row>
         {
           codeProjects.map(repo => (
-            <Col key={repo.id} xs={12} className="code-repo text-center">
-              <Row>
-                <Col xs={12} className="text-center">
-                  <h2>
-                    <a href={repo.link} className="code-repo__title">
-                      {repo.name}
-                    </a>
-                  </h2>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs={12} className="text-center">
-                  <span className="code-repo__description">
-                    <FontAwesomeIcon icon={faAlignJustify} size="xs" />
-                    <span className="code-repo__description ">{repo.description}</span>
-                  </span>
-                </Col>
-              </Row>
-            </Col>
+            <Row key={repo.id}>
+              <Col xs={2}></Col>
+              <Col key={repo.id} xs={8} className="code-repo text-left">
+                <Row>
+                  <Col xs={12} className="text-left">
+                    <h2>
+                      <a href={repo.link} className="code-repo__title">
+                        {repo.name}
+                      </a>
+                    </h2>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={12} className="text-left">
+                    <span className="code-repo__description">
+                      <FontAwesomeIcon icon={faAlignJustify} size="xs" />
+                      <span className="code-repo__description__text">{repo.description}</span>
+                    </span>
+                  </Col>
+                </Row>
+              </Col>
+              <Col xs={2}></Col>
+            </Row>
           ))
         }
-      </Row>
     </Container>
   </div>
 );
