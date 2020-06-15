@@ -153,7 +153,7 @@ const Bio = () => (
           <p className="bio__section__row">
             practice
             {' '}
-            <span className="bio__section__highlight">medidation</span>
+            <span className="bio__section__highlight">meditation</span>
           </p>
 
           <p className="bio__section__row">
