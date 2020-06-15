@@ -31,12 +31,12 @@ const Home = () => (
           </Row>
 
           <Row>
-            <Col xs={6} className="text-right banner__code-changer-static">
+            <Col lg={6} className="banner__code-changer-static text-right">
               <h2 className="banner__subtitle fadein-banner">
                 {'I love coding in '}
               </h2>
             </Col>
-            <Col xs={6} className="text-left">
+            <Col lg={6} className="banner__code-changer-container text-left">
                 <Carousel defaultWait={3000} maxTurns={Infinity}>
                   <Fade top>
                     <h2 className="banner__subtitle banner__code-changer python">Python</h2>

@@ -15,12 +15,33 @@
   text-decoration: line-through;
 }
 
+
+
 .banner__code-changer {
   margin-left: 2rem !important;
 }
 
 .banner__code-changer-static {
   padding-right: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .col-6 {
+    min-width: 100% !important;
+  }
+
+  .banner__code-changer-container {
+    text-align: center !important;
+  }
+
+  .banner__code-changer {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .banner__code-changer-static {
+    text-align: center !important;
+  }
 }
 
 .python {
