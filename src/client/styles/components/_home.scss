@@ -7,6 +7,12 @@
   margin-top: 2rem;
 }
 
+// To capture code animation
+.banner__subtitle > span > div > h2 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
 .banner__highlight {
   color: lighten($foreground-color, 30%);
 }
@@ -15,33 +21,8 @@
   text-decoration: line-through;
 }
 
-
-
-.banner__code-changer {
-  margin-left: 2rem !important;
-}
-
-.banner__code-changer-static {
-  padding-right: 0 !important;
-}
-
-@media (max-width: 992px) {
-  .col-6 {
-    min-width: 100% !important;
-  }
-
-  .banner__code-changer-container {
-    text-align: center !important;
-  }
-
-  .banner__code-changer {
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-  }
-
-  .banner__code-changer-static {
-    text-align: center !important;
-  }
+.banner__code {
+  margin-left: 22rem;
 }
 
 .python {
@@ -74,16 +55,16 @@
 
 
 .sub-banner {
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
 .sub-banner__title {
-  font-size: $l-size;
+  font-size: $xm-size;
 }
 
 .sub-banner__subtitle {
   margin-top: 2rem;
-  font-size: $l-size;
+  font-size: $xm-size;
 }
 
 .sub-banner__highlight {
@@ -110,5 +91,40 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+
+// Adapt to different screen sizes
+@media (min-width: 992px) {
+  .home-page-large-screen {
+    display: block;
+  }
+
+  .home-page-small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-page-large-screen {
+    display: none;
+  }
+
+  .home-page-small-screen {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-banner {
+    margin-top: 5rem !important;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .banner__subtitle__container {
+    display: none;
   }
 }
