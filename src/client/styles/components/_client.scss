@@ -1,5 +1,5 @@
 .client__banner__title {
-  font-size: $m-size;
+  font-size: $xm-size;
   line-height: 2;
 }
 
@@ -21,7 +21,7 @@
 }
 
 // Override Bootstrap container min-width
-// so that the content is not as 
+// so that the content is not as
 // @media (min-width: 992px) {
 //   .client__logo-section__width {
 //       max-width: 700px;
