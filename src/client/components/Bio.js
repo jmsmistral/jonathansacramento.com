@@ -53,15 +53,11 @@ const Bio = () => (
           </p>
 
           <p className="bio__section__row">
-              a
+              a track-record
             {' '}
-            <span className="bio__section__highlight">track-record</span>
+              of implementing
             {' '}
-              of
-            {' '}
-            <span className="bio__section__highlight">implementing complex</span>
-            {' '}
-              projects
+            <span className="bio__section__highlight">complex projects</span>
           </p>
 
           <p className="bio__section__row">
