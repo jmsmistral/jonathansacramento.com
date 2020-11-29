@@ -20,7 +20,7 @@ mdRenderer.image = function (src, title, alt) {
 mdConverter.setOptions({
   renderer: mdRenderer,
   highlight: function(code) {
-    return require('highlightjs').highlightAuto(code).value;
+    return require('highlight.js').highlightAuto(code).value;
   },
   pedantic: false,
   gfm: true,

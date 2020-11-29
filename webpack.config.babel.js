@@ -35,7 +35,7 @@ module.exports = (env) => {
     plugins: [
       CSSExtract
     ],
-    devtool   : isProduction ? 'nosources-source-map' : 'cheap-module-eval-source-map',
+    devtool   : isProduction ? 'nosources-source-map' : 'cheap-module-source-map',
     devServer : {
       contentBase        : path.join(__dirname, 'public'),
       publicPath         : '/dist/',
