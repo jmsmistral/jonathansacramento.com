@@ -30,7 +30,91 @@
 .bio__section__row {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: lighten($foreground-color, 15%);
+  color: #dee2e6;  // Custom colour (not part of pallete)
+}
+
+
+// Bio Section One
+.bio__section-one {
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: #17ad6bd4;  // Custom colour (not part of pallete)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio__section-one__title {
+  font-size: $m-size;
+  margin-bottom: 3rem;
+}
+
+.bio__section-one__title__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+.bio__section-one__highlight {
+  color: $color-pallete-yellow-dark;
+}
+
+.bio__section-one__row {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #dee2e6;  // Custom colour (not part of pallete)
+}
+
+
+// Bio Section two
+.bio__section-two {
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: #0e90ecc4;  // Custom colour (not part of pallete)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio__section-two__title {
+  font-size: $m-size;
+  margin-bottom: 3rem;
+}
+
+.bio__section-two__title__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+.bio__section-two__highlight {
+  color: $color-pallete-yellow-dark;
+}
+
+.bio__section-two__row {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #dee2e6;  // Custom colour (not part of pallete)
+}
+
+
+// Bio Section three
+.bio__section-three {
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: $color-pallete-orange;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio__section-three__title {
+  font-size: $m-size;
+  margin-bottom: 3rem;
+}
+
+.bio__section-three__title__highlight {
+  color: lighten($foreground-color, 30%);
+}
+
+.bio__section-three__highlight {
+  color: $color-pallete-yellow-dark;
+}
+
+.bio__section-three__row {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #dee2e6;  // Custom colour (not part of pallete)
 }
 
 
