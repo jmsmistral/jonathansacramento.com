@@ -8,7 +8,7 @@ branches:
   - master
 
 before_install:
-  - docker build -t personal-website .
+  - docker build --no-cache -t personal-website .
 
 script:
   - docker run -v $(pwd)/public:/app/public personal-website
