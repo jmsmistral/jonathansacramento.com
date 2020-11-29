@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./src/**/*.js ./test/**/*.js",
     "build:client:dev": "./node_modules/.bin/webpack",
-    "build:client:prod": "./node_modules/.bin/webpack -p --env production",
+    "build:client:prod": "./node_modules/.bin/webpack --env production",
     "build-babel:client": "./node_modules/.bin/babel ./src/client/app.js --out-dir ./public/dist/",
     "test:client": "./node_modules/.bin/jest ./tests/client/ --collectCoverageFrom=**/tests/client/**/*.test.js",
     "test:server": "./node_modules/.bin/mocha --require @babel/register ./tests/server/**/*.test.js",
