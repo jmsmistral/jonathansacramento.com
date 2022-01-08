@@ -1,3 +1,5 @@
+src/client/config/blog-posts.js
+
 # Logs
 logs
 *.log
