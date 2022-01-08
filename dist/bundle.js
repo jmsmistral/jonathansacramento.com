@@ -14142,7 +14142,7 @@ var codeProjects = [{
 }, {
   id: 3,
   name: 'transflow',
-  description: '[IN DEV] DAG-based data transformation library',
+  description: '[in dev] DAG-based data transformation library',
   link: 'https://github.com/jmsmistral/transflow'
 }, {
   id: 4,
