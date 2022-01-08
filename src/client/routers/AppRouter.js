@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter, Route, Switch
+  BrowserRouter, Route, Switch, HashRouter
 } from 'react-router-dom';
 
 import Header from '../components/Header';
@@ -17,7 +17,8 @@ const AppRouter = () => (
   <BrowserRouter>
     <div>
       <Header />
-      <Switch>
+      {/* <Switch> */}
+      <HashRouter>
         <Route path="/" component={Home} exact />
         <Route path="/bio" component={Bio} exact />
         <Route path="/clients" component={Client} exact />
@@ -25,7 +26,8 @@ const AppRouter = () => (
         <Route path="/blogpost/:route" component={BlogPost} exact/>
         <Route path="/code" component={Code} exact />
         <Route component={NotFound} />
-      </Switch>
+      </HashRouter>
+      {/* </Switch> */}
     </div>
   </BrowserRouter>
 );
