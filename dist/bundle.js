@@ -14200,33 +14200,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AppRouter = function AppRouter() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/",
-    component: _components_Home__WEBPACK_IMPORTED_MODULE_2__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/bio",
-    component: _components_Bio__WEBPACK_IMPORTED_MODULE_3__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/clients",
-    component: _components_Client__WEBPACK_IMPORTED_MODULE_4__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/blog",
-    component: _components_Blog__WEBPACK_IMPORTED_MODULE_6__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/blogpost/:route",
-    component: _components_BlogPost__WEBPACK_IMPORTED_MODULE_7__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    path: "/code",
-    component: _components_Code__WEBPACK_IMPORTED_MODULE_5__["default"],
-    exact: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_8__["default"]
-  }))));
+  return (
+    /*#__PURE__*/
+    // <BrowserRouter>
+    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/",
+      component: _components_Home__WEBPACK_IMPORTED_MODULE_2__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/bio",
+      component: _components_Bio__WEBPACK_IMPORTED_MODULE_3__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/clients",
+      component: _components_Client__WEBPACK_IMPORTED_MODULE_4__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/blog",
+      component: _components_Blog__WEBPACK_IMPORTED_MODULE_6__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/blogpost/:route",
+      component: _components_BlogPost__WEBPACK_IMPORTED_MODULE_7__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      path: "/code",
+      component: _components_Code__WEBPACK_IMPORTED_MODULE_5__["default"],
+      exact: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+      component: _components_NotFound__WEBPACK_IMPORTED_MODULE_8__["default"]
+    })))) // </BrowserRouter>
+
+  );
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AppRouter);
