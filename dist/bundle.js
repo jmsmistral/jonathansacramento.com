@@ -1,133 +1,29 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
-  \************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ _extends
-/* harmony export */ });
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
-  \******************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ _inheritsLoose
-/* harmony export */ });
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  subClass.__proto__ = superClass;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
-  \*********************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ _objectWithoutPropertiesLoose
-/* harmony export */ });
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-/***/ }),
-
 /***/ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js ***!
   \********************************************************************/
-/*! namespace exports */
-/*! export config [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export counter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export dom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export findIconDefinition [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export icon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export layer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export library [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export noAuto [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export parse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export text [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export toHtml [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.g, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "icon": () => /* binding */ icon,
-/* harmony export */   "noAuto": () => /* binding */ noAuto,
-/* harmony export */   "config": () => /* binding */ config,
-/* harmony export */   "toHtml": () => /* binding */ toHtml,
-/* harmony export */   "layer": () => /* binding */ layer,
-/* harmony export */   "text": () => /* binding */ text,
-/* harmony export */   "counter": () => /* binding */ counter,
-/* harmony export */   "library": () => /* binding */ library,
-/* harmony export */   "dom": () => /* binding */ dom,
-/* harmony export */   "parse": () => /* binding */ parse,
-/* harmony export */   "findIconDefinition": () => /* binding */ findIconDefinition
+/* harmony export */   "icon": () => (/* binding */ icon),
+/* harmony export */   "noAuto": () => (/* binding */ noAuto),
+/* harmony export */   "config": () => (/* binding */ config),
+/* harmony export */   "toHtml": () => (/* binding */ toHtml),
+/* harmony export */   "layer": () => (/* binding */ layer),
+/* harmony export */   "text": () => (/* binding */ text),
+/* harmony export */   "counter": () => (/* binding */ counter),
+/* harmony export */   "library": () => (/* binding */ library),
+/* harmony export */   "dom": () => (/* binding */ dom),
+/* harmony export */   "parse": () => (/* binding */ parse),
+/* harmony export */   "findIconDefinition": () => (/* binding */ findIconDefinition)
 /* harmony export */ });
 /*!
- * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 function _typeof(obj) {
@@ -324,7 +220,7 @@ var STYLE_TO_PREFIX = {
   'kit': 'fak'
 };
 var LAYERS_TEXT_CLASSNAME = 'fa-layers-text';
-var FONT_FAMILY_PATTERN = /Font Awesome ([5 ]*)(Solid|Regular|Light|Duotone|Brands|Free|Pro|Kit).*/; // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+var FONT_FAMILY_PATTERN = /Font Awesome ([5 ]*)(Solid|Regular|Light|Duotone|Brands|Free|Pro|Kit).*/i; // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
 
 var FONT_WEIGHT_TO_PREFIX = {
   '900': 'fas',
@@ -1224,7 +1120,7 @@ var p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMA
   mark: noop$1,
   measure: noop$1
 };
-var preamble = "FA \"5.15.1\"";
+var preamble = "FA \"5.15.4\"";
 
 var begin = function begin(name) {
   p.mark("".concat(preamble, " ").concat(name, " begins"));
@@ -1300,35 +1196,6 @@ function toHex(unicode) {
   }
 
   return result;
-}
-function codePointAt(string, index) {
-  /*! https://mths.be/codepointat v0.2.0 by @mathias */
-  var size = string.length;
-  var first = string.charCodeAt(index);
-  var second;
-
-  if (first >= 0xD800 && first <= 0xDBFF && size > index + 1) {
-    second = string.charCodeAt(index + 1);
-
-    if (second >= 0xDC00 && second <= 0xDFFF) {
-      return (first - 0xD800) * 0x400 + second - 0xDC00 + 0x10000;
-    }
-  }
-
-  return first;
-}
-/**
- * Used to check that the character is between the E000..F8FF private unicode
- * range
- */
-
-function isPrivateUnicode(iconName) {
-  if (iconName.length !== 1) {
-    return false;
-  } else {
-    var cp = codePointAt(iconName, 0);
-    return cp >= 57344 && cp <= 63743;
-  }
 }
 
 function defineIcons(prefix, icons) {
@@ -1908,27 +1775,6 @@ var missing = {
 };
 
 var styles$2 = namespace.styles;
-function resolveCustomIconVersion() {
-  var kitConfig = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  var iconName = arguments.length > 1 ? arguments[1] : undefined;
-
-  if (iconName && isPrivateUnicode(iconName)) {
-    if (kitConfig && kitConfig.iconUploads) {
-      var iconUploads = kitConfig.iconUploads;
-      var descriptiveIconName = Object.keys(iconUploads).find(function (key) {
-        return iconUploads[key] && iconUploads[key].u && iconUploads[key].u === toHex(iconName);
-      });
-
-      if (descriptiveIconName) {
-        return iconUploads[descriptiveIconName].v;
-      }
-    }
-  } else {
-    if (kitConfig && kitConfig.iconUploads && kitConfig.iconUploads[iconName] && kitConfig.iconUploads[iconName].v) {
-      return kitConfig.iconUploads[iconName].v;
-    }
-  }
-}
 function asFoundIcon(icon) {
   var width = icon[0];
   var height = icon[1];
@@ -1990,12 +1836,6 @@ function findIcon(iconName, prefix) {
     if (iconName && prefix && styles$2[prefix] && styles$2[prefix][iconName]) {
       var icon = styles$2[prefix][iconName];
       return resolve(asFoundIcon(icon));
-    }
-    var kitToken = null;
-    var iconVersion = resolveCustomIconVersion(WINDOW.FontAwesomeKitConfig, iconName);
-
-    if (WINDOW.FontAwesomeKitConfig && WINDOW.FontAwesomeKitConfig.token) {
-      kitToken = WINDOW.FontAwesomeKitConfig.token;
     }
 
     if (iconName && prefix && !config.showMissingIcons) {
@@ -2625,937 +2465,473 @@ var autoReplace = function autoReplace() {
 /*!*********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js ***!
   \*********************************************************************/
-/*! namespace exports */
-/*! export fa500px [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAccessibleIcon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAccusoft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAcquisitionsIncorporated [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAdn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAdversal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAffiliatetheme [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAirbnb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlgolia [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlipay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAmazon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAmazonPay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAmilia [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAndroid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngellist [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngrycreative [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngular [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAppStore [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAppStoreIos [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faApper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faApple [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faApplePay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArtstation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAsymmetrik [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAtlassian [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAudible [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAutoprefixer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAvianex [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAviato [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAws [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBandcamp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBattleNet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBehance [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBehanceSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBimobject [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBitbucket [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBitcoin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBity [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlackTie [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlackberry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlogger [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBloggerB [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBluetooth [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBluetoothB [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBootstrap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBtc [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBuffer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBuromobelexperte [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBuyNLarge [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBuysellads [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCanadianMapleLeaf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcAmazonPay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcAmex [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcApplePay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcDinersClub [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcDiscover [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcJcb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcMastercard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcPaypal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcStripe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCcVisa [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCentercode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCentos [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChrome [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChromecast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudflare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudscale [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudsmith [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudversify [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCodepen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCodiepie [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faConfluence [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faConnectdevelop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faContao [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCottonBureau [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCpanel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommons [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsBy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsNc [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsNcEu [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsNcJp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsNd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsPd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsPdAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsRemix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsSa [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsSampling [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsSamplingPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsShare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreativeCommonsZero [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCriticalRole [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCss3 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCss3Alt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCuttlefish [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDAndD [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDAndDBeyond [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDailymotion [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDashcube [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDeezer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDelicious [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDeploydog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDeskpro [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDev [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDeviantart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDhl [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiaspora [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDigg [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDigitalOcean [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiscord [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiscourse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDochub [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDocker [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDraft2digital [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDribbble [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDribbbleSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDropbox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDrupal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDyalog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEarlybirds [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEbay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEdge [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEdgeLegacy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faElementor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEllo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEmber [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEmpire [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEnvira [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faErlang [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEthereum [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEtsy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEvernote [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExpeditedssl [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFacebook [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFacebookF [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFacebookMessenger [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFacebookSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFantasyFlightGames [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFedex [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFedora [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFigma [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirefox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirefoxBrowser [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirstOrder [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirstOrderAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirstdraft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlickr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlipboard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFly [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFontAwesome [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFontAwesomeAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFontAwesomeFlag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFontAwesomeLogoFull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFonticons [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFonticonsFi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFortAwesome [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFortAwesomeAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faForumbee [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFoursquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFreeCodeCamp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFreebsd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFulcrum [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGalacticRepublic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGalacticSenate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGetPocket [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGg [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGgCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGitAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGitSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGithub [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGithubAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGithubSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGitkraken [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGitlab [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGitter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlide [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlideG [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGofore [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGoodreads [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGoodreadsG [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGoogle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGoogleDrive [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGooglePay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGooglePlay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGooglePlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGooglePlusG [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGooglePlusSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGoogleWallet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGratipay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrav [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGripfire [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrunt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGuilded [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGulp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHackerNews [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHackerNewsSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHackerrank [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHips [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHireAHelper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHive [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHooli [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHornbill [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHotjar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHouzz [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHtml5 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHubspot [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIdeal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faImdb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInnosoft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInstagram [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInstagramSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInstalod [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIntercom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInternetExplorer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInvision [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIoxhost [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faItchIo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faItunes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faItunesNote [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJava [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJediOrder [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJenkins [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJira [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJoget [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJoomla [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJsSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJsfiddle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKaggle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKeybase [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKeycdn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKickstarter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKickstarterK [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKorvue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaravel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLastfm [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLastfmSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLeanpub [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLess [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLine [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLinkedin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLinkedinIn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLinode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLinux [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLyft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMagento [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMailchimp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMandalorian [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarkdown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMastodon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMaxcdn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMdb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMedapps [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMedium [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMediumM [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMedrt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMeetup [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMegaport [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMendeley [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicroblog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrosoft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMixcloud [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMixer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMizuni [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faModx [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMonero [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNapster [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNeos [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNimblr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNodeJs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNpm [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNs8 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNutritionix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOctopusDeploy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOdnoklassniki [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOdnoklassnikiSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOldRepublic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOpencart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOpenid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOpera [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOptinMonster [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOrcid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOsi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPage4 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPagelines [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPalfed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPatreon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaypal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPennyArcade [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPerbyte [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPeriscope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhabricator [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoenixFramework [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoenixSquadron [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiedPiper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiedPiperAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiedPiperHat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiedPiperPp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiedPiperSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPinterest [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPinterestP [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPinterestSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlaystation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faProductHunt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPushed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPython [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQq [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuinscape [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuora [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRProject [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRaspberryPi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRavelry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReact [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReacteurope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReadme [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRebel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedRiver [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReddit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedditAlien [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedditSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedhat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRenren [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReplyd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faResearchgate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faResolving [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRev [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRocketchat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRockrms [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRust [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSafari [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSalesforce [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSass [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSchlix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faScribd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearchengin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSellcast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSellsy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faServicestack [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShirtsinbulk [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShopify [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShopware [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSimplybuilt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSistrix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSith [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSketch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkyatlas [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkype [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSlack [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSlackHash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSlideshare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnapchat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnapchatGhost [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnapchatSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSoundcloud [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSourcetree [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpeakap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpeakerDeck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpotify [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSquarespace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStackExchange [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStackOverflow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStackpath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStaylinked [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSteam [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSteamSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSteamSymbol [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStickerMule [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStrava [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStripe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStripeS [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStudiovinari [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStumbleupon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStumbleuponCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSuperpowers [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSupple [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSuse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSwift [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSymfony [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTeamspeak [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTelegram [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTelegramPlane [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTencentWeibo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTheRedYeti [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThemeco [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThemeisle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThinkPeaks [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTiktok [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTradeFederation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrello [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTripadvisor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTumblr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTumblrSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTwitch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTwitter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTwitterSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTypo3 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUber [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUbuntu [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUikit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUmbraco [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUncharted [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUniregistry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnity [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnsplash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUntappd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUps [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUsb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUsps [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUssunnah [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVaadin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faViacoin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faViadeo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faViadeoSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faViber [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVimeo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVimeoSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVimeoV [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVine [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVk [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVnv [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVuejs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWatchmanMonitoring [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWaze [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWeebly [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWeibo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWeixin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWhatsapp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWhatsappSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWhmcs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWikipediaW [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWindows [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWizardsOfTheCoast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWodu [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWolfPackBattalion [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWordpress [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWordpressSimple [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWpbeginner [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWpexplorer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWpforms [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWpressr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faXbox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faXing [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faXingSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYCombinator [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYahoo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYammer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYandex [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYandexInternational [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYarn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYelp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYoast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYoutube [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYoutubeSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faZhihu [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export fab [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export prefix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fab": () => /* binding */ _iconsCache,
-/* harmony export */   "prefix": () => /* binding */ prefix,
-/* harmony export */   "fa500px": () => /* binding */ fa500px,
-/* harmony export */   "faAccessibleIcon": () => /* binding */ faAccessibleIcon,
-/* harmony export */   "faAccusoft": () => /* binding */ faAccusoft,
-/* harmony export */   "faAcquisitionsIncorporated": () => /* binding */ faAcquisitionsIncorporated,
-/* harmony export */   "faAdn": () => /* binding */ faAdn,
-/* harmony export */   "faAdversal": () => /* binding */ faAdversal,
-/* harmony export */   "faAffiliatetheme": () => /* binding */ faAffiliatetheme,
-/* harmony export */   "faAirbnb": () => /* binding */ faAirbnb,
-/* harmony export */   "faAlgolia": () => /* binding */ faAlgolia,
-/* harmony export */   "faAlipay": () => /* binding */ faAlipay,
-/* harmony export */   "faAmazon": () => /* binding */ faAmazon,
-/* harmony export */   "faAmazonPay": () => /* binding */ faAmazonPay,
-/* harmony export */   "faAmilia": () => /* binding */ faAmilia,
-/* harmony export */   "faAndroid": () => /* binding */ faAndroid,
-/* harmony export */   "faAngellist": () => /* binding */ faAngellist,
-/* harmony export */   "faAngrycreative": () => /* binding */ faAngrycreative,
-/* harmony export */   "faAngular": () => /* binding */ faAngular,
-/* harmony export */   "faAppStore": () => /* binding */ faAppStore,
-/* harmony export */   "faAppStoreIos": () => /* binding */ faAppStoreIos,
-/* harmony export */   "faApper": () => /* binding */ faApper,
-/* harmony export */   "faApple": () => /* binding */ faApple,
-/* harmony export */   "faApplePay": () => /* binding */ faApplePay,
-/* harmony export */   "faArtstation": () => /* binding */ faArtstation,
-/* harmony export */   "faAsymmetrik": () => /* binding */ faAsymmetrik,
-/* harmony export */   "faAtlassian": () => /* binding */ faAtlassian,
-/* harmony export */   "faAudible": () => /* binding */ faAudible,
-/* harmony export */   "faAutoprefixer": () => /* binding */ faAutoprefixer,
-/* harmony export */   "faAvianex": () => /* binding */ faAvianex,
-/* harmony export */   "faAviato": () => /* binding */ faAviato,
-/* harmony export */   "faAws": () => /* binding */ faAws,
-/* harmony export */   "faBandcamp": () => /* binding */ faBandcamp,
-/* harmony export */   "faBattleNet": () => /* binding */ faBattleNet,
-/* harmony export */   "faBehance": () => /* binding */ faBehance,
-/* harmony export */   "faBehanceSquare": () => /* binding */ faBehanceSquare,
-/* harmony export */   "faBimobject": () => /* binding */ faBimobject,
-/* harmony export */   "faBitbucket": () => /* binding */ faBitbucket,
-/* harmony export */   "faBitcoin": () => /* binding */ faBitcoin,
-/* harmony export */   "faBity": () => /* binding */ faBity,
-/* harmony export */   "faBlackTie": () => /* binding */ faBlackTie,
-/* harmony export */   "faBlackberry": () => /* binding */ faBlackberry,
-/* harmony export */   "faBlogger": () => /* binding */ faBlogger,
-/* harmony export */   "faBloggerB": () => /* binding */ faBloggerB,
-/* harmony export */   "faBluetooth": () => /* binding */ faBluetooth,
-/* harmony export */   "faBluetoothB": () => /* binding */ faBluetoothB,
-/* harmony export */   "faBootstrap": () => /* binding */ faBootstrap,
-/* harmony export */   "faBtc": () => /* binding */ faBtc,
-/* harmony export */   "faBuffer": () => /* binding */ faBuffer,
-/* harmony export */   "faBuromobelexperte": () => /* binding */ faBuromobelexperte,
-/* harmony export */   "faBuyNLarge": () => /* binding */ faBuyNLarge,
-/* harmony export */   "faBuysellads": () => /* binding */ faBuysellads,
-/* harmony export */   "faCanadianMapleLeaf": () => /* binding */ faCanadianMapleLeaf,
-/* harmony export */   "faCcAmazonPay": () => /* binding */ faCcAmazonPay,
-/* harmony export */   "faCcAmex": () => /* binding */ faCcAmex,
-/* harmony export */   "faCcApplePay": () => /* binding */ faCcApplePay,
-/* harmony export */   "faCcDinersClub": () => /* binding */ faCcDinersClub,
-/* harmony export */   "faCcDiscover": () => /* binding */ faCcDiscover,
-/* harmony export */   "faCcJcb": () => /* binding */ faCcJcb,
-/* harmony export */   "faCcMastercard": () => /* binding */ faCcMastercard,
-/* harmony export */   "faCcPaypal": () => /* binding */ faCcPaypal,
-/* harmony export */   "faCcStripe": () => /* binding */ faCcStripe,
-/* harmony export */   "faCcVisa": () => /* binding */ faCcVisa,
-/* harmony export */   "faCentercode": () => /* binding */ faCentercode,
-/* harmony export */   "faCentos": () => /* binding */ faCentos,
-/* harmony export */   "faChrome": () => /* binding */ faChrome,
-/* harmony export */   "faChromecast": () => /* binding */ faChromecast,
-/* harmony export */   "faCloudflare": () => /* binding */ faCloudflare,
-/* harmony export */   "faCloudscale": () => /* binding */ faCloudscale,
-/* harmony export */   "faCloudsmith": () => /* binding */ faCloudsmith,
-/* harmony export */   "faCloudversify": () => /* binding */ faCloudversify,
-/* harmony export */   "faCodepen": () => /* binding */ faCodepen,
-/* harmony export */   "faCodiepie": () => /* binding */ faCodiepie,
-/* harmony export */   "faConfluence": () => /* binding */ faConfluence,
-/* harmony export */   "faConnectdevelop": () => /* binding */ faConnectdevelop,
-/* harmony export */   "faContao": () => /* binding */ faContao,
-/* harmony export */   "faCottonBureau": () => /* binding */ faCottonBureau,
-/* harmony export */   "faCpanel": () => /* binding */ faCpanel,
-/* harmony export */   "faCreativeCommons": () => /* binding */ faCreativeCommons,
-/* harmony export */   "faCreativeCommonsBy": () => /* binding */ faCreativeCommonsBy,
-/* harmony export */   "faCreativeCommonsNc": () => /* binding */ faCreativeCommonsNc,
-/* harmony export */   "faCreativeCommonsNcEu": () => /* binding */ faCreativeCommonsNcEu,
-/* harmony export */   "faCreativeCommonsNcJp": () => /* binding */ faCreativeCommonsNcJp,
-/* harmony export */   "faCreativeCommonsNd": () => /* binding */ faCreativeCommonsNd,
-/* harmony export */   "faCreativeCommonsPd": () => /* binding */ faCreativeCommonsPd,
-/* harmony export */   "faCreativeCommonsPdAlt": () => /* binding */ faCreativeCommonsPdAlt,
-/* harmony export */   "faCreativeCommonsRemix": () => /* binding */ faCreativeCommonsRemix,
-/* harmony export */   "faCreativeCommonsSa": () => /* binding */ faCreativeCommonsSa,
-/* harmony export */   "faCreativeCommonsSampling": () => /* binding */ faCreativeCommonsSampling,
-/* harmony export */   "faCreativeCommonsSamplingPlus": () => /* binding */ faCreativeCommonsSamplingPlus,
-/* harmony export */   "faCreativeCommonsShare": () => /* binding */ faCreativeCommonsShare,
-/* harmony export */   "faCreativeCommonsZero": () => /* binding */ faCreativeCommonsZero,
-/* harmony export */   "faCriticalRole": () => /* binding */ faCriticalRole,
-/* harmony export */   "faCss3": () => /* binding */ faCss3,
-/* harmony export */   "faCss3Alt": () => /* binding */ faCss3Alt,
-/* harmony export */   "faCuttlefish": () => /* binding */ faCuttlefish,
-/* harmony export */   "faDAndD": () => /* binding */ faDAndD,
-/* harmony export */   "faDAndDBeyond": () => /* binding */ faDAndDBeyond,
-/* harmony export */   "faDailymotion": () => /* binding */ faDailymotion,
-/* harmony export */   "faDashcube": () => /* binding */ faDashcube,
-/* harmony export */   "faDeezer": () => /* binding */ faDeezer,
-/* harmony export */   "faDelicious": () => /* binding */ faDelicious,
-/* harmony export */   "faDeploydog": () => /* binding */ faDeploydog,
-/* harmony export */   "faDeskpro": () => /* binding */ faDeskpro,
-/* harmony export */   "faDev": () => /* binding */ faDev,
-/* harmony export */   "faDeviantart": () => /* binding */ faDeviantart,
-/* harmony export */   "faDhl": () => /* binding */ faDhl,
-/* harmony export */   "faDiaspora": () => /* binding */ faDiaspora,
-/* harmony export */   "faDigg": () => /* binding */ faDigg,
-/* harmony export */   "faDigitalOcean": () => /* binding */ faDigitalOcean,
-/* harmony export */   "faDiscord": () => /* binding */ faDiscord,
-/* harmony export */   "faDiscourse": () => /* binding */ faDiscourse,
-/* harmony export */   "faDochub": () => /* binding */ faDochub,
-/* harmony export */   "faDocker": () => /* binding */ faDocker,
-/* harmony export */   "faDraft2digital": () => /* binding */ faDraft2digital,
-/* harmony export */   "faDribbble": () => /* binding */ faDribbble,
-/* harmony export */   "faDribbbleSquare": () => /* binding */ faDribbbleSquare,
-/* harmony export */   "faDropbox": () => /* binding */ faDropbox,
-/* harmony export */   "faDrupal": () => /* binding */ faDrupal,
-/* harmony export */   "faDyalog": () => /* binding */ faDyalog,
-/* harmony export */   "faEarlybirds": () => /* binding */ faEarlybirds,
-/* harmony export */   "faEbay": () => /* binding */ faEbay,
-/* harmony export */   "faEdge": () => /* binding */ faEdge,
-/* harmony export */   "faEdgeLegacy": () => /* binding */ faEdgeLegacy,
-/* harmony export */   "faElementor": () => /* binding */ faElementor,
-/* harmony export */   "faEllo": () => /* binding */ faEllo,
-/* harmony export */   "faEmber": () => /* binding */ faEmber,
-/* harmony export */   "faEmpire": () => /* binding */ faEmpire,
-/* harmony export */   "faEnvira": () => /* binding */ faEnvira,
-/* harmony export */   "faErlang": () => /* binding */ faErlang,
-/* harmony export */   "faEthereum": () => /* binding */ faEthereum,
-/* harmony export */   "faEtsy": () => /* binding */ faEtsy,
-/* harmony export */   "faEvernote": () => /* binding */ faEvernote,
-/* harmony export */   "faExpeditedssl": () => /* binding */ faExpeditedssl,
-/* harmony export */   "faFacebook": () => /* binding */ faFacebook,
-/* harmony export */   "faFacebookF": () => /* binding */ faFacebookF,
-/* harmony export */   "faFacebookMessenger": () => /* binding */ faFacebookMessenger,
-/* harmony export */   "faFacebookSquare": () => /* binding */ faFacebookSquare,
-/* harmony export */   "faFantasyFlightGames": () => /* binding */ faFantasyFlightGames,
-/* harmony export */   "faFedex": () => /* binding */ faFedex,
-/* harmony export */   "faFedora": () => /* binding */ faFedora,
-/* harmony export */   "faFigma": () => /* binding */ faFigma,
-/* harmony export */   "faFirefox": () => /* binding */ faFirefox,
-/* harmony export */   "faFirefoxBrowser": () => /* binding */ faFirefoxBrowser,
-/* harmony export */   "faFirstOrder": () => /* binding */ faFirstOrder,
-/* harmony export */   "faFirstOrderAlt": () => /* binding */ faFirstOrderAlt,
-/* harmony export */   "faFirstdraft": () => /* binding */ faFirstdraft,
-/* harmony export */   "faFlickr": () => /* binding */ faFlickr,
-/* harmony export */   "faFlipboard": () => /* binding */ faFlipboard,
-/* harmony export */   "faFly": () => /* binding */ faFly,
-/* harmony export */   "faFontAwesome": () => /* binding */ faFontAwesome,
-/* harmony export */   "faFontAwesomeAlt": () => /* binding */ faFontAwesomeAlt,
-/* harmony export */   "faFontAwesomeFlag": () => /* binding */ faFontAwesomeFlag,
-/* harmony export */   "faFontAwesomeLogoFull": () => /* binding */ faFontAwesomeLogoFull,
-/* harmony export */   "faFonticons": () => /* binding */ faFonticons,
-/* harmony export */   "faFonticonsFi": () => /* binding */ faFonticonsFi,
-/* harmony export */   "faFortAwesome": () => /* binding */ faFortAwesome,
-/* harmony export */   "faFortAwesomeAlt": () => /* binding */ faFortAwesomeAlt,
-/* harmony export */   "faForumbee": () => /* binding */ faForumbee,
-/* harmony export */   "faFoursquare": () => /* binding */ faFoursquare,
-/* harmony export */   "faFreeCodeCamp": () => /* binding */ faFreeCodeCamp,
-/* harmony export */   "faFreebsd": () => /* binding */ faFreebsd,
-/* harmony export */   "faFulcrum": () => /* binding */ faFulcrum,
-/* harmony export */   "faGalacticRepublic": () => /* binding */ faGalacticRepublic,
-/* harmony export */   "faGalacticSenate": () => /* binding */ faGalacticSenate,
-/* harmony export */   "faGetPocket": () => /* binding */ faGetPocket,
-/* harmony export */   "faGg": () => /* binding */ faGg,
-/* harmony export */   "faGgCircle": () => /* binding */ faGgCircle,
-/* harmony export */   "faGit": () => /* binding */ faGit,
-/* harmony export */   "faGitAlt": () => /* binding */ faGitAlt,
-/* harmony export */   "faGitSquare": () => /* binding */ faGitSquare,
-/* harmony export */   "faGithub": () => /* binding */ faGithub,
-/* harmony export */   "faGithubAlt": () => /* binding */ faGithubAlt,
-/* harmony export */   "faGithubSquare": () => /* binding */ faGithubSquare,
-/* harmony export */   "faGitkraken": () => /* binding */ faGitkraken,
-/* harmony export */   "faGitlab": () => /* binding */ faGitlab,
-/* harmony export */   "faGitter": () => /* binding */ faGitter,
-/* harmony export */   "faGlide": () => /* binding */ faGlide,
-/* harmony export */   "faGlideG": () => /* binding */ faGlideG,
-/* harmony export */   "faGofore": () => /* binding */ faGofore,
-/* harmony export */   "faGoodreads": () => /* binding */ faGoodreads,
-/* harmony export */   "faGoodreadsG": () => /* binding */ faGoodreadsG,
-/* harmony export */   "faGoogle": () => /* binding */ faGoogle,
-/* harmony export */   "faGoogleDrive": () => /* binding */ faGoogleDrive,
-/* harmony export */   "faGooglePay": () => /* binding */ faGooglePay,
-/* harmony export */   "faGooglePlay": () => /* binding */ faGooglePlay,
-/* harmony export */   "faGooglePlus": () => /* binding */ faGooglePlus,
-/* harmony export */   "faGooglePlusG": () => /* binding */ faGooglePlusG,
-/* harmony export */   "faGooglePlusSquare": () => /* binding */ faGooglePlusSquare,
-/* harmony export */   "faGoogleWallet": () => /* binding */ faGoogleWallet,
-/* harmony export */   "faGratipay": () => /* binding */ faGratipay,
-/* harmony export */   "faGrav": () => /* binding */ faGrav,
-/* harmony export */   "faGripfire": () => /* binding */ faGripfire,
-/* harmony export */   "faGrunt": () => /* binding */ faGrunt,
-/* harmony export */   "faGuilded": () => /* binding */ faGuilded,
-/* harmony export */   "faGulp": () => /* binding */ faGulp,
-/* harmony export */   "faHackerNews": () => /* binding */ faHackerNews,
-/* harmony export */   "faHackerNewsSquare": () => /* binding */ faHackerNewsSquare,
-/* harmony export */   "faHackerrank": () => /* binding */ faHackerrank,
-/* harmony export */   "faHips": () => /* binding */ faHips,
-/* harmony export */   "faHireAHelper": () => /* binding */ faHireAHelper,
-/* harmony export */   "faHive": () => /* binding */ faHive,
-/* harmony export */   "faHooli": () => /* binding */ faHooli,
-/* harmony export */   "faHornbill": () => /* binding */ faHornbill,
-/* harmony export */   "faHotjar": () => /* binding */ faHotjar,
-/* harmony export */   "faHouzz": () => /* binding */ faHouzz,
-/* harmony export */   "faHtml5": () => /* binding */ faHtml5,
-/* harmony export */   "faHubspot": () => /* binding */ faHubspot,
-/* harmony export */   "faIdeal": () => /* binding */ faIdeal,
-/* harmony export */   "faImdb": () => /* binding */ faImdb,
-/* harmony export */   "faInnosoft": () => /* binding */ faInnosoft,
-/* harmony export */   "faInstagram": () => /* binding */ faInstagram,
-/* harmony export */   "faInstagramSquare": () => /* binding */ faInstagramSquare,
-/* harmony export */   "faInstalod": () => /* binding */ faInstalod,
-/* harmony export */   "faIntercom": () => /* binding */ faIntercom,
-/* harmony export */   "faInternetExplorer": () => /* binding */ faInternetExplorer,
-/* harmony export */   "faInvision": () => /* binding */ faInvision,
-/* harmony export */   "faIoxhost": () => /* binding */ faIoxhost,
-/* harmony export */   "faItchIo": () => /* binding */ faItchIo,
-/* harmony export */   "faItunes": () => /* binding */ faItunes,
-/* harmony export */   "faItunesNote": () => /* binding */ faItunesNote,
-/* harmony export */   "faJava": () => /* binding */ faJava,
-/* harmony export */   "faJediOrder": () => /* binding */ faJediOrder,
-/* harmony export */   "faJenkins": () => /* binding */ faJenkins,
-/* harmony export */   "faJira": () => /* binding */ faJira,
-/* harmony export */   "faJoget": () => /* binding */ faJoget,
-/* harmony export */   "faJoomla": () => /* binding */ faJoomla,
-/* harmony export */   "faJs": () => /* binding */ faJs,
-/* harmony export */   "faJsSquare": () => /* binding */ faJsSquare,
-/* harmony export */   "faJsfiddle": () => /* binding */ faJsfiddle,
-/* harmony export */   "faKaggle": () => /* binding */ faKaggle,
-/* harmony export */   "faKeybase": () => /* binding */ faKeybase,
-/* harmony export */   "faKeycdn": () => /* binding */ faKeycdn,
-/* harmony export */   "faKickstarter": () => /* binding */ faKickstarter,
-/* harmony export */   "faKickstarterK": () => /* binding */ faKickstarterK,
-/* harmony export */   "faKorvue": () => /* binding */ faKorvue,
-/* harmony export */   "faLaravel": () => /* binding */ faLaravel,
-/* harmony export */   "faLastfm": () => /* binding */ faLastfm,
-/* harmony export */   "faLastfmSquare": () => /* binding */ faLastfmSquare,
-/* harmony export */   "faLeanpub": () => /* binding */ faLeanpub,
-/* harmony export */   "faLess": () => /* binding */ faLess,
-/* harmony export */   "faLine": () => /* binding */ faLine,
-/* harmony export */   "faLinkedin": () => /* binding */ faLinkedin,
-/* harmony export */   "faLinkedinIn": () => /* binding */ faLinkedinIn,
-/* harmony export */   "faLinode": () => /* binding */ faLinode,
-/* harmony export */   "faLinux": () => /* binding */ faLinux,
-/* harmony export */   "faLyft": () => /* binding */ faLyft,
-/* harmony export */   "faMagento": () => /* binding */ faMagento,
-/* harmony export */   "faMailchimp": () => /* binding */ faMailchimp,
-/* harmony export */   "faMandalorian": () => /* binding */ faMandalorian,
-/* harmony export */   "faMarkdown": () => /* binding */ faMarkdown,
-/* harmony export */   "faMastodon": () => /* binding */ faMastodon,
-/* harmony export */   "faMaxcdn": () => /* binding */ faMaxcdn,
-/* harmony export */   "faMdb": () => /* binding */ faMdb,
-/* harmony export */   "faMedapps": () => /* binding */ faMedapps,
-/* harmony export */   "faMedium": () => /* binding */ faMedium,
-/* harmony export */   "faMediumM": () => /* binding */ faMediumM,
-/* harmony export */   "faMedrt": () => /* binding */ faMedrt,
-/* harmony export */   "faMeetup": () => /* binding */ faMeetup,
-/* harmony export */   "faMegaport": () => /* binding */ faMegaport,
-/* harmony export */   "faMendeley": () => /* binding */ faMendeley,
-/* harmony export */   "faMicroblog": () => /* binding */ faMicroblog,
-/* harmony export */   "faMicrosoft": () => /* binding */ faMicrosoft,
-/* harmony export */   "faMix": () => /* binding */ faMix,
-/* harmony export */   "faMixcloud": () => /* binding */ faMixcloud,
-/* harmony export */   "faMixer": () => /* binding */ faMixer,
-/* harmony export */   "faMizuni": () => /* binding */ faMizuni,
-/* harmony export */   "faModx": () => /* binding */ faModx,
-/* harmony export */   "faMonero": () => /* binding */ faMonero,
-/* harmony export */   "faNapster": () => /* binding */ faNapster,
-/* harmony export */   "faNeos": () => /* binding */ faNeos,
-/* harmony export */   "faNimblr": () => /* binding */ faNimblr,
-/* harmony export */   "faNode": () => /* binding */ faNode,
-/* harmony export */   "faNodeJs": () => /* binding */ faNodeJs,
-/* harmony export */   "faNpm": () => /* binding */ faNpm,
-/* harmony export */   "faNs8": () => /* binding */ faNs8,
-/* harmony export */   "faNutritionix": () => /* binding */ faNutritionix,
-/* harmony export */   "faOctopusDeploy": () => /* binding */ faOctopusDeploy,
-/* harmony export */   "faOdnoklassniki": () => /* binding */ faOdnoklassniki,
-/* harmony export */   "faOdnoklassnikiSquare": () => /* binding */ faOdnoklassnikiSquare,
-/* harmony export */   "faOldRepublic": () => /* binding */ faOldRepublic,
-/* harmony export */   "faOpencart": () => /* binding */ faOpencart,
-/* harmony export */   "faOpenid": () => /* binding */ faOpenid,
-/* harmony export */   "faOpera": () => /* binding */ faOpera,
-/* harmony export */   "faOptinMonster": () => /* binding */ faOptinMonster,
-/* harmony export */   "faOrcid": () => /* binding */ faOrcid,
-/* harmony export */   "faOsi": () => /* binding */ faOsi,
-/* harmony export */   "faPage4": () => /* binding */ faPage4,
-/* harmony export */   "faPagelines": () => /* binding */ faPagelines,
-/* harmony export */   "faPalfed": () => /* binding */ faPalfed,
-/* harmony export */   "faPatreon": () => /* binding */ faPatreon,
-/* harmony export */   "faPaypal": () => /* binding */ faPaypal,
-/* harmony export */   "faPennyArcade": () => /* binding */ faPennyArcade,
-/* harmony export */   "faPerbyte": () => /* binding */ faPerbyte,
-/* harmony export */   "faPeriscope": () => /* binding */ faPeriscope,
-/* harmony export */   "faPhabricator": () => /* binding */ faPhabricator,
-/* harmony export */   "faPhoenixFramework": () => /* binding */ faPhoenixFramework,
-/* harmony export */   "faPhoenixSquadron": () => /* binding */ faPhoenixSquadron,
-/* harmony export */   "faPhp": () => /* binding */ faPhp,
-/* harmony export */   "faPiedPiper": () => /* binding */ faPiedPiper,
-/* harmony export */   "faPiedPiperAlt": () => /* binding */ faPiedPiperAlt,
-/* harmony export */   "faPiedPiperHat": () => /* binding */ faPiedPiperHat,
-/* harmony export */   "faPiedPiperPp": () => /* binding */ faPiedPiperPp,
-/* harmony export */   "faPiedPiperSquare": () => /* binding */ faPiedPiperSquare,
-/* harmony export */   "faPinterest": () => /* binding */ faPinterest,
-/* harmony export */   "faPinterestP": () => /* binding */ faPinterestP,
-/* harmony export */   "faPinterestSquare": () => /* binding */ faPinterestSquare,
-/* harmony export */   "faPlaystation": () => /* binding */ faPlaystation,
-/* harmony export */   "faProductHunt": () => /* binding */ faProductHunt,
-/* harmony export */   "faPushed": () => /* binding */ faPushed,
-/* harmony export */   "faPython": () => /* binding */ faPython,
-/* harmony export */   "faQq": () => /* binding */ faQq,
-/* harmony export */   "faQuinscape": () => /* binding */ faQuinscape,
-/* harmony export */   "faQuora": () => /* binding */ faQuora,
-/* harmony export */   "faRProject": () => /* binding */ faRProject,
-/* harmony export */   "faRaspberryPi": () => /* binding */ faRaspberryPi,
-/* harmony export */   "faRavelry": () => /* binding */ faRavelry,
-/* harmony export */   "faReact": () => /* binding */ faReact,
-/* harmony export */   "faReacteurope": () => /* binding */ faReacteurope,
-/* harmony export */   "faReadme": () => /* binding */ faReadme,
-/* harmony export */   "faRebel": () => /* binding */ faRebel,
-/* harmony export */   "faRedRiver": () => /* binding */ faRedRiver,
-/* harmony export */   "faReddit": () => /* binding */ faReddit,
-/* harmony export */   "faRedditAlien": () => /* binding */ faRedditAlien,
-/* harmony export */   "faRedditSquare": () => /* binding */ faRedditSquare,
-/* harmony export */   "faRedhat": () => /* binding */ faRedhat,
-/* harmony export */   "faRenren": () => /* binding */ faRenren,
-/* harmony export */   "faReplyd": () => /* binding */ faReplyd,
-/* harmony export */   "faResearchgate": () => /* binding */ faResearchgate,
-/* harmony export */   "faResolving": () => /* binding */ faResolving,
-/* harmony export */   "faRev": () => /* binding */ faRev,
-/* harmony export */   "faRocketchat": () => /* binding */ faRocketchat,
-/* harmony export */   "faRockrms": () => /* binding */ faRockrms,
-/* harmony export */   "faRust": () => /* binding */ faRust,
-/* harmony export */   "faSafari": () => /* binding */ faSafari,
-/* harmony export */   "faSalesforce": () => /* binding */ faSalesforce,
-/* harmony export */   "faSass": () => /* binding */ faSass,
-/* harmony export */   "faSchlix": () => /* binding */ faSchlix,
-/* harmony export */   "faScribd": () => /* binding */ faScribd,
-/* harmony export */   "faSearchengin": () => /* binding */ faSearchengin,
-/* harmony export */   "faSellcast": () => /* binding */ faSellcast,
-/* harmony export */   "faSellsy": () => /* binding */ faSellsy,
-/* harmony export */   "faServicestack": () => /* binding */ faServicestack,
-/* harmony export */   "faShirtsinbulk": () => /* binding */ faShirtsinbulk,
-/* harmony export */   "faShopify": () => /* binding */ faShopify,
-/* harmony export */   "faShopware": () => /* binding */ faShopware,
-/* harmony export */   "faSimplybuilt": () => /* binding */ faSimplybuilt,
-/* harmony export */   "faSistrix": () => /* binding */ faSistrix,
-/* harmony export */   "faSith": () => /* binding */ faSith,
-/* harmony export */   "faSketch": () => /* binding */ faSketch,
-/* harmony export */   "faSkyatlas": () => /* binding */ faSkyatlas,
-/* harmony export */   "faSkype": () => /* binding */ faSkype,
-/* harmony export */   "faSlack": () => /* binding */ faSlack,
-/* harmony export */   "faSlackHash": () => /* binding */ faSlackHash,
-/* harmony export */   "faSlideshare": () => /* binding */ faSlideshare,
-/* harmony export */   "faSnapchat": () => /* binding */ faSnapchat,
-/* harmony export */   "faSnapchatGhost": () => /* binding */ faSnapchatGhost,
-/* harmony export */   "faSnapchatSquare": () => /* binding */ faSnapchatSquare,
-/* harmony export */   "faSoundcloud": () => /* binding */ faSoundcloud,
-/* harmony export */   "faSourcetree": () => /* binding */ faSourcetree,
-/* harmony export */   "faSpeakap": () => /* binding */ faSpeakap,
-/* harmony export */   "faSpeakerDeck": () => /* binding */ faSpeakerDeck,
-/* harmony export */   "faSpotify": () => /* binding */ faSpotify,
-/* harmony export */   "faSquarespace": () => /* binding */ faSquarespace,
-/* harmony export */   "faStackExchange": () => /* binding */ faStackExchange,
-/* harmony export */   "faStackOverflow": () => /* binding */ faStackOverflow,
-/* harmony export */   "faStackpath": () => /* binding */ faStackpath,
-/* harmony export */   "faStaylinked": () => /* binding */ faStaylinked,
-/* harmony export */   "faSteam": () => /* binding */ faSteam,
-/* harmony export */   "faSteamSquare": () => /* binding */ faSteamSquare,
-/* harmony export */   "faSteamSymbol": () => /* binding */ faSteamSymbol,
-/* harmony export */   "faStickerMule": () => /* binding */ faStickerMule,
-/* harmony export */   "faStrava": () => /* binding */ faStrava,
-/* harmony export */   "faStripe": () => /* binding */ faStripe,
-/* harmony export */   "faStripeS": () => /* binding */ faStripeS,
-/* harmony export */   "faStudiovinari": () => /* binding */ faStudiovinari,
-/* harmony export */   "faStumbleupon": () => /* binding */ faStumbleupon,
-/* harmony export */   "faStumbleuponCircle": () => /* binding */ faStumbleuponCircle,
-/* harmony export */   "faSuperpowers": () => /* binding */ faSuperpowers,
-/* harmony export */   "faSupple": () => /* binding */ faSupple,
-/* harmony export */   "faSuse": () => /* binding */ faSuse,
-/* harmony export */   "faSwift": () => /* binding */ faSwift,
-/* harmony export */   "faSymfony": () => /* binding */ faSymfony,
-/* harmony export */   "faTeamspeak": () => /* binding */ faTeamspeak,
-/* harmony export */   "faTelegram": () => /* binding */ faTelegram,
-/* harmony export */   "faTelegramPlane": () => /* binding */ faTelegramPlane,
-/* harmony export */   "faTencentWeibo": () => /* binding */ faTencentWeibo,
-/* harmony export */   "faTheRedYeti": () => /* binding */ faTheRedYeti,
-/* harmony export */   "faThemeco": () => /* binding */ faThemeco,
-/* harmony export */   "faThemeisle": () => /* binding */ faThemeisle,
-/* harmony export */   "faThinkPeaks": () => /* binding */ faThinkPeaks,
-/* harmony export */   "faTiktok": () => /* binding */ faTiktok,
-/* harmony export */   "faTradeFederation": () => /* binding */ faTradeFederation,
-/* harmony export */   "faTrello": () => /* binding */ faTrello,
-/* harmony export */   "faTripadvisor": () => /* binding */ faTripadvisor,
-/* harmony export */   "faTumblr": () => /* binding */ faTumblr,
-/* harmony export */   "faTumblrSquare": () => /* binding */ faTumblrSquare,
-/* harmony export */   "faTwitch": () => /* binding */ faTwitch,
-/* harmony export */   "faTwitter": () => /* binding */ faTwitter,
-/* harmony export */   "faTwitterSquare": () => /* binding */ faTwitterSquare,
-/* harmony export */   "faTypo3": () => /* binding */ faTypo3,
-/* harmony export */   "faUber": () => /* binding */ faUber,
-/* harmony export */   "faUbuntu": () => /* binding */ faUbuntu,
-/* harmony export */   "faUikit": () => /* binding */ faUikit,
-/* harmony export */   "faUmbraco": () => /* binding */ faUmbraco,
-/* harmony export */   "faUncharted": () => /* binding */ faUncharted,
-/* harmony export */   "faUniregistry": () => /* binding */ faUniregistry,
-/* harmony export */   "faUnity": () => /* binding */ faUnity,
-/* harmony export */   "faUnsplash": () => /* binding */ faUnsplash,
-/* harmony export */   "faUntappd": () => /* binding */ faUntappd,
-/* harmony export */   "faUps": () => /* binding */ faUps,
-/* harmony export */   "faUsb": () => /* binding */ faUsb,
-/* harmony export */   "faUsps": () => /* binding */ faUsps,
-/* harmony export */   "faUssunnah": () => /* binding */ faUssunnah,
-/* harmony export */   "faVaadin": () => /* binding */ faVaadin,
-/* harmony export */   "faViacoin": () => /* binding */ faViacoin,
-/* harmony export */   "faViadeo": () => /* binding */ faViadeo,
-/* harmony export */   "faViadeoSquare": () => /* binding */ faViadeoSquare,
-/* harmony export */   "faViber": () => /* binding */ faViber,
-/* harmony export */   "faVimeo": () => /* binding */ faVimeo,
-/* harmony export */   "faVimeoSquare": () => /* binding */ faVimeoSquare,
-/* harmony export */   "faVimeoV": () => /* binding */ faVimeoV,
-/* harmony export */   "faVine": () => /* binding */ faVine,
-/* harmony export */   "faVk": () => /* binding */ faVk,
-/* harmony export */   "faVnv": () => /* binding */ faVnv,
-/* harmony export */   "faVuejs": () => /* binding */ faVuejs,
-/* harmony export */   "faWatchmanMonitoring": () => /* binding */ faWatchmanMonitoring,
-/* harmony export */   "faWaze": () => /* binding */ faWaze,
-/* harmony export */   "faWeebly": () => /* binding */ faWeebly,
-/* harmony export */   "faWeibo": () => /* binding */ faWeibo,
-/* harmony export */   "faWeixin": () => /* binding */ faWeixin,
-/* harmony export */   "faWhatsapp": () => /* binding */ faWhatsapp,
-/* harmony export */   "faWhatsappSquare": () => /* binding */ faWhatsappSquare,
-/* harmony export */   "faWhmcs": () => /* binding */ faWhmcs,
-/* harmony export */   "faWikipediaW": () => /* binding */ faWikipediaW,
-/* harmony export */   "faWindows": () => /* binding */ faWindows,
-/* harmony export */   "faWix": () => /* binding */ faWix,
-/* harmony export */   "faWizardsOfTheCoast": () => /* binding */ faWizardsOfTheCoast,
-/* harmony export */   "faWodu": () => /* binding */ faWodu,
-/* harmony export */   "faWolfPackBattalion": () => /* binding */ faWolfPackBattalion,
-/* harmony export */   "faWordpress": () => /* binding */ faWordpress,
-/* harmony export */   "faWordpressSimple": () => /* binding */ faWordpressSimple,
-/* harmony export */   "faWpbeginner": () => /* binding */ faWpbeginner,
-/* harmony export */   "faWpexplorer": () => /* binding */ faWpexplorer,
-/* harmony export */   "faWpforms": () => /* binding */ faWpforms,
-/* harmony export */   "faWpressr": () => /* binding */ faWpressr,
-/* harmony export */   "faXbox": () => /* binding */ faXbox,
-/* harmony export */   "faXing": () => /* binding */ faXing,
-/* harmony export */   "faXingSquare": () => /* binding */ faXingSquare,
-/* harmony export */   "faYCombinator": () => /* binding */ faYCombinator,
-/* harmony export */   "faYahoo": () => /* binding */ faYahoo,
-/* harmony export */   "faYammer": () => /* binding */ faYammer,
-/* harmony export */   "faYandex": () => /* binding */ faYandex,
-/* harmony export */   "faYandexInternational": () => /* binding */ faYandexInternational,
-/* harmony export */   "faYarn": () => /* binding */ faYarn,
-/* harmony export */   "faYelp": () => /* binding */ faYelp,
-/* harmony export */   "faYoast": () => /* binding */ faYoast,
-/* harmony export */   "faYoutube": () => /* binding */ faYoutube,
-/* harmony export */   "faYoutubeSquare": () => /* binding */ faYoutubeSquare,
-/* harmony export */   "faZhihu": () => /* binding */ faZhihu
+/* harmony export */   "fab": () => (/* binding */ _iconsCache),
+/* harmony export */   "prefix": () => (/* binding */ prefix),
+/* harmony export */   "fa500px": () => (/* binding */ fa500px),
+/* harmony export */   "faAccessibleIcon": () => (/* binding */ faAccessibleIcon),
+/* harmony export */   "faAccusoft": () => (/* binding */ faAccusoft),
+/* harmony export */   "faAcquisitionsIncorporated": () => (/* binding */ faAcquisitionsIncorporated),
+/* harmony export */   "faAdn": () => (/* binding */ faAdn),
+/* harmony export */   "faAdversal": () => (/* binding */ faAdversal),
+/* harmony export */   "faAffiliatetheme": () => (/* binding */ faAffiliatetheme),
+/* harmony export */   "faAirbnb": () => (/* binding */ faAirbnb),
+/* harmony export */   "faAlgolia": () => (/* binding */ faAlgolia),
+/* harmony export */   "faAlipay": () => (/* binding */ faAlipay),
+/* harmony export */   "faAmazon": () => (/* binding */ faAmazon),
+/* harmony export */   "faAmazonPay": () => (/* binding */ faAmazonPay),
+/* harmony export */   "faAmilia": () => (/* binding */ faAmilia),
+/* harmony export */   "faAndroid": () => (/* binding */ faAndroid),
+/* harmony export */   "faAngellist": () => (/* binding */ faAngellist),
+/* harmony export */   "faAngrycreative": () => (/* binding */ faAngrycreative),
+/* harmony export */   "faAngular": () => (/* binding */ faAngular),
+/* harmony export */   "faAppStore": () => (/* binding */ faAppStore),
+/* harmony export */   "faAppStoreIos": () => (/* binding */ faAppStoreIos),
+/* harmony export */   "faApper": () => (/* binding */ faApper),
+/* harmony export */   "faApple": () => (/* binding */ faApple),
+/* harmony export */   "faApplePay": () => (/* binding */ faApplePay),
+/* harmony export */   "faArtstation": () => (/* binding */ faArtstation),
+/* harmony export */   "faAsymmetrik": () => (/* binding */ faAsymmetrik),
+/* harmony export */   "faAtlassian": () => (/* binding */ faAtlassian),
+/* harmony export */   "faAudible": () => (/* binding */ faAudible),
+/* harmony export */   "faAutoprefixer": () => (/* binding */ faAutoprefixer),
+/* harmony export */   "faAvianex": () => (/* binding */ faAvianex),
+/* harmony export */   "faAviato": () => (/* binding */ faAviato),
+/* harmony export */   "faAws": () => (/* binding */ faAws),
+/* harmony export */   "faBandcamp": () => (/* binding */ faBandcamp),
+/* harmony export */   "faBattleNet": () => (/* binding */ faBattleNet),
+/* harmony export */   "faBehance": () => (/* binding */ faBehance),
+/* harmony export */   "faBehanceSquare": () => (/* binding */ faBehanceSquare),
+/* harmony export */   "faBimobject": () => (/* binding */ faBimobject),
+/* harmony export */   "faBitbucket": () => (/* binding */ faBitbucket),
+/* harmony export */   "faBitcoin": () => (/* binding */ faBitcoin),
+/* harmony export */   "faBity": () => (/* binding */ faBity),
+/* harmony export */   "faBlackTie": () => (/* binding */ faBlackTie),
+/* harmony export */   "faBlackberry": () => (/* binding */ faBlackberry),
+/* harmony export */   "faBlogger": () => (/* binding */ faBlogger),
+/* harmony export */   "faBloggerB": () => (/* binding */ faBloggerB),
+/* harmony export */   "faBluetooth": () => (/* binding */ faBluetooth),
+/* harmony export */   "faBluetoothB": () => (/* binding */ faBluetoothB),
+/* harmony export */   "faBootstrap": () => (/* binding */ faBootstrap),
+/* harmony export */   "faBtc": () => (/* binding */ faBtc),
+/* harmony export */   "faBuffer": () => (/* binding */ faBuffer),
+/* harmony export */   "faBuromobelexperte": () => (/* binding */ faBuromobelexperte),
+/* harmony export */   "faBuyNLarge": () => (/* binding */ faBuyNLarge),
+/* harmony export */   "faBuysellads": () => (/* binding */ faBuysellads),
+/* harmony export */   "faCanadianMapleLeaf": () => (/* binding */ faCanadianMapleLeaf),
+/* harmony export */   "faCcAmazonPay": () => (/* binding */ faCcAmazonPay),
+/* harmony export */   "faCcAmex": () => (/* binding */ faCcAmex),
+/* harmony export */   "faCcApplePay": () => (/* binding */ faCcApplePay),
+/* harmony export */   "faCcDinersClub": () => (/* binding */ faCcDinersClub),
+/* harmony export */   "faCcDiscover": () => (/* binding */ faCcDiscover),
+/* harmony export */   "faCcJcb": () => (/* binding */ faCcJcb),
+/* harmony export */   "faCcMastercard": () => (/* binding */ faCcMastercard),
+/* harmony export */   "faCcPaypal": () => (/* binding */ faCcPaypal),
+/* harmony export */   "faCcStripe": () => (/* binding */ faCcStripe),
+/* harmony export */   "faCcVisa": () => (/* binding */ faCcVisa),
+/* harmony export */   "faCentercode": () => (/* binding */ faCentercode),
+/* harmony export */   "faCentos": () => (/* binding */ faCentos),
+/* harmony export */   "faChrome": () => (/* binding */ faChrome),
+/* harmony export */   "faChromecast": () => (/* binding */ faChromecast),
+/* harmony export */   "faCloudflare": () => (/* binding */ faCloudflare),
+/* harmony export */   "faCloudscale": () => (/* binding */ faCloudscale),
+/* harmony export */   "faCloudsmith": () => (/* binding */ faCloudsmith),
+/* harmony export */   "faCloudversify": () => (/* binding */ faCloudversify),
+/* harmony export */   "faCodepen": () => (/* binding */ faCodepen),
+/* harmony export */   "faCodiepie": () => (/* binding */ faCodiepie),
+/* harmony export */   "faConfluence": () => (/* binding */ faConfluence),
+/* harmony export */   "faConnectdevelop": () => (/* binding */ faConnectdevelop),
+/* harmony export */   "faContao": () => (/* binding */ faContao),
+/* harmony export */   "faCottonBureau": () => (/* binding */ faCottonBureau),
+/* harmony export */   "faCpanel": () => (/* binding */ faCpanel),
+/* harmony export */   "faCreativeCommons": () => (/* binding */ faCreativeCommons),
+/* harmony export */   "faCreativeCommonsBy": () => (/* binding */ faCreativeCommonsBy),
+/* harmony export */   "faCreativeCommonsNc": () => (/* binding */ faCreativeCommonsNc),
+/* harmony export */   "faCreativeCommonsNcEu": () => (/* binding */ faCreativeCommonsNcEu),
+/* harmony export */   "faCreativeCommonsNcJp": () => (/* binding */ faCreativeCommonsNcJp),
+/* harmony export */   "faCreativeCommonsNd": () => (/* binding */ faCreativeCommonsNd),
+/* harmony export */   "faCreativeCommonsPd": () => (/* binding */ faCreativeCommonsPd),
+/* harmony export */   "faCreativeCommonsPdAlt": () => (/* binding */ faCreativeCommonsPdAlt),
+/* harmony export */   "faCreativeCommonsRemix": () => (/* binding */ faCreativeCommonsRemix),
+/* harmony export */   "faCreativeCommonsSa": () => (/* binding */ faCreativeCommonsSa),
+/* harmony export */   "faCreativeCommonsSampling": () => (/* binding */ faCreativeCommonsSampling),
+/* harmony export */   "faCreativeCommonsSamplingPlus": () => (/* binding */ faCreativeCommonsSamplingPlus),
+/* harmony export */   "faCreativeCommonsShare": () => (/* binding */ faCreativeCommonsShare),
+/* harmony export */   "faCreativeCommonsZero": () => (/* binding */ faCreativeCommonsZero),
+/* harmony export */   "faCriticalRole": () => (/* binding */ faCriticalRole),
+/* harmony export */   "faCss3": () => (/* binding */ faCss3),
+/* harmony export */   "faCss3Alt": () => (/* binding */ faCss3Alt),
+/* harmony export */   "faCuttlefish": () => (/* binding */ faCuttlefish),
+/* harmony export */   "faDAndD": () => (/* binding */ faDAndD),
+/* harmony export */   "faDAndDBeyond": () => (/* binding */ faDAndDBeyond),
+/* harmony export */   "faDailymotion": () => (/* binding */ faDailymotion),
+/* harmony export */   "faDashcube": () => (/* binding */ faDashcube),
+/* harmony export */   "faDeezer": () => (/* binding */ faDeezer),
+/* harmony export */   "faDelicious": () => (/* binding */ faDelicious),
+/* harmony export */   "faDeploydog": () => (/* binding */ faDeploydog),
+/* harmony export */   "faDeskpro": () => (/* binding */ faDeskpro),
+/* harmony export */   "faDev": () => (/* binding */ faDev),
+/* harmony export */   "faDeviantart": () => (/* binding */ faDeviantart),
+/* harmony export */   "faDhl": () => (/* binding */ faDhl),
+/* harmony export */   "faDiaspora": () => (/* binding */ faDiaspora),
+/* harmony export */   "faDigg": () => (/* binding */ faDigg),
+/* harmony export */   "faDigitalOcean": () => (/* binding */ faDigitalOcean),
+/* harmony export */   "faDiscord": () => (/* binding */ faDiscord),
+/* harmony export */   "faDiscourse": () => (/* binding */ faDiscourse),
+/* harmony export */   "faDochub": () => (/* binding */ faDochub),
+/* harmony export */   "faDocker": () => (/* binding */ faDocker),
+/* harmony export */   "faDraft2digital": () => (/* binding */ faDraft2digital),
+/* harmony export */   "faDribbble": () => (/* binding */ faDribbble),
+/* harmony export */   "faDribbbleSquare": () => (/* binding */ faDribbbleSquare),
+/* harmony export */   "faDropbox": () => (/* binding */ faDropbox),
+/* harmony export */   "faDrupal": () => (/* binding */ faDrupal),
+/* harmony export */   "faDyalog": () => (/* binding */ faDyalog),
+/* harmony export */   "faEarlybirds": () => (/* binding */ faEarlybirds),
+/* harmony export */   "faEbay": () => (/* binding */ faEbay),
+/* harmony export */   "faEdge": () => (/* binding */ faEdge),
+/* harmony export */   "faEdgeLegacy": () => (/* binding */ faEdgeLegacy),
+/* harmony export */   "faElementor": () => (/* binding */ faElementor),
+/* harmony export */   "faEllo": () => (/* binding */ faEllo),
+/* harmony export */   "faEmber": () => (/* binding */ faEmber),
+/* harmony export */   "faEmpire": () => (/* binding */ faEmpire),
+/* harmony export */   "faEnvira": () => (/* binding */ faEnvira),
+/* harmony export */   "faErlang": () => (/* binding */ faErlang),
+/* harmony export */   "faEthereum": () => (/* binding */ faEthereum),
+/* harmony export */   "faEtsy": () => (/* binding */ faEtsy),
+/* harmony export */   "faEvernote": () => (/* binding */ faEvernote),
+/* harmony export */   "faExpeditedssl": () => (/* binding */ faExpeditedssl),
+/* harmony export */   "faFacebook": () => (/* binding */ faFacebook),
+/* harmony export */   "faFacebookF": () => (/* binding */ faFacebookF),
+/* harmony export */   "faFacebookMessenger": () => (/* binding */ faFacebookMessenger),
+/* harmony export */   "faFacebookSquare": () => (/* binding */ faFacebookSquare),
+/* harmony export */   "faFantasyFlightGames": () => (/* binding */ faFantasyFlightGames),
+/* harmony export */   "faFedex": () => (/* binding */ faFedex),
+/* harmony export */   "faFedora": () => (/* binding */ faFedora),
+/* harmony export */   "faFigma": () => (/* binding */ faFigma),
+/* harmony export */   "faFirefox": () => (/* binding */ faFirefox),
+/* harmony export */   "faFirefoxBrowser": () => (/* binding */ faFirefoxBrowser),
+/* harmony export */   "faFirstOrder": () => (/* binding */ faFirstOrder),
+/* harmony export */   "faFirstOrderAlt": () => (/* binding */ faFirstOrderAlt),
+/* harmony export */   "faFirstdraft": () => (/* binding */ faFirstdraft),
+/* harmony export */   "faFlickr": () => (/* binding */ faFlickr),
+/* harmony export */   "faFlipboard": () => (/* binding */ faFlipboard),
+/* harmony export */   "faFly": () => (/* binding */ faFly),
+/* harmony export */   "faFontAwesome": () => (/* binding */ faFontAwesome),
+/* harmony export */   "faFontAwesomeAlt": () => (/* binding */ faFontAwesomeAlt),
+/* harmony export */   "faFontAwesomeFlag": () => (/* binding */ faFontAwesomeFlag),
+/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
+/* harmony export */   "faFonticons": () => (/* binding */ faFonticons),
+/* harmony export */   "faFonticonsFi": () => (/* binding */ faFonticonsFi),
+/* harmony export */   "faFortAwesome": () => (/* binding */ faFortAwesome),
+/* harmony export */   "faFortAwesomeAlt": () => (/* binding */ faFortAwesomeAlt),
+/* harmony export */   "faForumbee": () => (/* binding */ faForumbee),
+/* harmony export */   "faFoursquare": () => (/* binding */ faFoursquare),
+/* harmony export */   "faFreeCodeCamp": () => (/* binding */ faFreeCodeCamp),
+/* harmony export */   "faFreebsd": () => (/* binding */ faFreebsd),
+/* harmony export */   "faFulcrum": () => (/* binding */ faFulcrum),
+/* harmony export */   "faGalacticRepublic": () => (/* binding */ faGalacticRepublic),
+/* harmony export */   "faGalacticSenate": () => (/* binding */ faGalacticSenate),
+/* harmony export */   "faGetPocket": () => (/* binding */ faGetPocket),
+/* harmony export */   "faGg": () => (/* binding */ faGg),
+/* harmony export */   "faGgCircle": () => (/* binding */ faGgCircle),
+/* harmony export */   "faGit": () => (/* binding */ faGit),
+/* harmony export */   "faGitAlt": () => (/* binding */ faGitAlt),
+/* harmony export */   "faGitSquare": () => (/* binding */ faGitSquare),
+/* harmony export */   "faGithub": () => (/* binding */ faGithub),
+/* harmony export */   "faGithubAlt": () => (/* binding */ faGithubAlt),
+/* harmony export */   "faGithubSquare": () => (/* binding */ faGithubSquare),
+/* harmony export */   "faGitkraken": () => (/* binding */ faGitkraken),
+/* harmony export */   "faGitlab": () => (/* binding */ faGitlab),
+/* harmony export */   "faGitter": () => (/* binding */ faGitter),
+/* harmony export */   "faGlide": () => (/* binding */ faGlide),
+/* harmony export */   "faGlideG": () => (/* binding */ faGlideG),
+/* harmony export */   "faGofore": () => (/* binding */ faGofore),
+/* harmony export */   "faGoodreads": () => (/* binding */ faGoodreads),
+/* harmony export */   "faGoodreadsG": () => (/* binding */ faGoodreadsG),
+/* harmony export */   "faGoogle": () => (/* binding */ faGoogle),
+/* harmony export */   "faGoogleDrive": () => (/* binding */ faGoogleDrive),
+/* harmony export */   "faGooglePay": () => (/* binding */ faGooglePay),
+/* harmony export */   "faGooglePlay": () => (/* binding */ faGooglePlay),
+/* harmony export */   "faGooglePlus": () => (/* binding */ faGooglePlus),
+/* harmony export */   "faGooglePlusG": () => (/* binding */ faGooglePlusG),
+/* harmony export */   "faGooglePlusSquare": () => (/* binding */ faGooglePlusSquare),
+/* harmony export */   "faGoogleWallet": () => (/* binding */ faGoogleWallet),
+/* harmony export */   "faGratipay": () => (/* binding */ faGratipay),
+/* harmony export */   "faGrav": () => (/* binding */ faGrav),
+/* harmony export */   "faGripfire": () => (/* binding */ faGripfire),
+/* harmony export */   "faGrunt": () => (/* binding */ faGrunt),
+/* harmony export */   "faGuilded": () => (/* binding */ faGuilded),
+/* harmony export */   "faGulp": () => (/* binding */ faGulp),
+/* harmony export */   "faHackerNews": () => (/* binding */ faHackerNews),
+/* harmony export */   "faHackerNewsSquare": () => (/* binding */ faHackerNewsSquare),
+/* harmony export */   "faHackerrank": () => (/* binding */ faHackerrank),
+/* harmony export */   "faHips": () => (/* binding */ faHips),
+/* harmony export */   "faHireAHelper": () => (/* binding */ faHireAHelper),
+/* harmony export */   "faHive": () => (/* binding */ faHive),
+/* harmony export */   "faHooli": () => (/* binding */ faHooli),
+/* harmony export */   "faHornbill": () => (/* binding */ faHornbill),
+/* harmony export */   "faHotjar": () => (/* binding */ faHotjar),
+/* harmony export */   "faHouzz": () => (/* binding */ faHouzz),
+/* harmony export */   "faHtml5": () => (/* binding */ faHtml5),
+/* harmony export */   "faHubspot": () => (/* binding */ faHubspot),
+/* harmony export */   "faIdeal": () => (/* binding */ faIdeal),
+/* harmony export */   "faImdb": () => (/* binding */ faImdb),
+/* harmony export */   "faInnosoft": () => (/* binding */ faInnosoft),
+/* harmony export */   "faInstagram": () => (/* binding */ faInstagram),
+/* harmony export */   "faInstagramSquare": () => (/* binding */ faInstagramSquare),
+/* harmony export */   "faInstalod": () => (/* binding */ faInstalod),
+/* harmony export */   "faIntercom": () => (/* binding */ faIntercom),
+/* harmony export */   "faInternetExplorer": () => (/* binding */ faInternetExplorer),
+/* harmony export */   "faInvision": () => (/* binding */ faInvision),
+/* harmony export */   "faIoxhost": () => (/* binding */ faIoxhost),
+/* harmony export */   "faItchIo": () => (/* binding */ faItchIo),
+/* harmony export */   "faItunes": () => (/* binding */ faItunes),
+/* harmony export */   "faItunesNote": () => (/* binding */ faItunesNote),
+/* harmony export */   "faJava": () => (/* binding */ faJava),
+/* harmony export */   "faJediOrder": () => (/* binding */ faJediOrder),
+/* harmony export */   "faJenkins": () => (/* binding */ faJenkins),
+/* harmony export */   "faJira": () => (/* binding */ faJira),
+/* harmony export */   "faJoget": () => (/* binding */ faJoget),
+/* harmony export */   "faJoomla": () => (/* binding */ faJoomla),
+/* harmony export */   "faJs": () => (/* binding */ faJs),
+/* harmony export */   "faJsSquare": () => (/* binding */ faJsSquare),
+/* harmony export */   "faJsfiddle": () => (/* binding */ faJsfiddle),
+/* harmony export */   "faKaggle": () => (/* binding */ faKaggle),
+/* harmony export */   "faKeybase": () => (/* binding */ faKeybase),
+/* harmony export */   "faKeycdn": () => (/* binding */ faKeycdn),
+/* harmony export */   "faKickstarter": () => (/* binding */ faKickstarter),
+/* harmony export */   "faKickstarterK": () => (/* binding */ faKickstarterK),
+/* harmony export */   "faKorvue": () => (/* binding */ faKorvue),
+/* harmony export */   "faLaravel": () => (/* binding */ faLaravel),
+/* harmony export */   "faLastfm": () => (/* binding */ faLastfm),
+/* harmony export */   "faLastfmSquare": () => (/* binding */ faLastfmSquare),
+/* harmony export */   "faLeanpub": () => (/* binding */ faLeanpub),
+/* harmony export */   "faLess": () => (/* binding */ faLess),
+/* harmony export */   "faLine": () => (/* binding */ faLine),
+/* harmony export */   "faLinkedin": () => (/* binding */ faLinkedin),
+/* harmony export */   "faLinkedinIn": () => (/* binding */ faLinkedinIn),
+/* harmony export */   "faLinode": () => (/* binding */ faLinode),
+/* harmony export */   "faLinux": () => (/* binding */ faLinux),
+/* harmony export */   "faLyft": () => (/* binding */ faLyft),
+/* harmony export */   "faMagento": () => (/* binding */ faMagento),
+/* harmony export */   "faMailchimp": () => (/* binding */ faMailchimp),
+/* harmony export */   "faMandalorian": () => (/* binding */ faMandalorian),
+/* harmony export */   "faMarkdown": () => (/* binding */ faMarkdown),
+/* harmony export */   "faMastodon": () => (/* binding */ faMastodon),
+/* harmony export */   "faMaxcdn": () => (/* binding */ faMaxcdn),
+/* harmony export */   "faMdb": () => (/* binding */ faMdb),
+/* harmony export */   "faMedapps": () => (/* binding */ faMedapps),
+/* harmony export */   "faMedium": () => (/* binding */ faMedium),
+/* harmony export */   "faMediumM": () => (/* binding */ faMediumM),
+/* harmony export */   "faMedrt": () => (/* binding */ faMedrt),
+/* harmony export */   "faMeetup": () => (/* binding */ faMeetup),
+/* harmony export */   "faMegaport": () => (/* binding */ faMegaport),
+/* harmony export */   "faMendeley": () => (/* binding */ faMendeley),
+/* harmony export */   "faMicroblog": () => (/* binding */ faMicroblog),
+/* harmony export */   "faMicrosoft": () => (/* binding */ faMicrosoft),
+/* harmony export */   "faMix": () => (/* binding */ faMix),
+/* harmony export */   "faMixcloud": () => (/* binding */ faMixcloud),
+/* harmony export */   "faMixer": () => (/* binding */ faMixer),
+/* harmony export */   "faMizuni": () => (/* binding */ faMizuni),
+/* harmony export */   "faModx": () => (/* binding */ faModx),
+/* harmony export */   "faMonero": () => (/* binding */ faMonero),
+/* harmony export */   "faNapster": () => (/* binding */ faNapster),
+/* harmony export */   "faNeos": () => (/* binding */ faNeos),
+/* harmony export */   "faNimblr": () => (/* binding */ faNimblr),
+/* harmony export */   "faNode": () => (/* binding */ faNode),
+/* harmony export */   "faNodeJs": () => (/* binding */ faNodeJs),
+/* harmony export */   "faNpm": () => (/* binding */ faNpm),
+/* harmony export */   "faNs8": () => (/* binding */ faNs8),
+/* harmony export */   "faNutritionix": () => (/* binding */ faNutritionix),
+/* harmony export */   "faOctopusDeploy": () => (/* binding */ faOctopusDeploy),
+/* harmony export */   "faOdnoklassniki": () => (/* binding */ faOdnoklassniki),
+/* harmony export */   "faOdnoklassnikiSquare": () => (/* binding */ faOdnoklassnikiSquare),
+/* harmony export */   "faOldRepublic": () => (/* binding */ faOldRepublic),
+/* harmony export */   "faOpencart": () => (/* binding */ faOpencart),
+/* harmony export */   "faOpenid": () => (/* binding */ faOpenid),
+/* harmony export */   "faOpera": () => (/* binding */ faOpera),
+/* harmony export */   "faOptinMonster": () => (/* binding */ faOptinMonster),
+/* harmony export */   "faOrcid": () => (/* binding */ faOrcid),
+/* harmony export */   "faOsi": () => (/* binding */ faOsi),
+/* harmony export */   "faPage4": () => (/* binding */ faPage4),
+/* harmony export */   "faPagelines": () => (/* binding */ faPagelines),
+/* harmony export */   "faPalfed": () => (/* binding */ faPalfed),
+/* harmony export */   "faPatreon": () => (/* binding */ faPatreon),
+/* harmony export */   "faPaypal": () => (/* binding */ faPaypal),
+/* harmony export */   "faPennyArcade": () => (/* binding */ faPennyArcade),
+/* harmony export */   "faPerbyte": () => (/* binding */ faPerbyte),
+/* harmony export */   "faPeriscope": () => (/* binding */ faPeriscope),
+/* harmony export */   "faPhabricator": () => (/* binding */ faPhabricator),
+/* harmony export */   "faPhoenixFramework": () => (/* binding */ faPhoenixFramework),
+/* harmony export */   "faPhoenixSquadron": () => (/* binding */ faPhoenixSquadron),
+/* harmony export */   "faPhp": () => (/* binding */ faPhp),
+/* harmony export */   "faPiedPiper": () => (/* binding */ faPiedPiper),
+/* harmony export */   "faPiedPiperAlt": () => (/* binding */ faPiedPiperAlt),
+/* harmony export */   "faPiedPiperHat": () => (/* binding */ faPiedPiperHat),
+/* harmony export */   "faPiedPiperPp": () => (/* binding */ faPiedPiperPp),
+/* harmony export */   "faPiedPiperSquare": () => (/* binding */ faPiedPiperSquare),
+/* harmony export */   "faPinterest": () => (/* binding */ faPinterest),
+/* harmony export */   "faPinterestP": () => (/* binding */ faPinterestP),
+/* harmony export */   "faPinterestSquare": () => (/* binding */ faPinterestSquare),
+/* harmony export */   "faPlaystation": () => (/* binding */ faPlaystation),
+/* harmony export */   "faProductHunt": () => (/* binding */ faProductHunt),
+/* harmony export */   "faPushed": () => (/* binding */ faPushed),
+/* harmony export */   "faPython": () => (/* binding */ faPython),
+/* harmony export */   "faQq": () => (/* binding */ faQq),
+/* harmony export */   "faQuinscape": () => (/* binding */ faQuinscape),
+/* harmony export */   "faQuora": () => (/* binding */ faQuora),
+/* harmony export */   "faRProject": () => (/* binding */ faRProject),
+/* harmony export */   "faRaspberryPi": () => (/* binding */ faRaspberryPi),
+/* harmony export */   "faRavelry": () => (/* binding */ faRavelry),
+/* harmony export */   "faReact": () => (/* binding */ faReact),
+/* harmony export */   "faReacteurope": () => (/* binding */ faReacteurope),
+/* harmony export */   "faReadme": () => (/* binding */ faReadme),
+/* harmony export */   "faRebel": () => (/* binding */ faRebel),
+/* harmony export */   "faRedRiver": () => (/* binding */ faRedRiver),
+/* harmony export */   "faReddit": () => (/* binding */ faReddit),
+/* harmony export */   "faRedditAlien": () => (/* binding */ faRedditAlien),
+/* harmony export */   "faRedditSquare": () => (/* binding */ faRedditSquare),
+/* harmony export */   "faRedhat": () => (/* binding */ faRedhat),
+/* harmony export */   "faRenren": () => (/* binding */ faRenren),
+/* harmony export */   "faReplyd": () => (/* binding */ faReplyd),
+/* harmony export */   "faResearchgate": () => (/* binding */ faResearchgate),
+/* harmony export */   "faResolving": () => (/* binding */ faResolving),
+/* harmony export */   "faRev": () => (/* binding */ faRev),
+/* harmony export */   "faRocketchat": () => (/* binding */ faRocketchat),
+/* harmony export */   "faRockrms": () => (/* binding */ faRockrms),
+/* harmony export */   "faRust": () => (/* binding */ faRust),
+/* harmony export */   "faSafari": () => (/* binding */ faSafari),
+/* harmony export */   "faSalesforce": () => (/* binding */ faSalesforce),
+/* harmony export */   "faSass": () => (/* binding */ faSass),
+/* harmony export */   "faSchlix": () => (/* binding */ faSchlix),
+/* harmony export */   "faScribd": () => (/* binding */ faScribd),
+/* harmony export */   "faSearchengin": () => (/* binding */ faSearchengin),
+/* harmony export */   "faSellcast": () => (/* binding */ faSellcast),
+/* harmony export */   "faSellsy": () => (/* binding */ faSellsy),
+/* harmony export */   "faServicestack": () => (/* binding */ faServicestack),
+/* harmony export */   "faShirtsinbulk": () => (/* binding */ faShirtsinbulk),
+/* harmony export */   "faShopify": () => (/* binding */ faShopify),
+/* harmony export */   "faShopware": () => (/* binding */ faShopware),
+/* harmony export */   "faSimplybuilt": () => (/* binding */ faSimplybuilt),
+/* harmony export */   "faSistrix": () => (/* binding */ faSistrix),
+/* harmony export */   "faSith": () => (/* binding */ faSith),
+/* harmony export */   "faSketch": () => (/* binding */ faSketch),
+/* harmony export */   "faSkyatlas": () => (/* binding */ faSkyatlas),
+/* harmony export */   "faSkype": () => (/* binding */ faSkype),
+/* harmony export */   "faSlack": () => (/* binding */ faSlack),
+/* harmony export */   "faSlackHash": () => (/* binding */ faSlackHash),
+/* harmony export */   "faSlideshare": () => (/* binding */ faSlideshare),
+/* harmony export */   "faSnapchat": () => (/* binding */ faSnapchat),
+/* harmony export */   "faSnapchatGhost": () => (/* binding */ faSnapchatGhost),
+/* harmony export */   "faSnapchatSquare": () => (/* binding */ faSnapchatSquare),
+/* harmony export */   "faSoundcloud": () => (/* binding */ faSoundcloud),
+/* harmony export */   "faSourcetree": () => (/* binding */ faSourcetree),
+/* harmony export */   "faSpeakap": () => (/* binding */ faSpeakap),
+/* harmony export */   "faSpeakerDeck": () => (/* binding */ faSpeakerDeck),
+/* harmony export */   "faSpotify": () => (/* binding */ faSpotify),
+/* harmony export */   "faSquarespace": () => (/* binding */ faSquarespace),
+/* harmony export */   "faStackExchange": () => (/* binding */ faStackExchange),
+/* harmony export */   "faStackOverflow": () => (/* binding */ faStackOverflow),
+/* harmony export */   "faStackpath": () => (/* binding */ faStackpath),
+/* harmony export */   "faStaylinked": () => (/* binding */ faStaylinked),
+/* harmony export */   "faSteam": () => (/* binding */ faSteam),
+/* harmony export */   "faSteamSquare": () => (/* binding */ faSteamSquare),
+/* harmony export */   "faSteamSymbol": () => (/* binding */ faSteamSymbol),
+/* harmony export */   "faStickerMule": () => (/* binding */ faStickerMule),
+/* harmony export */   "faStrava": () => (/* binding */ faStrava),
+/* harmony export */   "faStripe": () => (/* binding */ faStripe),
+/* harmony export */   "faStripeS": () => (/* binding */ faStripeS),
+/* harmony export */   "faStudiovinari": () => (/* binding */ faStudiovinari),
+/* harmony export */   "faStumbleupon": () => (/* binding */ faStumbleupon),
+/* harmony export */   "faStumbleuponCircle": () => (/* binding */ faStumbleuponCircle),
+/* harmony export */   "faSuperpowers": () => (/* binding */ faSuperpowers),
+/* harmony export */   "faSupple": () => (/* binding */ faSupple),
+/* harmony export */   "faSuse": () => (/* binding */ faSuse),
+/* harmony export */   "faSwift": () => (/* binding */ faSwift),
+/* harmony export */   "faSymfony": () => (/* binding */ faSymfony),
+/* harmony export */   "faTeamspeak": () => (/* binding */ faTeamspeak),
+/* harmony export */   "faTelegram": () => (/* binding */ faTelegram),
+/* harmony export */   "faTelegramPlane": () => (/* binding */ faTelegramPlane),
+/* harmony export */   "faTencentWeibo": () => (/* binding */ faTencentWeibo),
+/* harmony export */   "faTheRedYeti": () => (/* binding */ faTheRedYeti),
+/* harmony export */   "faThemeco": () => (/* binding */ faThemeco),
+/* harmony export */   "faThemeisle": () => (/* binding */ faThemeisle),
+/* harmony export */   "faThinkPeaks": () => (/* binding */ faThinkPeaks),
+/* harmony export */   "faTiktok": () => (/* binding */ faTiktok),
+/* harmony export */   "faTradeFederation": () => (/* binding */ faTradeFederation),
+/* harmony export */   "faTrello": () => (/* binding */ faTrello),
+/* harmony export */   "faTumblr": () => (/* binding */ faTumblr),
+/* harmony export */   "faTumblrSquare": () => (/* binding */ faTumblrSquare),
+/* harmony export */   "faTwitch": () => (/* binding */ faTwitch),
+/* harmony export */   "faTwitter": () => (/* binding */ faTwitter),
+/* harmony export */   "faTwitterSquare": () => (/* binding */ faTwitterSquare),
+/* harmony export */   "faTypo3": () => (/* binding */ faTypo3),
+/* harmony export */   "faUber": () => (/* binding */ faUber),
+/* harmony export */   "faUbuntu": () => (/* binding */ faUbuntu),
+/* harmony export */   "faUikit": () => (/* binding */ faUikit),
+/* harmony export */   "faUmbraco": () => (/* binding */ faUmbraco),
+/* harmony export */   "faUncharted": () => (/* binding */ faUncharted),
+/* harmony export */   "faUniregistry": () => (/* binding */ faUniregistry),
+/* harmony export */   "faUnity": () => (/* binding */ faUnity),
+/* harmony export */   "faUnsplash": () => (/* binding */ faUnsplash),
+/* harmony export */   "faUntappd": () => (/* binding */ faUntappd),
+/* harmony export */   "faUps": () => (/* binding */ faUps),
+/* harmony export */   "faUsb": () => (/* binding */ faUsb),
+/* harmony export */   "faUsps": () => (/* binding */ faUsps),
+/* harmony export */   "faUssunnah": () => (/* binding */ faUssunnah),
+/* harmony export */   "faVaadin": () => (/* binding */ faVaadin),
+/* harmony export */   "faViacoin": () => (/* binding */ faViacoin),
+/* harmony export */   "faViadeo": () => (/* binding */ faViadeo),
+/* harmony export */   "faViadeoSquare": () => (/* binding */ faViadeoSquare),
+/* harmony export */   "faViber": () => (/* binding */ faViber),
+/* harmony export */   "faVimeo": () => (/* binding */ faVimeo),
+/* harmony export */   "faVimeoSquare": () => (/* binding */ faVimeoSquare),
+/* harmony export */   "faVimeoV": () => (/* binding */ faVimeoV),
+/* harmony export */   "faVine": () => (/* binding */ faVine),
+/* harmony export */   "faVk": () => (/* binding */ faVk),
+/* harmony export */   "faVnv": () => (/* binding */ faVnv),
+/* harmony export */   "faVuejs": () => (/* binding */ faVuejs),
+/* harmony export */   "faWatchmanMonitoring": () => (/* binding */ faWatchmanMonitoring),
+/* harmony export */   "faWaze": () => (/* binding */ faWaze),
+/* harmony export */   "faWeebly": () => (/* binding */ faWeebly),
+/* harmony export */   "faWeibo": () => (/* binding */ faWeibo),
+/* harmony export */   "faWeixin": () => (/* binding */ faWeixin),
+/* harmony export */   "faWhatsapp": () => (/* binding */ faWhatsapp),
+/* harmony export */   "faWhatsappSquare": () => (/* binding */ faWhatsappSquare),
+/* harmony export */   "faWhmcs": () => (/* binding */ faWhmcs),
+/* harmony export */   "faWikipediaW": () => (/* binding */ faWikipediaW),
+/* harmony export */   "faWindows": () => (/* binding */ faWindows),
+/* harmony export */   "faWix": () => (/* binding */ faWix),
+/* harmony export */   "faWizardsOfTheCoast": () => (/* binding */ faWizardsOfTheCoast),
+/* harmony export */   "faWodu": () => (/* binding */ faWodu),
+/* harmony export */   "faWolfPackBattalion": () => (/* binding */ faWolfPackBattalion),
+/* harmony export */   "faWordpress": () => (/* binding */ faWordpress),
+/* harmony export */   "faWordpressSimple": () => (/* binding */ faWordpressSimple),
+/* harmony export */   "faWpbeginner": () => (/* binding */ faWpbeginner),
+/* harmony export */   "faWpexplorer": () => (/* binding */ faWpexplorer),
+/* harmony export */   "faWpforms": () => (/* binding */ faWpforms),
+/* harmony export */   "faWpressr": () => (/* binding */ faWpressr),
+/* harmony export */   "faXbox": () => (/* binding */ faXbox),
+/* harmony export */   "faXing": () => (/* binding */ faXing),
+/* harmony export */   "faXingSquare": () => (/* binding */ faXingSquare),
+/* harmony export */   "faYCombinator": () => (/* binding */ faYCombinator),
+/* harmony export */   "faYahoo": () => (/* binding */ faYahoo),
+/* harmony export */   "faYammer": () => (/* binding */ faYammer),
+/* harmony export */   "faYandex": () => (/* binding */ faYandex),
+/* harmony export */   "faYandexInternational": () => (/* binding */ faYandexInternational),
+/* harmony export */   "faYarn": () => (/* binding */ faYarn),
+/* harmony export */   "faYelp": () => (/* binding */ faYelp),
+/* harmony export */   "faYoast": () => (/* binding */ faYoast),
+/* harmony export */   "faYoutube": () => (/* binding */ faYoutube),
+/* harmony export */   "faYoutubeSquare": () => (/* binding */ faYoutubeSquare),
+/* harmony export */   "faZhihu": () => (/* binding */ faZhihu)
 /* harmony export */ });
 /*!
- * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 var prefix = "fab";
@@ -3782,7 +3158,7 @@ var faBluetoothB = {
 var faBootstrap = {
   prefix: 'fab',
   iconName: 'bootstrap',
-  icon: [448, 512, [], "f836", "M292.3 311.93c0 42.41-39.72 41.43-43.92 41.43h-80.89v-81.69h80.89c42.56 0 43.92 31.9 43.92 40.26zm-50.15-73.13c.67 0 38.44 1 38.44-36.31 0-15.52-3.51-35.87-38.44-35.87h-74.66v72.18h74.66zM448 106.67v298.66A74.89 74.89 0 0 1 373.33 480H74.67A74.89 74.89 0 0 1 0 405.33V106.67A74.89 74.89 0 0 1 74.67 32h298.66A74.89 74.89 0 0 1 448 106.67zM338.05 317.86c0-21.57-6.65-58.29-49.05-67.35v-.73c22.91-9.78 37.34-28.25 37.34-55.64 0-7 2-64.78-77.6-64.78h-127v261.33c128.23 0 139.87 1.68 163.6-5.71 14.21-4.42 52.71-17.98 52.71-67.12z"]
+  icon: [576, 512, [], "f836", "M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"]
 };
 var faBtc = {
   prefix: 'fab',
@@ -4102,7 +3478,7 @@ var faDigitalOcean = {
 var faDiscord = {
   prefix: 'fab',
   iconName: 'discord',
-  icon: [448, 512, [], "f392", "M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"]
+  icon: [640, 512, [], "f392", "M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"]
 };
 var faDiscourse = {
   prefix: 'fab',
@@ -4257,7 +3633,7 @@ var faFedora = {
 var faFigma = {
   prefix: 'fab',
   iconName: 'figma',
-  icon: [384, 512, [], "f799", "M277 170.7A85.35 85.35 0 0 0 277 0H106.3a85.3 85.3 0 0 0 0 170.6 85.35 85.35 0 0 0 0 170.7 85.35 85.35 0 1 0 85.3 85.4v-256zm0 0a85.3 85.3 0 1 0 85.3 85.3 85.31 85.31 0 0 0-85.3-85.3z"]
+  icon: [384, 512, [], "f799", "M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z"]
 };
 var faFirefox = {
   prefix: 'fab',
@@ -4302,22 +3678,22 @@ var faFly = {
 var faFontAwesome = {
   prefix: 'fab',
   iconName: 'font-awesome',
-  icon: [448, 512, [], "f2b4", "M397.8 32H50.2C22.7 32 0 54.7 0 82.2v347.6C0 457.3 22.7 480 50.2 480h347.6c27.5 0 50.2-22.7 50.2-50.2V82.2c0-27.5-22.7-50.2-50.2-50.2zm-45.4 284.3c0 4.2-3.6 6-7.8 7.8-16.7 7.2-34.6 13.7-53.8 13.7-26.9 0-39.4-16.7-71.7-16.7-23.3 0-47.8 8.4-67.5 17.3-1.2.6-2.4.6-3.6 1.2V385c0 1.8 0 3.6-.6 4.8v1.2c-2.4 8.4-10.2 14.3-19.1 14.3-11.3 0-20.3-9-20.3-20.3V166.4c-7.8-6-13.1-15.5-13.1-26.3 0-18.5 14.9-33.5 33.5-33.5 18.5 0 33.5 14.9 33.5 33.5 0 10.8-4.8 20.3-13.1 26.3v18.5c1.8-.6 3.6-1.2 5.4-2.4 18.5-7.8 40.6-14.3 61.5-14.3 22.7 0 40.6 6 60.9 13.7 4.2 1.8 8.4 2.4 13.1 2.4 22.7 0 47.8-16.1 53.8-16.1 4.8 0 9 3.6 9 7.8v140.3z"]
+  icon: [448, 512, [], "f2b4", "M400 32H48A48 48 0 0 0 0 80V432a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V80A48 48 0 0 0 400 32ZM336 312c-31.6 11.2-41.2 16-59.8 16-31.4 0-43.2-16-74.6-16a80 80 0 0 0-25.6 4V284a85.9 85.9 0 0 1 25.6-4c31.2 0 43.2 16 74.6 16 10.2 0 17.8-1.4 27.8-4.6v-96c-10 3.2-17.6 4.6-27.8 4.6-31.4 0-43.2-16-74.6-16-25.4 0-37.4 10.4-57.6 14.4V352a16 16 0 0 1-32 0V160a16 16 0 0 1 32 0v6.4c20.2-4 32.2-14.4 57.6-14.4 31.2 0 43.2 16 74.6 16 18.6 0 28.2-4.8 59.8-16Z"]
 };
 var faFontAwesomeAlt = {
   prefix: 'fab',
   iconName: 'font-awesome-alt',
-  icon: [448, 512, [], "f35c", "M339.3 171.2c-6 0-29.9 15.5-52.6 15.5-4.2 0-8.4-.6-12.5-2.4-19.7-7.8-37-13.7-59.1-13.7-20.3 0-41.8 6.6-59.7 13.7-1.8.6-3.6 1.2-4.8 1.8v-17.9c7.8-6 12.5-14.9 12.5-25.7 0-17.9-14.3-32.3-32.3-32.3s-32.3 14.3-32.3 32.3c0 10.2 4.8 19.7 12.5 25.7v212.1c0 10.8 9 19.7 19.7 19.7 9 0 16.1-6 18.5-13.7V385c.6-1.8.6-3 .6-4.8V336c1.2 0 2.4-.6 3-1.2 19.7-8.4 43-16.7 65.7-16.7 31.1 0 43 16.1 69.3 16.1 18.5 0 36.4-6.6 52-13.7 4.2-1.8 7.2-3.6 7.2-7.8V178.3c1.8-4.1-2.3-7.1-7.7-7.1zM397.8 32H50.2C22.7 32 0 54.7 0 82.2v347.6C0 457.3 22.7 480 50.2 480h347.6c27.5 0 50.2-22.7 50.2-50.2V82.2c0-27.5-22.7-50.2-50.2-50.2zm14.3 397.7c0 7.8-6.6 14.3-14.3 14.3H50.2c-7.8 0-14.3-6.6-14.3-14.3V82.2c0-7.8 6.6-14.3 14.3-14.3h347.6v-.1c7.8 0 14.3 6.6 14.3 14.3z"]
+  icon: [448, 512, [], "f35c", "M400 32H48A48 48 0 0 0 0 80V432a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V80A48 48 0 0 0 400 32Zm16 400a16 16 0 0 1-16 16H48a16 16 0 0 1-16-16V80A16 16 0 0 1 48 64H400a16 16 0 0 1 16 16ZM201.6 152c-25.4 0-37.4 10.4-57.6 14.4V160a16 16 0 0 0-32 0V352a16 16 0 0 0 32 0V198.4c20.2-4 32.2-14.4 57.6-14.4 31.4 0 43.2 16 74.6 16 10.2 0 17.8-1.4 27.8-4.6v96c-10 3.2-17.6 4.6-27.8 4.6-31.4 0-43.4-16-74.6-16a85.9 85.9 0 0 0-25.6 4v32a80 80 0 0 1 25.6-4c31.4 0 43.2 16 74.6 16 18.6 0 28.2-4.8 59.8-16V152c-31.6 11.2-41.2 16-59.8 16C244.8 168 232.8 152 201.6 152Z"]
 };
 var faFontAwesomeFlag = {
   prefix: 'fab',
   iconName: 'font-awesome-flag',
-  icon: [448, 512, [], "f425", "M444.373 359.424c0 7.168-6.144 10.24-13.312 13.312-28.672 12.288-59.392 23.552-92.16 23.552-46.08 0-67.584-28.672-122.88-28.672-39.936 0-81.92 14.336-115.712 29.696-2.048 1.024-4.096 1.024-6.144 2.048v77.824c0 21.405-16.122 34.816-33.792 34.816-19.456 0-34.816-15.36-34.816-34.816V102.4C12.245 92.16 3.029 75.776 3.029 57.344 3.029 25.6 28.629 0 60.373 0s57.344 25.6 57.344 57.344c0 18.432-8.192 34.816-22.528 45.056v31.744c4.124-1.374 58.768-28.672 114.688-28.672 65.27 0 97.676 27.648 126.976 27.648 38.912 0 81.92-27.648 92.16-27.648 8.192 0 15.36 6.144 15.36 13.312v240.64z"]
+  icon: [448, 512, [], "f425", "M448 48V384c-63 23-82 32-119 32-63 0-87-32-150-32-20 0-36 4-51 8V328c15-4 31-8 51-8 63 0 87 32 150 32 20 0 35-3 55-9V135c-20 6-35 9-55 9-63 0-87-32-150-32-51 0-75 21-115 29V448a31.6 31.6 0 0 1-32 32A31.6 31.6 0 0 1 0 448V64A31.6 31.6 0 0 1 32 32 31.6 31.6 0 0 1 64 64V77c40-8 64-29 115-29 63 0 87 32 150 32C366 80 385 71 448 48Z"]
 };
 var faFontAwesomeLogoFull = {
   prefix: 'fab',
   iconName: 'font-awesome-logo-full',
-  icon: [3992, 512, ["Font Awesome"], "f4e6", "M454.6 0H57.4C25.9 0 0 25.9 0 57.4v397.3C0 486.1 25.9 512 57.4 512h397.3c31.4 0 57.4-25.9 57.4-57.4V57.4C512 25.9 486.1 0 454.6 0zm-58.9 324.9c0 4.8-4.1 6.9-8.9 8.9-19.2 8.1-39.7 15.7-61.5 15.7-40.5 0-68.7-44.8-163.2 2.5v51.8c0 30.3-45.7 30.2-45.7 0v-250c-9-7-15-17.9-15-30.3 0-21 17.1-38.2 38.2-38.2 21 0 38.2 17.1 38.2 38.2 0 12.2-5.8 23.2-14.9 30.2v21c37.1-12 65.5-34.4 146.1-3.4 26.6 11.4 68.7-15.7 76.5-15.7 5.5 0 10.3 4.1 10.3 8.9v160.4zm432.9-174.2h-137v70.1H825c39.8 0 40.4 62.2 0 62.2H691.6v105.6c0 45.5-70.7 46.4-70.7 0V128.3c0-22 18-39.8 39.8-39.8h167.8c39.6 0 40.5 62.2.1 62.2zm191.1 23.4c-169.3 0-169.1 252.4 0 252.4 169.9 0 169.9-252.4 0-252.4zm0 196.1c-81.6 0-82.1-139.8 0-139.8 82.5 0 82.4 139.8 0 139.8zm372.4 53.4c-17.5 0-31.4-13.9-31.4-31.4v-117c0-62.4-72.6-52.5-99.1-16.4v133.4c0 41.5-63.3 41.8-63.3 0V208c0-40 63.1-41.6 63.1 0v3.4c43.3-51.6 162.4-60.4 162.4 39.3v141.5c.3 30.4-31.5 31.4-31.7 31.4zm179.7 2.9c-44.3 0-68.3-22.9-68.3-65.8V235.2H1488c-35.6 0-36.7-55.3 0-55.3h15.5v-37.3c0-41.3 63.8-42.1 63.8 0v37.5h24.9c35.4 0 35.7 55.3 0 55.3h-24.9v108.5c0 29.6 26.1 26.3 27.4 26.3 31.4 0 52.6 56.3-22.9 56.3zM1992 123c-19.5-50.2-95.5-50-114.5 0-107.3 275.7-99.5 252.7-99.5 262.8 0 42.8 58.3 51.2 72.1 14.4l13.5-35.9H2006l13 35.9c14.2 37.7 72.1 27.2 72.1-14.4 0-10.1 5.3 6.8-99.1-262.8zm-108.9 179.1l51.7-142.9 51.8 142.9h-103.5zm591.3-85.6l-53.7 176.3c-12.4 41.2-72 41-84 0l-42.3-135.9-42.3 135.9c-12.4 40.9-72 41.2-84.5 0l-54.2-176.3c-12.5-39.4 49.8-56.1 60.2-16.9L2213 342l45.3-139.5c10.9-32.7 59.6-34.7 71.2 0l45.3 139.5 39.3-142.4c10.3-38.3 72.6-23.8 60.3 16.9zm275.4 75.1c0-42.4-33.9-117.5-119.5-117.5-73.2 0-124.4 56.3-124.4 126 0 77.2 55.3 126.4 128.5 126.4 31.7 0 93-11.5 93-39.8 0-18.3-21.1-31.5-39.3-22.4-49.4 26.2-109 8.4-115.9-43.8h148.3c16.3 0 29.3-13.4 29.3-28.9zM2571 277.7c9.5-73.4 113.9-68.6 118.6 0H2571zm316.7 148.8c-31.4 0-81.6-10.5-96.6-31.9-12.4-17 2.5-39.8 21.8-39.8 16.3 0 36.8 22.9 77.7 22.9 27.4 0 40.4-11 40.4-25.8 0-39.8-142.9-7.4-142.9-102 0-40.4 35.3-75.7 98.6-75.7 31.4 0 74.1 9.9 87.6 29.4 10.8 14.8-1.4 36.2-20.9 36.2-15.1 0-26.7-17.3-66.2-17.3-22.9 0-37.8 10.5-37.8 23.8 0 35.9 142.4 6 142.4 103.1-.1 43.7-37.4 77.1-104.1 77.1zm266.8-252.4c-169.3 0-169.1 252.4 0 252.4 170.1 0 169.6-252.4 0-252.4zm0 196.1c-81.8 0-82-139.8 0-139.8 82.5 0 82.4 139.8 0 139.8zm476.9 22V268.7c0-53.8-61.4-45.8-85.7-10.5v134c0 41.3-63.8 42.1-63.8 0V268.7c0-52.1-59.5-47.4-85.7-10.1v133.6c0 41.5-63.3 41.8-63.3 0V208c0-40 63.1-41.6 63.1 0v3.4c9.9-14.4 41.8-37.3 78.6-37.3 35.3 0 57.7 16.4 66.7 43.8 13.9-21.8 45.8-43.8 82.6-43.8 44.3 0 70.7 23.4 70.7 72.7v145.3c.5 17.3-13.5 31.4-31.9 31.4 3.5.1-31.3 1.1-31.3-31.3zM3992 291.6c0-42.4-32.4-117.5-117.9-117.5-73.2 0-127.5 56.3-127.5 126 0 77.2 58.3 126.4 131.6 126.4 31.7 0 91.5-11.5 91.5-39.8 0-18.3-21.1-31.5-39.3-22.4-49.4 26.2-110.5 8.4-117.5-43.8h149.8c16.3 0 29.1-13.4 29.3-28.9zm-180.5-13.9c9.7-74.4 115.9-68.3 120.1 0h-120.1z"]
+  icon: [3992, 512, ["Font Awesome"], "f4e6", "M1209.7 156.5c-57.8 0-102 43.9-102 99.1 0 56 44.6 99.1 102 99.1 57.4 0 102-43.1 102-99.1C1311.7 200.4 1267.5 156.5 1209.7 156.5Zm0 152.7c-35.1 0-51.8-27.4-51.8-53.2 0-25.8 16.7-53.2 51.8-53.2 35.1 0 51.8 27.8 51.8 53.2C1261.1 281.8 1244.8 309.2 1209.7 309.2Zm962.1-136.1c-4.4-10.9-12.3-16.5-23.5-16.5s-19.1 5.6-23.5 16.5l-59.4 145.8c-7.2 17.7 2.8 27.4 4.4 29a24.6 24.6 0 0 0 17.5 6.8c10.8 0 18.7-6 23.1-18.1l4-10.1h67.7l4 10.1c4.8 12.1 12.3 18.1 23.1 18.1a24.6 24.6 0 0 0 17.5-6.8c10-10.1 6.8-22.6 4.4-29Zm-43 113.6 19.1-56 19.1 56Zm-574.5-130.1c-14.3 0-24.7 10.9-24.7 25.4v76.5l-68.5-85.8c-4.4-5.6-11.6-16.1-25.5-16.1-19.1 0-24.3 17.7-24.3 25.4V329.7c0 14.1 10.4 25.4 24.7 25.4 14.3 0 24.7-10.9 24.7-25.4V252.8l68.9 86.2c4.8 5.6 11.6 16.1 25.5 16.1 19.1 0 23.9-17.3 23.9-25.4V181.9C1579 167.4 1568.6 156.5 1554.3 156.5Zm-554.1 1.6H916.5c-19.9 0-25.1 17.3-25.1 25.4V328.1c0 19.7 16.7 25.4 24.7 25.4 8 0 24.7-5.2 24.7-25.4V285h44.6c12.8 0 22.7-9.3 22.7-22.6 0-17.7-15.5-22.1-22.7-22.1H940.8V203.6h59.4c12.8 0 22.7-9.3 22.7-22.6C1022.9 163 1007.3 158.1 1000.2 158.1Zm815.1 0H1691.7c-7.2 0-22.7 4.4-22.7 22.2 0 13.3 10 22.6 22.7 22.6h37V327.7c0 14.1 10.4 25.4 24.7 25.4 14.3 0 24.7-10.9 24.7-25.4V202.8h37c12.7 0 22.7-9.3 22.7-22.6C1837.9 163 1822.4 158.1 1815.2 158.1Zm1789.5-1.6c-9.6 0-17.5 6-25.1 18.1l-46.6 76.1L3486.4 174.6q-10.8-18.1-25.1-18.1c-19.5 0-24.7 18.1-24.7 25.8V329.7c0 14.1 10.4 25.4 24.7 25.4s24.7-10.9 24.7-25.4V262.8L3510.7 302.7c6.4 10.1 13.9 15.3 22.3 15.3 8.8 0 15.9-5.2 22.3-15.3l24.7-39.9v66.9c0 14.1 10.3 25.4 24.7 25.4 14.3 0 24.7-10.9 24.7-25.4V182.3C3629.4 174.2 3624.6 156.5 3604.7 156.5Zm248.6 149.8h-65.7V272.9h39.4c11.9 0 21.1-8.9 21.1-20.9 0-12.1-9.2-20.9-21.1-20.9h-39.4V204.8h62.1c12.8 0 22.7-9.3 22.7-22.6 0-17.7-15.6-22.2-22.7-22.2h-86.4c-19.9 0-25.1 17.3-25.1 25.4V326.5c0 8.1 5.2 25.4 25.1 25.4h90c12.8 0 22.7-9.3 22.7-22.6C3876 311.2 3860.5 306.3 3853.3 306.3ZM3235 156.5c-57.8 0-102 43.9-102 99.1 0 56 44.6 99.1 102 99.1 57.4 0 102-43.1 102-99.1C3337 200.4 3292.8 156.5 3235 156.5Zm0 152.7c-35.1 0-51.8-27.4-51.8-53.2 0-25.8 16.7-53.2 51.8-53.2 35.1 0 51.8 27.8 51.8 53.2C3286.8 281.8 3270.1 309.2 3235 309.2ZM2550.2 156.5c-11.2 0-19.1 5.6-23.1 16.5l-34.3 94.7-31.5-92.2c-4.4-12.5-12.3-18.9-24.3-18.9-11.9 0-19.9 6.4-24.3 18.9l-31.5 92.2-34.3-95.5q-5.4-15.7-22.7-15.7c-6.8 0-12.3 2.4-17.5 7.3-5.2 5.2-10.8 14.5-4.8 28.6l55.8 145.8c4 11.3 11.6 16.9 23.1 16.9q16.7 0 22.7-16.9l33.5-91.8 33.5 91.8q6 16.9 22.7 16.9c11.2 0 19.1-5.6 23.1-16.9l55.8-145.8c3.6-9.3 4.4-19.3-4.8-28.6A23 23 0 0 0 2550.2 156.5Zm444.2 81-21.9-9.3c-11.9-4.8-16.3-8.5-16.3-15.7q0-12.1 16.7-12.1c12.7 0 19.5 7.7 24.3 10.9 7.2 5.2 18.3 6.8 27.9-2 10.8-10.5 6.8-23.8 1.2-30.6-12.3-14.9-30.3-22.2-53.8-22.2-19.1 0-35.1 5.2-47.4 15.7-12.3 10.5-18.7 24.2-18.7 41.1 0 24.2 15.9 43.5 47.8 57.6l19.5 8.9c15.9 6.8 19.1 9.7 19.1 17.7 0 9.3-6.4 14.1-19.5 14.1-19.1 0-34.7-14.9-36.3-16.1-10.8-7.3-21.5-2-26.3 2.8-6.8 6.4-12.7 20.9 3.2 36.2 6.8 6.4 15.5 11.7 26.7 15.3a94.6 94.6 0 0 0 32.7 5.6c19.9 0 36.7-5.2 49.8-16.1 13.1-10.9 19.5-25.4 19.5-43.5q0-20.5-12-33.8C3022.7 253.2 3010.7 244.3 2994.4 237.5Zm-206.4 68.9h-65.7V272.9h39.4c12 0 21.1-8.9 21.1-20.9 0-12.1-9.2-20.9-21.1-20.9h-39.4V204.8h62.1c12.8 0 22.7-9.3 22.7-22.6 0-17.7-15.5-22.2-22.7-22.2h-86.4c-19.9 0-25.1 17.3-25.1 25.4V326.5c0 8.1 5.2 25.4 25.1 25.4h90c12.7 0 22.7-9.3 22.7-22.6C2810.8 311.2 2795.2 306.3 2788 306.3ZM178.3 49.1c-50.5 0-74.4 20.7-114.6 28.7V65A31.8 31.8 0 1 0 0 65V447a31.8 31.8 0 0 0 63.7 0V141.4c40.2-8 64.1-28.7 114.6-28.7 62.5 0 86 31.8 148.4 31.8 20.3 0 35.4-2.8 55.3-9.2v191c-19.9 6.4-35 9.2-55.3 9.2-62.5 0-86.4-31.8-148.4-31.8-20.3 0-36.2 3.6-50.9 8V375.4a159.1 159.1 0 0 1 50.9-8c62.5 0 86 31.8 148.4 31.8 37 0 56.1-9.6 119-31.8V49.1C382.8 71.4 363.7 80.9 326.7 80.9 264.2 80.9 240.4 49.1 178.3 49.1Z"]
 };
 var faFonticons = {
   prefix: 'fab',
@@ -5519,11 +4895,6 @@ var faTrello = {
   iconName: 'trello',
   icon: [448, 512, [], "f181", "M392.3 32H56.1C25.1 32 0 57.1 0 88c-.1 0 0-4 0 336 0 30.9 25.1 56 56 56h336.2c30.8-.2 55.7-25.2 55.7-56V88c.1-30.8-24.8-55.8-55.6-56zM197 371.3c-.2 14.7-12.1 26.6-26.9 26.6H87.4c-14.8.1-26.9-11.8-27-26.6V117.1c0-14.8 12-26.9 26.9-26.9h82.9c14.8 0 26.9 12 26.9 26.9v254.2zm193.1-112c0 14.8-12 26.9-26.9 26.9h-81c-14.8 0-26.9-12-26.9-26.9V117.2c0-14.8 12-26.9 26.8-26.9h81.1c14.8 0 26.9 12 26.9 26.9v142.1z"]
 };
-var faTripadvisor = {
-  prefix: 'fab',
-  iconName: 'tripadvisor',
-  icon: [576, 512, [], "f262", "M528.91,178.82,576,127.58H471.66a326.11,326.11,0,0,0-367,0H0l47.09,51.24A143.911,143.911,0,0,0,241.86,390.73L288,440.93l46.11-50.17A143.94,143.94,0,0,0,575.88,285.18h-.03A143.56,143.56,0,0,0,528.91,178.82ZM144.06,382.57a97.39,97.39,0,1,1,97.39-97.39A97.39,97.39,0,0,1,144.06,382.57ZM288,282.37c0-64.09-46.62-119.08-108.09-142.59a281,281,0,0,1,216.17,0C334.61,163.3,288,218.29,288,282.37Zm143.88,100.2h-.01a97.405,97.405,0,1,1,.01,0ZM144.06,234.12h-.01a51.06,51.06,0,1,0,51.06,51.06v-.11A51,51,0,0,0,144.06,234.12Zm287.82,0a51.06,51.06,0,1,0,51.06,51.06A51.06,51.06,0,0,0,431.88,234.12Z"]
-};
 var faTumblr = {
   prefix: 'fab',
   iconName: 'tumblr',
@@ -6242,7 +5613,6 @@ var _iconsCache = {
   faTiktok: faTiktok,
   faTradeFederation: faTradeFederation,
   faTrello: faTrello,
-  faTripadvisor: faTripadvisor,
   faTumblr: faTumblr,
   faTumblrSquare: faTumblrSquare,
   faTwitch: faTwitch,
@@ -6319,2025 +5689,1018 @@ var _iconsCache = {
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-solid-svg-icons/index.es.js ***!
   \********************************************************************/
-/*! namespace exports */
-/*! export faAd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAddressBook [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAddressCard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAdjust [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAirFreshener [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlignCenter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlignJustify [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlignLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAlignRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAllergies [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAmbulance [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAmericanSignLanguageInterpreting [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAnchor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleDoubleDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleDoubleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleDoubleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleDoubleUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngleUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAngry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAnkh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAppleAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArchive [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArchway [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowAltCircleDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowAltCircleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowAltCircleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowAltCircleUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowCircleDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowCircleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowCircleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowCircleUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowsAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowsAltH [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faArrowsAltV [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAssistiveListeningSystems [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAsterisk [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAtlas [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAtom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAudioDescription [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faAward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBaby [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBabyCarriage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBackspace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBackward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBacon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBacteria [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBacterium [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBahai [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBalanceScale [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBalanceScaleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBalanceScaleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBandAid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBarcode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBars [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBaseballBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBasketballBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBatteryEmpty [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBatteryFull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBatteryHalf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBatteryQuarter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBatteryThreeQuarters [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBeer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBell [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBellSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBezierCurve [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBible [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBicycle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBiking [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBinoculars [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBiohazard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBirthdayCake [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlender [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlenderPhone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlind [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBlog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBold [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBolt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBomb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBong [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBook [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBookDead [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBookMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBookOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBookReader [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBookmark [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBorderAll [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBorderNone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBorderStyle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBowlingBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBoxOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBoxTissue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBoxes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBraille [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBrain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBreadSlice [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBriefcase [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBriefcaseMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBroadcastTower [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBroom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBrush [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBug [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBuilding [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBullhorn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBullseye [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBurn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBusAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faBusinessTime [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalculator [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarDay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarMinus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarTimes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCalendarWeek [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCamera [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCameraRetro [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCampground [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCandyCane [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCannabis [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCapsules [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCarAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCarBattery [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCarCrash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCarSide [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaravan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretSquareDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretSquareLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretSquareRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretSquareUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCaretUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCarrot [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCartArrowDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCartPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCashRegister [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCertificate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChair [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChalkboard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChalkboardTeacher [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChargingStation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChartArea [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChartBar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChartLine [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChartPie [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCheckCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCheckDouble [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCheckSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCheese [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChess [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessBishop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessBoard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessKing [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessKnight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessPawn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessQueen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChessRook [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronCircleDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronCircleLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronCircleRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronCircleUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChevronUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChild [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faChurch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCircleNotch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCity [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClinicMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClipboard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClipboardCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClipboardList [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faClosedCaptioning [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloud [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudDownloadAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudMeatball [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudMoon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudMoonRain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudRain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudShowersHeavy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudSun [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudSunRain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCloudUploadAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCocktail [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCodeBranch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCoffee [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCogs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCoins [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faColumns [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faComment [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentDollar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentDots [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faComments [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCommentsDollar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCompactDisc [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCompass [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCompress [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCompressAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCompressArrowsAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faConciergeBell [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCookie [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCookieBite [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCopy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCopyright [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCouch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCreditCard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCrop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCropAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCross [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCrosshairs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCrow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCrown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCrutch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCube [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCubes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faCut [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDatabase [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDeaf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDemocrat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDesktop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDharmachakra [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiagnoses [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDice [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceD20 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceD6 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceFive [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceFour [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceOne [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceSix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceThree [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDiceTwo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDigitalTachograph [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDirections [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDisease [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDivide [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDizzy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDna [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDollarSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDolly [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDollyFlatbed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDonate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDoorClosed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDoorOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDotCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDove [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDownload [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDraftingCompass [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDragon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDrawPolygon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDrum [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDrumSteelpan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDrumstickBite [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDumbbell [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDumpster [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDumpsterFire [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faDungeon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEdit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEgg [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEject [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEllipsisH [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEllipsisV [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEnvelope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEnvelopeOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEnvelopeOpenText [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEnvelopeSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEquals [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEraser [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEthernet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEuroSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExchangeAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExclamation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExclamationCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExclamationTriangle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExpand [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExpandAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExpandArrowsAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExternalLinkAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faExternalLinkSquareAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEye [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEyeDropper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faEyeSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFastBackward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFastForward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFaucet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFax [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFeather [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFeatherAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFemale [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFighterJet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFile [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileArchive [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileAudio [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileCode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileContract [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileCsv [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileDownload [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileExcel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileExport [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileImage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileImport [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileInvoice [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileInvoiceDollar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileMedicalAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFilePdf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFilePowerpoint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFilePrescription [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileSignature [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileUpload [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileVideo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFileWord [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFill [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFillDrip [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFilm [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFilter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFingerprint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFire [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFireAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFireExtinguisher [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFirstAid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFish [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFistRaised [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlagCheckered [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlagUsa [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlask [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFlushed [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFolder [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFolderMinus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFolderOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFolderPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFont [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFontAwesomeLogoFull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFootballBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faForward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFrog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFrown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFrownOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFunnelDollar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faFutbol [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGamepad [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGasPump [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGavel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGem [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGenderless [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGhost [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGift [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGifts [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlassCheers [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlassMartini [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlassMartiniAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlassWhiskey [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlasses [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlobe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlobeAfrica [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlobeAmericas [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlobeAsia [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGlobeEurope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGolfBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGopuram [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGraduationCap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGreaterThan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGreaterThanEqual [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrimace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinBeam [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinBeamSweat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinHearts [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinSquint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinSquintTears [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinStars [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinTears [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinTongue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinTongueSquint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinTongueWink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGrinWink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGripHorizontal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGripLines [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGripLinesVertical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGripVertical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faGuitar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHamburger [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHammer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHamsa [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandHolding [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandHoldingHeart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandHoldingMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandHoldingUsd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandHoldingWater [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandLizard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandMiddleFinger [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPaper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPeace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPointDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPointLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPointRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPointUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandPointer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandRock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandScissors [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandSparkles [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandSpock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHands [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandsHelping [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandsWash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandshake [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandshakeAltSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHandshakeSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHanukiah [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHardHat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHashtag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHatCowboy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHatCowboySide [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHatWizard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHdd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadSideCough [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadSideCoughSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadSideMask [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadSideVirus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeading [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadphones [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadphonesAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeadset [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeartBroken [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHeartbeat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHelicopter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHighlighter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHiking [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHippo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHistory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHockeyPuck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHollyBerry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHome [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHorse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHorseHead [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHospital [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHospitalAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHospitalSymbol [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHospitalUser [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHotTub [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHotdog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHotel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHourglass [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHourglassEnd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHourglassHalf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHourglassStart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHouseDamage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHouseUser [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faHryvnia [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faICursor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIceCream [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIcicles [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIcons [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIdBadge [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIdCard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIdCardAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIgloo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faImage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faImages [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInbox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIndent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faIndustry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInfinity [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInfo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faInfoCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faItalic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJedi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJoint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faJournalWhills [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKaaba [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKey [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKeyboard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKhanda [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKiss [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKissBeam [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKissWinkHeart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faKiwiBird [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLandmark [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLanguage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaptop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaptopCode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaptopHouse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaptopMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaugh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaughBeam [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaughSquint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLaughWink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLayerGroup [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLeaf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLemon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLessThan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLessThanEqual [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLevelDownAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLevelUpAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLifeRing [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLightbulb [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLiraSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faList [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faListAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faListOl [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faListUl [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLocationArrow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLockOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLongArrowAltDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLongArrowAltLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLongArrowAltRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLongArrowAltUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLowVision [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLuggageCart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLungs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faLungsVirus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMagic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMagnet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMailBulk [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMale [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapMarked [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapMarkedAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapMarker [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapMarkerAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapPin [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMapSigns [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarker [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMars [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarsDouble [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarsStroke [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarsStrokeH [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMarsStrokeV [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMask [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMedal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMedkit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMeh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMehBlank [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMehRollingEyes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMemory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMenorah [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMercury [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMeteor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrochip [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrophone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrophoneAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrophoneAltSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicrophoneSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMicroscope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMinus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMinusCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMinusSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMitten [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMobile [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMobileAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyBill [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyBillAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyBillWave [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyBillWaveAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoneyCheckAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMonument [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMoon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMortarPestle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMosque [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMotorcycle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMountain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMouse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMousePointer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMugHot [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faMusic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNetworkWired [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNeuter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNewspaper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNotEqual [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faNotesMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faObjectGroup [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faObjectUngroup [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOilCan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOm [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOtter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faOutdent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPager [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaintBrush [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaintRoller [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPalette [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPallet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaperPlane [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaperclip [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faParachuteBox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faParagraph [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faParking [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPassport [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPastafarianism [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaste [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPause [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPauseCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPaw [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPeace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPenAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPenFancy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPenNib [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPenSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPencilAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPencilRuler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPeopleArrows [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPeopleCarry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPepperHot [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPercent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPercentage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPersonBooth [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhone [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoneAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoneSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoneSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoneSquareAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhoneVolume [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPhotoVideo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPiggyBank [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPills [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPizzaSlice [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlaceOfWorship [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlane [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlaneArrival [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlaneDeparture [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlaneSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlayCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlug [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlusCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPlusSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPodcast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPoll [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPollH [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPoo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPooStorm [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPoop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPortrait [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPoundSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPowerOff [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPray [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPrayingHands [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPrescription [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPrescriptionBottle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPrescriptionBottleAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPrint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faProcedures [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faProjectDiagram [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPumpMedical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPumpSoap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faPuzzlePiece [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQrcode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuestion [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuestionCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuidditch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuoteLeft [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuoteRight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faQuran [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRadiation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRadiationAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRainbow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRandom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReceipt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRecordVinyl [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRecycle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRedoAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRegistered [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRemoveFormat [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReply [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faReplyAll [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRepublican [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRestroom [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRetweet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRibbon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRing [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRoad [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRobot [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRocket [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRoute [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRss [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRssSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRubleSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRuler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRulerCombined [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRulerHorizontal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRulerVertical [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRunning [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faRupeeSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSadCry [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSadTear [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSatellite [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSatelliteDish [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSave [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSchool [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faScrewdriver [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faScroll [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSdCard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearchDollar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearchLocation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearchMinus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSearchPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSeedling [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faServer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShapes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShareAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShareAltSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShareSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShekelSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShieldAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShieldVirus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShip [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShippingFast [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShoePrints [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShoppingBag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShoppingBasket [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShoppingCart [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShower [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faShuttleVan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSignInAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSignLanguage [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSignOutAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSignal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSignature [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSimCard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSitemap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkating [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkiing [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkiingNordic [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSkullCrossbones [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSleigh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSlidersH [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmile [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmileBeam [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmileWink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmoking [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSmokingBan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSms [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnowboarding [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnowflake [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnowman [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSnowplow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSoap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSocks [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSolarPanel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSort [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAlphaDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAlphaDownAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAlphaUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAlphaUpAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAmountDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAmountDownAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAmountUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortAmountUpAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortNumericDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortNumericDownAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortNumericUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortNumericUpAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSortUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpa [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpaceShuttle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpellCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpider [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSpinner [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSplotch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSprayCan [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSquareFull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSquareRootAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStamp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStar [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStarAndCrescent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStarHalf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStarHalfAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStarOfDavid [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStarOfLife [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStepBackward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStepForward [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStethoscope [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStickyNote [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStop [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStopCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStopwatch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStopwatch20 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStore [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStoreAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStoreAltSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStoreSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStream [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStreetView [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStrikethrough [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faStroopwafel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSubscript [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSubway [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSuitcase [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSuitcaseRolling [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSun [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSuperscript [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSurprise [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSwatchbook [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSwimmer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSwimmingPool [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSynagogue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSync [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSyncAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faSyringe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTable [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTableTennis [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTablet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTabletAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTablets [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTachometerAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTags [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTape [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTasks [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTaxi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTeeth [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTeethOpen [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTemperatureHigh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTemperatureLow [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTenge [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTerminal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTextHeight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTextWidth [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTh [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThLarge [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThList [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTheaterMasks [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometerEmpty [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometerFull [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometerHalf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometerQuarter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThermometerThreeQuarters [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThumbsDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThumbsUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faThumbtack [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTicketAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTimes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTimesCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTintSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTired [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToggleOff [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToggleOn [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToilet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToiletPaper [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToiletPaperSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToolbox [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTools [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTooth [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTorah [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faToriiGate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTractor [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrademark [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrafficLight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrailer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrain [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTram [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTransgender [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTransgenderAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrashAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrashRestore [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrashRestoreAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTree [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTrophy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTruck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTruckLoading [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTruckMonster [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTruckMoving [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTruckPickup [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTshirt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTty [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faTv [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUmbrella [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUmbrellaBeach [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnderline [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUndo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUndoAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUniversalAccess [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUniversity [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnlink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnlock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUnlockAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUpload [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUser [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserAltSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserAstronaut [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserCheck [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserCircle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserClock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserCog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserEdit [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserFriends [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserGraduate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserInjured [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserLock [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserMd [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserMinus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserNinja [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserNurse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserPlus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserSecret [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserShield [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserTag [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserTie [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUserTimes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUsers [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUsersCog [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUsersSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUtensilSpoon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faUtensils [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVectorSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVenus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVenusDouble [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVenusMars [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVest [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVestPatches [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVial [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVials [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVideo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVideoSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVihara [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVirus [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVirusSlash [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faViruses [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVoicemail [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVolleyballBall [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVolumeDown [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVolumeMute [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVolumeOff [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVolumeUp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVoteYea [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faVrCardboard [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWalking [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWallet [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWarehouse [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWater [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWaveSquare [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWeight [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWeightHanging [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWheelchair [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWifi [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWind [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWindowClose [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWindowMaximize [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWindowMinimize [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWindowRestore [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWineBottle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWineGlass [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWineGlassAlt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWonSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faWrench [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faXRay [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYenSign [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export faYinYang [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export fas [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export prefix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fas": () => /* binding */ _iconsCache,
-/* harmony export */   "prefix": () => /* binding */ prefix,
-/* harmony export */   "faAd": () => /* binding */ faAd,
-/* harmony export */   "faAddressBook": () => /* binding */ faAddressBook,
-/* harmony export */   "faAddressCard": () => /* binding */ faAddressCard,
-/* harmony export */   "faAdjust": () => /* binding */ faAdjust,
-/* harmony export */   "faAirFreshener": () => /* binding */ faAirFreshener,
-/* harmony export */   "faAlignCenter": () => /* binding */ faAlignCenter,
-/* harmony export */   "faAlignJustify": () => /* binding */ faAlignJustify,
-/* harmony export */   "faAlignLeft": () => /* binding */ faAlignLeft,
-/* harmony export */   "faAlignRight": () => /* binding */ faAlignRight,
-/* harmony export */   "faAllergies": () => /* binding */ faAllergies,
-/* harmony export */   "faAmbulance": () => /* binding */ faAmbulance,
-/* harmony export */   "faAmericanSignLanguageInterpreting": () => /* binding */ faAmericanSignLanguageInterpreting,
-/* harmony export */   "faAnchor": () => /* binding */ faAnchor,
-/* harmony export */   "faAngleDoubleDown": () => /* binding */ faAngleDoubleDown,
-/* harmony export */   "faAngleDoubleLeft": () => /* binding */ faAngleDoubleLeft,
-/* harmony export */   "faAngleDoubleRight": () => /* binding */ faAngleDoubleRight,
-/* harmony export */   "faAngleDoubleUp": () => /* binding */ faAngleDoubleUp,
-/* harmony export */   "faAngleDown": () => /* binding */ faAngleDown,
-/* harmony export */   "faAngleLeft": () => /* binding */ faAngleLeft,
-/* harmony export */   "faAngleRight": () => /* binding */ faAngleRight,
-/* harmony export */   "faAngleUp": () => /* binding */ faAngleUp,
-/* harmony export */   "faAngry": () => /* binding */ faAngry,
-/* harmony export */   "faAnkh": () => /* binding */ faAnkh,
-/* harmony export */   "faAppleAlt": () => /* binding */ faAppleAlt,
-/* harmony export */   "faArchive": () => /* binding */ faArchive,
-/* harmony export */   "faArchway": () => /* binding */ faArchway,
-/* harmony export */   "faArrowAltCircleDown": () => /* binding */ faArrowAltCircleDown,
-/* harmony export */   "faArrowAltCircleLeft": () => /* binding */ faArrowAltCircleLeft,
-/* harmony export */   "faArrowAltCircleRight": () => /* binding */ faArrowAltCircleRight,
-/* harmony export */   "faArrowAltCircleUp": () => /* binding */ faArrowAltCircleUp,
-/* harmony export */   "faArrowCircleDown": () => /* binding */ faArrowCircleDown,
-/* harmony export */   "faArrowCircleLeft": () => /* binding */ faArrowCircleLeft,
-/* harmony export */   "faArrowCircleRight": () => /* binding */ faArrowCircleRight,
-/* harmony export */   "faArrowCircleUp": () => /* binding */ faArrowCircleUp,
-/* harmony export */   "faArrowDown": () => /* binding */ faArrowDown,
-/* harmony export */   "faArrowLeft": () => /* binding */ faArrowLeft,
-/* harmony export */   "faArrowRight": () => /* binding */ faArrowRight,
-/* harmony export */   "faArrowUp": () => /* binding */ faArrowUp,
-/* harmony export */   "faArrowsAlt": () => /* binding */ faArrowsAlt,
-/* harmony export */   "faArrowsAltH": () => /* binding */ faArrowsAltH,
-/* harmony export */   "faArrowsAltV": () => /* binding */ faArrowsAltV,
-/* harmony export */   "faAssistiveListeningSystems": () => /* binding */ faAssistiveListeningSystems,
-/* harmony export */   "faAsterisk": () => /* binding */ faAsterisk,
-/* harmony export */   "faAt": () => /* binding */ faAt,
-/* harmony export */   "faAtlas": () => /* binding */ faAtlas,
-/* harmony export */   "faAtom": () => /* binding */ faAtom,
-/* harmony export */   "faAudioDescription": () => /* binding */ faAudioDescription,
-/* harmony export */   "faAward": () => /* binding */ faAward,
-/* harmony export */   "faBaby": () => /* binding */ faBaby,
-/* harmony export */   "faBabyCarriage": () => /* binding */ faBabyCarriage,
-/* harmony export */   "faBackspace": () => /* binding */ faBackspace,
-/* harmony export */   "faBackward": () => /* binding */ faBackward,
-/* harmony export */   "faBacon": () => /* binding */ faBacon,
-/* harmony export */   "faBacteria": () => /* binding */ faBacteria,
-/* harmony export */   "faBacterium": () => /* binding */ faBacterium,
-/* harmony export */   "faBahai": () => /* binding */ faBahai,
-/* harmony export */   "faBalanceScale": () => /* binding */ faBalanceScale,
-/* harmony export */   "faBalanceScaleLeft": () => /* binding */ faBalanceScaleLeft,
-/* harmony export */   "faBalanceScaleRight": () => /* binding */ faBalanceScaleRight,
-/* harmony export */   "faBan": () => /* binding */ faBan,
-/* harmony export */   "faBandAid": () => /* binding */ faBandAid,
-/* harmony export */   "faBarcode": () => /* binding */ faBarcode,
-/* harmony export */   "faBars": () => /* binding */ faBars,
-/* harmony export */   "faBaseballBall": () => /* binding */ faBaseballBall,
-/* harmony export */   "faBasketballBall": () => /* binding */ faBasketballBall,
-/* harmony export */   "faBath": () => /* binding */ faBath,
-/* harmony export */   "faBatteryEmpty": () => /* binding */ faBatteryEmpty,
-/* harmony export */   "faBatteryFull": () => /* binding */ faBatteryFull,
-/* harmony export */   "faBatteryHalf": () => /* binding */ faBatteryHalf,
-/* harmony export */   "faBatteryQuarter": () => /* binding */ faBatteryQuarter,
-/* harmony export */   "faBatteryThreeQuarters": () => /* binding */ faBatteryThreeQuarters,
-/* harmony export */   "faBed": () => /* binding */ faBed,
-/* harmony export */   "faBeer": () => /* binding */ faBeer,
-/* harmony export */   "faBell": () => /* binding */ faBell,
-/* harmony export */   "faBellSlash": () => /* binding */ faBellSlash,
-/* harmony export */   "faBezierCurve": () => /* binding */ faBezierCurve,
-/* harmony export */   "faBible": () => /* binding */ faBible,
-/* harmony export */   "faBicycle": () => /* binding */ faBicycle,
-/* harmony export */   "faBiking": () => /* binding */ faBiking,
-/* harmony export */   "faBinoculars": () => /* binding */ faBinoculars,
-/* harmony export */   "faBiohazard": () => /* binding */ faBiohazard,
-/* harmony export */   "faBirthdayCake": () => /* binding */ faBirthdayCake,
-/* harmony export */   "faBlender": () => /* binding */ faBlender,
-/* harmony export */   "faBlenderPhone": () => /* binding */ faBlenderPhone,
-/* harmony export */   "faBlind": () => /* binding */ faBlind,
-/* harmony export */   "faBlog": () => /* binding */ faBlog,
-/* harmony export */   "faBold": () => /* binding */ faBold,
-/* harmony export */   "faBolt": () => /* binding */ faBolt,
-/* harmony export */   "faBomb": () => /* binding */ faBomb,
-/* harmony export */   "faBone": () => /* binding */ faBone,
-/* harmony export */   "faBong": () => /* binding */ faBong,
-/* harmony export */   "faBook": () => /* binding */ faBook,
-/* harmony export */   "faBookDead": () => /* binding */ faBookDead,
-/* harmony export */   "faBookMedical": () => /* binding */ faBookMedical,
-/* harmony export */   "faBookOpen": () => /* binding */ faBookOpen,
-/* harmony export */   "faBookReader": () => /* binding */ faBookReader,
-/* harmony export */   "faBookmark": () => /* binding */ faBookmark,
-/* harmony export */   "faBorderAll": () => /* binding */ faBorderAll,
-/* harmony export */   "faBorderNone": () => /* binding */ faBorderNone,
-/* harmony export */   "faBorderStyle": () => /* binding */ faBorderStyle,
-/* harmony export */   "faBowlingBall": () => /* binding */ faBowlingBall,
-/* harmony export */   "faBox": () => /* binding */ faBox,
-/* harmony export */   "faBoxOpen": () => /* binding */ faBoxOpen,
-/* harmony export */   "faBoxTissue": () => /* binding */ faBoxTissue,
-/* harmony export */   "faBoxes": () => /* binding */ faBoxes,
-/* harmony export */   "faBraille": () => /* binding */ faBraille,
-/* harmony export */   "faBrain": () => /* binding */ faBrain,
-/* harmony export */   "faBreadSlice": () => /* binding */ faBreadSlice,
-/* harmony export */   "faBriefcase": () => /* binding */ faBriefcase,
-/* harmony export */   "faBriefcaseMedical": () => /* binding */ faBriefcaseMedical,
-/* harmony export */   "faBroadcastTower": () => /* binding */ faBroadcastTower,
-/* harmony export */   "faBroom": () => /* binding */ faBroom,
-/* harmony export */   "faBrush": () => /* binding */ faBrush,
-/* harmony export */   "faBug": () => /* binding */ faBug,
-/* harmony export */   "faBuilding": () => /* binding */ faBuilding,
-/* harmony export */   "faBullhorn": () => /* binding */ faBullhorn,
-/* harmony export */   "faBullseye": () => /* binding */ faBullseye,
-/* harmony export */   "faBurn": () => /* binding */ faBurn,
-/* harmony export */   "faBus": () => /* binding */ faBus,
-/* harmony export */   "faBusAlt": () => /* binding */ faBusAlt,
-/* harmony export */   "faBusinessTime": () => /* binding */ faBusinessTime,
-/* harmony export */   "faCalculator": () => /* binding */ faCalculator,
-/* harmony export */   "faCalendar": () => /* binding */ faCalendar,
-/* harmony export */   "faCalendarAlt": () => /* binding */ faCalendarAlt,
-/* harmony export */   "faCalendarCheck": () => /* binding */ faCalendarCheck,
-/* harmony export */   "faCalendarDay": () => /* binding */ faCalendarDay,
-/* harmony export */   "faCalendarMinus": () => /* binding */ faCalendarMinus,
-/* harmony export */   "faCalendarPlus": () => /* binding */ faCalendarPlus,
-/* harmony export */   "faCalendarTimes": () => /* binding */ faCalendarTimes,
-/* harmony export */   "faCalendarWeek": () => /* binding */ faCalendarWeek,
-/* harmony export */   "faCamera": () => /* binding */ faCamera,
-/* harmony export */   "faCameraRetro": () => /* binding */ faCameraRetro,
-/* harmony export */   "faCampground": () => /* binding */ faCampground,
-/* harmony export */   "faCandyCane": () => /* binding */ faCandyCane,
-/* harmony export */   "faCannabis": () => /* binding */ faCannabis,
-/* harmony export */   "faCapsules": () => /* binding */ faCapsules,
-/* harmony export */   "faCar": () => /* binding */ faCar,
-/* harmony export */   "faCarAlt": () => /* binding */ faCarAlt,
-/* harmony export */   "faCarBattery": () => /* binding */ faCarBattery,
-/* harmony export */   "faCarCrash": () => /* binding */ faCarCrash,
-/* harmony export */   "faCarSide": () => /* binding */ faCarSide,
-/* harmony export */   "faCaravan": () => /* binding */ faCaravan,
-/* harmony export */   "faCaretDown": () => /* binding */ faCaretDown,
-/* harmony export */   "faCaretLeft": () => /* binding */ faCaretLeft,
-/* harmony export */   "faCaretRight": () => /* binding */ faCaretRight,
-/* harmony export */   "faCaretSquareDown": () => /* binding */ faCaretSquareDown,
-/* harmony export */   "faCaretSquareLeft": () => /* binding */ faCaretSquareLeft,
-/* harmony export */   "faCaretSquareRight": () => /* binding */ faCaretSquareRight,
-/* harmony export */   "faCaretSquareUp": () => /* binding */ faCaretSquareUp,
-/* harmony export */   "faCaretUp": () => /* binding */ faCaretUp,
-/* harmony export */   "faCarrot": () => /* binding */ faCarrot,
-/* harmony export */   "faCartArrowDown": () => /* binding */ faCartArrowDown,
-/* harmony export */   "faCartPlus": () => /* binding */ faCartPlus,
-/* harmony export */   "faCashRegister": () => /* binding */ faCashRegister,
-/* harmony export */   "faCat": () => /* binding */ faCat,
-/* harmony export */   "faCertificate": () => /* binding */ faCertificate,
-/* harmony export */   "faChair": () => /* binding */ faChair,
-/* harmony export */   "faChalkboard": () => /* binding */ faChalkboard,
-/* harmony export */   "faChalkboardTeacher": () => /* binding */ faChalkboardTeacher,
-/* harmony export */   "faChargingStation": () => /* binding */ faChargingStation,
-/* harmony export */   "faChartArea": () => /* binding */ faChartArea,
-/* harmony export */   "faChartBar": () => /* binding */ faChartBar,
-/* harmony export */   "faChartLine": () => /* binding */ faChartLine,
-/* harmony export */   "faChartPie": () => /* binding */ faChartPie,
-/* harmony export */   "faCheck": () => /* binding */ faCheck,
-/* harmony export */   "faCheckCircle": () => /* binding */ faCheckCircle,
-/* harmony export */   "faCheckDouble": () => /* binding */ faCheckDouble,
-/* harmony export */   "faCheckSquare": () => /* binding */ faCheckSquare,
-/* harmony export */   "faCheese": () => /* binding */ faCheese,
-/* harmony export */   "faChess": () => /* binding */ faChess,
-/* harmony export */   "faChessBishop": () => /* binding */ faChessBishop,
-/* harmony export */   "faChessBoard": () => /* binding */ faChessBoard,
-/* harmony export */   "faChessKing": () => /* binding */ faChessKing,
-/* harmony export */   "faChessKnight": () => /* binding */ faChessKnight,
-/* harmony export */   "faChessPawn": () => /* binding */ faChessPawn,
-/* harmony export */   "faChessQueen": () => /* binding */ faChessQueen,
-/* harmony export */   "faChessRook": () => /* binding */ faChessRook,
-/* harmony export */   "faChevronCircleDown": () => /* binding */ faChevronCircleDown,
-/* harmony export */   "faChevronCircleLeft": () => /* binding */ faChevronCircleLeft,
-/* harmony export */   "faChevronCircleRight": () => /* binding */ faChevronCircleRight,
-/* harmony export */   "faChevronCircleUp": () => /* binding */ faChevronCircleUp,
-/* harmony export */   "faChevronDown": () => /* binding */ faChevronDown,
-/* harmony export */   "faChevronLeft": () => /* binding */ faChevronLeft,
-/* harmony export */   "faChevronRight": () => /* binding */ faChevronRight,
-/* harmony export */   "faChevronUp": () => /* binding */ faChevronUp,
-/* harmony export */   "faChild": () => /* binding */ faChild,
-/* harmony export */   "faChurch": () => /* binding */ faChurch,
-/* harmony export */   "faCircle": () => /* binding */ faCircle,
-/* harmony export */   "faCircleNotch": () => /* binding */ faCircleNotch,
-/* harmony export */   "faCity": () => /* binding */ faCity,
-/* harmony export */   "faClinicMedical": () => /* binding */ faClinicMedical,
-/* harmony export */   "faClipboard": () => /* binding */ faClipboard,
-/* harmony export */   "faClipboardCheck": () => /* binding */ faClipboardCheck,
-/* harmony export */   "faClipboardList": () => /* binding */ faClipboardList,
-/* harmony export */   "faClock": () => /* binding */ faClock,
-/* harmony export */   "faClone": () => /* binding */ faClone,
-/* harmony export */   "faClosedCaptioning": () => /* binding */ faClosedCaptioning,
-/* harmony export */   "faCloud": () => /* binding */ faCloud,
-/* harmony export */   "faCloudDownloadAlt": () => /* binding */ faCloudDownloadAlt,
-/* harmony export */   "faCloudMeatball": () => /* binding */ faCloudMeatball,
-/* harmony export */   "faCloudMoon": () => /* binding */ faCloudMoon,
-/* harmony export */   "faCloudMoonRain": () => /* binding */ faCloudMoonRain,
-/* harmony export */   "faCloudRain": () => /* binding */ faCloudRain,
-/* harmony export */   "faCloudShowersHeavy": () => /* binding */ faCloudShowersHeavy,
-/* harmony export */   "faCloudSun": () => /* binding */ faCloudSun,
-/* harmony export */   "faCloudSunRain": () => /* binding */ faCloudSunRain,
-/* harmony export */   "faCloudUploadAlt": () => /* binding */ faCloudUploadAlt,
-/* harmony export */   "faCocktail": () => /* binding */ faCocktail,
-/* harmony export */   "faCode": () => /* binding */ faCode,
-/* harmony export */   "faCodeBranch": () => /* binding */ faCodeBranch,
-/* harmony export */   "faCoffee": () => /* binding */ faCoffee,
-/* harmony export */   "faCog": () => /* binding */ faCog,
-/* harmony export */   "faCogs": () => /* binding */ faCogs,
-/* harmony export */   "faCoins": () => /* binding */ faCoins,
-/* harmony export */   "faColumns": () => /* binding */ faColumns,
-/* harmony export */   "faComment": () => /* binding */ faComment,
-/* harmony export */   "faCommentAlt": () => /* binding */ faCommentAlt,
-/* harmony export */   "faCommentDollar": () => /* binding */ faCommentDollar,
-/* harmony export */   "faCommentDots": () => /* binding */ faCommentDots,
-/* harmony export */   "faCommentMedical": () => /* binding */ faCommentMedical,
-/* harmony export */   "faCommentSlash": () => /* binding */ faCommentSlash,
-/* harmony export */   "faComments": () => /* binding */ faComments,
-/* harmony export */   "faCommentsDollar": () => /* binding */ faCommentsDollar,
-/* harmony export */   "faCompactDisc": () => /* binding */ faCompactDisc,
-/* harmony export */   "faCompass": () => /* binding */ faCompass,
-/* harmony export */   "faCompress": () => /* binding */ faCompress,
-/* harmony export */   "faCompressAlt": () => /* binding */ faCompressAlt,
-/* harmony export */   "faCompressArrowsAlt": () => /* binding */ faCompressArrowsAlt,
-/* harmony export */   "faConciergeBell": () => /* binding */ faConciergeBell,
-/* harmony export */   "faCookie": () => /* binding */ faCookie,
-/* harmony export */   "faCookieBite": () => /* binding */ faCookieBite,
-/* harmony export */   "faCopy": () => /* binding */ faCopy,
-/* harmony export */   "faCopyright": () => /* binding */ faCopyright,
-/* harmony export */   "faCouch": () => /* binding */ faCouch,
-/* harmony export */   "faCreditCard": () => /* binding */ faCreditCard,
-/* harmony export */   "faCrop": () => /* binding */ faCrop,
-/* harmony export */   "faCropAlt": () => /* binding */ faCropAlt,
-/* harmony export */   "faCross": () => /* binding */ faCross,
-/* harmony export */   "faCrosshairs": () => /* binding */ faCrosshairs,
-/* harmony export */   "faCrow": () => /* binding */ faCrow,
-/* harmony export */   "faCrown": () => /* binding */ faCrown,
-/* harmony export */   "faCrutch": () => /* binding */ faCrutch,
-/* harmony export */   "faCube": () => /* binding */ faCube,
-/* harmony export */   "faCubes": () => /* binding */ faCubes,
-/* harmony export */   "faCut": () => /* binding */ faCut,
-/* harmony export */   "faDatabase": () => /* binding */ faDatabase,
-/* harmony export */   "faDeaf": () => /* binding */ faDeaf,
-/* harmony export */   "faDemocrat": () => /* binding */ faDemocrat,
-/* harmony export */   "faDesktop": () => /* binding */ faDesktop,
-/* harmony export */   "faDharmachakra": () => /* binding */ faDharmachakra,
-/* harmony export */   "faDiagnoses": () => /* binding */ faDiagnoses,
-/* harmony export */   "faDice": () => /* binding */ faDice,
-/* harmony export */   "faDiceD20": () => /* binding */ faDiceD20,
-/* harmony export */   "faDiceD6": () => /* binding */ faDiceD6,
-/* harmony export */   "faDiceFive": () => /* binding */ faDiceFive,
-/* harmony export */   "faDiceFour": () => /* binding */ faDiceFour,
-/* harmony export */   "faDiceOne": () => /* binding */ faDiceOne,
-/* harmony export */   "faDiceSix": () => /* binding */ faDiceSix,
-/* harmony export */   "faDiceThree": () => /* binding */ faDiceThree,
-/* harmony export */   "faDiceTwo": () => /* binding */ faDiceTwo,
-/* harmony export */   "faDigitalTachograph": () => /* binding */ faDigitalTachograph,
-/* harmony export */   "faDirections": () => /* binding */ faDirections,
-/* harmony export */   "faDisease": () => /* binding */ faDisease,
-/* harmony export */   "faDivide": () => /* binding */ faDivide,
-/* harmony export */   "faDizzy": () => /* binding */ faDizzy,
-/* harmony export */   "faDna": () => /* binding */ faDna,
-/* harmony export */   "faDog": () => /* binding */ faDog,
-/* harmony export */   "faDollarSign": () => /* binding */ faDollarSign,
-/* harmony export */   "faDolly": () => /* binding */ faDolly,
-/* harmony export */   "faDollyFlatbed": () => /* binding */ faDollyFlatbed,
-/* harmony export */   "faDonate": () => /* binding */ faDonate,
-/* harmony export */   "faDoorClosed": () => /* binding */ faDoorClosed,
-/* harmony export */   "faDoorOpen": () => /* binding */ faDoorOpen,
-/* harmony export */   "faDotCircle": () => /* binding */ faDotCircle,
-/* harmony export */   "faDove": () => /* binding */ faDove,
-/* harmony export */   "faDownload": () => /* binding */ faDownload,
-/* harmony export */   "faDraftingCompass": () => /* binding */ faDraftingCompass,
-/* harmony export */   "faDragon": () => /* binding */ faDragon,
-/* harmony export */   "faDrawPolygon": () => /* binding */ faDrawPolygon,
-/* harmony export */   "faDrum": () => /* binding */ faDrum,
-/* harmony export */   "faDrumSteelpan": () => /* binding */ faDrumSteelpan,
-/* harmony export */   "faDrumstickBite": () => /* binding */ faDrumstickBite,
-/* harmony export */   "faDumbbell": () => /* binding */ faDumbbell,
-/* harmony export */   "faDumpster": () => /* binding */ faDumpster,
-/* harmony export */   "faDumpsterFire": () => /* binding */ faDumpsterFire,
-/* harmony export */   "faDungeon": () => /* binding */ faDungeon,
-/* harmony export */   "faEdit": () => /* binding */ faEdit,
-/* harmony export */   "faEgg": () => /* binding */ faEgg,
-/* harmony export */   "faEject": () => /* binding */ faEject,
-/* harmony export */   "faEllipsisH": () => /* binding */ faEllipsisH,
-/* harmony export */   "faEllipsisV": () => /* binding */ faEllipsisV,
-/* harmony export */   "faEnvelope": () => /* binding */ faEnvelope,
-/* harmony export */   "faEnvelopeOpen": () => /* binding */ faEnvelopeOpen,
-/* harmony export */   "faEnvelopeOpenText": () => /* binding */ faEnvelopeOpenText,
-/* harmony export */   "faEnvelopeSquare": () => /* binding */ faEnvelopeSquare,
-/* harmony export */   "faEquals": () => /* binding */ faEquals,
-/* harmony export */   "faEraser": () => /* binding */ faEraser,
-/* harmony export */   "faEthernet": () => /* binding */ faEthernet,
-/* harmony export */   "faEuroSign": () => /* binding */ faEuroSign,
-/* harmony export */   "faExchangeAlt": () => /* binding */ faExchangeAlt,
-/* harmony export */   "faExclamation": () => /* binding */ faExclamation,
-/* harmony export */   "faExclamationCircle": () => /* binding */ faExclamationCircle,
-/* harmony export */   "faExclamationTriangle": () => /* binding */ faExclamationTriangle,
-/* harmony export */   "faExpand": () => /* binding */ faExpand,
-/* harmony export */   "faExpandAlt": () => /* binding */ faExpandAlt,
-/* harmony export */   "faExpandArrowsAlt": () => /* binding */ faExpandArrowsAlt,
-/* harmony export */   "faExternalLinkAlt": () => /* binding */ faExternalLinkAlt,
-/* harmony export */   "faExternalLinkSquareAlt": () => /* binding */ faExternalLinkSquareAlt,
-/* harmony export */   "faEye": () => /* binding */ faEye,
-/* harmony export */   "faEyeDropper": () => /* binding */ faEyeDropper,
-/* harmony export */   "faEyeSlash": () => /* binding */ faEyeSlash,
-/* harmony export */   "faFan": () => /* binding */ faFan,
-/* harmony export */   "faFastBackward": () => /* binding */ faFastBackward,
-/* harmony export */   "faFastForward": () => /* binding */ faFastForward,
-/* harmony export */   "faFaucet": () => /* binding */ faFaucet,
-/* harmony export */   "faFax": () => /* binding */ faFax,
-/* harmony export */   "faFeather": () => /* binding */ faFeather,
-/* harmony export */   "faFeatherAlt": () => /* binding */ faFeatherAlt,
-/* harmony export */   "faFemale": () => /* binding */ faFemale,
-/* harmony export */   "faFighterJet": () => /* binding */ faFighterJet,
-/* harmony export */   "faFile": () => /* binding */ faFile,
-/* harmony export */   "faFileAlt": () => /* binding */ faFileAlt,
-/* harmony export */   "faFileArchive": () => /* binding */ faFileArchive,
-/* harmony export */   "faFileAudio": () => /* binding */ faFileAudio,
-/* harmony export */   "faFileCode": () => /* binding */ faFileCode,
-/* harmony export */   "faFileContract": () => /* binding */ faFileContract,
-/* harmony export */   "faFileCsv": () => /* binding */ faFileCsv,
-/* harmony export */   "faFileDownload": () => /* binding */ faFileDownload,
-/* harmony export */   "faFileExcel": () => /* binding */ faFileExcel,
-/* harmony export */   "faFileExport": () => /* binding */ faFileExport,
-/* harmony export */   "faFileImage": () => /* binding */ faFileImage,
-/* harmony export */   "faFileImport": () => /* binding */ faFileImport,
-/* harmony export */   "faFileInvoice": () => /* binding */ faFileInvoice,
-/* harmony export */   "faFileInvoiceDollar": () => /* binding */ faFileInvoiceDollar,
-/* harmony export */   "faFileMedical": () => /* binding */ faFileMedical,
-/* harmony export */   "faFileMedicalAlt": () => /* binding */ faFileMedicalAlt,
-/* harmony export */   "faFilePdf": () => /* binding */ faFilePdf,
-/* harmony export */   "faFilePowerpoint": () => /* binding */ faFilePowerpoint,
-/* harmony export */   "faFilePrescription": () => /* binding */ faFilePrescription,
-/* harmony export */   "faFileSignature": () => /* binding */ faFileSignature,
-/* harmony export */   "faFileUpload": () => /* binding */ faFileUpload,
-/* harmony export */   "faFileVideo": () => /* binding */ faFileVideo,
-/* harmony export */   "faFileWord": () => /* binding */ faFileWord,
-/* harmony export */   "faFill": () => /* binding */ faFill,
-/* harmony export */   "faFillDrip": () => /* binding */ faFillDrip,
-/* harmony export */   "faFilm": () => /* binding */ faFilm,
-/* harmony export */   "faFilter": () => /* binding */ faFilter,
-/* harmony export */   "faFingerprint": () => /* binding */ faFingerprint,
-/* harmony export */   "faFire": () => /* binding */ faFire,
-/* harmony export */   "faFireAlt": () => /* binding */ faFireAlt,
-/* harmony export */   "faFireExtinguisher": () => /* binding */ faFireExtinguisher,
-/* harmony export */   "faFirstAid": () => /* binding */ faFirstAid,
-/* harmony export */   "faFish": () => /* binding */ faFish,
-/* harmony export */   "faFistRaised": () => /* binding */ faFistRaised,
-/* harmony export */   "faFlag": () => /* binding */ faFlag,
-/* harmony export */   "faFlagCheckered": () => /* binding */ faFlagCheckered,
-/* harmony export */   "faFlagUsa": () => /* binding */ faFlagUsa,
-/* harmony export */   "faFlask": () => /* binding */ faFlask,
-/* harmony export */   "faFlushed": () => /* binding */ faFlushed,
-/* harmony export */   "faFolder": () => /* binding */ faFolder,
-/* harmony export */   "faFolderMinus": () => /* binding */ faFolderMinus,
-/* harmony export */   "faFolderOpen": () => /* binding */ faFolderOpen,
-/* harmony export */   "faFolderPlus": () => /* binding */ faFolderPlus,
-/* harmony export */   "faFont": () => /* binding */ faFont,
-/* harmony export */   "faFontAwesomeLogoFull": () => /* binding */ faFontAwesomeLogoFull,
-/* harmony export */   "faFootballBall": () => /* binding */ faFootballBall,
-/* harmony export */   "faForward": () => /* binding */ faForward,
-/* harmony export */   "faFrog": () => /* binding */ faFrog,
-/* harmony export */   "faFrown": () => /* binding */ faFrown,
-/* harmony export */   "faFrownOpen": () => /* binding */ faFrownOpen,
-/* harmony export */   "faFunnelDollar": () => /* binding */ faFunnelDollar,
-/* harmony export */   "faFutbol": () => /* binding */ faFutbol,
-/* harmony export */   "faGamepad": () => /* binding */ faGamepad,
-/* harmony export */   "faGasPump": () => /* binding */ faGasPump,
-/* harmony export */   "faGavel": () => /* binding */ faGavel,
-/* harmony export */   "faGem": () => /* binding */ faGem,
-/* harmony export */   "faGenderless": () => /* binding */ faGenderless,
-/* harmony export */   "faGhost": () => /* binding */ faGhost,
-/* harmony export */   "faGift": () => /* binding */ faGift,
-/* harmony export */   "faGifts": () => /* binding */ faGifts,
-/* harmony export */   "faGlassCheers": () => /* binding */ faGlassCheers,
-/* harmony export */   "faGlassMartini": () => /* binding */ faGlassMartini,
-/* harmony export */   "faGlassMartiniAlt": () => /* binding */ faGlassMartiniAlt,
-/* harmony export */   "faGlassWhiskey": () => /* binding */ faGlassWhiskey,
-/* harmony export */   "faGlasses": () => /* binding */ faGlasses,
-/* harmony export */   "faGlobe": () => /* binding */ faGlobe,
-/* harmony export */   "faGlobeAfrica": () => /* binding */ faGlobeAfrica,
-/* harmony export */   "faGlobeAmericas": () => /* binding */ faGlobeAmericas,
-/* harmony export */   "faGlobeAsia": () => /* binding */ faGlobeAsia,
-/* harmony export */   "faGlobeEurope": () => /* binding */ faGlobeEurope,
-/* harmony export */   "faGolfBall": () => /* binding */ faGolfBall,
-/* harmony export */   "faGopuram": () => /* binding */ faGopuram,
-/* harmony export */   "faGraduationCap": () => /* binding */ faGraduationCap,
-/* harmony export */   "faGreaterThan": () => /* binding */ faGreaterThan,
-/* harmony export */   "faGreaterThanEqual": () => /* binding */ faGreaterThanEqual,
-/* harmony export */   "faGrimace": () => /* binding */ faGrimace,
-/* harmony export */   "faGrin": () => /* binding */ faGrin,
-/* harmony export */   "faGrinAlt": () => /* binding */ faGrinAlt,
-/* harmony export */   "faGrinBeam": () => /* binding */ faGrinBeam,
-/* harmony export */   "faGrinBeamSweat": () => /* binding */ faGrinBeamSweat,
-/* harmony export */   "faGrinHearts": () => /* binding */ faGrinHearts,
-/* harmony export */   "faGrinSquint": () => /* binding */ faGrinSquint,
-/* harmony export */   "faGrinSquintTears": () => /* binding */ faGrinSquintTears,
-/* harmony export */   "faGrinStars": () => /* binding */ faGrinStars,
-/* harmony export */   "faGrinTears": () => /* binding */ faGrinTears,
-/* harmony export */   "faGrinTongue": () => /* binding */ faGrinTongue,
-/* harmony export */   "faGrinTongueSquint": () => /* binding */ faGrinTongueSquint,
-/* harmony export */   "faGrinTongueWink": () => /* binding */ faGrinTongueWink,
-/* harmony export */   "faGrinWink": () => /* binding */ faGrinWink,
-/* harmony export */   "faGripHorizontal": () => /* binding */ faGripHorizontal,
-/* harmony export */   "faGripLines": () => /* binding */ faGripLines,
-/* harmony export */   "faGripLinesVertical": () => /* binding */ faGripLinesVertical,
-/* harmony export */   "faGripVertical": () => /* binding */ faGripVertical,
-/* harmony export */   "faGuitar": () => /* binding */ faGuitar,
-/* harmony export */   "faHSquare": () => /* binding */ faHSquare,
-/* harmony export */   "faHamburger": () => /* binding */ faHamburger,
-/* harmony export */   "faHammer": () => /* binding */ faHammer,
-/* harmony export */   "faHamsa": () => /* binding */ faHamsa,
-/* harmony export */   "faHandHolding": () => /* binding */ faHandHolding,
-/* harmony export */   "faHandHoldingHeart": () => /* binding */ faHandHoldingHeart,
-/* harmony export */   "faHandHoldingMedical": () => /* binding */ faHandHoldingMedical,
-/* harmony export */   "faHandHoldingUsd": () => /* binding */ faHandHoldingUsd,
-/* harmony export */   "faHandHoldingWater": () => /* binding */ faHandHoldingWater,
-/* harmony export */   "faHandLizard": () => /* binding */ faHandLizard,
-/* harmony export */   "faHandMiddleFinger": () => /* binding */ faHandMiddleFinger,
-/* harmony export */   "faHandPaper": () => /* binding */ faHandPaper,
-/* harmony export */   "faHandPeace": () => /* binding */ faHandPeace,
-/* harmony export */   "faHandPointDown": () => /* binding */ faHandPointDown,
-/* harmony export */   "faHandPointLeft": () => /* binding */ faHandPointLeft,
-/* harmony export */   "faHandPointRight": () => /* binding */ faHandPointRight,
-/* harmony export */   "faHandPointUp": () => /* binding */ faHandPointUp,
-/* harmony export */   "faHandPointer": () => /* binding */ faHandPointer,
-/* harmony export */   "faHandRock": () => /* binding */ faHandRock,
-/* harmony export */   "faHandScissors": () => /* binding */ faHandScissors,
-/* harmony export */   "faHandSparkles": () => /* binding */ faHandSparkles,
-/* harmony export */   "faHandSpock": () => /* binding */ faHandSpock,
-/* harmony export */   "faHands": () => /* binding */ faHands,
-/* harmony export */   "faHandsHelping": () => /* binding */ faHandsHelping,
-/* harmony export */   "faHandsWash": () => /* binding */ faHandsWash,
-/* harmony export */   "faHandshake": () => /* binding */ faHandshake,
-/* harmony export */   "faHandshakeAltSlash": () => /* binding */ faHandshakeAltSlash,
-/* harmony export */   "faHandshakeSlash": () => /* binding */ faHandshakeSlash,
-/* harmony export */   "faHanukiah": () => /* binding */ faHanukiah,
-/* harmony export */   "faHardHat": () => /* binding */ faHardHat,
-/* harmony export */   "faHashtag": () => /* binding */ faHashtag,
-/* harmony export */   "faHatCowboy": () => /* binding */ faHatCowboy,
-/* harmony export */   "faHatCowboySide": () => /* binding */ faHatCowboySide,
-/* harmony export */   "faHatWizard": () => /* binding */ faHatWizard,
-/* harmony export */   "faHdd": () => /* binding */ faHdd,
-/* harmony export */   "faHeadSideCough": () => /* binding */ faHeadSideCough,
-/* harmony export */   "faHeadSideCoughSlash": () => /* binding */ faHeadSideCoughSlash,
-/* harmony export */   "faHeadSideMask": () => /* binding */ faHeadSideMask,
-/* harmony export */   "faHeadSideVirus": () => /* binding */ faHeadSideVirus,
-/* harmony export */   "faHeading": () => /* binding */ faHeading,
-/* harmony export */   "faHeadphones": () => /* binding */ faHeadphones,
-/* harmony export */   "faHeadphonesAlt": () => /* binding */ faHeadphonesAlt,
-/* harmony export */   "faHeadset": () => /* binding */ faHeadset,
-/* harmony export */   "faHeart": () => /* binding */ faHeart,
-/* harmony export */   "faHeartBroken": () => /* binding */ faHeartBroken,
-/* harmony export */   "faHeartbeat": () => /* binding */ faHeartbeat,
-/* harmony export */   "faHelicopter": () => /* binding */ faHelicopter,
-/* harmony export */   "faHighlighter": () => /* binding */ faHighlighter,
-/* harmony export */   "faHiking": () => /* binding */ faHiking,
-/* harmony export */   "faHippo": () => /* binding */ faHippo,
-/* harmony export */   "faHistory": () => /* binding */ faHistory,
-/* harmony export */   "faHockeyPuck": () => /* binding */ faHockeyPuck,
-/* harmony export */   "faHollyBerry": () => /* binding */ faHollyBerry,
-/* harmony export */   "faHome": () => /* binding */ faHome,
-/* harmony export */   "faHorse": () => /* binding */ faHorse,
-/* harmony export */   "faHorseHead": () => /* binding */ faHorseHead,
-/* harmony export */   "faHospital": () => /* binding */ faHospital,
-/* harmony export */   "faHospitalAlt": () => /* binding */ faHospitalAlt,
-/* harmony export */   "faHospitalSymbol": () => /* binding */ faHospitalSymbol,
-/* harmony export */   "faHospitalUser": () => /* binding */ faHospitalUser,
-/* harmony export */   "faHotTub": () => /* binding */ faHotTub,
-/* harmony export */   "faHotdog": () => /* binding */ faHotdog,
-/* harmony export */   "faHotel": () => /* binding */ faHotel,
-/* harmony export */   "faHourglass": () => /* binding */ faHourglass,
-/* harmony export */   "faHourglassEnd": () => /* binding */ faHourglassEnd,
-/* harmony export */   "faHourglassHalf": () => /* binding */ faHourglassHalf,
-/* harmony export */   "faHourglassStart": () => /* binding */ faHourglassStart,
-/* harmony export */   "faHouseDamage": () => /* binding */ faHouseDamage,
-/* harmony export */   "faHouseUser": () => /* binding */ faHouseUser,
-/* harmony export */   "faHryvnia": () => /* binding */ faHryvnia,
-/* harmony export */   "faICursor": () => /* binding */ faICursor,
-/* harmony export */   "faIceCream": () => /* binding */ faIceCream,
-/* harmony export */   "faIcicles": () => /* binding */ faIcicles,
-/* harmony export */   "faIcons": () => /* binding */ faIcons,
-/* harmony export */   "faIdBadge": () => /* binding */ faIdBadge,
-/* harmony export */   "faIdCard": () => /* binding */ faIdCard,
-/* harmony export */   "faIdCardAlt": () => /* binding */ faIdCardAlt,
-/* harmony export */   "faIgloo": () => /* binding */ faIgloo,
-/* harmony export */   "faImage": () => /* binding */ faImage,
-/* harmony export */   "faImages": () => /* binding */ faImages,
-/* harmony export */   "faInbox": () => /* binding */ faInbox,
-/* harmony export */   "faIndent": () => /* binding */ faIndent,
-/* harmony export */   "faIndustry": () => /* binding */ faIndustry,
-/* harmony export */   "faInfinity": () => /* binding */ faInfinity,
-/* harmony export */   "faInfo": () => /* binding */ faInfo,
-/* harmony export */   "faInfoCircle": () => /* binding */ faInfoCircle,
-/* harmony export */   "faItalic": () => /* binding */ faItalic,
-/* harmony export */   "faJedi": () => /* binding */ faJedi,
-/* harmony export */   "faJoint": () => /* binding */ faJoint,
-/* harmony export */   "faJournalWhills": () => /* binding */ faJournalWhills,
-/* harmony export */   "faKaaba": () => /* binding */ faKaaba,
-/* harmony export */   "faKey": () => /* binding */ faKey,
-/* harmony export */   "faKeyboard": () => /* binding */ faKeyboard,
-/* harmony export */   "faKhanda": () => /* binding */ faKhanda,
-/* harmony export */   "faKiss": () => /* binding */ faKiss,
-/* harmony export */   "faKissBeam": () => /* binding */ faKissBeam,
-/* harmony export */   "faKissWinkHeart": () => /* binding */ faKissWinkHeart,
-/* harmony export */   "faKiwiBird": () => /* binding */ faKiwiBird,
-/* harmony export */   "faLandmark": () => /* binding */ faLandmark,
-/* harmony export */   "faLanguage": () => /* binding */ faLanguage,
-/* harmony export */   "faLaptop": () => /* binding */ faLaptop,
-/* harmony export */   "faLaptopCode": () => /* binding */ faLaptopCode,
-/* harmony export */   "faLaptopHouse": () => /* binding */ faLaptopHouse,
-/* harmony export */   "faLaptopMedical": () => /* binding */ faLaptopMedical,
-/* harmony export */   "faLaugh": () => /* binding */ faLaugh,
-/* harmony export */   "faLaughBeam": () => /* binding */ faLaughBeam,
-/* harmony export */   "faLaughSquint": () => /* binding */ faLaughSquint,
-/* harmony export */   "faLaughWink": () => /* binding */ faLaughWink,
-/* harmony export */   "faLayerGroup": () => /* binding */ faLayerGroup,
-/* harmony export */   "faLeaf": () => /* binding */ faLeaf,
-/* harmony export */   "faLemon": () => /* binding */ faLemon,
-/* harmony export */   "faLessThan": () => /* binding */ faLessThan,
-/* harmony export */   "faLessThanEqual": () => /* binding */ faLessThanEqual,
-/* harmony export */   "faLevelDownAlt": () => /* binding */ faLevelDownAlt,
-/* harmony export */   "faLevelUpAlt": () => /* binding */ faLevelUpAlt,
-/* harmony export */   "faLifeRing": () => /* binding */ faLifeRing,
-/* harmony export */   "faLightbulb": () => /* binding */ faLightbulb,
-/* harmony export */   "faLink": () => /* binding */ faLink,
-/* harmony export */   "faLiraSign": () => /* binding */ faLiraSign,
-/* harmony export */   "faList": () => /* binding */ faList,
-/* harmony export */   "faListAlt": () => /* binding */ faListAlt,
-/* harmony export */   "faListOl": () => /* binding */ faListOl,
-/* harmony export */   "faListUl": () => /* binding */ faListUl,
-/* harmony export */   "faLocationArrow": () => /* binding */ faLocationArrow,
-/* harmony export */   "faLock": () => /* binding */ faLock,
-/* harmony export */   "faLockOpen": () => /* binding */ faLockOpen,
-/* harmony export */   "faLongArrowAltDown": () => /* binding */ faLongArrowAltDown,
-/* harmony export */   "faLongArrowAltLeft": () => /* binding */ faLongArrowAltLeft,
-/* harmony export */   "faLongArrowAltRight": () => /* binding */ faLongArrowAltRight,
-/* harmony export */   "faLongArrowAltUp": () => /* binding */ faLongArrowAltUp,
-/* harmony export */   "faLowVision": () => /* binding */ faLowVision,
-/* harmony export */   "faLuggageCart": () => /* binding */ faLuggageCart,
-/* harmony export */   "faLungs": () => /* binding */ faLungs,
-/* harmony export */   "faLungsVirus": () => /* binding */ faLungsVirus,
-/* harmony export */   "faMagic": () => /* binding */ faMagic,
-/* harmony export */   "faMagnet": () => /* binding */ faMagnet,
-/* harmony export */   "faMailBulk": () => /* binding */ faMailBulk,
-/* harmony export */   "faMale": () => /* binding */ faMale,
-/* harmony export */   "faMap": () => /* binding */ faMap,
-/* harmony export */   "faMapMarked": () => /* binding */ faMapMarked,
-/* harmony export */   "faMapMarkedAlt": () => /* binding */ faMapMarkedAlt,
-/* harmony export */   "faMapMarker": () => /* binding */ faMapMarker,
-/* harmony export */   "faMapMarkerAlt": () => /* binding */ faMapMarkerAlt,
-/* harmony export */   "faMapPin": () => /* binding */ faMapPin,
-/* harmony export */   "faMapSigns": () => /* binding */ faMapSigns,
-/* harmony export */   "faMarker": () => /* binding */ faMarker,
-/* harmony export */   "faMars": () => /* binding */ faMars,
-/* harmony export */   "faMarsDouble": () => /* binding */ faMarsDouble,
-/* harmony export */   "faMarsStroke": () => /* binding */ faMarsStroke,
-/* harmony export */   "faMarsStrokeH": () => /* binding */ faMarsStrokeH,
-/* harmony export */   "faMarsStrokeV": () => /* binding */ faMarsStrokeV,
-/* harmony export */   "faMask": () => /* binding */ faMask,
-/* harmony export */   "faMedal": () => /* binding */ faMedal,
-/* harmony export */   "faMedkit": () => /* binding */ faMedkit,
-/* harmony export */   "faMeh": () => /* binding */ faMeh,
-/* harmony export */   "faMehBlank": () => /* binding */ faMehBlank,
-/* harmony export */   "faMehRollingEyes": () => /* binding */ faMehRollingEyes,
-/* harmony export */   "faMemory": () => /* binding */ faMemory,
-/* harmony export */   "faMenorah": () => /* binding */ faMenorah,
-/* harmony export */   "faMercury": () => /* binding */ faMercury,
-/* harmony export */   "faMeteor": () => /* binding */ faMeteor,
-/* harmony export */   "faMicrochip": () => /* binding */ faMicrochip,
-/* harmony export */   "faMicrophone": () => /* binding */ faMicrophone,
-/* harmony export */   "faMicrophoneAlt": () => /* binding */ faMicrophoneAlt,
-/* harmony export */   "faMicrophoneAltSlash": () => /* binding */ faMicrophoneAltSlash,
-/* harmony export */   "faMicrophoneSlash": () => /* binding */ faMicrophoneSlash,
-/* harmony export */   "faMicroscope": () => /* binding */ faMicroscope,
-/* harmony export */   "faMinus": () => /* binding */ faMinus,
-/* harmony export */   "faMinusCircle": () => /* binding */ faMinusCircle,
-/* harmony export */   "faMinusSquare": () => /* binding */ faMinusSquare,
-/* harmony export */   "faMitten": () => /* binding */ faMitten,
-/* harmony export */   "faMobile": () => /* binding */ faMobile,
-/* harmony export */   "faMobileAlt": () => /* binding */ faMobileAlt,
-/* harmony export */   "faMoneyBill": () => /* binding */ faMoneyBill,
-/* harmony export */   "faMoneyBillAlt": () => /* binding */ faMoneyBillAlt,
-/* harmony export */   "faMoneyBillWave": () => /* binding */ faMoneyBillWave,
-/* harmony export */   "faMoneyBillWaveAlt": () => /* binding */ faMoneyBillWaveAlt,
-/* harmony export */   "faMoneyCheck": () => /* binding */ faMoneyCheck,
-/* harmony export */   "faMoneyCheckAlt": () => /* binding */ faMoneyCheckAlt,
-/* harmony export */   "faMonument": () => /* binding */ faMonument,
-/* harmony export */   "faMoon": () => /* binding */ faMoon,
-/* harmony export */   "faMortarPestle": () => /* binding */ faMortarPestle,
-/* harmony export */   "faMosque": () => /* binding */ faMosque,
-/* harmony export */   "faMotorcycle": () => /* binding */ faMotorcycle,
-/* harmony export */   "faMountain": () => /* binding */ faMountain,
-/* harmony export */   "faMouse": () => /* binding */ faMouse,
-/* harmony export */   "faMousePointer": () => /* binding */ faMousePointer,
-/* harmony export */   "faMugHot": () => /* binding */ faMugHot,
-/* harmony export */   "faMusic": () => /* binding */ faMusic,
-/* harmony export */   "faNetworkWired": () => /* binding */ faNetworkWired,
-/* harmony export */   "faNeuter": () => /* binding */ faNeuter,
-/* harmony export */   "faNewspaper": () => /* binding */ faNewspaper,
-/* harmony export */   "faNotEqual": () => /* binding */ faNotEqual,
-/* harmony export */   "faNotesMedical": () => /* binding */ faNotesMedical,
-/* harmony export */   "faObjectGroup": () => /* binding */ faObjectGroup,
-/* harmony export */   "faObjectUngroup": () => /* binding */ faObjectUngroup,
-/* harmony export */   "faOilCan": () => /* binding */ faOilCan,
-/* harmony export */   "faOm": () => /* binding */ faOm,
-/* harmony export */   "faOtter": () => /* binding */ faOtter,
-/* harmony export */   "faOutdent": () => /* binding */ faOutdent,
-/* harmony export */   "faPager": () => /* binding */ faPager,
-/* harmony export */   "faPaintBrush": () => /* binding */ faPaintBrush,
-/* harmony export */   "faPaintRoller": () => /* binding */ faPaintRoller,
-/* harmony export */   "faPalette": () => /* binding */ faPalette,
-/* harmony export */   "faPallet": () => /* binding */ faPallet,
-/* harmony export */   "faPaperPlane": () => /* binding */ faPaperPlane,
-/* harmony export */   "faPaperclip": () => /* binding */ faPaperclip,
-/* harmony export */   "faParachuteBox": () => /* binding */ faParachuteBox,
-/* harmony export */   "faParagraph": () => /* binding */ faParagraph,
-/* harmony export */   "faParking": () => /* binding */ faParking,
-/* harmony export */   "faPassport": () => /* binding */ faPassport,
-/* harmony export */   "faPastafarianism": () => /* binding */ faPastafarianism,
-/* harmony export */   "faPaste": () => /* binding */ faPaste,
-/* harmony export */   "faPause": () => /* binding */ faPause,
-/* harmony export */   "faPauseCircle": () => /* binding */ faPauseCircle,
-/* harmony export */   "faPaw": () => /* binding */ faPaw,
-/* harmony export */   "faPeace": () => /* binding */ faPeace,
-/* harmony export */   "faPen": () => /* binding */ faPen,
-/* harmony export */   "faPenAlt": () => /* binding */ faPenAlt,
-/* harmony export */   "faPenFancy": () => /* binding */ faPenFancy,
-/* harmony export */   "faPenNib": () => /* binding */ faPenNib,
-/* harmony export */   "faPenSquare": () => /* binding */ faPenSquare,
-/* harmony export */   "faPencilAlt": () => /* binding */ faPencilAlt,
-/* harmony export */   "faPencilRuler": () => /* binding */ faPencilRuler,
-/* harmony export */   "faPeopleArrows": () => /* binding */ faPeopleArrows,
-/* harmony export */   "faPeopleCarry": () => /* binding */ faPeopleCarry,
-/* harmony export */   "faPepperHot": () => /* binding */ faPepperHot,
-/* harmony export */   "faPercent": () => /* binding */ faPercent,
-/* harmony export */   "faPercentage": () => /* binding */ faPercentage,
-/* harmony export */   "faPersonBooth": () => /* binding */ faPersonBooth,
-/* harmony export */   "faPhone": () => /* binding */ faPhone,
-/* harmony export */   "faPhoneAlt": () => /* binding */ faPhoneAlt,
-/* harmony export */   "faPhoneSlash": () => /* binding */ faPhoneSlash,
-/* harmony export */   "faPhoneSquare": () => /* binding */ faPhoneSquare,
-/* harmony export */   "faPhoneSquareAlt": () => /* binding */ faPhoneSquareAlt,
-/* harmony export */   "faPhoneVolume": () => /* binding */ faPhoneVolume,
-/* harmony export */   "faPhotoVideo": () => /* binding */ faPhotoVideo,
-/* harmony export */   "faPiggyBank": () => /* binding */ faPiggyBank,
-/* harmony export */   "faPills": () => /* binding */ faPills,
-/* harmony export */   "faPizzaSlice": () => /* binding */ faPizzaSlice,
-/* harmony export */   "faPlaceOfWorship": () => /* binding */ faPlaceOfWorship,
-/* harmony export */   "faPlane": () => /* binding */ faPlane,
-/* harmony export */   "faPlaneArrival": () => /* binding */ faPlaneArrival,
-/* harmony export */   "faPlaneDeparture": () => /* binding */ faPlaneDeparture,
-/* harmony export */   "faPlaneSlash": () => /* binding */ faPlaneSlash,
-/* harmony export */   "faPlay": () => /* binding */ faPlay,
-/* harmony export */   "faPlayCircle": () => /* binding */ faPlayCircle,
-/* harmony export */   "faPlug": () => /* binding */ faPlug,
-/* harmony export */   "faPlus": () => /* binding */ faPlus,
-/* harmony export */   "faPlusCircle": () => /* binding */ faPlusCircle,
-/* harmony export */   "faPlusSquare": () => /* binding */ faPlusSquare,
-/* harmony export */   "faPodcast": () => /* binding */ faPodcast,
-/* harmony export */   "faPoll": () => /* binding */ faPoll,
-/* harmony export */   "faPollH": () => /* binding */ faPollH,
-/* harmony export */   "faPoo": () => /* binding */ faPoo,
-/* harmony export */   "faPooStorm": () => /* binding */ faPooStorm,
-/* harmony export */   "faPoop": () => /* binding */ faPoop,
-/* harmony export */   "faPortrait": () => /* binding */ faPortrait,
-/* harmony export */   "faPoundSign": () => /* binding */ faPoundSign,
-/* harmony export */   "faPowerOff": () => /* binding */ faPowerOff,
-/* harmony export */   "faPray": () => /* binding */ faPray,
-/* harmony export */   "faPrayingHands": () => /* binding */ faPrayingHands,
-/* harmony export */   "faPrescription": () => /* binding */ faPrescription,
-/* harmony export */   "faPrescriptionBottle": () => /* binding */ faPrescriptionBottle,
-/* harmony export */   "faPrescriptionBottleAlt": () => /* binding */ faPrescriptionBottleAlt,
-/* harmony export */   "faPrint": () => /* binding */ faPrint,
-/* harmony export */   "faProcedures": () => /* binding */ faProcedures,
-/* harmony export */   "faProjectDiagram": () => /* binding */ faProjectDiagram,
-/* harmony export */   "faPumpMedical": () => /* binding */ faPumpMedical,
-/* harmony export */   "faPumpSoap": () => /* binding */ faPumpSoap,
-/* harmony export */   "faPuzzlePiece": () => /* binding */ faPuzzlePiece,
-/* harmony export */   "faQrcode": () => /* binding */ faQrcode,
-/* harmony export */   "faQuestion": () => /* binding */ faQuestion,
-/* harmony export */   "faQuestionCircle": () => /* binding */ faQuestionCircle,
-/* harmony export */   "faQuidditch": () => /* binding */ faQuidditch,
-/* harmony export */   "faQuoteLeft": () => /* binding */ faQuoteLeft,
-/* harmony export */   "faQuoteRight": () => /* binding */ faQuoteRight,
-/* harmony export */   "faQuran": () => /* binding */ faQuran,
-/* harmony export */   "faRadiation": () => /* binding */ faRadiation,
-/* harmony export */   "faRadiationAlt": () => /* binding */ faRadiationAlt,
-/* harmony export */   "faRainbow": () => /* binding */ faRainbow,
-/* harmony export */   "faRandom": () => /* binding */ faRandom,
-/* harmony export */   "faReceipt": () => /* binding */ faReceipt,
-/* harmony export */   "faRecordVinyl": () => /* binding */ faRecordVinyl,
-/* harmony export */   "faRecycle": () => /* binding */ faRecycle,
-/* harmony export */   "faRedo": () => /* binding */ faRedo,
-/* harmony export */   "faRedoAlt": () => /* binding */ faRedoAlt,
-/* harmony export */   "faRegistered": () => /* binding */ faRegistered,
-/* harmony export */   "faRemoveFormat": () => /* binding */ faRemoveFormat,
-/* harmony export */   "faReply": () => /* binding */ faReply,
-/* harmony export */   "faReplyAll": () => /* binding */ faReplyAll,
-/* harmony export */   "faRepublican": () => /* binding */ faRepublican,
-/* harmony export */   "faRestroom": () => /* binding */ faRestroom,
-/* harmony export */   "faRetweet": () => /* binding */ faRetweet,
-/* harmony export */   "faRibbon": () => /* binding */ faRibbon,
-/* harmony export */   "faRing": () => /* binding */ faRing,
-/* harmony export */   "faRoad": () => /* binding */ faRoad,
-/* harmony export */   "faRobot": () => /* binding */ faRobot,
-/* harmony export */   "faRocket": () => /* binding */ faRocket,
-/* harmony export */   "faRoute": () => /* binding */ faRoute,
-/* harmony export */   "faRss": () => /* binding */ faRss,
-/* harmony export */   "faRssSquare": () => /* binding */ faRssSquare,
-/* harmony export */   "faRubleSign": () => /* binding */ faRubleSign,
-/* harmony export */   "faRuler": () => /* binding */ faRuler,
-/* harmony export */   "faRulerCombined": () => /* binding */ faRulerCombined,
-/* harmony export */   "faRulerHorizontal": () => /* binding */ faRulerHorizontal,
-/* harmony export */   "faRulerVertical": () => /* binding */ faRulerVertical,
-/* harmony export */   "faRunning": () => /* binding */ faRunning,
-/* harmony export */   "faRupeeSign": () => /* binding */ faRupeeSign,
-/* harmony export */   "faSadCry": () => /* binding */ faSadCry,
-/* harmony export */   "faSadTear": () => /* binding */ faSadTear,
-/* harmony export */   "faSatellite": () => /* binding */ faSatellite,
-/* harmony export */   "faSatelliteDish": () => /* binding */ faSatelliteDish,
-/* harmony export */   "faSave": () => /* binding */ faSave,
-/* harmony export */   "faSchool": () => /* binding */ faSchool,
-/* harmony export */   "faScrewdriver": () => /* binding */ faScrewdriver,
-/* harmony export */   "faScroll": () => /* binding */ faScroll,
-/* harmony export */   "faSdCard": () => /* binding */ faSdCard,
-/* harmony export */   "faSearch": () => /* binding */ faSearch,
-/* harmony export */   "faSearchDollar": () => /* binding */ faSearchDollar,
-/* harmony export */   "faSearchLocation": () => /* binding */ faSearchLocation,
-/* harmony export */   "faSearchMinus": () => /* binding */ faSearchMinus,
-/* harmony export */   "faSearchPlus": () => /* binding */ faSearchPlus,
-/* harmony export */   "faSeedling": () => /* binding */ faSeedling,
-/* harmony export */   "faServer": () => /* binding */ faServer,
-/* harmony export */   "faShapes": () => /* binding */ faShapes,
-/* harmony export */   "faShare": () => /* binding */ faShare,
-/* harmony export */   "faShareAlt": () => /* binding */ faShareAlt,
-/* harmony export */   "faShareAltSquare": () => /* binding */ faShareAltSquare,
-/* harmony export */   "faShareSquare": () => /* binding */ faShareSquare,
-/* harmony export */   "faShekelSign": () => /* binding */ faShekelSign,
-/* harmony export */   "faShieldAlt": () => /* binding */ faShieldAlt,
-/* harmony export */   "faShieldVirus": () => /* binding */ faShieldVirus,
-/* harmony export */   "faShip": () => /* binding */ faShip,
-/* harmony export */   "faShippingFast": () => /* binding */ faShippingFast,
-/* harmony export */   "faShoePrints": () => /* binding */ faShoePrints,
-/* harmony export */   "faShoppingBag": () => /* binding */ faShoppingBag,
-/* harmony export */   "faShoppingBasket": () => /* binding */ faShoppingBasket,
-/* harmony export */   "faShoppingCart": () => /* binding */ faShoppingCart,
-/* harmony export */   "faShower": () => /* binding */ faShower,
-/* harmony export */   "faShuttleVan": () => /* binding */ faShuttleVan,
-/* harmony export */   "faSign": () => /* binding */ faSign,
-/* harmony export */   "faSignInAlt": () => /* binding */ faSignInAlt,
-/* harmony export */   "faSignLanguage": () => /* binding */ faSignLanguage,
-/* harmony export */   "faSignOutAlt": () => /* binding */ faSignOutAlt,
-/* harmony export */   "faSignal": () => /* binding */ faSignal,
-/* harmony export */   "faSignature": () => /* binding */ faSignature,
-/* harmony export */   "faSimCard": () => /* binding */ faSimCard,
-/* harmony export */   "faSink": () => /* binding */ faSink,
-/* harmony export */   "faSitemap": () => /* binding */ faSitemap,
-/* harmony export */   "faSkating": () => /* binding */ faSkating,
-/* harmony export */   "faSkiing": () => /* binding */ faSkiing,
-/* harmony export */   "faSkiingNordic": () => /* binding */ faSkiingNordic,
-/* harmony export */   "faSkull": () => /* binding */ faSkull,
-/* harmony export */   "faSkullCrossbones": () => /* binding */ faSkullCrossbones,
-/* harmony export */   "faSlash": () => /* binding */ faSlash,
-/* harmony export */   "faSleigh": () => /* binding */ faSleigh,
-/* harmony export */   "faSlidersH": () => /* binding */ faSlidersH,
-/* harmony export */   "faSmile": () => /* binding */ faSmile,
-/* harmony export */   "faSmileBeam": () => /* binding */ faSmileBeam,
-/* harmony export */   "faSmileWink": () => /* binding */ faSmileWink,
-/* harmony export */   "faSmog": () => /* binding */ faSmog,
-/* harmony export */   "faSmoking": () => /* binding */ faSmoking,
-/* harmony export */   "faSmokingBan": () => /* binding */ faSmokingBan,
-/* harmony export */   "faSms": () => /* binding */ faSms,
-/* harmony export */   "faSnowboarding": () => /* binding */ faSnowboarding,
-/* harmony export */   "faSnowflake": () => /* binding */ faSnowflake,
-/* harmony export */   "faSnowman": () => /* binding */ faSnowman,
-/* harmony export */   "faSnowplow": () => /* binding */ faSnowplow,
-/* harmony export */   "faSoap": () => /* binding */ faSoap,
-/* harmony export */   "faSocks": () => /* binding */ faSocks,
-/* harmony export */   "faSolarPanel": () => /* binding */ faSolarPanel,
-/* harmony export */   "faSort": () => /* binding */ faSort,
-/* harmony export */   "faSortAlphaDown": () => /* binding */ faSortAlphaDown,
-/* harmony export */   "faSortAlphaDownAlt": () => /* binding */ faSortAlphaDownAlt,
-/* harmony export */   "faSortAlphaUp": () => /* binding */ faSortAlphaUp,
-/* harmony export */   "faSortAlphaUpAlt": () => /* binding */ faSortAlphaUpAlt,
-/* harmony export */   "faSortAmountDown": () => /* binding */ faSortAmountDown,
-/* harmony export */   "faSortAmountDownAlt": () => /* binding */ faSortAmountDownAlt,
-/* harmony export */   "faSortAmountUp": () => /* binding */ faSortAmountUp,
-/* harmony export */   "faSortAmountUpAlt": () => /* binding */ faSortAmountUpAlt,
-/* harmony export */   "faSortDown": () => /* binding */ faSortDown,
-/* harmony export */   "faSortNumericDown": () => /* binding */ faSortNumericDown,
-/* harmony export */   "faSortNumericDownAlt": () => /* binding */ faSortNumericDownAlt,
-/* harmony export */   "faSortNumericUp": () => /* binding */ faSortNumericUp,
-/* harmony export */   "faSortNumericUpAlt": () => /* binding */ faSortNumericUpAlt,
-/* harmony export */   "faSortUp": () => /* binding */ faSortUp,
-/* harmony export */   "faSpa": () => /* binding */ faSpa,
-/* harmony export */   "faSpaceShuttle": () => /* binding */ faSpaceShuttle,
-/* harmony export */   "faSpellCheck": () => /* binding */ faSpellCheck,
-/* harmony export */   "faSpider": () => /* binding */ faSpider,
-/* harmony export */   "faSpinner": () => /* binding */ faSpinner,
-/* harmony export */   "faSplotch": () => /* binding */ faSplotch,
-/* harmony export */   "faSprayCan": () => /* binding */ faSprayCan,
-/* harmony export */   "faSquare": () => /* binding */ faSquare,
-/* harmony export */   "faSquareFull": () => /* binding */ faSquareFull,
-/* harmony export */   "faSquareRootAlt": () => /* binding */ faSquareRootAlt,
-/* harmony export */   "faStamp": () => /* binding */ faStamp,
-/* harmony export */   "faStar": () => /* binding */ faStar,
-/* harmony export */   "faStarAndCrescent": () => /* binding */ faStarAndCrescent,
-/* harmony export */   "faStarHalf": () => /* binding */ faStarHalf,
-/* harmony export */   "faStarHalfAlt": () => /* binding */ faStarHalfAlt,
-/* harmony export */   "faStarOfDavid": () => /* binding */ faStarOfDavid,
-/* harmony export */   "faStarOfLife": () => /* binding */ faStarOfLife,
-/* harmony export */   "faStepBackward": () => /* binding */ faStepBackward,
-/* harmony export */   "faStepForward": () => /* binding */ faStepForward,
-/* harmony export */   "faStethoscope": () => /* binding */ faStethoscope,
-/* harmony export */   "faStickyNote": () => /* binding */ faStickyNote,
-/* harmony export */   "faStop": () => /* binding */ faStop,
-/* harmony export */   "faStopCircle": () => /* binding */ faStopCircle,
-/* harmony export */   "faStopwatch": () => /* binding */ faStopwatch,
-/* harmony export */   "faStopwatch20": () => /* binding */ faStopwatch20,
-/* harmony export */   "faStore": () => /* binding */ faStore,
-/* harmony export */   "faStoreAlt": () => /* binding */ faStoreAlt,
-/* harmony export */   "faStoreAltSlash": () => /* binding */ faStoreAltSlash,
-/* harmony export */   "faStoreSlash": () => /* binding */ faStoreSlash,
-/* harmony export */   "faStream": () => /* binding */ faStream,
-/* harmony export */   "faStreetView": () => /* binding */ faStreetView,
-/* harmony export */   "faStrikethrough": () => /* binding */ faStrikethrough,
-/* harmony export */   "faStroopwafel": () => /* binding */ faStroopwafel,
-/* harmony export */   "faSubscript": () => /* binding */ faSubscript,
-/* harmony export */   "faSubway": () => /* binding */ faSubway,
-/* harmony export */   "faSuitcase": () => /* binding */ faSuitcase,
-/* harmony export */   "faSuitcaseRolling": () => /* binding */ faSuitcaseRolling,
-/* harmony export */   "faSun": () => /* binding */ faSun,
-/* harmony export */   "faSuperscript": () => /* binding */ faSuperscript,
-/* harmony export */   "faSurprise": () => /* binding */ faSurprise,
-/* harmony export */   "faSwatchbook": () => /* binding */ faSwatchbook,
-/* harmony export */   "faSwimmer": () => /* binding */ faSwimmer,
-/* harmony export */   "faSwimmingPool": () => /* binding */ faSwimmingPool,
-/* harmony export */   "faSynagogue": () => /* binding */ faSynagogue,
-/* harmony export */   "faSync": () => /* binding */ faSync,
-/* harmony export */   "faSyncAlt": () => /* binding */ faSyncAlt,
-/* harmony export */   "faSyringe": () => /* binding */ faSyringe,
-/* harmony export */   "faTable": () => /* binding */ faTable,
-/* harmony export */   "faTableTennis": () => /* binding */ faTableTennis,
-/* harmony export */   "faTablet": () => /* binding */ faTablet,
-/* harmony export */   "faTabletAlt": () => /* binding */ faTabletAlt,
-/* harmony export */   "faTablets": () => /* binding */ faTablets,
-/* harmony export */   "faTachometerAlt": () => /* binding */ faTachometerAlt,
-/* harmony export */   "faTag": () => /* binding */ faTag,
-/* harmony export */   "faTags": () => /* binding */ faTags,
-/* harmony export */   "faTape": () => /* binding */ faTape,
-/* harmony export */   "faTasks": () => /* binding */ faTasks,
-/* harmony export */   "faTaxi": () => /* binding */ faTaxi,
-/* harmony export */   "faTeeth": () => /* binding */ faTeeth,
-/* harmony export */   "faTeethOpen": () => /* binding */ faTeethOpen,
-/* harmony export */   "faTemperatureHigh": () => /* binding */ faTemperatureHigh,
-/* harmony export */   "faTemperatureLow": () => /* binding */ faTemperatureLow,
-/* harmony export */   "faTenge": () => /* binding */ faTenge,
-/* harmony export */   "faTerminal": () => /* binding */ faTerminal,
-/* harmony export */   "faTextHeight": () => /* binding */ faTextHeight,
-/* harmony export */   "faTextWidth": () => /* binding */ faTextWidth,
-/* harmony export */   "faTh": () => /* binding */ faTh,
-/* harmony export */   "faThLarge": () => /* binding */ faThLarge,
-/* harmony export */   "faThList": () => /* binding */ faThList,
-/* harmony export */   "faTheaterMasks": () => /* binding */ faTheaterMasks,
-/* harmony export */   "faThermometer": () => /* binding */ faThermometer,
-/* harmony export */   "faThermometerEmpty": () => /* binding */ faThermometerEmpty,
-/* harmony export */   "faThermometerFull": () => /* binding */ faThermometerFull,
-/* harmony export */   "faThermometerHalf": () => /* binding */ faThermometerHalf,
-/* harmony export */   "faThermometerQuarter": () => /* binding */ faThermometerQuarter,
-/* harmony export */   "faThermometerThreeQuarters": () => /* binding */ faThermometerThreeQuarters,
-/* harmony export */   "faThumbsDown": () => /* binding */ faThumbsDown,
-/* harmony export */   "faThumbsUp": () => /* binding */ faThumbsUp,
-/* harmony export */   "faThumbtack": () => /* binding */ faThumbtack,
-/* harmony export */   "faTicketAlt": () => /* binding */ faTicketAlt,
-/* harmony export */   "faTimes": () => /* binding */ faTimes,
-/* harmony export */   "faTimesCircle": () => /* binding */ faTimesCircle,
-/* harmony export */   "faTint": () => /* binding */ faTint,
-/* harmony export */   "faTintSlash": () => /* binding */ faTintSlash,
-/* harmony export */   "faTired": () => /* binding */ faTired,
-/* harmony export */   "faToggleOff": () => /* binding */ faToggleOff,
-/* harmony export */   "faToggleOn": () => /* binding */ faToggleOn,
-/* harmony export */   "faToilet": () => /* binding */ faToilet,
-/* harmony export */   "faToiletPaper": () => /* binding */ faToiletPaper,
-/* harmony export */   "faToiletPaperSlash": () => /* binding */ faToiletPaperSlash,
-/* harmony export */   "faToolbox": () => /* binding */ faToolbox,
-/* harmony export */   "faTools": () => /* binding */ faTools,
-/* harmony export */   "faTooth": () => /* binding */ faTooth,
-/* harmony export */   "faTorah": () => /* binding */ faTorah,
-/* harmony export */   "faToriiGate": () => /* binding */ faToriiGate,
-/* harmony export */   "faTractor": () => /* binding */ faTractor,
-/* harmony export */   "faTrademark": () => /* binding */ faTrademark,
-/* harmony export */   "faTrafficLight": () => /* binding */ faTrafficLight,
-/* harmony export */   "faTrailer": () => /* binding */ faTrailer,
-/* harmony export */   "faTrain": () => /* binding */ faTrain,
-/* harmony export */   "faTram": () => /* binding */ faTram,
-/* harmony export */   "faTransgender": () => /* binding */ faTransgender,
-/* harmony export */   "faTransgenderAlt": () => /* binding */ faTransgenderAlt,
-/* harmony export */   "faTrash": () => /* binding */ faTrash,
-/* harmony export */   "faTrashAlt": () => /* binding */ faTrashAlt,
-/* harmony export */   "faTrashRestore": () => /* binding */ faTrashRestore,
-/* harmony export */   "faTrashRestoreAlt": () => /* binding */ faTrashRestoreAlt,
-/* harmony export */   "faTree": () => /* binding */ faTree,
-/* harmony export */   "faTrophy": () => /* binding */ faTrophy,
-/* harmony export */   "faTruck": () => /* binding */ faTruck,
-/* harmony export */   "faTruckLoading": () => /* binding */ faTruckLoading,
-/* harmony export */   "faTruckMonster": () => /* binding */ faTruckMonster,
-/* harmony export */   "faTruckMoving": () => /* binding */ faTruckMoving,
-/* harmony export */   "faTruckPickup": () => /* binding */ faTruckPickup,
-/* harmony export */   "faTshirt": () => /* binding */ faTshirt,
-/* harmony export */   "faTty": () => /* binding */ faTty,
-/* harmony export */   "faTv": () => /* binding */ faTv,
-/* harmony export */   "faUmbrella": () => /* binding */ faUmbrella,
-/* harmony export */   "faUmbrellaBeach": () => /* binding */ faUmbrellaBeach,
-/* harmony export */   "faUnderline": () => /* binding */ faUnderline,
-/* harmony export */   "faUndo": () => /* binding */ faUndo,
-/* harmony export */   "faUndoAlt": () => /* binding */ faUndoAlt,
-/* harmony export */   "faUniversalAccess": () => /* binding */ faUniversalAccess,
-/* harmony export */   "faUniversity": () => /* binding */ faUniversity,
-/* harmony export */   "faUnlink": () => /* binding */ faUnlink,
-/* harmony export */   "faUnlock": () => /* binding */ faUnlock,
-/* harmony export */   "faUnlockAlt": () => /* binding */ faUnlockAlt,
-/* harmony export */   "faUpload": () => /* binding */ faUpload,
-/* harmony export */   "faUser": () => /* binding */ faUser,
-/* harmony export */   "faUserAlt": () => /* binding */ faUserAlt,
-/* harmony export */   "faUserAltSlash": () => /* binding */ faUserAltSlash,
-/* harmony export */   "faUserAstronaut": () => /* binding */ faUserAstronaut,
-/* harmony export */   "faUserCheck": () => /* binding */ faUserCheck,
-/* harmony export */   "faUserCircle": () => /* binding */ faUserCircle,
-/* harmony export */   "faUserClock": () => /* binding */ faUserClock,
-/* harmony export */   "faUserCog": () => /* binding */ faUserCog,
-/* harmony export */   "faUserEdit": () => /* binding */ faUserEdit,
-/* harmony export */   "faUserFriends": () => /* binding */ faUserFriends,
-/* harmony export */   "faUserGraduate": () => /* binding */ faUserGraduate,
-/* harmony export */   "faUserInjured": () => /* binding */ faUserInjured,
-/* harmony export */   "faUserLock": () => /* binding */ faUserLock,
-/* harmony export */   "faUserMd": () => /* binding */ faUserMd,
-/* harmony export */   "faUserMinus": () => /* binding */ faUserMinus,
-/* harmony export */   "faUserNinja": () => /* binding */ faUserNinja,
-/* harmony export */   "faUserNurse": () => /* binding */ faUserNurse,
-/* harmony export */   "faUserPlus": () => /* binding */ faUserPlus,
-/* harmony export */   "faUserSecret": () => /* binding */ faUserSecret,
-/* harmony export */   "faUserShield": () => /* binding */ faUserShield,
-/* harmony export */   "faUserSlash": () => /* binding */ faUserSlash,
-/* harmony export */   "faUserTag": () => /* binding */ faUserTag,
-/* harmony export */   "faUserTie": () => /* binding */ faUserTie,
-/* harmony export */   "faUserTimes": () => /* binding */ faUserTimes,
-/* harmony export */   "faUsers": () => /* binding */ faUsers,
-/* harmony export */   "faUsersCog": () => /* binding */ faUsersCog,
-/* harmony export */   "faUsersSlash": () => /* binding */ faUsersSlash,
-/* harmony export */   "faUtensilSpoon": () => /* binding */ faUtensilSpoon,
-/* harmony export */   "faUtensils": () => /* binding */ faUtensils,
-/* harmony export */   "faVectorSquare": () => /* binding */ faVectorSquare,
-/* harmony export */   "faVenus": () => /* binding */ faVenus,
-/* harmony export */   "faVenusDouble": () => /* binding */ faVenusDouble,
-/* harmony export */   "faVenusMars": () => /* binding */ faVenusMars,
-/* harmony export */   "faVest": () => /* binding */ faVest,
-/* harmony export */   "faVestPatches": () => /* binding */ faVestPatches,
-/* harmony export */   "faVial": () => /* binding */ faVial,
-/* harmony export */   "faVials": () => /* binding */ faVials,
-/* harmony export */   "faVideo": () => /* binding */ faVideo,
-/* harmony export */   "faVideoSlash": () => /* binding */ faVideoSlash,
-/* harmony export */   "faVihara": () => /* binding */ faVihara,
-/* harmony export */   "faVirus": () => /* binding */ faVirus,
-/* harmony export */   "faVirusSlash": () => /* binding */ faVirusSlash,
-/* harmony export */   "faViruses": () => /* binding */ faViruses,
-/* harmony export */   "faVoicemail": () => /* binding */ faVoicemail,
-/* harmony export */   "faVolleyballBall": () => /* binding */ faVolleyballBall,
-/* harmony export */   "faVolumeDown": () => /* binding */ faVolumeDown,
-/* harmony export */   "faVolumeMute": () => /* binding */ faVolumeMute,
-/* harmony export */   "faVolumeOff": () => /* binding */ faVolumeOff,
-/* harmony export */   "faVolumeUp": () => /* binding */ faVolumeUp,
-/* harmony export */   "faVoteYea": () => /* binding */ faVoteYea,
-/* harmony export */   "faVrCardboard": () => /* binding */ faVrCardboard,
-/* harmony export */   "faWalking": () => /* binding */ faWalking,
-/* harmony export */   "faWallet": () => /* binding */ faWallet,
-/* harmony export */   "faWarehouse": () => /* binding */ faWarehouse,
-/* harmony export */   "faWater": () => /* binding */ faWater,
-/* harmony export */   "faWaveSquare": () => /* binding */ faWaveSquare,
-/* harmony export */   "faWeight": () => /* binding */ faWeight,
-/* harmony export */   "faWeightHanging": () => /* binding */ faWeightHanging,
-/* harmony export */   "faWheelchair": () => /* binding */ faWheelchair,
-/* harmony export */   "faWifi": () => /* binding */ faWifi,
-/* harmony export */   "faWind": () => /* binding */ faWind,
-/* harmony export */   "faWindowClose": () => /* binding */ faWindowClose,
-/* harmony export */   "faWindowMaximize": () => /* binding */ faWindowMaximize,
-/* harmony export */   "faWindowMinimize": () => /* binding */ faWindowMinimize,
-/* harmony export */   "faWindowRestore": () => /* binding */ faWindowRestore,
-/* harmony export */   "faWineBottle": () => /* binding */ faWineBottle,
-/* harmony export */   "faWineGlass": () => /* binding */ faWineGlass,
-/* harmony export */   "faWineGlassAlt": () => /* binding */ faWineGlassAlt,
-/* harmony export */   "faWonSign": () => /* binding */ faWonSign,
-/* harmony export */   "faWrench": () => /* binding */ faWrench,
-/* harmony export */   "faXRay": () => /* binding */ faXRay,
-/* harmony export */   "faYenSign": () => /* binding */ faYenSign,
-/* harmony export */   "faYinYang": () => /* binding */ faYinYang
+/* harmony export */   "fas": () => (/* binding */ _iconsCache),
+/* harmony export */   "prefix": () => (/* binding */ prefix),
+/* harmony export */   "faAd": () => (/* binding */ faAd),
+/* harmony export */   "faAddressBook": () => (/* binding */ faAddressBook),
+/* harmony export */   "faAddressCard": () => (/* binding */ faAddressCard),
+/* harmony export */   "faAdjust": () => (/* binding */ faAdjust),
+/* harmony export */   "faAirFreshener": () => (/* binding */ faAirFreshener),
+/* harmony export */   "faAlignCenter": () => (/* binding */ faAlignCenter),
+/* harmony export */   "faAlignJustify": () => (/* binding */ faAlignJustify),
+/* harmony export */   "faAlignLeft": () => (/* binding */ faAlignLeft),
+/* harmony export */   "faAlignRight": () => (/* binding */ faAlignRight),
+/* harmony export */   "faAllergies": () => (/* binding */ faAllergies),
+/* harmony export */   "faAmbulance": () => (/* binding */ faAmbulance),
+/* harmony export */   "faAmericanSignLanguageInterpreting": () => (/* binding */ faAmericanSignLanguageInterpreting),
+/* harmony export */   "faAnchor": () => (/* binding */ faAnchor),
+/* harmony export */   "faAngleDoubleDown": () => (/* binding */ faAngleDoubleDown),
+/* harmony export */   "faAngleDoubleLeft": () => (/* binding */ faAngleDoubleLeft),
+/* harmony export */   "faAngleDoubleRight": () => (/* binding */ faAngleDoubleRight),
+/* harmony export */   "faAngleDoubleUp": () => (/* binding */ faAngleDoubleUp),
+/* harmony export */   "faAngleDown": () => (/* binding */ faAngleDown),
+/* harmony export */   "faAngleLeft": () => (/* binding */ faAngleLeft),
+/* harmony export */   "faAngleRight": () => (/* binding */ faAngleRight),
+/* harmony export */   "faAngleUp": () => (/* binding */ faAngleUp),
+/* harmony export */   "faAngry": () => (/* binding */ faAngry),
+/* harmony export */   "faAnkh": () => (/* binding */ faAnkh),
+/* harmony export */   "faAppleAlt": () => (/* binding */ faAppleAlt),
+/* harmony export */   "faArchive": () => (/* binding */ faArchive),
+/* harmony export */   "faArchway": () => (/* binding */ faArchway),
+/* harmony export */   "faArrowAltCircleDown": () => (/* binding */ faArrowAltCircleDown),
+/* harmony export */   "faArrowAltCircleLeft": () => (/* binding */ faArrowAltCircleLeft),
+/* harmony export */   "faArrowAltCircleRight": () => (/* binding */ faArrowAltCircleRight),
+/* harmony export */   "faArrowAltCircleUp": () => (/* binding */ faArrowAltCircleUp),
+/* harmony export */   "faArrowCircleDown": () => (/* binding */ faArrowCircleDown),
+/* harmony export */   "faArrowCircleLeft": () => (/* binding */ faArrowCircleLeft),
+/* harmony export */   "faArrowCircleRight": () => (/* binding */ faArrowCircleRight),
+/* harmony export */   "faArrowCircleUp": () => (/* binding */ faArrowCircleUp),
+/* harmony export */   "faArrowDown": () => (/* binding */ faArrowDown),
+/* harmony export */   "faArrowLeft": () => (/* binding */ faArrowLeft),
+/* harmony export */   "faArrowRight": () => (/* binding */ faArrowRight),
+/* harmony export */   "faArrowUp": () => (/* binding */ faArrowUp),
+/* harmony export */   "faArrowsAlt": () => (/* binding */ faArrowsAlt),
+/* harmony export */   "faArrowsAltH": () => (/* binding */ faArrowsAltH),
+/* harmony export */   "faArrowsAltV": () => (/* binding */ faArrowsAltV),
+/* harmony export */   "faAssistiveListeningSystems": () => (/* binding */ faAssistiveListeningSystems),
+/* harmony export */   "faAsterisk": () => (/* binding */ faAsterisk),
+/* harmony export */   "faAt": () => (/* binding */ faAt),
+/* harmony export */   "faAtlas": () => (/* binding */ faAtlas),
+/* harmony export */   "faAtom": () => (/* binding */ faAtom),
+/* harmony export */   "faAudioDescription": () => (/* binding */ faAudioDescription),
+/* harmony export */   "faAward": () => (/* binding */ faAward),
+/* harmony export */   "faBaby": () => (/* binding */ faBaby),
+/* harmony export */   "faBabyCarriage": () => (/* binding */ faBabyCarriage),
+/* harmony export */   "faBackspace": () => (/* binding */ faBackspace),
+/* harmony export */   "faBackward": () => (/* binding */ faBackward),
+/* harmony export */   "faBacon": () => (/* binding */ faBacon),
+/* harmony export */   "faBacteria": () => (/* binding */ faBacteria),
+/* harmony export */   "faBacterium": () => (/* binding */ faBacterium),
+/* harmony export */   "faBahai": () => (/* binding */ faBahai),
+/* harmony export */   "faBalanceScale": () => (/* binding */ faBalanceScale),
+/* harmony export */   "faBalanceScaleLeft": () => (/* binding */ faBalanceScaleLeft),
+/* harmony export */   "faBalanceScaleRight": () => (/* binding */ faBalanceScaleRight),
+/* harmony export */   "faBan": () => (/* binding */ faBan),
+/* harmony export */   "faBandAid": () => (/* binding */ faBandAid),
+/* harmony export */   "faBarcode": () => (/* binding */ faBarcode),
+/* harmony export */   "faBars": () => (/* binding */ faBars),
+/* harmony export */   "faBaseballBall": () => (/* binding */ faBaseballBall),
+/* harmony export */   "faBasketballBall": () => (/* binding */ faBasketballBall),
+/* harmony export */   "faBath": () => (/* binding */ faBath),
+/* harmony export */   "faBatteryEmpty": () => (/* binding */ faBatteryEmpty),
+/* harmony export */   "faBatteryFull": () => (/* binding */ faBatteryFull),
+/* harmony export */   "faBatteryHalf": () => (/* binding */ faBatteryHalf),
+/* harmony export */   "faBatteryQuarter": () => (/* binding */ faBatteryQuarter),
+/* harmony export */   "faBatteryThreeQuarters": () => (/* binding */ faBatteryThreeQuarters),
+/* harmony export */   "faBed": () => (/* binding */ faBed),
+/* harmony export */   "faBeer": () => (/* binding */ faBeer),
+/* harmony export */   "faBell": () => (/* binding */ faBell),
+/* harmony export */   "faBellSlash": () => (/* binding */ faBellSlash),
+/* harmony export */   "faBezierCurve": () => (/* binding */ faBezierCurve),
+/* harmony export */   "faBible": () => (/* binding */ faBible),
+/* harmony export */   "faBicycle": () => (/* binding */ faBicycle),
+/* harmony export */   "faBiking": () => (/* binding */ faBiking),
+/* harmony export */   "faBinoculars": () => (/* binding */ faBinoculars),
+/* harmony export */   "faBiohazard": () => (/* binding */ faBiohazard),
+/* harmony export */   "faBirthdayCake": () => (/* binding */ faBirthdayCake),
+/* harmony export */   "faBlender": () => (/* binding */ faBlender),
+/* harmony export */   "faBlenderPhone": () => (/* binding */ faBlenderPhone),
+/* harmony export */   "faBlind": () => (/* binding */ faBlind),
+/* harmony export */   "faBlog": () => (/* binding */ faBlog),
+/* harmony export */   "faBold": () => (/* binding */ faBold),
+/* harmony export */   "faBolt": () => (/* binding */ faBolt),
+/* harmony export */   "faBomb": () => (/* binding */ faBomb),
+/* harmony export */   "faBone": () => (/* binding */ faBone),
+/* harmony export */   "faBong": () => (/* binding */ faBong),
+/* harmony export */   "faBook": () => (/* binding */ faBook),
+/* harmony export */   "faBookDead": () => (/* binding */ faBookDead),
+/* harmony export */   "faBookMedical": () => (/* binding */ faBookMedical),
+/* harmony export */   "faBookOpen": () => (/* binding */ faBookOpen),
+/* harmony export */   "faBookReader": () => (/* binding */ faBookReader),
+/* harmony export */   "faBookmark": () => (/* binding */ faBookmark),
+/* harmony export */   "faBorderAll": () => (/* binding */ faBorderAll),
+/* harmony export */   "faBorderNone": () => (/* binding */ faBorderNone),
+/* harmony export */   "faBorderStyle": () => (/* binding */ faBorderStyle),
+/* harmony export */   "faBowlingBall": () => (/* binding */ faBowlingBall),
+/* harmony export */   "faBox": () => (/* binding */ faBox),
+/* harmony export */   "faBoxOpen": () => (/* binding */ faBoxOpen),
+/* harmony export */   "faBoxTissue": () => (/* binding */ faBoxTissue),
+/* harmony export */   "faBoxes": () => (/* binding */ faBoxes),
+/* harmony export */   "faBraille": () => (/* binding */ faBraille),
+/* harmony export */   "faBrain": () => (/* binding */ faBrain),
+/* harmony export */   "faBreadSlice": () => (/* binding */ faBreadSlice),
+/* harmony export */   "faBriefcase": () => (/* binding */ faBriefcase),
+/* harmony export */   "faBriefcaseMedical": () => (/* binding */ faBriefcaseMedical),
+/* harmony export */   "faBroadcastTower": () => (/* binding */ faBroadcastTower),
+/* harmony export */   "faBroom": () => (/* binding */ faBroom),
+/* harmony export */   "faBrush": () => (/* binding */ faBrush),
+/* harmony export */   "faBug": () => (/* binding */ faBug),
+/* harmony export */   "faBuilding": () => (/* binding */ faBuilding),
+/* harmony export */   "faBullhorn": () => (/* binding */ faBullhorn),
+/* harmony export */   "faBullseye": () => (/* binding */ faBullseye),
+/* harmony export */   "faBurn": () => (/* binding */ faBurn),
+/* harmony export */   "faBus": () => (/* binding */ faBus),
+/* harmony export */   "faBusAlt": () => (/* binding */ faBusAlt),
+/* harmony export */   "faBusinessTime": () => (/* binding */ faBusinessTime),
+/* harmony export */   "faCalculator": () => (/* binding */ faCalculator),
+/* harmony export */   "faCalendar": () => (/* binding */ faCalendar),
+/* harmony export */   "faCalendarAlt": () => (/* binding */ faCalendarAlt),
+/* harmony export */   "faCalendarCheck": () => (/* binding */ faCalendarCheck),
+/* harmony export */   "faCalendarDay": () => (/* binding */ faCalendarDay),
+/* harmony export */   "faCalendarMinus": () => (/* binding */ faCalendarMinus),
+/* harmony export */   "faCalendarPlus": () => (/* binding */ faCalendarPlus),
+/* harmony export */   "faCalendarTimes": () => (/* binding */ faCalendarTimes),
+/* harmony export */   "faCalendarWeek": () => (/* binding */ faCalendarWeek),
+/* harmony export */   "faCamera": () => (/* binding */ faCamera),
+/* harmony export */   "faCameraRetro": () => (/* binding */ faCameraRetro),
+/* harmony export */   "faCampground": () => (/* binding */ faCampground),
+/* harmony export */   "faCandyCane": () => (/* binding */ faCandyCane),
+/* harmony export */   "faCannabis": () => (/* binding */ faCannabis),
+/* harmony export */   "faCapsules": () => (/* binding */ faCapsules),
+/* harmony export */   "faCar": () => (/* binding */ faCar),
+/* harmony export */   "faCarAlt": () => (/* binding */ faCarAlt),
+/* harmony export */   "faCarBattery": () => (/* binding */ faCarBattery),
+/* harmony export */   "faCarCrash": () => (/* binding */ faCarCrash),
+/* harmony export */   "faCarSide": () => (/* binding */ faCarSide),
+/* harmony export */   "faCaravan": () => (/* binding */ faCaravan),
+/* harmony export */   "faCaretDown": () => (/* binding */ faCaretDown),
+/* harmony export */   "faCaretLeft": () => (/* binding */ faCaretLeft),
+/* harmony export */   "faCaretRight": () => (/* binding */ faCaretRight),
+/* harmony export */   "faCaretSquareDown": () => (/* binding */ faCaretSquareDown),
+/* harmony export */   "faCaretSquareLeft": () => (/* binding */ faCaretSquareLeft),
+/* harmony export */   "faCaretSquareRight": () => (/* binding */ faCaretSquareRight),
+/* harmony export */   "faCaretSquareUp": () => (/* binding */ faCaretSquareUp),
+/* harmony export */   "faCaretUp": () => (/* binding */ faCaretUp),
+/* harmony export */   "faCarrot": () => (/* binding */ faCarrot),
+/* harmony export */   "faCartArrowDown": () => (/* binding */ faCartArrowDown),
+/* harmony export */   "faCartPlus": () => (/* binding */ faCartPlus),
+/* harmony export */   "faCashRegister": () => (/* binding */ faCashRegister),
+/* harmony export */   "faCat": () => (/* binding */ faCat),
+/* harmony export */   "faCertificate": () => (/* binding */ faCertificate),
+/* harmony export */   "faChair": () => (/* binding */ faChair),
+/* harmony export */   "faChalkboard": () => (/* binding */ faChalkboard),
+/* harmony export */   "faChalkboardTeacher": () => (/* binding */ faChalkboardTeacher),
+/* harmony export */   "faChargingStation": () => (/* binding */ faChargingStation),
+/* harmony export */   "faChartArea": () => (/* binding */ faChartArea),
+/* harmony export */   "faChartBar": () => (/* binding */ faChartBar),
+/* harmony export */   "faChartLine": () => (/* binding */ faChartLine),
+/* harmony export */   "faChartPie": () => (/* binding */ faChartPie),
+/* harmony export */   "faCheck": () => (/* binding */ faCheck),
+/* harmony export */   "faCheckCircle": () => (/* binding */ faCheckCircle),
+/* harmony export */   "faCheckDouble": () => (/* binding */ faCheckDouble),
+/* harmony export */   "faCheckSquare": () => (/* binding */ faCheckSquare),
+/* harmony export */   "faCheese": () => (/* binding */ faCheese),
+/* harmony export */   "faChess": () => (/* binding */ faChess),
+/* harmony export */   "faChessBishop": () => (/* binding */ faChessBishop),
+/* harmony export */   "faChessBoard": () => (/* binding */ faChessBoard),
+/* harmony export */   "faChessKing": () => (/* binding */ faChessKing),
+/* harmony export */   "faChessKnight": () => (/* binding */ faChessKnight),
+/* harmony export */   "faChessPawn": () => (/* binding */ faChessPawn),
+/* harmony export */   "faChessQueen": () => (/* binding */ faChessQueen),
+/* harmony export */   "faChessRook": () => (/* binding */ faChessRook),
+/* harmony export */   "faChevronCircleDown": () => (/* binding */ faChevronCircleDown),
+/* harmony export */   "faChevronCircleLeft": () => (/* binding */ faChevronCircleLeft),
+/* harmony export */   "faChevronCircleRight": () => (/* binding */ faChevronCircleRight),
+/* harmony export */   "faChevronCircleUp": () => (/* binding */ faChevronCircleUp),
+/* harmony export */   "faChevronDown": () => (/* binding */ faChevronDown),
+/* harmony export */   "faChevronLeft": () => (/* binding */ faChevronLeft),
+/* harmony export */   "faChevronRight": () => (/* binding */ faChevronRight),
+/* harmony export */   "faChevronUp": () => (/* binding */ faChevronUp),
+/* harmony export */   "faChild": () => (/* binding */ faChild),
+/* harmony export */   "faChurch": () => (/* binding */ faChurch),
+/* harmony export */   "faCircle": () => (/* binding */ faCircle),
+/* harmony export */   "faCircleNotch": () => (/* binding */ faCircleNotch),
+/* harmony export */   "faCity": () => (/* binding */ faCity),
+/* harmony export */   "faClinicMedical": () => (/* binding */ faClinicMedical),
+/* harmony export */   "faClipboard": () => (/* binding */ faClipboard),
+/* harmony export */   "faClipboardCheck": () => (/* binding */ faClipboardCheck),
+/* harmony export */   "faClipboardList": () => (/* binding */ faClipboardList),
+/* harmony export */   "faClock": () => (/* binding */ faClock),
+/* harmony export */   "faClone": () => (/* binding */ faClone),
+/* harmony export */   "faClosedCaptioning": () => (/* binding */ faClosedCaptioning),
+/* harmony export */   "faCloud": () => (/* binding */ faCloud),
+/* harmony export */   "faCloudDownloadAlt": () => (/* binding */ faCloudDownloadAlt),
+/* harmony export */   "faCloudMeatball": () => (/* binding */ faCloudMeatball),
+/* harmony export */   "faCloudMoon": () => (/* binding */ faCloudMoon),
+/* harmony export */   "faCloudMoonRain": () => (/* binding */ faCloudMoonRain),
+/* harmony export */   "faCloudRain": () => (/* binding */ faCloudRain),
+/* harmony export */   "faCloudShowersHeavy": () => (/* binding */ faCloudShowersHeavy),
+/* harmony export */   "faCloudSun": () => (/* binding */ faCloudSun),
+/* harmony export */   "faCloudSunRain": () => (/* binding */ faCloudSunRain),
+/* harmony export */   "faCloudUploadAlt": () => (/* binding */ faCloudUploadAlt),
+/* harmony export */   "faCocktail": () => (/* binding */ faCocktail),
+/* harmony export */   "faCode": () => (/* binding */ faCode),
+/* harmony export */   "faCodeBranch": () => (/* binding */ faCodeBranch),
+/* harmony export */   "faCoffee": () => (/* binding */ faCoffee),
+/* harmony export */   "faCog": () => (/* binding */ faCog),
+/* harmony export */   "faCogs": () => (/* binding */ faCogs),
+/* harmony export */   "faCoins": () => (/* binding */ faCoins),
+/* harmony export */   "faColumns": () => (/* binding */ faColumns),
+/* harmony export */   "faComment": () => (/* binding */ faComment),
+/* harmony export */   "faCommentAlt": () => (/* binding */ faCommentAlt),
+/* harmony export */   "faCommentDollar": () => (/* binding */ faCommentDollar),
+/* harmony export */   "faCommentDots": () => (/* binding */ faCommentDots),
+/* harmony export */   "faCommentMedical": () => (/* binding */ faCommentMedical),
+/* harmony export */   "faCommentSlash": () => (/* binding */ faCommentSlash),
+/* harmony export */   "faComments": () => (/* binding */ faComments),
+/* harmony export */   "faCommentsDollar": () => (/* binding */ faCommentsDollar),
+/* harmony export */   "faCompactDisc": () => (/* binding */ faCompactDisc),
+/* harmony export */   "faCompass": () => (/* binding */ faCompass),
+/* harmony export */   "faCompress": () => (/* binding */ faCompress),
+/* harmony export */   "faCompressAlt": () => (/* binding */ faCompressAlt),
+/* harmony export */   "faCompressArrowsAlt": () => (/* binding */ faCompressArrowsAlt),
+/* harmony export */   "faConciergeBell": () => (/* binding */ faConciergeBell),
+/* harmony export */   "faCookie": () => (/* binding */ faCookie),
+/* harmony export */   "faCookieBite": () => (/* binding */ faCookieBite),
+/* harmony export */   "faCopy": () => (/* binding */ faCopy),
+/* harmony export */   "faCopyright": () => (/* binding */ faCopyright),
+/* harmony export */   "faCouch": () => (/* binding */ faCouch),
+/* harmony export */   "faCreditCard": () => (/* binding */ faCreditCard),
+/* harmony export */   "faCrop": () => (/* binding */ faCrop),
+/* harmony export */   "faCropAlt": () => (/* binding */ faCropAlt),
+/* harmony export */   "faCross": () => (/* binding */ faCross),
+/* harmony export */   "faCrosshairs": () => (/* binding */ faCrosshairs),
+/* harmony export */   "faCrow": () => (/* binding */ faCrow),
+/* harmony export */   "faCrown": () => (/* binding */ faCrown),
+/* harmony export */   "faCrutch": () => (/* binding */ faCrutch),
+/* harmony export */   "faCube": () => (/* binding */ faCube),
+/* harmony export */   "faCubes": () => (/* binding */ faCubes),
+/* harmony export */   "faCut": () => (/* binding */ faCut),
+/* harmony export */   "faDatabase": () => (/* binding */ faDatabase),
+/* harmony export */   "faDeaf": () => (/* binding */ faDeaf),
+/* harmony export */   "faDemocrat": () => (/* binding */ faDemocrat),
+/* harmony export */   "faDesktop": () => (/* binding */ faDesktop),
+/* harmony export */   "faDharmachakra": () => (/* binding */ faDharmachakra),
+/* harmony export */   "faDiagnoses": () => (/* binding */ faDiagnoses),
+/* harmony export */   "faDice": () => (/* binding */ faDice),
+/* harmony export */   "faDiceD20": () => (/* binding */ faDiceD20),
+/* harmony export */   "faDiceD6": () => (/* binding */ faDiceD6),
+/* harmony export */   "faDiceFive": () => (/* binding */ faDiceFive),
+/* harmony export */   "faDiceFour": () => (/* binding */ faDiceFour),
+/* harmony export */   "faDiceOne": () => (/* binding */ faDiceOne),
+/* harmony export */   "faDiceSix": () => (/* binding */ faDiceSix),
+/* harmony export */   "faDiceThree": () => (/* binding */ faDiceThree),
+/* harmony export */   "faDiceTwo": () => (/* binding */ faDiceTwo),
+/* harmony export */   "faDigitalTachograph": () => (/* binding */ faDigitalTachograph),
+/* harmony export */   "faDirections": () => (/* binding */ faDirections),
+/* harmony export */   "faDisease": () => (/* binding */ faDisease),
+/* harmony export */   "faDivide": () => (/* binding */ faDivide),
+/* harmony export */   "faDizzy": () => (/* binding */ faDizzy),
+/* harmony export */   "faDna": () => (/* binding */ faDna),
+/* harmony export */   "faDog": () => (/* binding */ faDog),
+/* harmony export */   "faDollarSign": () => (/* binding */ faDollarSign),
+/* harmony export */   "faDolly": () => (/* binding */ faDolly),
+/* harmony export */   "faDollyFlatbed": () => (/* binding */ faDollyFlatbed),
+/* harmony export */   "faDonate": () => (/* binding */ faDonate),
+/* harmony export */   "faDoorClosed": () => (/* binding */ faDoorClosed),
+/* harmony export */   "faDoorOpen": () => (/* binding */ faDoorOpen),
+/* harmony export */   "faDotCircle": () => (/* binding */ faDotCircle),
+/* harmony export */   "faDove": () => (/* binding */ faDove),
+/* harmony export */   "faDownload": () => (/* binding */ faDownload),
+/* harmony export */   "faDraftingCompass": () => (/* binding */ faDraftingCompass),
+/* harmony export */   "faDragon": () => (/* binding */ faDragon),
+/* harmony export */   "faDrawPolygon": () => (/* binding */ faDrawPolygon),
+/* harmony export */   "faDrum": () => (/* binding */ faDrum),
+/* harmony export */   "faDrumSteelpan": () => (/* binding */ faDrumSteelpan),
+/* harmony export */   "faDrumstickBite": () => (/* binding */ faDrumstickBite),
+/* harmony export */   "faDumbbell": () => (/* binding */ faDumbbell),
+/* harmony export */   "faDumpster": () => (/* binding */ faDumpster),
+/* harmony export */   "faDumpsterFire": () => (/* binding */ faDumpsterFire),
+/* harmony export */   "faDungeon": () => (/* binding */ faDungeon),
+/* harmony export */   "faEdit": () => (/* binding */ faEdit),
+/* harmony export */   "faEgg": () => (/* binding */ faEgg),
+/* harmony export */   "faEject": () => (/* binding */ faEject),
+/* harmony export */   "faEllipsisH": () => (/* binding */ faEllipsisH),
+/* harmony export */   "faEllipsisV": () => (/* binding */ faEllipsisV),
+/* harmony export */   "faEnvelope": () => (/* binding */ faEnvelope),
+/* harmony export */   "faEnvelopeOpen": () => (/* binding */ faEnvelopeOpen),
+/* harmony export */   "faEnvelopeOpenText": () => (/* binding */ faEnvelopeOpenText),
+/* harmony export */   "faEnvelopeSquare": () => (/* binding */ faEnvelopeSquare),
+/* harmony export */   "faEquals": () => (/* binding */ faEquals),
+/* harmony export */   "faEraser": () => (/* binding */ faEraser),
+/* harmony export */   "faEthernet": () => (/* binding */ faEthernet),
+/* harmony export */   "faEuroSign": () => (/* binding */ faEuroSign),
+/* harmony export */   "faExchangeAlt": () => (/* binding */ faExchangeAlt),
+/* harmony export */   "faExclamation": () => (/* binding */ faExclamation),
+/* harmony export */   "faExclamationCircle": () => (/* binding */ faExclamationCircle),
+/* harmony export */   "faExclamationTriangle": () => (/* binding */ faExclamationTriangle),
+/* harmony export */   "faExpand": () => (/* binding */ faExpand),
+/* harmony export */   "faExpandAlt": () => (/* binding */ faExpandAlt),
+/* harmony export */   "faExpandArrowsAlt": () => (/* binding */ faExpandArrowsAlt),
+/* harmony export */   "faExternalLinkAlt": () => (/* binding */ faExternalLinkAlt),
+/* harmony export */   "faExternalLinkSquareAlt": () => (/* binding */ faExternalLinkSquareAlt),
+/* harmony export */   "faEye": () => (/* binding */ faEye),
+/* harmony export */   "faEyeDropper": () => (/* binding */ faEyeDropper),
+/* harmony export */   "faEyeSlash": () => (/* binding */ faEyeSlash),
+/* harmony export */   "faFan": () => (/* binding */ faFan),
+/* harmony export */   "faFastBackward": () => (/* binding */ faFastBackward),
+/* harmony export */   "faFastForward": () => (/* binding */ faFastForward),
+/* harmony export */   "faFaucet": () => (/* binding */ faFaucet),
+/* harmony export */   "faFax": () => (/* binding */ faFax),
+/* harmony export */   "faFeather": () => (/* binding */ faFeather),
+/* harmony export */   "faFeatherAlt": () => (/* binding */ faFeatherAlt),
+/* harmony export */   "faFemale": () => (/* binding */ faFemale),
+/* harmony export */   "faFighterJet": () => (/* binding */ faFighterJet),
+/* harmony export */   "faFile": () => (/* binding */ faFile),
+/* harmony export */   "faFileAlt": () => (/* binding */ faFileAlt),
+/* harmony export */   "faFileArchive": () => (/* binding */ faFileArchive),
+/* harmony export */   "faFileAudio": () => (/* binding */ faFileAudio),
+/* harmony export */   "faFileCode": () => (/* binding */ faFileCode),
+/* harmony export */   "faFileContract": () => (/* binding */ faFileContract),
+/* harmony export */   "faFileCsv": () => (/* binding */ faFileCsv),
+/* harmony export */   "faFileDownload": () => (/* binding */ faFileDownload),
+/* harmony export */   "faFileExcel": () => (/* binding */ faFileExcel),
+/* harmony export */   "faFileExport": () => (/* binding */ faFileExport),
+/* harmony export */   "faFileImage": () => (/* binding */ faFileImage),
+/* harmony export */   "faFileImport": () => (/* binding */ faFileImport),
+/* harmony export */   "faFileInvoice": () => (/* binding */ faFileInvoice),
+/* harmony export */   "faFileInvoiceDollar": () => (/* binding */ faFileInvoiceDollar),
+/* harmony export */   "faFileMedical": () => (/* binding */ faFileMedical),
+/* harmony export */   "faFileMedicalAlt": () => (/* binding */ faFileMedicalAlt),
+/* harmony export */   "faFilePdf": () => (/* binding */ faFilePdf),
+/* harmony export */   "faFilePowerpoint": () => (/* binding */ faFilePowerpoint),
+/* harmony export */   "faFilePrescription": () => (/* binding */ faFilePrescription),
+/* harmony export */   "faFileSignature": () => (/* binding */ faFileSignature),
+/* harmony export */   "faFileUpload": () => (/* binding */ faFileUpload),
+/* harmony export */   "faFileVideo": () => (/* binding */ faFileVideo),
+/* harmony export */   "faFileWord": () => (/* binding */ faFileWord),
+/* harmony export */   "faFill": () => (/* binding */ faFill),
+/* harmony export */   "faFillDrip": () => (/* binding */ faFillDrip),
+/* harmony export */   "faFilm": () => (/* binding */ faFilm),
+/* harmony export */   "faFilter": () => (/* binding */ faFilter),
+/* harmony export */   "faFingerprint": () => (/* binding */ faFingerprint),
+/* harmony export */   "faFire": () => (/* binding */ faFire),
+/* harmony export */   "faFireAlt": () => (/* binding */ faFireAlt),
+/* harmony export */   "faFireExtinguisher": () => (/* binding */ faFireExtinguisher),
+/* harmony export */   "faFirstAid": () => (/* binding */ faFirstAid),
+/* harmony export */   "faFish": () => (/* binding */ faFish),
+/* harmony export */   "faFistRaised": () => (/* binding */ faFistRaised),
+/* harmony export */   "faFlag": () => (/* binding */ faFlag),
+/* harmony export */   "faFlagCheckered": () => (/* binding */ faFlagCheckered),
+/* harmony export */   "faFlagUsa": () => (/* binding */ faFlagUsa),
+/* harmony export */   "faFlask": () => (/* binding */ faFlask),
+/* harmony export */   "faFlushed": () => (/* binding */ faFlushed),
+/* harmony export */   "faFolder": () => (/* binding */ faFolder),
+/* harmony export */   "faFolderMinus": () => (/* binding */ faFolderMinus),
+/* harmony export */   "faFolderOpen": () => (/* binding */ faFolderOpen),
+/* harmony export */   "faFolderPlus": () => (/* binding */ faFolderPlus),
+/* harmony export */   "faFont": () => (/* binding */ faFont),
+/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
+/* harmony export */   "faFootballBall": () => (/* binding */ faFootballBall),
+/* harmony export */   "faForward": () => (/* binding */ faForward),
+/* harmony export */   "faFrog": () => (/* binding */ faFrog),
+/* harmony export */   "faFrown": () => (/* binding */ faFrown),
+/* harmony export */   "faFrownOpen": () => (/* binding */ faFrownOpen),
+/* harmony export */   "faFunnelDollar": () => (/* binding */ faFunnelDollar),
+/* harmony export */   "faFutbol": () => (/* binding */ faFutbol),
+/* harmony export */   "faGamepad": () => (/* binding */ faGamepad),
+/* harmony export */   "faGasPump": () => (/* binding */ faGasPump),
+/* harmony export */   "faGavel": () => (/* binding */ faGavel),
+/* harmony export */   "faGem": () => (/* binding */ faGem),
+/* harmony export */   "faGenderless": () => (/* binding */ faGenderless),
+/* harmony export */   "faGhost": () => (/* binding */ faGhost),
+/* harmony export */   "faGift": () => (/* binding */ faGift),
+/* harmony export */   "faGifts": () => (/* binding */ faGifts),
+/* harmony export */   "faGlassCheers": () => (/* binding */ faGlassCheers),
+/* harmony export */   "faGlassMartini": () => (/* binding */ faGlassMartini),
+/* harmony export */   "faGlassMartiniAlt": () => (/* binding */ faGlassMartiniAlt),
+/* harmony export */   "faGlassWhiskey": () => (/* binding */ faGlassWhiskey),
+/* harmony export */   "faGlasses": () => (/* binding */ faGlasses),
+/* harmony export */   "faGlobe": () => (/* binding */ faGlobe),
+/* harmony export */   "faGlobeAfrica": () => (/* binding */ faGlobeAfrica),
+/* harmony export */   "faGlobeAmericas": () => (/* binding */ faGlobeAmericas),
+/* harmony export */   "faGlobeAsia": () => (/* binding */ faGlobeAsia),
+/* harmony export */   "faGlobeEurope": () => (/* binding */ faGlobeEurope),
+/* harmony export */   "faGolfBall": () => (/* binding */ faGolfBall),
+/* harmony export */   "faGopuram": () => (/* binding */ faGopuram),
+/* harmony export */   "faGraduationCap": () => (/* binding */ faGraduationCap),
+/* harmony export */   "faGreaterThan": () => (/* binding */ faGreaterThan),
+/* harmony export */   "faGreaterThanEqual": () => (/* binding */ faGreaterThanEqual),
+/* harmony export */   "faGrimace": () => (/* binding */ faGrimace),
+/* harmony export */   "faGrin": () => (/* binding */ faGrin),
+/* harmony export */   "faGrinAlt": () => (/* binding */ faGrinAlt),
+/* harmony export */   "faGrinBeam": () => (/* binding */ faGrinBeam),
+/* harmony export */   "faGrinBeamSweat": () => (/* binding */ faGrinBeamSweat),
+/* harmony export */   "faGrinHearts": () => (/* binding */ faGrinHearts),
+/* harmony export */   "faGrinSquint": () => (/* binding */ faGrinSquint),
+/* harmony export */   "faGrinSquintTears": () => (/* binding */ faGrinSquintTears),
+/* harmony export */   "faGrinStars": () => (/* binding */ faGrinStars),
+/* harmony export */   "faGrinTears": () => (/* binding */ faGrinTears),
+/* harmony export */   "faGrinTongue": () => (/* binding */ faGrinTongue),
+/* harmony export */   "faGrinTongueSquint": () => (/* binding */ faGrinTongueSquint),
+/* harmony export */   "faGrinTongueWink": () => (/* binding */ faGrinTongueWink),
+/* harmony export */   "faGrinWink": () => (/* binding */ faGrinWink),
+/* harmony export */   "faGripHorizontal": () => (/* binding */ faGripHorizontal),
+/* harmony export */   "faGripLines": () => (/* binding */ faGripLines),
+/* harmony export */   "faGripLinesVertical": () => (/* binding */ faGripLinesVertical),
+/* harmony export */   "faGripVertical": () => (/* binding */ faGripVertical),
+/* harmony export */   "faGuitar": () => (/* binding */ faGuitar),
+/* harmony export */   "faHSquare": () => (/* binding */ faHSquare),
+/* harmony export */   "faHamburger": () => (/* binding */ faHamburger),
+/* harmony export */   "faHammer": () => (/* binding */ faHammer),
+/* harmony export */   "faHamsa": () => (/* binding */ faHamsa),
+/* harmony export */   "faHandHolding": () => (/* binding */ faHandHolding),
+/* harmony export */   "faHandHoldingHeart": () => (/* binding */ faHandHoldingHeart),
+/* harmony export */   "faHandHoldingMedical": () => (/* binding */ faHandHoldingMedical),
+/* harmony export */   "faHandHoldingUsd": () => (/* binding */ faHandHoldingUsd),
+/* harmony export */   "faHandHoldingWater": () => (/* binding */ faHandHoldingWater),
+/* harmony export */   "faHandLizard": () => (/* binding */ faHandLizard),
+/* harmony export */   "faHandMiddleFinger": () => (/* binding */ faHandMiddleFinger),
+/* harmony export */   "faHandPaper": () => (/* binding */ faHandPaper),
+/* harmony export */   "faHandPeace": () => (/* binding */ faHandPeace),
+/* harmony export */   "faHandPointDown": () => (/* binding */ faHandPointDown),
+/* harmony export */   "faHandPointLeft": () => (/* binding */ faHandPointLeft),
+/* harmony export */   "faHandPointRight": () => (/* binding */ faHandPointRight),
+/* harmony export */   "faHandPointUp": () => (/* binding */ faHandPointUp),
+/* harmony export */   "faHandPointer": () => (/* binding */ faHandPointer),
+/* harmony export */   "faHandRock": () => (/* binding */ faHandRock),
+/* harmony export */   "faHandScissors": () => (/* binding */ faHandScissors),
+/* harmony export */   "faHandSparkles": () => (/* binding */ faHandSparkles),
+/* harmony export */   "faHandSpock": () => (/* binding */ faHandSpock),
+/* harmony export */   "faHands": () => (/* binding */ faHands),
+/* harmony export */   "faHandsHelping": () => (/* binding */ faHandsHelping),
+/* harmony export */   "faHandsWash": () => (/* binding */ faHandsWash),
+/* harmony export */   "faHandshake": () => (/* binding */ faHandshake),
+/* harmony export */   "faHandshakeAltSlash": () => (/* binding */ faHandshakeAltSlash),
+/* harmony export */   "faHandshakeSlash": () => (/* binding */ faHandshakeSlash),
+/* harmony export */   "faHanukiah": () => (/* binding */ faHanukiah),
+/* harmony export */   "faHardHat": () => (/* binding */ faHardHat),
+/* harmony export */   "faHashtag": () => (/* binding */ faHashtag),
+/* harmony export */   "faHatCowboy": () => (/* binding */ faHatCowboy),
+/* harmony export */   "faHatCowboySide": () => (/* binding */ faHatCowboySide),
+/* harmony export */   "faHatWizard": () => (/* binding */ faHatWizard),
+/* harmony export */   "faHdd": () => (/* binding */ faHdd),
+/* harmony export */   "faHeadSideCough": () => (/* binding */ faHeadSideCough),
+/* harmony export */   "faHeadSideCoughSlash": () => (/* binding */ faHeadSideCoughSlash),
+/* harmony export */   "faHeadSideMask": () => (/* binding */ faHeadSideMask),
+/* harmony export */   "faHeadSideVirus": () => (/* binding */ faHeadSideVirus),
+/* harmony export */   "faHeading": () => (/* binding */ faHeading),
+/* harmony export */   "faHeadphones": () => (/* binding */ faHeadphones),
+/* harmony export */   "faHeadphonesAlt": () => (/* binding */ faHeadphonesAlt),
+/* harmony export */   "faHeadset": () => (/* binding */ faHeadset),
+/* harmony export */   "faHeart": () => (/* binding */ faHeart),
+/* harmony export */   "faHeartBroken": () => (/* binding */ faHeartBroken),
+/* harmony export */   "faHeartbeat": () => (/* binding */ faHeartbeat),
+/* harmony export */   "faHelicopter": () => (/* binding */ faHelicopter),
+/* harmony export */   "faHighlighter": () => (/* binding */ faHighlighter),
+/* harmony export */   "faHiking": () => (/* binding */ faHiking),
+/* harmony export */   "faHippo": () => (/* binding */ faHippo),
+/* harmony export */   "faHistory": () => (/* binding */ faHistory),
+/* harmony export */   "faHockeyPuck": () => (/* binding */ faHockeyPuck),
+/* harmony export */   "faHollyBerry": () => (/* binding */ faHollyBerry),
+/* harmony export */   "faHome": () => (/* binding */ faHome),
+/* harmony export */   "faHorse": () => (/* binding */ faHorse),
+/* harmony export */   "faHorseHead": () => (/* binding */ faHorseHead),
+/* harmony export */   "faHospital": () => (/* binding */ faHospital),
+/* harmony export */   "faHospitalAlt": () => (/* binding */ faHospitalAlt),
+/* harmony export */   "faHospitalSymbol": () => (/* binding */ faHospitalSymbol),
+/* harmony export */   "faHospitalUser": () => (/* binding */ faHospitalUser),
+/* harmony export */   "faHotTub": () => (/* binding */ faHotTub),
+/* harmony export */   "faHotdog": () => (/* binding */ faHotdog),
+/* harmony export */   "faHotel": () => (/* binding */ faHotel),
+/* harmony export */   "faHourglass": () => (/* binding */ faHourglass),
+/* harmony export */   "faHourglassEnd": () => (/* binding */ faHourglassEnd),
+/* harmony export */   "faHourglassHalf": () => (/* binding */ faHourglassHalf),
+/* harmony export */   "faHourglassStart": () => (/* binding */ faHourglassStart),
+/* harmony export */   "faHouseDamage": () => (/* binding */ faHouseDamage),
+/* harmony export */   "faHouseUser": () => (/* binding */ faHouseUser),
+/* harmony export */   "faHryvnia": () => (/* binding */ faHryvnia),
+/* harmony export */   "faICursor": () => (/* binding */ faICursor),
+/* harmony export */   "faIceCream": () => (/* binding */ faIceCream),
+/* harmony export */   "faIcicles": () => (/* binding */ faIcicles),
+/* harmony export */   "faIcons": () => (/* binding */ faIcons),
+/* harmony export */   "faIdBadge": () => (/* binding */ faIdBadge),
+/* harmony export */   "faIdCard": () => (/* binding */ faIdCard),
+/* harmony export */   "faIdCardAlt": () => (/* binding */ faIdCardAlt),
+/* harmony export */   "faIgloo": () => (/* binding */ faIgloo),
+/* harmony export */   "faImage": () => (/* binding */ faImage),
+/* harmony export */   "faImages": () => (/* binding */ faImages),
+/* harmony export */   "faInbox": () => (/* binding */ faInbox),
+/* harmony export */   "faIndent": () => (/* binding */ faIndent),
+/* harmony export */   "faIndustry": () => (/* binding */ faIndustry),
+/* harmony export */   "faInfinity": () => (/* binding */ faInfinity),
+/* harmony export */   "faInfo": () => (/* binding */ faInfo),
+/* harmony export */   "faInfoCircle": () => (/* binding */ faInfoCircle),
+/* harmony export */   "faItalic": () => (/* binding */ faItalic),
+/* harmony export */   "faJedi": () => (/* binding */ faJedi),
+/* harmony export */   "faJoint": () => (/* binding */ faJoint),
+/* harmony export */   "faJournalWhills": () => (/* binding */ faJournalWhills),
+/* harmony export */   "faKaaba": () => (/* binding */ faKaaba),
+/* harmony export */   "faKey": () => (/* binding */ faKey),
+/* harmony export */   "faKeyboard": () => (/* binding */ faKeyboard),
+/* harmony export */   "faKhanda": () => (/* binding */ faKhanda),
+/* harmony export */   "faKiss": () => (/* binding */ faKiss),
+/* harmony export */   "faKissBeam": () => (/* binding */ faKissBeam),
+/* harmony export */   "faKissWinkHeart": () => (/* binding */ faKissWinkHeart),
+/* harmony export */   "faKiwiBird": () => (/* binding */ faKiwiBird),
+/* harmony export */   "faLandmark": () => (/* binding */ faLandmark),
+/* harmony export */   "faLanguage": () => (/* binding */ faLanguage),
+/* harmony export */   "faLaptop": () => (/* binding */ faLaptop),
+/* harmony export */   "faLaptopCode": () => (/* binding */ faLaptopCode),
+/* harmony export */   "faLaptopHouse": () => (/* binding */ faLaptopHouse),
+/* harmony export */   "faLaptopMedical": () => (/* binding */ faLaptopMedical),
+/* harmony export */   "faLaugh": () => (/* binding */ faLaugh),
+/* harmony export */   "faLaughBeam": () => (/* binding */ faLaughBeam),
+/* harmony export */   "faLaughSquint": () => (/* binding */ faLaughSquint),
+/* harmony export */   "faLaughWink": () => (/* binding */ faLaughWink),
+/* harmony export */   "faLayerGroup": () => (/* binding */ faLayerGroup),
+/* harmony export */   "faLeaf": () => (/* binding */ faLeaf),
+/* harmony export */   "faLemon": () => (/* binding */ faLemon),
+/* harmony export */   "faLessThan": () => (/* binding */ faLessThan),
+/* harmony export */   "faLessThanEqual": () => (/* binding */ faLessThanEqual),
+/* harmony export */   "faLevelDownAlt": () => (/* binding */ faLevelDownAlt),
+/* harmony export */   "faLevelUpAlt": () => (/* binding */ faLevelUpAlt),
+/* harmony export */   "faLifeRing": () => (/* binding */ faLifeRing),
+/* harmony export */   "faLightbulb": () => (/* binding */ faLightbulb),
+/* harmony export */   "faLink": () => (/* binding */ faLink),
+/* harmony export */   "faLiraSign": () => (/* binding */ faLiraSign),
+/* harmony export */   "faList": () => (/* binding */ faList),
+/* harmony export */   "faListAlt": () => (/* binding */ faListAlt),
+/* harmony export */   "faListOl": () => (/* binding */ faListOl),
+/* harmony export */   "faListUl": () => (/* binding */ faListUl),
+/* harmony export */   "faLocationArrow": () => (/* binding */ faLocationArrow),
+/* harmony export */   "faLock": () => (/* binding */ faLock),
+/* harmony export */   "faLockOpen": () => (/* binding */ faLockOpen),
+/* harmony export */   "faLongArrowAltDown": () => (/* binding */ faLongArrowAltDown),
+/* harmony export */   "faLongArrowAltLeft": () => (/* binding */ faLongArrowAltLeft),
+/* harmony export */   "faLongArrowAltRight": () => (/* binding */ faLongArrowAltRight),
+/* harmony export */   "faLongArrowAltUp": () => (/* binding */ faLongArrowAltUp),
+/* harmony export */   "faLowVision": () => (/* binding */ faLowVision),
+/* harmony export */   "faLuggageCart": () => (/* binding */ faLuggageCart),
+/* harmony export */   "faLungs": () => (/* binding */ faLungs),
+/* harmony export */   "faLungsVirus": () => (/* binding */ faLungsVirus),
+/* harmony export */   "faMagic": () => (/* binding */ faMagic),
+/* harmony export */   "faMagnet": () => (/* binding */ faMagnet),
+/* harmony export */   "faMailBulk": () => (/* binding */ faMailBulk),
+/* harmony export */   "faMale": () => (/* binding */ faMale),
+/* harmony export */   "faMap": () => (/* binding */ faMap),
+/* harmony export */   "faMapMarked": () => (/* binding */ faMapMarked),
+/* harmony export */   "faMapMarkedAlt": () => (/* binding */ faMapMarkedAlt),
+/* harmony export */   "faMapMarker": () => (/* binding */ faMapMarker),
+/* harmony export */   "faMapMarkerAlt": () => (/* binding */ faMapMarkerAlt),
+/* harmony export */   "faMapPin": () => (/* binding */ faMapPin),
+/* harmony export */   "faMapSigns": () => (/* binding */ faMapSigns),
+/* harmony export */   "faMarker": () => (/* binding */ faMarker),
+/* harmony export */   "faMars": () => (/* binding */ faMars),
+/* harmony export */   "faMarsDouble": () => (/* binding */ faMarsDouble),
+/* harmony export */   "faMarsStroke": () => (/* binding */ faMarsStroke),
+/* harmony export */   "faMarsStrokeH": () => (/* binding */ faMarsStrokeH),
+/* harmony export */   "faMarsStrokeV": () => (/* binding */ faMarsStrokeV),
+/* harmony export */   "faMask": () => (/* binding */ faMask),
+/* harmony export */   "faMedal": () => (/* binding */ faMedal),
+/* harmony export */   "faMedkit": () => (/* binding */ faMedkit),
+/* harmony export */   "faMeh": () => (/* binding */ faMeh),
+/* harmony export */   "faMehBlank": () => (/* binding */ faMehBlank),
+/* harmony export */   "faMehRollingEyes": () => (/* binding */ faMehRollingEyes),
+/* harmony export */   "faMemory": () => (/* binding */ faMemory),
+/* harmony export */   "faMenorah": () => (/* binding */ faMenorah),
+/* harmony export */   "faMercury": () => (/* binding */ faMercury),
+/* harmony export */   "faMeteor": () => (/* binding */ faMeteor),
+/* harmony export */   "faMicrochip": () => (/* binding */ faMicrochip),
+/* harmony export */   "faMicrophone": () => (/* binding */ faMicrophone),
+/* harmony export */   "faMicrophoneAlt": () => (/* binding */ faMicrophoneAlt),
+/* harmony export */   "faMicrophoneAltSlash": () => (/* binding */ faMicrophoneAltSlash),
+/* harmony export */   "faMicrophoneSlash": () => (/* binding */ faMicrophoneSlash),
+/* harmony export */   "faMicroscope": () => (/* binding */ faMicroscope),
+/* harmony export */   "faMinus": () => (/* binding */ faMinus),
+/* harmony export */   "faMinusCircle": () => (/* binding */ faMinusCircle),
+/* harmony export */   "faMinusSquare": () => (/* binding */ faMinusSquare),
+/* harmony export */   "faMitten": () => (/* binding */ faMitten),
+/* harmony export */   "faMobile": () => (/* binding */ faMobile),
+/* harmony export */   "faMobileAlt": () => (/* binding */ faMobileAlt),
+/* harmony export */   "faMoneyBill": () => (/* binding */ faMoneyBill),
+/* harmony export */   "faMoneyBillAlt": () => (/* binding */ faMoneyBillAlt),
+/* harmony export */   "faMoneyBillWave": () => (/* binding */ faMoneyBillWave),
+/* harmony export */   "faMoneyBillWaveAlt": () => (/* binding */ faMoneyBillWaveAlt),
+/* harmony export */   "faMoneyCheck": () => (/* binding */ faMoneyCheck),
+/* harmony export */   "faMoneyCheckAlt": () => (/* binding */ faMoneyCheckAlt),
+/* harmony export */   "faMonument": () => (/* binding */ faMonument),
+/* harmony export */   "faMoon": () => (/* binding */ faMoon),
+/* harmony export */   "faMortarPestle": () => (/* binding */ faMortarPestle),
+/* harmony export */   "faMosque": () => (/* binding */ faMosque),
+/* harmony export */   "faMotorcycle": () => (/* binding */ faMotorcycle),
+/* harmony export */   "faMountain": () => (/* binding */ faMountain),
+/* harmony export */   "faMouse": () => (/* binding */ faMouse),
+/* harmony export */   "faMousePointer": () => (/* binding */ faMousePointer),
+/* harmony export */   "faMugHot": () => (/* binding */ faMugHot),
+/* harmony export */   "faMusic": () => (/* binding */ faMusic),
+/* harmony export */   "faNetworkWired": () => (/* binding */ faNetworkWired),
+/* harmony export */   "faNeuter": () => (/* binding */ faNeuter),
+/* harmony export */   "faNewspaper": () => (/* binding */ faNewspaper),
+/* harmony export */   "faNotEqual": () => (/* binding */ faNotEqual),
+/* harmony export */   "faNotesMedical": () => (/* binding */ faNotesMedical),
+/* harmony export */   "faObjectGroup": () => (/* binding */ faObjectGroup),
+/* harmony export */   "faObjectUngroup": () => (/* binding */ faObjectUngroup),
+/* harmony export */   "faOilCan": () => (/* binding */ faOilCan),
+/* harmony export */   "faOm": () => (/* binding */ faOm),
+/* harmony export */   "faOtter": () => (/* binding */ faOtter),
+/* harmony export */   "faOutdent": () => (/* binding */ faOutdent),
+/* harmony export */   "faPager": () => (/* binding */ faPager),
+/* harmony export */   "faPaintBrush": () => (/* binding */ faPaintBrush),
+/* harmony export */   "faPaintRoller": () => (/* binding */ faPaintRoller),
+/* harmony export */   "faPalette": () => (/* binding */ faPalette),
+/* harmony export */   "faPallet": () => (/* binding */ faPallet),
+/* harmony export */   "faPaperPlane": () => (/* binding */ faPaperPlane),
+/* harmony export */   "faPaperclip": () => (/* binding */ faPaperclip),
+/* harmony export */   "faParachuteBox": () => (/* binding */ faParachuteBox),
+/* harmony export */   "faParagraph": () => (/* binding */ faParagraph),
+/* harmony export */   "faParking": () => (/* binding */ faParking),
+/* harmony export */   "faPassport": () => (/* binding */ faPassport),
+/* harmony export */   "faPastafarianism": () => (/* binding */ faPastafarianism),
+/* harmony export */   "faPaste": () => (/* binding */ faPaste),
+/* harmony export */   "faPause": () => (/* binding */ faPause),
+/* harmony export */   "faPauseCircle": () => (/* binding */ faPauseCircle),
+/* harmony export */   "faPaw": () => (/* binding */ faPaw),
+/* harmony export */   "faPeace": () => (/* binding */ faPeace),
+/* harmony export */   "faPen": () => (/* binding */ faPen),
+/* harmony export */   "faPenAlt": () => (/* binding */ faPenAlt),
+/* harmony export */   "faPenFancy": () => (/* binding */ faPenFancy),
+/* harmony export */   "faPenNib": () => (/* binding */ faPenNib),
+/* harmony export */   "faPenSquare": () => (/* binding */ faPenSquare),
+/* harmony export */   "faPencilAlt": () => (/* binding */ faPencilAlt),
+/* harmony export */   "faPencilRuler": () => (/* binding */ faPencilRuler),
+/* harmony export */   "faPeopleArrows": () => (/* binding */ faPeopleArrows),
+/* harmony export */   "faPeopleCarry": () => (/* binding */ faPeopleCarry),
+/* harmony export */   "faPepperHot": () => (/* binding */ faPepperHot),
+/* harmony export */   "faPercent": () => (/* binding */ faPercent),
+/* harmony export */   "faPercentage": () => (/* binding */ faPercentage),
+/* harmony export */   "faPersonBooth": () => (/* binding */ faPersonBooth),
+/* harmony export */   "faPhone": () => (/* binding */ faPhone),
+/* harmony export */   "faPhoneAlt": () => (/* binding */ faPhoneAlt),
+/* harmony export */   "faPhoneSlash": () => (/* binding */ faPhoneSlash),
+/* harmony export */   "faPhoneSquare": () => (/* binding */ faPhoneSquare),
+/* harmony export */   "faPhoneSquareAlt": () => (/* binding */ faPhoneSquareAlt),
+/* harmony export */   "faPhoneVolume": () => (/* binding */ faPhoneVolume),
+/* harmony export */   "faPhotoVideo": () => (/* binding */ faPhotoVideo),
+/* harmony export */   "faPiggyBank": () => (/* binding */ faPiggyBank),
+/* harmony export */   "faPills": () => (/* binding */ faPills),
+/* harmony export */   "faPizzaSlice": () => (/* binding */ faPizzaSlice),
+/* harmony export */   "faPlaceOfWorship": () => (/* binding */ faPlaceOfWorship),
+/* harmony export */   "faPlane": () => (/* binding */ faPlane),
+/* harmony export */   "faPlaneArrival": () => (/* binding */ faPlaneArrival),
+/* harmony export */   "faPlaneDeparture": () => (/* binding */ faPlaneDeparture),
+/* harmony export */   "faPlaneSlash": () => (/* binding */ faPlaneSlash),
+/* harmony export */   "faPlay": () => (/* binding */ faPlay),
+/* harmony export */   "faPlayCircle": () => (/* binding */ faPlayCircle),
+/* harmony export */   "faPlug": () => (/* binding */ faPlug),
+/* harmony export */   "faPlus": () => (/* binding */ faPlus),
+/* harmony export */   "faPlusCircle": () => (/* binding */ faPlusCircle),
+/* harmony export */   "faPlusSquare": () => (/* binding */ faPlusSquare),
+/* harmony export */   "faPodcast": () => (/* binding */ faPodcast),
+/* harmony export */   "faPoll": () => (/* binding */ faPoll),
+/* harmony export */   "faPollH": () => (/* binding */ faPollH),
+/* harmony export */   "faPoo": () => (/* binding */ faPoo),
+/* harmony export */   "faPooStorm": () => (/* binding */ faPooStorm),
+/* harmony export */   "faPoop": () => (/* binding */ faPoop),
+/* harmony export */   "faPortrait": () => (/* binding */ faPortrait),
+/* harmony export */   "faPoundSign": () => (/* binding */ faPoundSign),
+/* harmony export */   "faPowerOff": () => (/* binding */ faPowerOff),
+/* harmony export */   "faPray": () => (/* binding */ faPray),
+/* harmony export */   "faPrayingHands": () => (/* binding */ faPrayingHands),
+/* harmony export */   "faPrescription": () => (/* binding */ faPrescription),
+/* harmony export */   "faPrescriptionBottle": () => (/* binding */ faPrescriptionBottle),
+/* harmony export */   "faPrescriptionBottleAlt": () => (/* binding */ faPrescriptionBottleAlt),
+/* harmony export */   "faPrint": () => (/* binding */ faPrint),
+/* harmony export */   "faProcedures": () => (/* binding */ faProcedures),
+/* harmony export */   "faProjectDiagram": () => (/* binding */ faProjectDiagram),
+/* harmony export */   "faPumpMedical": () => (/* binding */ faPumpMedical),
+/* harmony export */   "faPumpSoap": () => (/* binding */ faPumpSoap),
+/* harmony export */   "faPuzzlePiece": () => (/* binding */ faPuzzlePiece),
+/* harmony export */   "faQrcode": () => (/* binding */ faQrcode),
+/* harmony export */   "faQuestion": () => (/* binding */ faQuestion),
+/* harmony export */   "faQuestionCircle": () => (/* binding */ faQuestionCircle),
+/* harmony export */   "faQuidditch": () => (/* binding */ faQuidditch),
+/* harmony export */   "faQuoteLeft": () => (/* binding */ faQuoteLeft),
+/* harmony export */   "faQuoteRight": () => (/* binding */ faQuoteRight),
+/* harmony export */   "faQuran": () => (/* binding */ faQuran),
+/* harmony export */   "faRadiation": () => (/* binding */ faRadiation),
+/* harmony export */   "faRadiationAlt": () => (/* binding */ faRadiationAlt),
+/* harmony export */   "faRainbow": () => (/* binding */ faRainbow),
+/* harmony export */   "faRandom": () => (/* binding */ faRandom),
+/* harmony export */   "faReceipt": () => (/* binding */ faReceipt),
+/* harmony export */   "faRecordVinyl": () => (/* binding */ faRecordVinyl),
+/* harmony export */   "faRecycle": () => (/* binding */ faRecycle),
+/* harmony export */   "faRedo": () => (/* binding */ faRedo),
+/* harmony export */   "faRedoAlt": () => (/* binding */ faRedoAlt),
+/* harmony export */   "faRegistered": () => (/* binding */ faRegistered),
+/* harmony export */   "faRemoveFormat": () => (/* binding */ faRemoveFormat),
+/* harmony export */   "faReply": () => (/* binding */ faReply),
+/* harmony export */   "faReplyAll": () => (/* binding */ faReplyAll),
+/* harmony export */   "faRepublican": () => (/* binding */ faRepublican),
+/* harmony export */   "faRestroom": () => (/* binding */ faRestroom),
+/* harmony export */   "faRetweet": () => (/* binding */ faRetweet),
+/* harmony export */   "faRibbon": () => (/* binding */ faRibbon),
+/* harmony export */   "faRing": () => (/* binding */ faRing),
+/* harmony export */   "faRoad": () => (/* binding */ faRoad),
+/* harmony export */   "faRobot": () => (/* binding */ faRobot),
+/* harmony export */   "faRocket": () => (/* binding */ faRocket),
+/* harmony export */   "faRoute": () => (/* binding */ faRoute),
+/* harmony export */   "faRss": () => (/* binding */ faRss),
+/* harmony export */   "faRssSquare": () => (/* binding */ faRssSquare),
+/* harmony export */   "faRubleSign": () => (/* binding */ faRubleSign),
+/* harmony export */   "faRuler": () => (/* binding */ faRuler),
+/* harmony export */   "faRulerCombined": () => (/* binding */ faRulerCombined),
+/* harmony export */   "faRulerHorizontal": () => (/* binding */ faRulerHorizontal),
+/* harmony export */   "faRulerVertical": () => (/* binding */ faRulerVertical),
+/* harmony export */   "faRunning": () => (/* binding */ faRunning),
+/* harmony export */   "faRupeeSign": () => (/* binding */ faRupeeSign),
+/* harmony export */   "faSadCry": () => (/* binding */ faSadCry),
+/* harmony export */   "faSadTear": () => (/* binding */ faSadTear),
+/* harmony export */   "faSatellite": () => (/* binding */ faSatellite),
+/* harmony export */   "faSatelliteDish": () => (/* binding */ faSatelliteDish),
+/* harmony export */   "faSave": () => (/* binding */ faSave),
+/* harmony export */   "faSchool": () => (/* binding */ faSchool),
+/* harmony export */   "faScrewdriver": () => (/* binding */ faScrewdriver),
+/* harmony export */   "faScroll": () => (/* binding */ faScroll),
+/* harmony export */   "faSdCard": () => (/* binding */ faSdCard),
+/* harmony export */   "faSearch": () => (/* binding */ faSearch),
+/* harmony export */   "faSearchDollar": () => (/* binding */ faSearchDollar),
+/* harmony export */   "faSearchLocation": () => (/* binding */ faSearchLocation),
+/* harmony export */   "faSearchMinus": () => (/* binding */ faSearchMinus),
+/* harmony export */   "faSearchPlus": () => (/* binding */ faSearchPlus),
+/* harmony export */   "faSeedling": () => (/* binding */ faSeedling),
+/* harmony export */   "faServer": () => (/* binding */ faServer),
+/* harmony export */   "faShapes": () => (/* binding */ faShapes),
+/* harmony export */   "faShare": () => (/* binding */ faShare),
+/* harmony export */   "faShareAlt": () => (/* binding */ faShareAlt),
+/* harmony export */   "faShareAltSquare": () => (/* binding */ faShareAltSquare),
+/* harmony export */   "faShareSquare": () => (/* binding */ faShareSquare),
+/* harmony export */   "faShekelSign": () => (/* binding */ faShekelSign),
+/* harmony export */   "faShieldAlt": () => (/* binding */ faShieldAlt),
+/* harmony export */   "faShieldVirus": () => (/* binding */ faShieldVirus),
+/* harmony export */   "faShip": () => (/* binding */ faShip),
+/* harmony export */   "faShippingFast": () => (/* binding */ faShippingFast),
+/* harmony export */   "faShoePrints": () => (/* binding */ faShoePrints),
+/* harmony export */   "faShoppingBag": () => (/* binding */ faShoppingBag),
+/* harmony export */   "faShoppingBasket": () => (/* binding */ faShoppingBasket),
+/* harmony export */   "faShoppingCart": () => (/* binding */ faShoppingCart),
+/* harmony export */   "faShower": () => (/* binding */ faShower),
+/* harmony export */   "faShuttleVan": () => (/* binding */ faShuttleVan),
+/* harmony export */   "faSign": () => (/* binding */ faSign),
+/* harmony export */   "faSignInAlt": () => (/* binding */ faSignInAlt),
+/* harmony export */   "faSignLanguage": () => (/* binding */ faSignLanguage),
+/* harmony export */   "faSignOutAlt": () => (/* binding */ faSignOutAlt),
+/* harmony export */   "faSignal": () => (/* binding */ faSignal),
+/* harmony export */   "faSignature": () => (/* binding */ faSignature),
+/* harmony export */   "faSimCard": () => (/* binding */ faSimCard),
+/* harmony export */   "faSink": () => (/* binding */ faSink),
+/* harmony export */   "faSitemap": () => (/* binding */ faSitemap),
+/* harmony export */   "faSkating": () => (/* binding */ faSkating),
+/* harmony export */   "faSkiing": () => (/* binding */ faSkiing),
+/* harmony export */   "faSkiingNordic": () => (/* binding */ faSkiingNordic),
+/* harmony export */   "faSkull": () => (/* binding */ faSkull),
+/* harmony export */   "faSkullCrossbones": () => (/* binding */ faSkullCrossbones),
+/* harmony export */   "faSlash": () => (/* binding */ faSlash),
+/* harmony export */   "faSleigh": () => (/* binding */ faSleigh),
+/* harmony export */   "faSlidersH": () => (/* binding */ faSlidersH),
+/* harmony export */   "faSmile": () => (/* binding */ faSmile),
+/* harmony export */   "faSmileBeam": () => (/* binding */ faSmileBeam),
+/* harmony export */   "faSmileWink": () => (/* binding */ faSmileWink),
+/* harmony export */   "faSmog": () => (/* binding */ faSmog),
+/* harmony export */   "faSmoking": () => (/* binding */ faSmoking),
+/* harmony export */   "faSmokingBan": () => (/* binding */ faSmokingBan),
+/* harmony export */   "faSms": () => (/* binding */ faSms),
+/* harmony export */   "faSnowboarding": () => (/* binding */ faSnowboarding),
+/* harmony export */   "faSnowflake": () => (/* binding */ faSnowflake),
+/* harmony export */   "faSnowman": () => (/* binding */ faSnowman),
+/* harmony export */   "faSnowplow": () => (/* binding */ faSnowplow),
+/* harmony export */   "faSoap": () => (/* binding */ faSoap),
+/* harmony export */   "faSocks": () => (/* binding */ faSocks),
+/* harmony export */   "faSolarPanel": () => (/* binding */ faSolarPanel),
+/* harmony export */   "faSort": () => (/* binding */ faSort),
+/* harmony export */   "faSortAlphaDown": () => (/* binding */ faSortAlphaDown),
+/* harmony export */   "faSortAlphaDownAlt": () => (/* binding */ faSortAlphaDownAlt),
+/* harmony export */   "faSortAlphaUp": () => (/* binding */ faSortAlphaUp),
+/* harmony export */   "faSortAlphaUpAlt": () => (/* binding */ faSortAlphaUpAlt),
+/* harmony export */   "faSortAmountDown": () => (/* binding */ faSortAmountDown),
+/* harmony export */   "faSortAmountDownAlt": () => (/* binding */ faSortAmountDownAlt),
+/* harmony export */   "faSortAmountUp": () => (/* binding */ faSortAmountUp),
+/* harmony export */   "faSortAmountUpAlt": () => (/* binding */ faSortAmountUpAlt),
+/* harmony export */   "faSortDown": () => (/* binding */ faSortDown),
+/* harmony export */   "faSortNumericDown": () => (/* binding */ faSortNumericDown),
+/* harmony export */   "faSortNumericDownAlt": () => (/* binding */ faSortNumericDownAlt),
+/* harmony export */   "faSortNumericUp": () => (/* binding */ faSortNumericUp),
+/* harmony export */   "faSortNumericUpAlt": () => (/* binding */ faSortNumericUpAlt),
+/* harmony export */   "faSortUp": () => (/* binding */ faSortUp),
+/* harmony export */   "faSpa": () => (/* binding */ faSpa),
+/* harmony export */   "faSpaceShuttle": () => (/* binding */ faSpaceShuttle),
+/* harmony export */   "faSpellCheck": () => (/* binding */ faSpellCheck),
+/* harmony export */   "faSpider": () => (/* binding */ faSpider),
+/* harmony export */   "faSpinner": () => (/* binding */ faSpinner),
+/* harmony export */   "faSplotch": () => (/* binding */ faSplotch),
+/* harmony export */   "faSprayCan": () => (/* binding */ faSprayCan),
+/* harmony export */   "faSquare": () => (/* binding */ faSquare),
+/* harmony export */   "faSquareFull": () => (/* binding */ faSquareFull),
+/* harmony export */   "faSquareRootAlt": () => (/* binding */ faSquareRootAlt),
+/* harmony export */   "faStamp": () => (/* binding */ faStamp),
+/* harmony export */   "faStar": () => (/* binding */ faStar),
+/* harmony export */   "faStarAndCrescent": () => (/* binding */ faStarAndCrescent),
+/* harmony export */   "faStarHalf": () => (/* binding */ faStarHalf),
+/* harmony export */   "faStarHalfAlt": () => (/* binding */ faStarHalfAlt),
+/* harmony export */   "faStarOfDavid": () => (/* binding */ faStarOfDavid),
+/* harmony export */   "faStarOfLife": () => (/* binding */ faStarOfLife),
+/* harmony export */   "faStepBackward": () => (/* binding */ faStepBackward),
+/* harmony export */   "faStepForward": () => (/* binding */ faStepForward),
+/* harmony export */   "faStethoscope": () => (/* binding */ faStethoscope),
+/* harmony export */   "faStickyNote": () => (/* binding */ faStickyNote),
+/* harmony export */   "faStop": () => (/* binding */ faStop),
+/* harmony export */   "faStopCircle": () => (/* binding */ faStopCircle),
+/* harmony export */   "faStopwatch": () => (/* binding */ faStopwatch),
+/* harmony export */   "faStopwatch20": () => (/* binding */ faStopwatch20),
+/* harmony export */   "faStore": () => (/* binding */ faStore),
+/* harmony export */   "faStoreAlt": () => (/* binding */ faStoreAlt),
+/* harmony export */   "faStoreAltSlash": () => (/* binding */ faStoreAltSlash),
+/* harmony export */   "faStoreSlash": () => (/* binding */ faStoreSlash),
+/* harmony export */   "faStream": () => (/* binding */ faStream),
+/* harmony export */   "faStreetView": () => (/* binding */ faStreetView),
+/* harmony export */   "faStrikethrough": () => (/* binding */ faStrikethrough),
+/* harmony export */   "faStroopwafel": () => (/* binding */ faStroopwafel),
+/* harmony export */   "faSubscript": () => (/* binding */ faSubscript),
+/* harmony export */   "faSubway": () => (/* binding */ faSubway),
+/* harmony export */   "faSuitcase": () => (/* binding */ faSuitcase),
+/* harmony export */   "faSuitcaseRolling": () => (/* binding */ faSuitcaseRolling),
+/* harmony export */   "faSun": () => (/* binding */ faSun),
+/* harmony export */   "faSuperscript": () => (/* binding */ faSuperscript),
+/* harmony export */   "faSurprise": () => (/* binding */ faSurprise),
+/* harmony export */   "faSwatchbook": () => (/* binding */ faSwatchbook),
+/* harmony export */   "faSwimmer": () => (/* binding */ faSwimmer),
+/* harmony export */   "faSwimmingPool": () => (/* binding */ faSwimmingPool),
+/* harmony export */   "faSynagogue": () => (/* binding */ faSynagogue),
+/* harmony export */   "faSync": () => (/* binding */ faSync),
+/* harmony export */   "faSyncAlt": () => (/* binding */ faSyncAlt),
+/* harmony export */   "faSyringe": () => (/* binding */ faSyringe),
+/* harmony export */   "faTable": () => (/* binding */ faTable),
+/* harmony export */   "faTableTennis": () => (/* binding */ faTableTennis),
+/* harmony export */   "faTablet": () => (/* binding */ faTablet),
+/* harmony export */   "faTabletAlt": () => (/* binding */ faTabletAlt),
+/* harmony export */   "faTablets": () => (/* binding */ faTablets),
+/* harmony export */   "faTachometerAlt": () => (/* binding */ faTachometerAlt),
+/* harmony export */   "faTag": () => (/* binding */ faTag),
+/* harmony export */   "faTags": () => (/* binding */ faTags),
+/* harmony export */   "faTape": () => (/* binding */ faTape),
+/* harmony export */   "faTasks": () => (/* binding */ faTasks),
+/* harmony export */   "faTaxi": () => (/* binding */ faTaxi),
+/* harmony export */   "faTeeth": () => (/* binding */ faTeeth),
+/* harmony export */   "faTeethOpen": () => (/* binding */ faTeethOpen),
+/* harmony export */   "faTemperatureHigh": () => (/* binding */ faTemperatureHigh),
+/* harmony export */   "faTemperatureLow": () => (/* binding */ faTemperatureLow),
+/* harmony export */   "faTenge": () => (/* binding */ faTenge),
+/* harmony export */   "faTerminal": () => (/* binding */ faTerminal),
+/* harmony export */   "faTextHeight": () => (/* binding */ faTextHeight),
+/* harmony export */   "faTextWidth": () => (/* binding */ faTextWidth),
+/* harmony export */   "faTh": () => (/* binding */ faTh),
+/* harmony export */   "faThLarge": () => (/* binding */ faThLarge),
+/* harmony export */   "faThList": () => (/* binding */ faThList),
+/* harmony export */   "faTheaterMasks": () => (/* binding */ faTheaterMasks),
+/* harmony export */   "faThermometer": () => (/* binding */ faThermometer),
+/* harmony export */   "faThermometerEmpty": () => (/* binding */ faThermometerEmpty),
+/* harmony export */   "faThermometerFull": () => (/* binding */ faThermometerFull),
+/* harmony export */   "faThermometerHalf": () => (/* binding */ faThermometerHalf),
+/* harmony export */   "faThermometerQuarter": () => (/* binding */ faThermometerQuarter),
+/* harmony export */   "faThermometerThreeQuarters": () => (/* binding */ faThermometerThreeQuarters),
+/* harmony export */   "faThumbsDown": () => (/* binding */ faThumbsDown),
+/* harmony export */   "faThumbsUp": () => (/* binding */ faThumbsUp),
+/* harmony export */   "faThumbtack": () => (/* binding */ faThumbtack),
+/* harmony export */   "faTicketAlt": () => (/* binding */ faTicketAlt),
+/* harmony export */   "faTimes": () => (/* binding */ faTimes),
+/* harmony export */   "faTimesCircle": () => (/* binding */ faTimesCircle),
+/* harmony export */   "faTint": () => (/* binding */ faTint),
+/* harmony export */   "faTintSlash": () => (/* binding */ faTintSlash),
+/* harmony export */   "faTired": () => (/* binding */ faTired),
+/* harmony export */   "faToggleOff": () => (/* binding */ faToggleOff),
+/* harmony export */   "faToggleOn": () => (/* binding */ faToggleOn),
+/* harmony export */   "faToilet": () => (/* binding */ faToilet),
+/* harmony export */   "faToiletPaper": () => (/* binding */ faToiletPaper),
+/* harmony export */   "faToiletPaperSlash": () => (/* binding */ faToiletPaperSlash),
+/* harmony export */   "faToolbox": () => (/* binding */ faToolbox),
+/* harmony export */   "faTools": () => (/* binding */ faTools),
+/* harmony export */   "faTooth": () => (/* binding */ faTooth),
+/* harmony export */   "faTorah": () => (/* binding */ faTorah),
+/* harmony export */   "faToriiGate": () => (/* binding */ faToriiGate),
+/* harmony export */   "faTractor": () => (/* binding */ faTractor),
+/* harmony export */   "faTrademark": () => (/* binding */ faTrademark),
+/* harmony export */   "faTrafficLight": () => (/* binding */ faTrafficLight),
+/* harmony export */   "faTrailer": () => (/* binding */ faTrailer),
+/* harmony export */   "faTrain": () => (/* binding */ faTrain),
+/* harmony export */   "faTram": () => (/* binding */ faTram),
+/* harmony export */   "faTransgender": () => (/* binding */ faTransgender),
+/* harmony export */   "faTransgenderAlt": () => (/* binding */ faTransgenderAlt),
+/* harmony export */   "faTrash": () => (/* binding */ faTrash),
+/* harmony export */   "faTrashAlt": () => (/* binding */ faTrashAlt),
+/* harmony export */   "faTrashRestore": () => (/* binding */ faTrashRestore),
+/* harmony export */   "faTrashRestoreAlt": () => (/* binding */ faTrashRestoreAlt),
+/* harmony export */   "faTree": () => (/* binding */ faTree),
+/* harmony export */   "faTrophy": () => (/* binding */ faTrophy),
+/* harmony export */   "faTruck": () => (/* binding */ faTruck),
+/* harmony export */   "faTruckLoading": () => (/* binding */ faTruckLoading),
+/* harmony export */   "faTruckMonster": () => (/* binding */ faTruckMonster),
+/* harmony export */   "faTruckMoving": () => (/* binding */ faTruckMoving),
+/* harmony export */   "faTruckPickup": () => (/* binding */ faTruckPickup),
+/* harmony export */   "faTshirt": () => (/* binding */ faTshirt),
+/* harmony export */   "faTty": () => (/* binding */ faTty),
+/* harmony export */   "faTv": () => (/* binding */ faTv),
+/* harmony export */   "faUmbrella": () => (/* binding */ faUmbrella),
+/* harmony export */   "faUmbrellaBeach": () => (/* binding */ faUmbrellaBeach),
+/* harmony export */   "faUnderline": () => (/* binding */ faUnderline),
+/* harmony export */   "faUndo": () => (/* binding */ faUndo),
+/* harmony export */   "faUndoAlt": () => (/* binding */ faUndoAlt),
+/* harmony export */   "faUniversalAccess": () => (/* binding */ faUniversalAccess),
+/* harmony export */   "faUniversity": () => (/* binding */ faUniversity),
+/* harmony export */   "faUnlink": () => (/* binding */ faUnlink),
+/* harmony export */   "faUnlock": () => (/* binding */ faUnlock),
+/* harmony export */   "faUnlockAlt": () => (/* binding */ faUnlockAlt),
+/* harmony export */   "faUpload": () => (/* binding */ faUpload),
+/* harmony export */   "faUser": () => (/* binding */ faUser),
+/* harmony export */   "faUserAlt": () => (/* binding */ faUserAlt),
+/* harmony export */   "faUserAltSlash": () => (/* binding */ faUserAltSlash),
+/* harmony export */   "faUserAstronaut": () => (/* binding */ faUserAstronaut),
+/* harmony export */   "faUserCheck": () => (/* binding */ faUserCheck),
+/* harmony export */   "faUserCircle": () => (/* binding */ faUserCircle),
+/* harmony export */   "faUserClock": () => (/* binding */ faUserClock),
+/* harmony export */   "faUserCog": () => (/* binding */ faUserCog),
+/* harmony export */   "faUserEdit": () => (/* binding */ faUserEdit),
+/* harmony export */   "faUserFriends": () => (/* binding */ faUserFriends),
+/* harmony export */   "faUserGraduate": () => (/* binding */ faUserGraduate),
+/* harmony export */   "faUserInjured": () => (/* binding */ faUserInjured),
+/* harmony export */   "faUserLock": () => (/* binding */ faUserLock),
+/* harmony export */   "faUserMd": () => (/* binding */ faUserMd),
+/* harmony export */   "faUserMinus": () => (/* binding */ faUserMinus),
+/* harmony export */   "faUserNinja": () => (/* binding */ faUserNinja),
+/* harmony export */   "faUserNurse": () => (/* binding */ faUserNurse),
+/* harmony export */   "faUserPlus": () => (/* binding */ faUserPlus),
+/* harmony export */   "faUserSecret": () => (/* binding */ faUserSecret),
+/* harmony export */   "faUserShield": () => (/* binding */ faUserShield),
+/* harmony export */   "faUserSlash": () => (/* binding */ faUserSlash),
+/* harmony export */   "faUserTag": () => (/* binding */ faUserTag),
+/* harmony export */   "faUserTie": () => (/* binding */ faUserTie),
+/* harmony export */   "faUserTimes": () => (/* binding */ faUserTimes),
+/* harmony export */   "faUsers": () => (/* binding */ faUsers),
+/* harmony export */   "faUsersCog": () => (/* binding */ faUsersCog),
+/* harmony export */   "faUsersSlash": () => (/* binding */ faUsersSlash),
+/* harmony export */   "faUtensilSpoon": () => (/* binding */ faUtensilSpoon),
+/* harmony export */   "faUtensils": () => (/* binding */ faUtensils),
+/* harmony export */   "faVectorSquare": () => (/* binding */ faVectorSquare),
+/* harmony export */   "faVenus": () => (/* binding */ faVenus),
+/* harmony export */   "faVenusDouble": () => (/* binding */ faVenusDouble),
+/* harmony export */   "faVenusMars": () => (/* binding */ faVenusMars),
+/* harmony export */   "faVest": () => (/* binding */ faVest),
+/* harmony export */   "faVestPatches": () => (/* binding */ faVestPatches),
+/* harmony export */   "faVial": () => (/* binding */ faVial),
+/* harmony export */   "faVials": () => (/* binding */ faVials),
+/* harmony export */   "faVideo": () => (/* binding */ faVideo),
+/* harmony export */   "faVideoSlash": () => (/* binding */ faVideoSlash),
+/* harmony export */   "faVihara": () => (/* binding */ faVihara),
+/* harmony export */   "faVirus": () => (/* binding */ faVirus),
+/* harmony export */   "faVirusSlash": () => (/* binding */ faVirusSlash),
+/* harmony export */   "faViruses": () => (/* binding */ faViruses),
+/* harmony export */   "faVoicemail": () => (/* binding */ faVoicemail),
+/* harmony export */   "faVolleyballBall": () => (/* binding */ faVolleyballBall),
+/* harmony export */   "faVolumeDown": () => (/* binding */ faVolumeDown),
+/* harmony export */   "faVolumeMute": () => (/* binding */ faVolumeMute),
+/* harmony export */   "faVolumeOff": () => (/* binding */ faVolumeOff),
+/* harmony export */   "faVolumeUp": () => (/* binding */ faVolumeUp),
+/* harmony export */   "faVoteYea": () => (/* binding */ faVoteYea),
+/* harmony export */   "faVrCardboard": () => (/* binding */ faVrCardboard),
+/* harmony export */   "faWalking": () => (/* binding */ faWalking),
+/* harmony export */   "faWallet": () => (/* binding */ faWallet),
+/* harmony export */   "faWarehouse": () => (/* binding */ faWarehouse),
+/* harmony export */   "faWater": () => (/* binding */ faWater),
+/* harmony export */   "faWaveSquare": () => (/* binding */ faWaveSquare),
+/* harmony export */   "faWeight": () => (/* binding */ faWeight),
+/* harmony export */   "faWeightHanging": () => (/* binding */ faWeightHanging),
+/* harmony export */   "faWheelchair": () => (/* binding */ faWheelchair),
+/* harmony export */   "faWifi": () => (/* binding */ faWifi),
+/* harmony export */   "faWind": () => (/* binding */ faWind),
+/* harmony export */   "faWindowClose": () => (/* binding */ faWindowClose),
+/* harmony export */   "faWindowMaximize": () => (/* binding */ faWindowMaximize),
+/* harmony export */   "faWindowMinimize": () => (/* binding */ faWindowMinimize),
+/* harmony export */   "faWindowRestore": () => (/* binding */ faWindowRestore),
+/* harmony export */   "faWineBottle": () => (/* binding */ faWineBottle),
+/* harmony export */   "faWineGlass": () => (/* binding */ faWineGlass),
+/* harmony export */   "faWineGlassAlt": () => (/* binding */ faWineGlassAlt),
+/* harmony export */   "faWonSign": () => (/* binding */ faWonSign),
+/* harmony export */   "faWrench": () => (/* binding */ faWrench),
+/* harmony export */   "faXRay": () => (/* binding */ faXRay),
+/* harmony export */   "faYenSign": () => (/* binding */ faYenSign),
+/* harmony export */   "faYinYang": () => (/* binding */ faYinYang)
 /* harmony export */ });
 /*!
- * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 var prefix = "fas";
@@ -8364,7 +6727,7 @@ var faAdjust = {
 var faAirFreshener = {
   prefix: 'fas',
   iconName: 'air-freshener',
-  icon: [384, 512, [], "f5d0", "M378.94 321.41L284.7 224h49.22c15.3 0 23.66-16.6 13.86-27.53L234.45 69.96c3.43-6.61 5.55-14 5.55-21.96 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 7.96 2.12 15.35 5.55 21.96L36.22 196.47C26.42 207.4 34.78 224 50.08 224H99.3L5.06 321.41C-6.69 333.56 3.34 352 21.7 352H160v32H48c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h288c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16H224v-32h138.3c18.36 0 28.39-18.44 16.64-30.59zM192 31.98c8.85 0 16.02 7.17 16.02 16.02 0 8.84-7.17 16.02-16.02 16.02S175.98 56.84 175.98 48c0-8.85 7.17-16.02 16.02-16.02zM304 432v32H80v-32h224z"]
+  icon: [512, 512, [], "f5d0", "M224 160H96C43 160 0 203 0 256V480C0 497.625 14.375 512 32 512H288C305.625 512 320 497.625 320 480V256C320 203 277 160 224 160ZM160 416C115.875 416 80 380.125 80 336S115.875 256 160 256S240 291.875 240 336S204.125 416 160 416ZM224 32C224 14.375 209.625 0 192 0H128C110.375 0 96 14.375 96 32V128H224V32ZM381.781 51.578C383 50.969 384 49.359 384 48C384 46.625 383 45.031 381.781 44.422L352 32L339.562 2.219C338.969 1 337.375 0 336 0S333.031 1 332.406 2.219L320 32L290.219 44.422C289 45.031 288 46.625 288 48C288 49.359 289 50.969 290.219 51.578L320 64L332.406 93.781C333.031 95 334.625 96 336 96S338.969 95 339.562 93.781L352 64L381.781 51.578ZM448 64L460.406 93.781C461.031 95 462.625 96 464 96S466.969 95 467.562 93.781L480 64L509.781 51.578C511 50.969 512 49.359 512 48C512 46.625 511 45.031 509.781 44.422L480 32L467.562 2.219C466.969 1 465.375 0 464 0S461.031 1 460.406 2.219L448 32L418.219 44.422C417 45.031 416 46.625 416 48C416 49.359 417 50.969 418.219 51.578L448 64ZM480 224L467.562 194.219C466.969 193 465.375 192 464 192S461.031 193 460.406 194.219L448 224L418.219 236.422C417 237.031 416 238.625 416 240C416 241.359 417 242.969 418.219 243.578L448 256L460.406 285.781C461.031 287 462.625 288 464 288S466.969 287 467.562 285.781L480 256L509.781 243.578C511 242.969 512 241.359 512 240C512 238.625 511 237.031 509.781 236.422L480 224ZM445.781 147.578C447 146.969 448 145.359 448 144C448 142.625 447 141.031 445.781 140.422L416 128L403.562 98.219C402.969 97 401.375 96 400 96S397.031 97 396.406 98.219L384 128L354.219 140.422C353 141.031 352 142.625 352 144C352 145.359 353 146.969 354.219 147.578L384 160L396.406 189.781C397.031 191 398.625 192 400 192S402.969 191 403.562 189.781L416 160L445.781 147.578Z"]
 };
 var faAlignCenter = {
   prefix: 'fas',
@@ -14365,21 +12728,17 @@ var _iconsCache = {
 /*!*****************************************************************!*\
   !*** ./node_modules/@fortawesome/react-fontawesome/index.es.js ***!
   \*****************************************************************/
-/*! namespace exports */
-/*! export FontAwesomeIcon [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "FontAwesomeIcon": () => /* binding */ FontAwesomeIcon
+/* harmony export */   "FontAwesomeIcon": () => (/* binding */ FontAwesomeIcon)
 /* harmony export */ });
 /* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 
 
@@ -14641,15 +13000,24 @@ function log () {
   }
 }
 
-// Normalize icon arguments
 function normalizeIconArgs(icon) {
-  // if the icon is null, there's nothing to do
+  // this has everything that it needs to be rendered which means it was probably imported
+  // directly from an icon svg package
+  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName && icon.icon) {
+    return icon;
+  }
+
+  if (_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.icon) {
+    return _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.icon(icon);
+  } // if the icon is null, there's nothing to do
+
+
   if (icon === null) {
     return null;
   } // if the icon is an object and has a prefix and an icon name, return it
 
 
-  if (_typeof(icon) === 'object' && icon.prefix && icon.iconName) {
+  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName) {
     return icon;
   } // if it's an array with length of two
 
@@ -14690,14 +13058,16 @@ function FontAwesomeIcon(_ref) {
       maskArgs = props.mask,
       symbol = props.symbol,
       className = props.className,
-      title = props.title;
+      title = props.title,
+      titleId = props.titleId;
   var iconLookup = normalizeIconArgs(iconArgs);
   var classes = objectWithKey('classes', [].concat(_toConsumableArray(classList(props)), _toConsumableArray(className.split(' '))));
   var transform = objectWithKey('transform', typeof props.transform === 'string' ? _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.transform(props.transform) : props.transform);
   var mask = objectWithKey('mask', normalizeIconArgs(maskArgs));
   var renderedIcon = (0,_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.icon)(iconLookup, _objectSpread2({}, classes, {}, transform, {}, mask, {
     symbol: symbol,
-    title: title
+    title: title,
+    titleId: titleId
   }));
 
   if (!renderedIcon) {
@@ -14719,23 +13089,23 @@ function FontAwesomeIcon(_ref) {
 }
 FontAwesomeIcon.displayName = 'FontAwesomeIcon';
 FontAwesomeIcon.propTypes = {
-  border: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
-  mask: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  fixedWidth: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  inverse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  flip: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['horizontal', 'vertical', 'both']),
-  icon: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  listItem: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  pull: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['right', 'left']),
-  pulse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  rotation: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf([0, 90, 180, 270]),
-  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['lg', 'xs', 'sm', '1x', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
-  spin: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  symbol: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  title: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
-  transform: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object)]),
-  swapOpacity: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool)
+  border: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  className: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  mask: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
+  fixedWidth: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  inverse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  flip: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['horizontal', 'vertical', 'both']),
+  icon: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
+  listItem: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  pull: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['right', 'left']),
+  pulse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  rotation: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf([0, 90, 180, 270]),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['lg', 'xs', 'sm', '1x', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
+  spin: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  symbol: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
+  title: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  transform: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)]),
+  swapOpacity: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool)
 };
 FontAwesomeIcon.defaultProps = {
   border: false,
@@ -14756,7 +13126,7 @@ FontAwesomeIcon.defaultProps = {
   transform: null,
   swapOpacity: false
 };
-var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2__.createElement);
+var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_1__.createElement);
 
 
 
@@ -14767,16 +13137,12 @@ var convertCurry = convert.bind(null, react__WEBPACK_IMPORTED_MODULE_2__.createE
 /*!************************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useCommittedRef.js ***!
   \************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -14806,23 +13172,19 @@ function useCommittedRef(value) {
 /*!*************************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useEventCallback.js ***!
   \*************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ useEventCallback
+/* harmony export */   "default": () => (/* binding */ useEventCallback)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _useCommittedRef__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./useCommittedRef */ "./node_modules/@restart/hooks/esm/useCommittedRef.js");
 
 
 function useEventCallback(fn) {
-  var ref = (0,_useCommittedRef__WEBPACK_IMPORTED_MODULE_1__.default)(fn);
+  var ref = (0,_useCommittedRef__WEBPACK_IMPORTED_MODULE_1__["default"])(fn);
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(function () {
     return ref.current && ref.current.apply(ref, arguments);
   }, [ref]);
@@ -14834,16 +13196,12 @@ function useEventCallback(fn) {
 /*!***********************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useForceUpdate.js ***!
   \***********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ useForceUpdate
+/* harmony export */   "default": () => (/* binding */ useForceUpdate)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -14881,18 +13239,13 @@ function useForceUpdate() {
 /*!**********************************************************!*\
   !*** ./node_modules/@restart/hooks/esm/useMergedRefs.js ***!
   \**********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export mergeRefs [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "mergeRefs": () => /* binding */ mergeRefs,
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "mergeRefs": () => (/* binding */ mergeRefs),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -14938,52 +13291,16 @@ function useMergedRefs(refA, refB) {
 
 /***/ }),
 
-/***/ "./src/client/app.js":
-/*!***************************!*\
-  !*** ./src/client/app.js ***!
-  \***************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! normalize.css/normalize.css */ "./node_modules/normalize.css/normalize.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/styles.scss */ "./src/client/styles/styles.scss");
-/* harmony import */ var _routers_AppRouter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./routers/AppRouter */ "./src/client/routers/AppRouter.js");
-
-
-
- // import 'highlightjs/styles/github.css';
-// import 'highlightjs/styles/monokai.css';
-// import 'highlightjs/styles/monokai-sublime.css';
-
-
-
-
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_routers_AppRouter__WEBPACK_IMPORTED_MODULE_6__.default, null), document.getElementById('app'));
-
-/***/ }),
-
 /***/ "./src/client/components/Bio.js":
 /*!**************************************!*\
   !*** ./src/client/components/Bio.js ***!
   \**************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
@@ -14997,9 +13314,9 @@ __webpack_require__.r(__webpack_exports__);
 var Bio = function Bio() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 8,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
@@ -15012,11 +13329,11 @@ var Bio = function Bio() {
     className: "banner__strikethrough"
   }, "Barcelona"), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "banner__highlight"
-  }, "Abu Dhabi"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "Abu Dhabi"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 8,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
@@ -15024,11 +13341,11 @@ var Bio = function Bio() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
     to: "/clients",
     className: "bio__link"
-  }, "These"), ' ', "are some of the clients I have worked with")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "These"), ' ', "are some of the clients I have worked with")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
     className: "bio__section-one text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
@@ -15055,11 +13372,11 @@ var Bio = function Bio() {
     className: "bio__section-one__row"
   }, "commitment to", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-one__highlight"
-  }, "best practices"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "best practices"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 4
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 4
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
     className: "bio__section-two text-right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
@@ -15094,11 +13411,11 @@ var Bio = function Bio() {
     className: "bio__section-two__highlight"
   }, "authored a thesis"), ' ', "on real-time", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-two__highlight"
-  }, "snow rendering (wat)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "snow rendering (wat)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
     className: "bio__section-three text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
@@ -15131,9 +13448,9 @@ var Bio = function Bio() {
     className: "bio__section-three__highlight"
   }, "football"), "...", ' ', "I am an avid", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-three__highlight"
-  }, "FC Barcelona"), ' ', "fan")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, "FC Barcelona"), ' ', "fan")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 4
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     className: "bio__section text-center"
   }))));
@@ -15147,16 +13464,12 @@ var Bio = function Bio() {
 /*!***************************************!*\
   !*** ./src/client/components/Blog.js ***!
   \***************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
@@ -15178,23 +13491,23 @@ var blogPostsReversed = _config_blog_posts__WEBPACK_IMPORTED_MODULE_2__.blogPost
 var Blog = function Blog() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, blogPostsReversed.map(function (post) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, blogPostsReversed.map(function (post) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
       key: post.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 2
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       key: post.id,
       xs: 8,
       className: "blog-post text-left"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 12,
       className: "text-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.NavLink, {
       to: "/blogpost/" + post.route,
       exact: true,
       className: "blog-post__title"
-    }, post.title)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, post.title)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 12,
       className: "text-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -15204,7 +13517,7 @@ var Blog = function Blog() {
       size: "xs"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
       className: "blog-post__date-value "
-    }, post.date))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, post.date))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 2
     }));
   })));
@@ -15218,16 +13531,12 @@ var Blog = function Blog() {
 /*!*******************************************!*\
   !*** ./src/client/components/BlogPost.js ***!
   \*******************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
@@ -15251,15 +13560,15 @@ var BlogPost = function BlogPost(props) {
   var blogPostContent = blogPost.content;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "post__width"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "post__title"
   }, blogPostTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     className: "post__date"
-  }, blogPostDate))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, blogPostDate))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "post__content",
     dangerouslySetInnerHTML: {
       __html: blogPostContent
@@ -15275,16 +13584,12 @@ var BlogPost = function BlogPost(props) {
 /*!*****************************************!*\
   !*** ./src/client/components/Client.js ***!
   \*****************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
@@ -15299,18 +13604,18 @@ __webpack_require__.r(__webpack_exports__);
 var Client = function Client() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 8,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "client__banner__title"
-  }, "Over the years, I\u2019ve had the pleasure to work with a bunch of really great people and companies on some amazing projects. Below are a few clients I've worked with...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, "Over the years, I\u2019ve had the pleasure to work with a bunch of really great people and companies on some amazing projects. Below are a few clients I've worked with...")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 8,
     className: "client__section client__logo-section__width text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -15391,7 +13696,7 @@ var Client = function Client() {
     alt: "Enercity",
     width: "252",
     height: "82"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     xs: 2
   }))));
 };
@@ -15404,16 +13709,12 @@ var Client = function Client() {
 /*!***************************************!*\
   !*** ./src/client/components/Code.js ***!
   \***************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
@@ -15432,22 +13733,22 @@ __webpack_require__.r(__webpack_exports__);
 var Code = function Code() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, _config_code_projects__WEBPACK_IMPORTED_MODULE_2__.codeProjects.map(function (repo) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, _config_code_projects__WEBPACK_IMPORTED_MODULE_2__.codeProjects.map(function (repo) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
       key: repo.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 2
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       key: repo.id,
       xs: 8,
       className: "code-repo text-left"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 12,
       className: "text-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
       href: repo.link,
       className: "code-repo__title"
-    }, repo.name)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, repo.name)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 12,
       className: "text-left"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -15457,7 +13758,7 @@ var Code = function Code() {
       size: "xs"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
       className: "code-repo__description__text"
-    }, repo.description))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+    }, repo.description))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
       xs: 2
     }));
   })));
@@ -15471,16 +13772,12 @@ var Code = function Code() {
 /*!*****************************************!*\
   !*** ./src/client/components/Header.js ***!
   \*****************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Navbar.js");
@@ -15510,59 +13807,59 @@ function collapseNavbar(event) {
 }
 
 var Header = function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"], {
     collapseOnSelect: true,
     expand: "lg",
     fixed: "top"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default.Toggle, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"].Toggle, {
     "aria-controls": "responsive-navbar-nav"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.default.Collapse, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["default"].Collapse, {
     id: "responsive-navbar-nav"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "ml-auto mr-auto justify-content-md-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     to: "/",
     exact: true,
     className: "header__link",
     activeClassName: "is-active",
     onClick: collapseNavbar
-  }, "home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, "home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     to: "/bio",
     exact: true,
     className: "header__link",
     activeClassName: "is-active",
     onClick: collapseNavbar
-  }, "bio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, "bio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     to: "/blog",
     exact: true,
     className: "header__link",
     activeClassName: "is-active",
     onClick: collapseNavbar
-  }, "blog")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, "blog")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     to: "/code",
     exact: true,
     className: "header__link",
     activeClassName: "is-active",
     onClick: collapseNavbar
-  }, "code")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "code")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/jmsmistral",
     className: "header__link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faGithub,
     size: "lg"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://twitter.com/jmsmistral",
     className: "header__link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faTwitter,
     size: "lg"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://www.linkedin.com/pub/jonathan-sacramento/65/920/584",
     className: "header__link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__.faLinkedin,
     size: "lg"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "mailto:jmsmistral@gmail.com",
     className: "header__link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
@@ -15579,16 +13876,12 @@ var Header = function Header() {
 /*!***************************************!*\
   !*** ./src/client/components/Home.js ***!
   \***************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
@@ -15613,28 +13906,28 @@ var Carousel = react_reveal_makeCarousel__WEBPACK_IMPORTED_MODULE_1___default()(
 var Home = function Home() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "home-page"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "home-page-large-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12,
     className: "align-self-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 8
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "banner__title fadein-banner"
   }, "Hi! I'm", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
     className: "banner__highlight"
-  }, "Jonathan"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "Jonathan"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "banner__subtitle__container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 8
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "banner__subtitle fadein-banner"
@@ -15669,48 +13962,48 @@ var Home = function Home() {
     top: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "banner__subtitle banner__code react"
-  }, "React"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "React"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "sub-banner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 8,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "sub-banner__title fadein-subbanner"
   }, "I help clients make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "sub-banner__highlight"
-  }, "better business decisions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "better business decisions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 8,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "sub-banner__subtitle fadein-subbanner"
   }, "through", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
     className: "sub-banner__highlight"
-  }, "data-driven applications"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "data-driven applications"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: "home-page-small-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12,
     className: "align-self-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "banner__title fadein-banner"
   }, "Hi! I'm", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", {
     className: "banner__highlight"
-  }, "Jonathan"), "."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, "Jonathan"), "."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "banner__subtitle__container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "banner__subtitle fadein-banner"
@@ -15745,16 +14038,16 @@ var Home = function Home() {
     top: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "banner__subtitle banner__code react"
-  }, "React")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, {
+  }, "React")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
     className: "sub-banner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "sub-banner__title fadein-subbanner"
   }, "I help clients make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "sub-banner__highlight"
-  }, "better business decisions")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__.default, {
+  }, "better business decisions")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 12,
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
@@ -15772,16 +14065,12 @@ var Home = function Home() {
 /*!*******************************************!*\
   !*** ./src/client/components/NotFound.js ***!
   \*******************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -15800,28 +14089,25 @@ var NotFound = function NotFound() {
 /*!*****************************************!*\
   !*** ./src/client/config/blog-posts.js ***!
   \*****************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 26:0-14 */
 /***/ ((module) => {
 
 var blogPosts = [{
   "id": 1,
   "route": "on-transposing-data",
   "title": "On Transposing Data",
-  "content": "<p>A transpose (or &quot;pivot&quot;) is a way of transforming data from one view to another. There are infinitely many ways of transforming data, and each attempts to get data in a form that&#39;s easier to view, analyse or process further. The definition of the verb &quot;transpose&quot; is to &quot;<em>cause (two or more things) to exchange places</em>&quot;. So, how does this apply to data, and when might such a transformation be useful? To answer this, let&#39;s go through some quick examples.</p>\n<h3 id=\"example-1---simple-row-to-column-transpose\">Example 1 - Simple row-to-column transpose</h3>\n<p>When reading about transposing data, some will (naively) think solely of exchanging rows for columns (and vice versa). This example illustrates this transformation. The data shows the sales volume per quarter for a set of regions.</p>\n<p><img src=\"/img/on-transposing-data-1.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><img src=\"/img/on-transposing-data-2.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Visually, this transpose &quot;rotates&quot; the data over an invisible diagonal line running through the table. No information is lost through aggregation — the values simply change position, giving a different view of the data. This might be useful in making data easier to read or chart.</p>\n<h3 id=\"example-2--transposing-over-a-group-field\">Example 2 — Transposing over a &quot;group&quot; field</h3>\n<p>Now consider a billing table that captures customer transactions in a given month, as shown below (Raw table 2). Say we want to analyse the total amount for each revenue group, and that we want this visible in one row (we discuss why later on) — in other words, we want an output table with the different revenue groups as column headers, and a row of total values for each.</p>\n<p><img src=\"/img/on-transposing-data-3.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><img src=\"/img/on-transposing-data-4.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>This can be achieved by transposing the table over a given group field (<strong>Revenue Group</strong>). The process entails aggregating a numeric field (<strong>Amount</strong>) for each distinct group. Notice that we&#39;re still performing a form of &#39;row-to-column&#39; exchange on a subset of the table (the <strong>Revenue Group</strong> field values become column headers, and the <strong>Amount</strong> field is aggregated into a single row).</p>\n<p>It isn&#39;t hard to see the value of this transpose operation — useful information can be gleaned from raw data with a single transformation. This can be used to verify totals, run integrity checks on raw data, view the evolution of variables etc.</p>\n<h3 id=\"example-3--transposing-over-a-group-field-preserving-an-id-field\">Example 3 — Transposing over a &quot;group&quot; field, preserving an &quot;id&quot; field</h3>\n<p>Taking the previous example further, let&#39;s say that we want to view each customer&#39;s total revenue breakdown for the month — in other words, we want a &#39;one-row-per-customer&#39; view broken-down into the different revenue groups. Using the same data as in <strong>Example 2</strong>, the resulting table would look like this:</p>\n<p><img src=\"/img/on-transposing-data-5.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>We arrive at this result by transposing the table over a given group field (<strong>Revenue Group</strong>), whilst preserving an id field (<strong>Customer ID</strong>). The process entails aggregating numeric field (<strong>Amount</strong>) for each distinct group and id. This transformation naturally keeps distinct values of the id field in a separate row.</p>\n<p>Apart from giving a clear view to the human eye of the value of each group for every id (everything&#39;s in one row), there is another reason why such a view is handy. Each row can be viewed as an array of values that can be iterated over and processed further. To illustrate this, imagine that instead of different revenue groups (<strong>rev_A</strong>, <strong>rev_B</strong>,…), we had transposed the monthly snapshots of a single revenue group (<strong>rev_A_month_1</strong>, <strong>rev_A_month_2</strong>,…), resulting in the following table:</p>\n<p><img src=\"/img/on-transposing-data-6.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Using this view of the data, we could iterate over all rows (i.e. all customers) — treating each as an <strong>array of values</strong> — and run our analyses on each array, in turn. For example, we could run an analysis that tries to predict customer churn based on monthly spend activity.</p>\n<hr>\n<p>We now have a bit of more clarity on how data can be transposed — but how can we perform this transformation on our own data, and what tools are available to us? If you&#39;re like me, you want to be able to do this via a shell, processing delimited text files through a carefully crafted pipe of standard UNIX programs (or even better, a single program!). But in order to appreciate the beauty of data analysis in the UNIX environment, let&#39;s examine the alternatives.</p>\n<h2 id=\"sql-postgresql-94\">SQL *PostgreSQL 9.4</h2>\n<p>SQL is the de facto language for data analysis on databases. However, carrying-out a transpose in SQL can force us to write unclean code that is hard to maintain. There is also the issue of having to import the raw data into a database before following this approach. If we wanted to transpose the table from <strong>Example 2</strong> by group and id, we could write the following code:</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n  customer_id\n  ,<span class=\"hljs-built_in\">sum</span>(rev_A) <span class=\"hljs-keyword\">as</span> rev_A\n  ,<span class=\"hljs-built_in\">sum</span>(rev_B) <span class=\"hljs-keyword\">as</span> rev_B\n  ,<span class=\"hljs-built_in\">sum</span>(rev_C) <span class=\"hljs-keyword\">as</span> rev_C\n<span class=\"hljs-keyword\">from</span> (\n  <span class=\"hljs-keyword\">select</span>\n    customer_id\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_A&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_A\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_B&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_B\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_C&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_C\n  <span class=\"hljs-keyword\">from</span>\n    <span class=\"hljs-keyword\">raw</span>\n) t1\n<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">by</span>\n  customer_id</code></pre>\n<p>But this code is not exactly an elegant solution to our problem. Imagine that next month the business decides to add a new revenue type <strong>rev_D</strong>. The above code would not capture this new group in the output table — in other words, changes in structure of the source data will require a modification of the code; If we were running this code as part of a monthly summary report, this solution just wouldn&#39;t do!</p>\n<p>PostgreSQL provides another means of transposing the data the way we want via the <a href=\"http://www.postgresql.org/docs/9.4/static/tablefunc.html\">CROSSTAB</a> function (other database systems like Microsoft&#39;s SQL Server, or Oracle have a <code>PIVOT</code> function that achieves the same result):</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n  *\n<span class=\"hljs-keyword\">from</span>\n  crosstab (\n   &#x27;<span class=\"hljs-keyword\">select</span> customer_id, revenue_group ,<span class=\"hljs-built_in\">sum</span>(amount) as amount\n    <span class=\"hljs-keyword\">from</span> raw\n    <span class=\"hljs-built_in\">group</span> <span class=\"hljs-keyword\">by</span> customer_id, revenue_group\n    order <span class=\"hljs-keyword\">by</span> customer_id&#x27;\n  ,&#x27;<span class=\"hljs-keyword\">select</span> <span class=\"hljs-built_in\">distinct</span> revenue_groups <span class=\"hljs-keyword\">from</span> raw&#x27;\n  )\n  as (\n     customer_id <span class=\"hljs-type\">int</span>\n    ,rev_A      real\n    ,rev_B      real\n    ,rev_C      real\n  );</code></pre>\n<p>However, this still suffers from the previous problem, as we need to modify the code in response to changes in the structure of the data; specifically, we are required to define the columns and data types for the output table (see the <code>AS</code> definition in the <code>FROM</code> clause). We could of course generate dynamic SQL to remedy this — that is, executing a code-generated SQL query that adds the distinct groups via a <strong>cursor</strong>. We would, however, have to modify the code (or write a separate query) if we wanted to transpose over the group field (without the id) instead.</p>\n<h2 id=\"sas\">SAS</h2>\n<p>SAS, with it&#39;s archaic 70&#39;s syntax, does actually have a transpose function that gets us close to an ideal solution… the drawbacks are:</p>\n<ul>\n<li>SAS does require us (like databases) to import data before we process it, which means having to define column data types and sizes. This also forces us to redefine these should our data change or exceed these limits later on;</li>\n<li>SAS&#39;s transpose function expects the data in a form that has no duplicate group values for each id; that is, the data would have to be aggregated before transposing. Taking the data from <strong>Example 2</strong>, we would have to go from this:</li>\n</ul>\n<p><img src=\"/img/on-transposing-data-7.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>to this…</p>\n<p><img src=\"/img/on-transposing-data-8.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Once the data is in a SAS-acceptable form, we can go ahead and transpose as follows:</p>\n<h3 id=\"simple-transpose-rows-to-columns\">Simple transpose (&#39;rows-to-columns&#39;)</h3>\n<pre><code class=\"hljs language-sas\">proc transpose <span class=\"hljs-attribute\">data</span>=raw <span class=\"hljs-attribute\">out</span>=output_simple;\nrun;</code></pre>\n<h3 id=\"transpose-over-group-requires-prior-aggregation\">Transpose over group (requires prior aggregation)</h3>\n<pre><code class=\"hljs language-sas\"><span class=\"hljs-keyword\">proc</span><span class=\"hljs-title\"> transpose</span> data=raw<span class=\"hljs-title\"> out=output_group;</span>\n<span class=\"hljs-title\">  id</span> revenue_group;<span class=\"hljs-title\">\n  var</span> amount;<span class=\"hljs-title\">\nrun;</span></code></pre>\n<h3 id=\"transpose-over-group-preserving-id-requires-prior-aggregation\">Transpose over group, preserving id (requires prior aggregation)</h3>\n<pre><code class=\"hljs language-sas\"><span class=\"hljs-keyword\">proc</span><span class=\"hljs-title\"> transpose</span> data=raw<span class=\"hljs-title\"> out=output_group_id;</span>\n<span class=\"hljs-title\">  by</span> customer_id;<span class=\"hljs-title\">\n  id</span> revenue_group;<span class=\"hljs-title\">\n  var</span> amount;<span class=\"hljs-title\">\nrun;</span></code></pre>\n<p>Alas, SAS is proprietary software (with extremely prohibitive license costs) that ultimately restricts our freedom as users. Moreover, there are many technically excellent, free and open source tools available that allow you do everything you do currently in SAS (and more).</p>\n<h2 id=\"awk\">AWK</h2>\n<p>AWK is a natural choice for this type of problem as it provides a simple processing model and language that enables a fast <strong>write-exectute-test</strong> feedback-loop. For instance, the code for transposing over the group field (as in <strong>Example 2</strong>) can be written in 19 lines:</p>\n<pre><code class=\"hljs language-awk\"><span class=\"hljs-keyword\">BEGIN</span> {\n  FS=&quot;\\t&quot;; OFS=&quot;\\t&quot;\n}\nNR &gt; <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-keyword\">if</span>($(grp) != &quot;&quot;)\n    <span class=\"hljs-keyword\">unique</span>[$(grp)] += $(num)\n}\n<span class=\"hljs-keyword\">END</span> {\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">in</span> <span class=\"hljs-keyword\">unique</span>)\n    printf(&quot;%s\\t&quot;, <span class=\"hljs-keyword\">group</span>)\n  print &quot;&quot;\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">in</span> <span class=\"hljs-keyword\">unique</span>)\n    printf(&quot;%d\\t&quot;, <span class=\"hljs-keyword\">unique</span>[<span class=\"hljs-keyword\">group</span>])\n  print &quot;&quot;\n}</code></pre>\n<p>If we saved this to a file called <code>transposeGroup.awk</code>, we could run it to transpose a text file holding our data (<code>data.txt</code>) like this:</p>\n<pre><code class=\"hljs language-bash\">$ gawk -f transposeGroup.awk <span class=\"hljs-attribute\">grp</span>=4 <span class=\"hljs-attribute\">num</span>=5 data.txt</code></pre>\n<p>AWK doesn&#39;t recognise field names, so you better know the column index of the fields you want to use (notice that we pass the column indexes for both the field containing the group values, and the numeric values to be aggregated, respectively). Although column indexes can be extracted easily (<code>head -n1 data.txt | tr $&#39;\\t&#39; $&#39;\\n&#39; | cat -n</code>), these indexes would change if the structure of our data changes, e.g. if new fields where added to <code>data.txt</code>. A rule of thumb is to never rely on &#39;magic numbers&#39; — in this case, the ability to refer to our fields by name would provide a more future-proof solution (typically, field names should change little over time, if at all).</p>\n<p>Similarly, the code to transpose over the <code>group</code> and <code>id</code> fields can composed as follows:</p>\n<pre><code class=\"hljs language-awk\">#!/bin/bash\ndataFile=$<span class=\"hljs-number\">1</span>\nidField=$<span class=\"hljs-number\">2</span>\ngroupField=$<span class=\"hljs-number\">3</span>\nnumField=$<span class=\"hljs-number\">4</span>\ngawk &#x27;\nBEGIN {\n  FS=<span class=\"hljs-string\">&quot;\\t&quot;</span>; OFS=<span class=\"hljs-string\">&quot;\\t&quot;</span>\n}\n# Get id column name (to <span class=\"hljs-built_in\">print</span> later)\nNR == <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">1</span> {\n  idHeader = $(id)\n}\n# Get <span class=\"hljs-built_in\">unique</span> groups\nFNR &gt; <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-keyword\">if</span>($(grp) != <span class=\"hljs-string\">&quot;&quot;</span>)\n    <span class=\"hljs-built_in\">unique</span>[$(grp)] = <span class=\"hljs-number\">0</span>\n}\n# <span class=\"hljs-built_in\">print</span> <span class=\"hljs-built_in\">unique</span> groups as headers\npass == <span class=\"hljs-number\">2</span> &amp;&amp; FNR == <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, idHeader)\n  <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n    <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, group)\n  <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n}\n# aggregate group <span class=\"hljs-built_in\">values</span> <span class=\"hljs-keyword\">for</span> each id\nFNR &gt; <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">2</span> {\n\n  rowId = $(id)\n  <span class=\"hljs-keyword\">if</span>(currentId == <span class=\"hljs-string\">&quot;&quot;</span>)\n    currentId = rowId\n  <span class=\"hljs-keyword\">if</span>(rowId != <span class=\"hljs-string\">&quot;&quot;</span> &amp;&amp; $(grp) != <span class=\"hljs-string\">&quot;&quot;</span>) {\n    <span class=\"hljs-keyword\">if</span>(rowId == currentId)\n      <span class=\"hljs-built_in\">unique</span>[$(grp)] += $(<span class=\"hljs-built_in\">num</span>)\n    <span class=\"hljs-keyword\">else</span> {\n      # <span class=\"hljs-built_in\">print</span> output line\n      <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, currentId)\n      <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n        <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%d\\t&quot;</span>, <span class=\"hljs-built_in\">unique</span>[group])\n      <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n\n      # clear <span class=\"hljs-built_in\">array</span> <span class=\"hljs-built_in\">values</span>\n      <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n        <span class=\"hljs-built_in\">unique</span>[group] = <span class=\"hljs-string\">&quot;&quot;</span>\n\n      # aggregate current <span class=\"hljs-built_in\">row</span>\n      currentId = rowId\n      <span class=\"hljs-built_in\">unique</span>[$(grp)] += $(<span class=\"hljs-built_in\">num</span>)\n    }\n  }\n}\n#<span class=\"hljs-built_in\">print</span> <span class=\"hljs-built_in\">last</span> <span class=\"hljs-built_in\">row</span>\nEND {\n  <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, currentId)\n  <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n    <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%d\\t&quot;</span>, <span class=\"hljs-built_in\">unique</span>[group])\n  <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n}&#x27; id=$idField grp=$groupField <span class=\"hljs-built_in\">num</span>=$numField pass=<span class=\"hljs-number\">1</span> $dataFile pass=<span class=\"hljs-number\">2</span> $dataFile</code></pre>\n<p>The fact that the code scans twice over the data file forces us to encapsulate the code in a shell script. To run this on our data, we would save the code in a file <code>transposeIdGroup.awk</code>, and execute the following:</p>\n<pre><code class=\"hljs language-bash\">$ ./transposeIdGroup.awk <span class=\"hljs-class\"><span class=\"hljs-keyword\">data</span>.txt 1 4 5</span></code></pre>\n<p>AWK allows us to script the transpose functionality we want in few lines (I&#39;ve left the &#39;row-to-column&#39; transpose for the reader to figure out). However, these scripts are more suited to be executed in an ad-hoc fashion, than in a repeatable process (such as cron job) as it cannot handle the data changing structure.</p>\n<h2 id=\"rs\">rs</h2>\n<p>This UNIX tool only handles simple transposes (&#39;row-to-column&#39;), but deserves a quick mention for the sake of completeness. If we have the following data in <code>data_simple.txt</code>:</p>\n<pre><code class=\"hljs language-bash\">$ cat data_simple.txt\nA B C\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">1</span> y<span class=\"hljs-number\">1</span> z<span class=\"hljs-number\">1</span>\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">2</span> y<span class=\"hljs-number\">2</span> z<span class=\"hljs-number\">2</span>\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">3</span> y<span class=\"hljs-number\">3</span> z<span class=\"hljs-number\">3</span></code></pre>\n<p>We can transpose this by running:</p>\n<pre><code class=\"hljs language-bash\">$ cat data_simple.txt | rs -<span class=\"hljs-keyword\">c</span>$&#x27;\\t&#x27; -T\nA <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">1</span> <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">2</span> <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">3</span>\nB y<span class=\"hljs-number\">1</span> y<span class=\"hljs-number\">2</span> y<span class=\"hljs-number\">3</span>\nC z<span class=\"hljs-number\">1</span> z<span class=\"hljs-number\">2</span> z<span class=\"hljs-number\">3</span></code></pre>\n<p>Now that we have a better idea of the methods available, we are better placed to decide which best fits our needs. You might have noticed, however, that there isn&#39;t a method that simultaneously matches all of the following requirements:</p>\n<ol>\n<li>Doesn&#39;t need importing</li>\n<li>Doesn&#39;t involve writing a script</li>\n<li>Allows field-name matching (not only column indexes)</li>\n<li>Accepts delimited text files</li>\n<li>Can be run from the terminal</li>\n<li>Provides different aggregation types (sum, count, average)</li>\n<li>Executes in parallel</li>\n</ol>\n<p>Enter <strong>tpose</strong>... a UNIX-based terminal program for transposing delimited text-files.</p>\n<h3 id=\"simple-transpose\">Simple transpose</h3>\n<p>A simple transpose (&#39;row-to-column&#39;) needs no options. The data from <strong>Example 1</strong> can be processed by:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex1_simple.txt\nQuarter Q1 Q2 Q3 Q4\nEurope <span class=\"hljs-number\"> 2 </span><span class=\"hljs-number\"> 3 </span><span class=\"hljs-number\"> 3 </span> 4\nAsia   <span class=\"hljs-number\"> 5 </span><span class=\"hljs-number\"> 4 </span><span class=\"hljs-number\"> 5 </span> 6\nUS     <span class=\"hljs-number\"> 3 </span><span class=\"hljs-number\"> 1 </span><span class=\"hljs-number\"> 2 </span> 3</code></pre>\n<h3 id=\"group-transpose\">Group transpose</h3>\n<p>To transpose a numerical variable over a a set of groups, we need to provide the -G (or — group) and -N (or — numeric) options, to specify the group, and numeric fields. The data from Example 2 (&quot;Raw table 2 — Billing data for a given month&quot;) is transposed as follows:</p>\n<pre><code class=\"hljs language-bash\">$ tpose dat<span class=\"hljs-built_in\">a_ex2</span>_group.txt -Grevenue_group -Namount\nrev_A rev_B rev_C\n<span class=\"hljs-number\">13.00</span> <span class=\"hljs-number\">12.00</span> <span class=\"hljs-number\">15.00</span></code></pre>\n<h3 id=\"group-and-id-transpose\">Group and ID transpose</h3>\n<p>Using the same data from <strong>Example 2</strong>, we can transpose over groups and id&#39;s via the -I (or — id), -G (or — group), and -N (or — numeric) options:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex2_group.txt -Icustomer_id — Grevenue_group -Namount\nCustomer_id rev_A rev_B rev_C\n<span class=\"hljs-number\"> 1 </span>         2.00  3.00  0.00\n<span class=\"hljs-number\"> 2 </span>         0.00  0.00  6.00\n<span class=\"hljs-number\"> 3 </span>         0.00  9.00  9.00\n<span class=\"hljs-number\"> 4 </span>         11.00 0.00  0.00</code></pre>\n<p>There are a few points to note:</p>\n<ul>\n<li>Transposing over group, and ID fields requires the first line of the data file to be a header row with field names</li>\n<li>All operations are performed using floating-point values — values are output as such</li>\n<li>-I, -G, and -N options are case-insensitive (revenue_group = rEvEnUe_GrOuP)</li>\n</ul>\n<h3 id=\"field-indexes-instead-of-names\">Field indexes instead of names</h3>\n<p>It&#39;s sometimes easier to refer to fields by number — that is, the position relative to other fields. This is supported in tpose via the -i (or — indexed) option. If this option is used, tpose will expect a number instead of a name. If we take the same data from <strong>Example 2</strong>, we would perform the previous transpose operation by:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex<span class=\"hljs-number\">2</span>_group.txt -i — I<span class=\"hljs-number\">1</span> — <span class=\"hljs-name\">G2</span> -<span class=\"hljs-symbol\">N3</span>\nCustomer_id rev_A rev_B rev_C\n<span class=\"hljs-number\">1</span>           <span class=\"hljs-number\">2.00</span>  <span class=\"hljs-number\">3.00</span>  <span class=\"hljs-number\">0.00</span>\n<span class=\"hljs-number\">2</span>           <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">6.00</span>\n<span class=\"hljs-number\">3</span>           <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">9.00</span>  <span class=\"hljs-number\">9.00</span>\n<span class=\"hljs-number\">4</span>           <span class=\"hljs-number\">11.00</span> <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">0.00</span></code></pre>\n<p>An easy way of getting the field indexes is via the following pipe (assuming tab delimiter):</p>\n<pre><code class=\"hljs language-bash\"><span class=\"hljs-variable\">$</span> head <span class=\"hljs-literal\">-n1</span> data_ex2_group.txt | tr <span class=\"hljs-variable\">$</span><span class=\"hljs-string\">&#x27;\\t&#x27;</span> <span class=\"hljs-variable\">$</span><span class=\"hljs-string\">&#x27;\\n&#x27;</span> | <span class=\"hljs-built_in\">cat</span> <span class=\"hljs-literal\">-n</span>\n<span class=\"hljs-number\">1</span> Customer_id\n<span class=\"hljs-number\">2</span> Revenue_group\n<span class=\"hljs-number\">3</span> Amount</code></pre>\n<h3 id=\"types-of-aggregation\">Types of aggregation</h3>\n<p>Imagine that instead of transposing over groups (or groups and IDs) and summing the numerical field, we want to count each instance instead, or calculate an average using the sum of the numerical field and the count of each instance. We can do this with tpose by passing the type of aggregation via the -a (or — aggregate) option:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex2_group.txt -i — I1 — G2 -N3 -acount\ncustomer_id rev_A rev_B rev_C\n1          <span class=\"hljs-number\"> 1 </span>   <span class=\"hljs-number\"> 1 </span>    0\n2          <span class=\"hljs-number\"> 0 </span>   <span class=\"hljs-number\"> 0 </span>    1\n3          <span class=\"hljs-number\"> 0 </span>   <span class=\"hljs-number\"> 2 </span>    1\n4          <span class=\"hljs-number\"> 2 </span>   <span class=\"hljs-number\"> 0 </span>    0\n\n$ tpose data_ex2_group.txt -i — I1 — G2 -N3 -aavg\ncustomer_id rev_A rev_B rev_C\n1           2.00  3.00  nan\n2           nan   nan   6.00\n3           nan   4.50  9.00\n4           5.50  nan   nan</code></pre>\n<h3 id=\"executing-in-parallel\">Executing in parallel</h3>\n<p>Processing large files sequentially might take some time, so why not leverage the multiple cores in our machines? Files larger than one gigabyte, can be transposed in parallel via the -P (or — parallel) option:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_large<span class=\"hljs-selector-class\">.txt</span> output<span class=\"hljs-selector-class\">.txt</span> -P -Icustomer_id -Grevenue_group -Namount</code></pre>\n<p>Notice that in this case we specify an output file (output.txt) instead of letting tpose print everything to the screen.</p>\n<h3 id=\"changing-delimiter\">Changing delimiter</h3>\n<p>If the data is not tab-delimited, we can specify a different delimiter via the -d (or — delimiter) option. Here we specify a comma for CSV files:</p>\n<pre><code class=\"hljs language-bash\">$ tpose <span class=\"hljs-class\"><span class=\"hljs-keyword\">data</span>.csv output.txt -d, -<span class=\"hljs-type\">P</span> -<span class=\"hljs-type\">Icustomer_id</span> -<span class=\"hljs-type\">Grevenue_group</span>   -<span class=\"hljs-type\">Namount</span></span></code></pre>\n<h3 id=\"add-a-prefixsuffix-to-output-fields\">Add a prefix/suffix to output fields</h3>\n<p>Suppose we wanted to add a prefix or suffix to the transposed group names (say, so that they follow a pattern and are easy to group with a wildcard later on). This can be achieved with the -p ( — prefix) and/or -s ( — suffix) options:</p>\n<pre><code class=\"hljs language-bash\">$ tpose dat<span class=\"hljs-built_in\">a_ex2</span>_group.txt -i — I1 — G2 -N3 -pxxx_ -s_yyy\ncustomer_id xxx_rev_<span class=\"hljs-built_in\">A_yyy</span> xxx_rev_B_yyy xxx_rev_C_yyy\n<span class=\"hljs-number\">1</span>           <span class=\"hljs-number\">2.00</span>          <span class=\"hljs-number\">3.00</span>          <span class=\"hljs-number\">0.00</span>\n<span class=\"hljs-number\">2</span>           <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">6.00</span>\n<span class=\"hljs-number\">3</span>           <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">9.00</span>          <span class=\"hljs-number\">9.00</span>\n<span class=\"hljs-number\">4</span>           <span class=\"hljs-number\">11.00</span>         <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">0.00</span></code></pre>\n<p>Grab tpose <a href=\"https://github.com/jmsmistral/tpose\">here</a></p>\n",
+  "content": "<p>A transpose (or &quot;pivot&quot;) is a way of transforming data from one view to another. There are infinitely many ways of transforming data, and each attempts to get data in a form that&#39;s easier to view, analyse or process further. The definition of the verb &quot;transpose&quot; is to &quot;<em>cause (two or more things) to exchange places</em>&quot;. So, how does this apply to data, and when might such a transformation be useful? To answer this, let&#39;s go through some quick examples.</p>\n<h3 id=\"example-1---simple-row-to-column-transpose\">Example 1 - Simple row-to-column transpose</h3>\n<p>When reading about transposing data, some will (naively) think solely of exchanging rows for columns (and vice versa). This example illustrates this transformation. The data shows the sales volume per quarter for a set of regions.</p>\n<p><img src=\"/img/on-transposing-data-1.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><img src=\"/img/on-transposing-data-2.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Visually, this transpose &quot;rotates&quot; the data over an invisible diagonal line running through the table. No information is lost through aggregation — the values simply change position, giving a different view of the data. This might be useful in making data easier to read or chart.</p>\n<h3 id=\"example-2--transposing-over-a-group-field\">Example 2 — Transposing over a &quot;group&quot; field</h3>\n<p>Now consider a billing table that captures customer transactions in a given month, as shown below (Raw table 2). Say we want to analyse the total amount for each revenue group, and that we want this visible in one row (we discuss why later on) — in other words, we want an output table with the different revenue groups as column headers, and a row of total values for each.</p>\n<p><img src=\"/img/on-transposing-data-3.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><img src=\"/img/on-transposing-data-4.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>This can be achieved by transposing the table over a given group field (<strong>Revenue Group</strong>). The process entails aggregating a numeric field (<strong>Amount</strong>) for each distinct group. Notice that we&#39;re still performing a form of &#39;row-to-column&#39; exchange on a subset of the table (the <strong>Revenue Group</strong> field values become column headers, and the <strong>Amount</strong> field is aggregated into a single row).</p>\n<p>It isn&#39;t hard to see the value of this transpose operation — useful information can be gleaned from raw data with a single transformation. This can be used to verify totals, run integrity checks on raw data, view the evolution of variables etc.</p>\n<h3 id=\"example-3--transposing-over-a-group-field-preserving-an-id-field\">Example 3 — Transposing over a &quot;group&quot; field, preserving an &quot;id&quot; field</h3>\n<p>Taking the previous example further, let&#39;s say that we want to view each customer&#39;s total revenue breakdown for the month — in other words, we want a &#39;one-row-per-customer&#39; view broken-down into the different revenue groups. Using the same data as in <strong>Example 2</strong>, the resulting table would look like this:</p>\n<p><img src=\"/img/on-transposing-data-5.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>We arrive at this result by transposing the table over a given group field (<strong>Revenue Group</strong>), whilst preserving an id field (<strong>Customer ID</strong>). The process entails aggregating numeric field (<strong>Amount</strong>) for each distinct group and id. This transformation naturally keeps distinct values of the id field in a separate row.</p>\n<p>Apart from giving a clear view to the human eye of the value of each group for every id (everything&#39;s in one row), there is another reason why such a view is handy. Each row can be viewed as an array of values that can be iterated over and processed further. To illustrate this, imagine that instead of different revenue groups (<strong>rev_A</strong>, <strong>rev_B</strong>,…), we had transposed the monthly snapshots of a single revenue group (<strong>rev_A_month_1</strong>, <strong>rev_A_month_2</strong>,…), resulting in the following table:</p>\n<p><img src=\"/img/on-transposing-data-6.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Using this view of the data, we could iterate over all rows (i.e. all customers) — treating each as an <strong>array of values</strong> — and run our analyses on each array, in turn. For example, we could run an analysis that tries to predict customer churn based on monthly spend activity.</p>\n<hr>\n<p>We now have a bit of more clarity on how data can be transposed — but how can we perform this transformation on our own data, and what tools are available to us? If you&#39;re like me, you want to be able to do this via a shell, processing delimited text files through a carefully crafted pipe of standard UNIX programs (or even better, a single program!). But in order to appreciate the beauty of data analysis in the UNIX environment, let&#39;s examine the alternatives.</p>\n<h2 id=\"sql-postgresql-94\">SQL *PostgreSQL 9.4</h2>\n<p>SQL is the de facto language for data analysis on databases. However, carrying-out a transpose in SQL can force us to write unclean code that is hard to maintain. There is also the issue of having to import the raw data into a database before following this approach. If we wanted to transpose the table from <strong>Example 2</strong> by group and id, we could write the following code:</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n  customer_id\n  ,<span class=\"hljs-built_in\">sum</span>(rev_A) <span class=\"hljs-keyword\">as</span> rev_A\n  ,<span class=\"hljs-built_in\">sum</span>(rev_B) <span class=\"hljs-keyword\">as</span> rev_B\n  ,<span class=\"hljs-built_in\">sum</span>(rev_C) <span class=\"hljs-keyword\">as</span> rev_C\n<span class=\"hljs-keyword\">from</span> (\n  <span class=\"hljs-keyword\">select</span>\n    customer_id\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_A&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_A\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_B&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_B\n    ,<span class=\"hljs-keyword\">case</span> <span class=\"hljs-keyword\">when</span> revenue_group <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-string\">&#x27;rev_C&#x27;</span>) <span class=\"hljs-keyword\">then</span> amount <span class=\"hljs-keyword\">end</span> <span class=\"hljs-keyword\">as</span> rev_C\n  <span class=\"hljs-keyword\">from</span>\n    <span class=\"hljs-keyword\">raw</span>\n) t1\n<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">by</span>\n  customer_id\n</code></pre>\n<p>But this code is not exactly an elegant solution to our problem. Imagine that next month the business decides to add a new revenue type <strong>rev_D</strong>. The above code would not capture this new group in the output table — in other words, changes in structure of the source data will require a modification of the code; If we were running this code as part of a monthly summary report, this solution just wouldn&#39;t do!</p>\n<p>PostgreSQL provides another means of transposing the data the way we want via the <a href=\"http://www.postgresql.org/docs/9.4/static/tablefunc.html\">CROSSTAB</a> function (other database systems like Microsoft&#39;s SQL Server, or Oracle have a <code>PIVOT</code> function that achieves the same result):</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n  *\n<span class=\"hljs-keyword\">from</span>\n  crosstab (\n   &#x27;<span class=\"hljs-keyword\">select</span> customer_id, revenue_group ,<span class=\"hljs-built_in\">sum</span>(amount) as amount\n    <span class=\"hljs-keyword\">from</span> raw\n    <span class=\"hljs-built_in\">group</span> <span class=\"hljs-keyword\">by</span> customer_id, revenue_group\n    order <span class=\"hljs-keyword\">by</span> customer_id&#x27;\n  ,&#x27;<span class=\"hljs-keyword\">select</span> <span class=\"hljs-built_in\">distinct</span> revenue_groups <span class=\"hljs-keyword\">from</span> raw&#x27;\n  )\n  as (\n     customer_id <span class=\"hljs-type\">int</span>\n    ,rev_A      real\n    ,rev_B      real\n    ,rev_C      real\n  );\n</code></pre>\n<p>However, this still suffers from the previous problem, as we need to modify the code in response to changes in the structure of the data; specifically, we are required to define the columns and data types for the output table (see the <code>AS</code> definition in the <code>FROM</code> clause). We could of course generate dynamic SQL to remedy this — that is, executing a code-generated SQL query that adds the distinct groups via a <strong>cursor</strong>. We would, however, have to modify the code (or write a separate query) if we wanted to transpose over the group field (without the id) instead.</p>\n<h2 id=\"sas\">SAS</h2>\n<p>SAS, with it&#39;s archaic 70&#39;s syntax, does actually have a transpose function that gets us close to an ideal solution… the drawbacks are:</p>\n<ul>\n<li>SAS does require us (like databases) to import data before we process it, which means having to define column data types and sizes. This also forces us to redefine these should our data change or exceed these limits later on;</li>\n<li>SAS&#39;s transpose function expects the data in a form that has no duplicate group values for each id; that is, the data would have to be aggregated before transposing. Taking the data from <strong>Example 2</strong>, we would have to go from this:</li>\n</ul>\n<p><img src=\"/img/on-transposing-data-7.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>to this…</p>\n<p><img src=\"/img/on-transposing-data-8.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>Once the data is in a SAS-acceptable form, we can go ahead and transpose as follows:</p>\n<h3 id=\"simple-transpose-rows-to-columns\">Simple transpose (&#39;rows-to-columns&#39;)</h3>\n<pre><code class=\"hljs language-sas\">proc transpose <span class=\"hljs-attribute\">data</span>=raw <span class=\"hljs-attribute\">out</span>=output_simple;\nrun;\n</code></pre>\n<h3 id=\"transpose-over-group-requires-prior-aggregation\">Transpose over group (requires prior aggregation)</h3>\n<pre><code class=\"hljs language-sas\"><span class=\"hljs-keyword\">proc</span><span class=\"hljs-title\"> transpose</span> data=raw<span class=\"hljs-title\"> out=output_group;</span>\n<span class=\"hljs-title\">  id</span> revenue_group;<span class=\"hljs-title\">\n  var</span> amount;<span class=\"hljs-title\">\nrun;</span>\n</code></pre>\n<h3 id=\"transpose-over-group-preserving-id-requires-prior-aggregation\">Transpose over group, preserving id (requires prior aggregation)</h3>\n<pre><code class=\"hljs language-sas\"><span class=\"hljs-keyword\">proc</span><span class=\"hljs-title\"> transpose</span> data=raw<span class=\"hljs-title\"> out=output_group_id;</span>\n<span class=\"hljs-title\">  by</span> customer_id;<span class=\"hljs-title\">\n  id</span> revenue_group;<span class=\"hljs-title\">\n  var</span> amount;<span class=\"hljs-title\">\nrun;</span>\n</code></pre>\n<p>Alas, SAS is proprietary software (with extremely prohibitive license costs) that ultimately restricts our freedom as users. Moreover, there are many technically excellent, free and open source tools available that allow you do everything you do currently in SAS (and more).</p>\n<h2 id=\"awk\">AWK</h2>\n<p>AWK is a natural choice for this type of problem as it provides a simple processing model and language that enables a fast <strong>write-exectute-test</strong> feedback-loop. For instance, the code for transposing over the group field (as in <strong>Example 2</strong>) can be written in 19 lines:</p>\n<pre><code class=\"hljs language-awk\"><span class=\"hljs-keyword\">BEGIN</span> {\n  FS=&quot;\\t&quot;; OFS=&quot;\\t&quot;\n}\nNR &gt; <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-keyword\">if</span>($(grp) != &quot;&quot;)\n    <span class=\"hljs-keyword\">unique</span>[$(grp)] += $(num)\n}\n<span class=\"hljs-keyword\">END</span> {\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">in</span> <span class=\"hljs-keyword\">unique</span>)\n    printf(&quot;%s\\t&quot;, <span class=\"hljs-keyword\">group</span>)\n  print &quot;&quot;\n  <span class=\"hljs-keyword\">for</span>(<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">in</span> <span class=\"hljs-keyword\">unique</span>)\n    printf(&quot;%d\\t&quot;, <span class=\"hljs-keyword\">unique</span>[<span class=\"hljs-keyword\">group</span>])\n  print &quot;&quot;\n}\n</code></pre>\n<p>If we saved this to a file called <code>transposeGroup.awk</code>, we could run it to transpose a text file holding our data (<code>data.txt</code>) like this:</p>\n<pre><code class=\"hljs language-bash\">$ gawk -f transposeGroup.awk <span class=\"hljs-attribute\">grp</span>=4 <span class=\"hljs-attribute\">num</span>=5 data.txt\n</code></pre>\n<p>AWK doesn&#39;t recognise field names, so you better know the column index of the fields you want to use (notice that we pass the column indexes for both the field containing the group values, and the numeric values to be aggregated, respectively). Although column indexes can be extracted easily (<code>head -n1 data.txt | tr $&#39;\\t&#39; $&#39;\\n&#39; | cat -n</code>), these indexes would change if the structure of our data changes, e.g. if new fields where added to <code>data.txt</code>. A rule of thumb is to never rely on &#39;magic numbers&#39; — in this case, the ability to refer to our fields by name would provide a more future-proof solution (typically, field names should change little over time, if at all).</p>\n<p>Similarly, the code to transpose over the <code>group</code> and <code>id</code> fields can composed as follows:</p>\n<pre><code class=\"hljs language-awk\">#!/bin/bash\ndataFile=$<span class=\"hljs-number\">1</span>\nidField=$<span class=\"hljs-number\">2</span>\ngroupField=$<span class=\"hljs-number\">3</span>\nnumField=$<span class=\"hljs-number\">4</span>\ngawk &#x27;\nBEGIN {\n  FS=<span class=\"hljs-string\">&quot;\\t&quot;</span>; OFS=<span class=\"hljs-string\">&quot;\\t&quot;</span>\n}\n# Get id column name (to <span class=\"hljs-built_in\">print</span> later)\nNR == <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">1</span> {\n  idHeader = $(id)\n}\n# Get <span class=\"hljs-built_in\">unique</span> groups\nFNR &gt; <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-keyword\">if</span>($(grp) != <span class=\"hljs-string\">&quot;&quot;</span>)\n    <span class=\"hljs-built_in\">unique</span>[$(grp)] = <span class=\"hljs-number\">0</span>\n}\n# <span class=\"hljs-built_in\">print</span> <span class=\"hljs-built_in\">unique</span> groups as headers\npass == <span class=\"hljs-number\">2</span> &amp;&amp; FNR == <span class=\"hljs-number\">1</span> {\n  <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, idHeader)\n  <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n    <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, group)\n  <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n}\n# aggregate group <span class=\"hljs-built_in\">values</span> <span class=\"hljs-keyword\">for</span> each id\nFNR &gt; <span class=\"hljs-number\">1</span> &amp;&amp; pass == <span class=\"hljs-number\">2</span> {\n  \n  rowId = $(id)\n  <span class=\"hljs-keyword\">if</span>(currentId == <span class=\"hljs-string\">&quot;&quot;</span>)\n    currentId = rowId\n  <span class=\"hljs-keyword\">if</span>(rowId != <span class=\"hljs-string\">&quot;&quot;</span> &amp;&amp; $(grp) != <span class=\"hljs-string\">&quot;&quot;</span>) {\n    <span class=\"hljs-keyword\">if</span>(rowId == currentId)\n      <span class=\"hljs-built_in\">unique</span>[$(grp)] += $(<span class=\"hljs-built_in\">num</span>)\n    <span class=\"hljs-keyword\">else</span> {\n      # <span class=\"hljs-built_in\">print</span> output line\n      <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, currentId)\n      <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n        <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%d\\t&quot;</span>, <span class=\"hljs-built_in\">unique</span>[group])\n      <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n      \n      # clear <span class=\"hljs-built_in\">array</span> <span class=\"hljs-built_in\">values</span>\n      <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n        <span class=\"hljs-built_in\">unique</span>[group] = <span class=\"hljs-string\">&quot;&quot;</span>\n      \n      # aggregate current <span class=\"hljs-built_in\">row</span>\n      currentId = rowId\n      <span class=\"hljs-built_in\">unique</span>[$(grp)] += $(<span class=\"hljs-built_in\">num</span>)\n    }\n  }\n}\n#<span class=\"hljs-built_in\">print</span> <span class=\"hljs-built_in\">last</span> <span class=\"hljs-built_in\">row</span>\nEND {\n  <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%s\\t&quot;</span>, currentId)\n  <span class=\"hljs-keyword\">for</span>(group <span class=\"hljs-keyword\">in</span> <span class=\"hljs-built_in\">unique</span>)\n    <span class=\"hljs-built_in\">printf</span>(<span class=\"hljs-string\">&quot;%d\\t&quot;</span>, <span class=\"hljs-built_in\">unique</span>[group])\n  <span class=\"hljs-built_in\">print</span> <span class=\"hljs-string\">&quot;&quot;</span>\n}&#x27; id=$idField grp=$groupField <span class=\"hljs-built_in\">num</span>=$numField pass=<span class=\"hljs-number\">1</span> $dataFile pass=<span class=\"hljs-number\">2</span> $dataFile\n</code></pre>\n<p>The fact that the code scans twice over the data file forces us to encapsulate the code in a shell script. To run this on our data, we would save the code in a file <code>transposeIdGroup.awk</code>, and execute the following:</p>\n<pre><code class=\"hljs language-bash\">$ ./transposeIdGroup.awk <span class=\"hljs-class\"><span class=\"hljs-keyword\">data</span>.txt 1 4 5</span>\n</code></pre>\n<p>AWK allows us to script the transpose functionality we want in few lines (I&#39;ve left the &#39;row-to-column&#39; transpose for the reader to figure out). However, these scripts are more suited to be executed in an ad-hoc fashion, than in a repeatable process (such as cron job) as it cannot handle the data changing structure.</p>\n<h2 id=\"rs\">rs</h2>\n<p>This UNIX tool only handles simple transposes (&#39;row-to-column&#39;), but deserves a quick mention for the sake of completeness. If we have the following data in <code>data_simple.txt</code>:</p>\n<pre><code class=\"hljs language-bash\">$ cat data_simple.txt\nA B C\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">1</span> y<span class=\"hljs-number\">1</span> z<span class=\"hljs-number\">1</span>\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">2</span> y<span class=\"hljs-number\">2</span> z<span class=\"hljs-number\">2</span>\n<span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">3</span> y<span class=\"hljs-number\">3</span> z<span class=\"hljs-number\">3</span>\n</code></pre>\n<p>We can transpose this by running:</p>\n<pre><code class=\"hljs language-bash\">$ cat data_simple.txt | rs -<span class=\"hljs-keyword\">c</span>$&#x27;\\t&#x27; -T\nA <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">1</span> <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">2</span> <span class=\"hljs-keyword\">x</span><span class=\"hljs-number\">3</span>\nB y<span class=\"hljs-number\">1</span> y<span class=\"hljs-number\">2</span> y<span class=\"hljs-number\">3</span>\nC z<span class=\"hljs-number\">1</span> z<span class=\"hljs-number\">2</span> z<span class=\"hljs-number\">3</span>\n</code></pre>\n<p>Now that we have a better idea of the methods available, we are better placed to decide which best fits our needs. You might have noticed, however, that there isn&#39;t a method that simultaneously matches all of the following requirements:</p>\n<ol>\n<li>Doesn&#39;t need importing</li>\n<li>Doesn&#39;t involve writing a script</li>\n<li>Allows field-name matching (not only column indexes)</li>\n<li>Accepts delimited text files</li>\n<li>Can be run from the terminal</li>\n<li>Provides different aggregation types (sum, count, average)</li>\n<li>Executes in parallel</li>\n</ol>\n<p>Enter <strong>tpose</strong>... a UNIX-based terminal program for transposing delimited text-files.</p>\n<h3 id=\"simple-transpose\">Simple transpose</h3>\n<p>A simple transpose (&#39;row-to-column&#39;) needs no options. The data from <strong>Example 1</strong> can be processed by:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex1_simple.txt\nQuarter Q1 Q2 Q3 Q4\nEurope <span class=\"hljs-number\"> 2 </span><span class=\"hljs-number\"> 3 </span><span class=\"hljs-number\"> 3 </span> 4\nAsia   <span class=\"hljs-number\"> 5 </span><span class=\"hljs-number\"> 4 </span><span class=\"hljs-number\"> 5 </span> 6\nUS     <span class=\"hljs-number\"> 3 </span><span class=\"hljs-number\"> 1 </span><span class=\"hljs-number\"> 2 </span> 3\n</code></pre>\n<h3 id=\"group-transpose\">Group transpose</h3>\n<p>To transpose a numerical variable over a a set of groups, we need to provide the -G (or — group) and -N (or — numeric) options, to specify the group, and numeric fields. The data from Example 2 (&quot;Raw table 2 — Billing data for a given month&quot;) is transposed as follows:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data<span class=\"hljs-emphasis\">_ex2_group.txt -Grevenue_group -Namount\nrev_A rev_B rev_</span>C\n13.00 12.00 15.00\n</code></pre>\n<h3 id=\"group-and-id-transpose\">Group and ID transpose</h3>\n<p>Using the same data from <strong>Example 2</strong>, we can transpose over groups and id&#39;s via the -I (or — id), -G (or — group), and -N (or — numeric) options:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex2_group.txt -Icustomer_id — Grevenue_group -Namount\nCustomer_id rev_A rev_B rev_C\n<span class=\"hljs-number\"> 1 </span>         2.00  3.00  0.00\n<span class=\"hljs-number\"> 2 </span>         0.00  0.00  6.00\n<span class=\"hljs-number\"> 3 </span>         0.00  9.00  9.00\n<span class=\"hljs-number\"> 4 </span>         11.00 0.00  0.00\n</code></pre>\n<p>There are a few points to note:</p>\n<ul>\n<li>Transposing over group, and ID fields requires the first line of the data file to be a header row with field names</li>\n<li>All operations are performed using floating-point values — values are output as such</li>\n<li>-I, -G, and -N options are case-insensitive (revenue_group = rEvEnUe_GrOuP)</li>\n</ul>\n<h3 id=\"field-indexes-instead-of-names\">Field indexes instead of names</h3>\n<p>It&#39;s sometimes easier to refer to fields by number — that is, the position relative to other fields. This is supported in tpose via the -i (or — indexed) option. If this option is used, tpose will expect a number instead of a name. If we take the same data from <strong>Example 2</strong>, we would perform the previous transpose operation by:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex<span class=\"hljs-number\">2</span>_group.txt -i — I<span class=\"hljs-number\">1</span> — <span class=\"hljs-name\">G2</span> -<span class=\"hljs-symbol\">N3</span>\nCustomer_id rev_A rev_B rev_C\n<span class=\"hljs-number\">1</span>           <span class=\"hljs-number\">2.00</span>  <span class=\"hljs-number\">3.00</span>  <span class=\"hljs-number\">0.00</span>\n<span class=\"hljs-number\">2</span>           <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">6.00</span>\n<span class=\"hljs-number\">3</span>           <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">9.00</span>  <span class=\"hljs-number\">9.00</span>\n<span class=\"hljs-number\">4</span>           <span class=\"hljs-number\">11.00</span> <span class=\"hljs-number\">0.00</span>  <span class=\"hljs-number\">0.00</span>\n</code></pre>\n<p>An easy way of getting the field indexes is via the following pipe (assuming tab delimiter):</p>\n<pre><code class=\"hljs language-bash\"><span class=\"hljs-variable\">$</span> head <span class=\"hljs-literal\">-n1</span> data_ex2_group.txt | tr <span class=\"hljs-variable\">$</span><span class=\"hljs-string\">&#x27;\\t&#x27;</span> <span class=\"hljs-variable\">$</span><span class=\"hljs-string\">&#x27;\\n&#x27;</span> | <span class=\"hljs-built_in\">cat</span> <span class=\"hljs-literal\">-n</span>\n<span class=\"hljs-number\">1</span> Customer_id\n<span class=\"hljs-number\">2</span> Revenue_group\n<span class=\"hljs-number\">3</span> Amount\n</code></pre>\n<h3 id=\"types-of-aggregation\">Types of aggregation</h3>\n<p>Imagine that instead of transposing over groups (or groups and IDs) and summing the numerical field, we want to count each instance instead, or calculate an average using the sum of the numerical field and the count of each instance. We can do this with tpose by passing the type of aggregation via the -a (or — aggregate) option:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_ex2_group.txt -i — I1 — G2 -N3 -acount\ncustomer_id rev_A rev_B rev_C\n1          <span class=\"hljs-number\"> 1 </span>   <span class=\"hljs-number\"> 1 </span>    0\n2          <span class=\"hljs-number\"> 0 </span>   <span class=\"hljs-number\"> 0 </span>    1\n3          <span class=\"hljs-number\"> 0 </span>   <span class=\"hljs-number\"> 2 </span>    1\n4          <span class=\"hljs-number\"> 2 </span>   <span class=\"hljs-number\"> 0 </span>    0\n\n$ tpose data_ex2_group.txt -i — I1 — G2 -N3 -aavg\ncustomer_id rev_A rev_B rev_C\n1           2.00  3.00  nan\n2           nan   nan   6.00\n3           nan   4.50  9.00\n4           5.50  nan   nan\n</code></pre>\n<h3 id=\"executing-in-parallel\">Executing in parallel</h3>\n<p>Processing large files sequentially might take some time, so why not leverage the multiple cores in our machines? Files larger than one gigabyte, can be transposed in parallel via the -P (or — parallel) option:</p>\n<pre><code class=\"hljs language-bash\">$ tpose data_large<span class=\"hljs-selector-class\">.txt</span> output<span class=\"hljs-selector-class\">.txt</span> -P -Icustomer_id -Grevenue_group -Namount\n</code></pre>\n<p>Notice that in this case we specify an output file (output.txt) instead of letting tpose print everything to the screen.</p>\n<h3 id=\"changing-delimiter\">Changing delimiter</h3>\n<p>If the data is not tab-delimited, we can specify a different delimiter via the -d (or — delimiter) option. Here we specify a comma for CSV files:</p>\n<pre><code class=\"hljs language-bash\">$ tpose <span class=\"hljs-class\"><span class=\"hljs-keyword\">data</span>.csv output.txt -d, -<span class=\"hljs-type\">P</span> -<span class=\"hljs-type\">Icustomer_id</span> -<span class=\"hljs-type\">Grevenue_group</span>   -<span class=\"hljs-type\">Namount</span></span>\n</code></pre>\n<h3 id=\"add-a-prefixsuffix-to-output-fields\">Add a prefix/suffix to output fields</h3>\n<p>Suppose we wanted to add a prefix or suffix to the transposed group names (say, so that they follow a pattern and are easy to group with a wildcard later on). This can be achieved with the -p ( — prefix) and/or -s ( — suffix) options:</p>\n<pre><code class=\"hljs language-bash\">$ tpose dat<span class=\"hljs-built_in\">a_ex2</span>_group.txt -i — I1 — G2 -N3 -pxxx_ -s_yyy\ncustomer_id xxx_rev_<span class=\"hljs-built_in\">A_yyy</span> xxx_rev_B_yyy xxx_rev_C_yyy\n<span class=\"hljs-number\">1</span>           <span class=\"hljs-number\">2.00</span>          <span class=\"hljs-number\">3.00</span>          <span class=\"hljs-number\">0.00</span>\n<span class=\"hljs-number\">2</span>           <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">6.00</span>\n<span class=\"hljs-number\">3</span>           <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">9.00</span>          <span class=\"hljs-number\">9.00</span>\n<span class=\"hljs-number\">4</span>           <span class=\"hljs-number\">11.00</span>         <span class=\"hljs-number\">0.00</span>          <span class=\"hljs-number\">0.00</span>\n</code></pre>\n<p>Grab tpose <a href=\"https://github.com/jmsmistral/tpose\">here</a></p>\n",
   "date": "September 26, 2015"
 }, {
   "id": 2,
   "route": "improve-your-postgresql-workflow-with-vim-and-dbext",
   "title": "Improve your PostgreSQL workflow with vim and dbext",
-  "content": "<p>If you&#39;ve worked with PostgreSQL in the past using the <a href=\"http://www.postgresql.org/docs/current/static/app-psql.html\">psql</a> client you might have noticed that, although powerful, it&#39;s not a tool geared for writing (or reading) complex multi-line queries, or following a <strong>&#39;write-execute-refine&#39; workflow</strong>; that is, where you write some code, execute it, refine the code based on results... So, let&#39;s say I write some SQL code in vim, and I want to run it to see if it works. I would have to copy the block of code to a new buffer, save as it as a file, switch to psql, type <code>\\i &lt;path-to-file&gt;</code>, hit Enter and wait for the results (... oh, and now you have a new file to maintain temporarily).</p>\n<blockquote>\n<h2 id=\"wouldnt-it-be-nice-to-be-able-to-write-execute-and-view-the-results-from-within-vim\">Wouldn&#39;t it be nice to be able to write, execute, and view the results from within vim?</h2>\n</blockquote>\n<p>We can definitely streamline this workflow, and reduce it to one or two keystrokes from within vim (because god forbid we move our fingers away from the &#39;hjkl&#39; position!).</p>\n<p><a href=\"https://github.com/vim-scripts/dbext.vim\">dbext</a> is a vim plugin that aims to do exactly that (credit to the author Peter Bagyinszki)! Don&#39;t be put-off by the poorly presented <a href=\"https://github.com/vim-scripts/dbext.vim\">Github</a> or <a href=\"http://www.vim.org/scripts/script.php?script_id=356\">Vim scripts</a> page - the plugin comes with a helpful tutorial (described below) that covers what you need to know. Here, I will show you what I had to do to get started using dbext.</p>\n<h2 id=\"what-you-need\">What you need</h2>\n<p>You need to have <strong>vim 7+</strong>, and the <strong>psql</strong> client installed locally. You&#39;ll also need access to a <strong>PostgreSQL</strong> server.</p>\n<h2 id=\"download-and-configure-dbext\">Download and configure dbext</h2>\n<p>I use the <a href=\"https://github.com/tpope/vim-pathogen\">Pathogen</a> vim plugin to easily install other plugins and run-time files. If you do too, then just navigate to the <code>~/.vim/bundle/</code> folder in your home directory and clone the dbext Github repository.</p>\n<pre><code class=\"hljs language-bash\">$ <span class=\"hljs-keyword\">cd</span> ~/.<span class=\"hljs-keyword\">vim</span>/bundle/\n$ git clone http<span class=\"hljs-variable\">s:</span>//github.<span class=\"hljs-keyword\">com</span>/<span class=\"hljs-keyword\">vim</span>-scripts/dbext.<span class=\"hljs-keyword\">vim</span>\n$ <span class=\"hljs-keyword\">ls</span>\ndbext.<span class=\"hljs-keyword\">vim</span>/</code></pre>\n<p><strong>That&#39;s it - installed!</strong>&nbsp;&nbsp;&nbsp;🎉</p>\n<p>dbext works by relating every vim buffer to a database connection profile that we define in our <code>.vimrc</code>. A connection profile describes a set of parameters needed to connect to a database, such as username, host, port, database name etc. We can define various profiles, and also define a default profile to use whenever a new buffer is opened in vim. Open your <code>.vimrc</code> file and enter the following two lines, making sure you substitute your values for host, port, dbname, and user (for PostgreSQL, leave the type as &#39;PGSQL&#39;). In the example below, we are connecting to a database called <strong>&#39;jms&#39;</strong>, as user <strong>&#39;jms&#39;</strong>, on a server running on the same machine <strong>&#39;localhost&#39;</strong> via port <strong>5433</strong>.</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-string\">&quot; Each profile has the form:\n&quot;</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile<span class=\"hljs-number\">_</span><span class=\"hljs-string\">&#x27;profilename&#x27;</span> = <span class=\"hljs-string\">&#x27;var=value:var=value:...&#x27;</span>\n<span class=\"hljs-keyword\">let</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile<span class=\"hljs-number\">_p</span>sql = <span class=\"hljs-string\">&#x27;type=PGSQL:host=localhost:port=5433:dbname=jms:user=jms&#x27;</span>\n<span class=\"hljs-keyword\">let</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile = <span class=\"hljs-string\">&#x27;psql&#x27;</span></code></pre>\n<p><strong>Notice that we&#39;re not entering our password</strong> - this is because the psql client will either ask us for a password when we connect, or looks for a <code>.pgpass</code> file in our home directory. I recommend having a <code>.pgpass</code> file. This file typically has a single line of the form: <code>hostname:port:database:username:password</code></p>\n<h2 id=\"running-queries\">Running queries</h2>\n<p>Now that we have dbext installed, let&#39;s see what we can do with it! I do recommend taking some time to read over the tutorial that comes with dbext by typing the following in vim:</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-selector-pseudo\">:h</span> <span class=\"hljs-selector-tag\">dbext-tutorial</span></code></pre>\n<p>Now let&#39;s start running some code! Let&#39;s get some data from a table in our database.</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span> * <span class=\"hljs-keyword\">from</span> staging.customer;</code></pre>\n<p><strong>We can run this either in normal mode or visual mode</strong>. In normal mode, simply move the cursor somewhere within the query (in the example above this would be between the <strong>&#39;s&#39;</strong> or <strong>&#39;;&#39;</strong>, inclusive) and type the following, replacing <code>\\</code> with your leader character.</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-string\">\\se</span></code></pre>\n<p><strong>This will bring up the results buffer</strong> - a read-only split window displaying the results for the executed statement(s); To focus on this press <code>Ctrl + w</code> twice in quick succession. You can navigate the results buffer as you would any other vim buffer. To close the results, first switch to it, and then press <code>q</code>. Additionally, if the results split is too small, you can even it out by pressing <code>Ctrl + w</code> once, followed by <code>=</code>. Alternatively, you can type <code>:res +5</code> or <code>:res -5</code> to make the split window bigger or smaller by 5 rows.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-1.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>If we had multiple queries and only wanted to run one, or a couple of them, we could enter <strong>visual mode</strong> to select them (<code>Shift + v</code> followed by <code>j</code> or <code>k</code> to select rows down or up) and again type <code>\\se</code>, as before.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-2.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><strong>Isn&#39;t that exciting?!!</strong>&nbsp;&nbsp;🤓 That&#39;s just a taster - I&#39;ve added a small reference of dbext commands at the end of this post. Before that, there&#39;s a cool feature you&#39;ll love... <strong><em>auto-completion</em></strong>.</p>\n<h2 id=\"auto-completion\">Auto-completion</h2>\n<p>When working with a large number of tables/views, it can be hard to remember all their names. dbext can help-out with a pop-up menu of potential matches. This functionality does require the following to be done:</p>\n<ul>\n<li>You must be working from a saved file ending in .sql</li>\n<li>Populate the vim dictionary using either of the following commands <code>DBCompleteTables</code>, <code>DBCompleteViews</code>, or <code>DBCompleteProcedures</code></li>\n</ul>\n<p>To avoid having to type a <code>DBComplete*</code> command whenever I start a new buffer, I added this to my <code>.vimrc</code> (this runs the given command once all plugins have been loaded):</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-built_in\">auto</span>cmd VimEnter * DBCompleteTables</code></pre>\n<p>Once that&#39;s done and dusted, start typing a <code>SELECT</code> statement. After the <code>FROM</code> keyword, press <code>Ctrl + x</code> and <code>Ctrl + o</code> in quick succession, this will bring up a menu showing all matching tables. So, if we had started typing the name of the table, and then brought-up the menu, it would filter only tables matching what we&#39;ve typed so far. Scroll up and down the menu with <code>Ctrl + n</code> and <code>Ctrl + p</code>.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-3.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<h2 id=\"quick-reference\">Quick Reference</h2>\n<h3 id=\"code-execution\">Code Execution</h3>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-comment\">&quot; Execute code in normal or visual mode. (s)ql (e)xecute</span>\n\\<span class=\"hljs-keyword\">se</span>\n\n<span class=\"hljs-comment\">&quot; Execute just the current line. (s)ql (e)xecute (l)ine</span>\n\\sel</code></pre>\n<h3 id=\"select-from-tables\">Select from Tables</h3>\n<pre><code class=\"hljs language-vim\">&quot; Select from table (s)ql (t)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\st\n\n&quot; Select from table, prompt for number of rows to return  (s)ql (T)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\sT\n\n&quot; Select from table, prompt for WHERE clause  (s)ql (t)able (w)here\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\stw</code></pre>\n<h3 id=\"describe-objects\">Describe Objects</h3>\n<pre><code class=\"hljs language-vim\">&quot; Describe table (s)ql (d)escribe (t)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\sdt\n\n&quot; Describe procedure (s)ql (d)escribe (p)rocedure\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">procedure</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">procedure</span> <span class=\"hljs-type\">name</span>\n\\sdp\n\n&quot; Describe procedure (s)ql (d)escribe (v)iew\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">view</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">view</span> <span class=\"hljs-type\">name</span>\n\\sdv</code></pre>\n<h3 id=\"listing-objects\">Listing Objects</h3>\n<pre><code class=\"hljs language-vim\">&quot; List tables in database (s)ql (l)ist (t)able\n&quot; Prompts <span class=\"hljs-keyword\">for</span> string <span class=\"hljs-keyword\">to</span> match <span class=\"hljs-keyword\">tables</span> <span class=\"hljs-keyword\">by</span> <span class=\"hljs-type\">name</span>\n\\slt\n\n&quot; Same but for procedures\n\\slp\n\n&quot; Same but <span class=\"hljs-keyword\">for</span> views\n\\slv\n\n&quot; Get list of table columns in paste buffer (s)ql (l)ist (c)olumns\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>. Recognises <span class=\"hljs-keyword\">schemas</span> <span class=\"hljs-keyword\">without</span> visual mode selection\n&quot; Prompts for alias prefix to be added\n\\slc</code></pre>\n<h3 id=\"results-buffer-run-inside-results-buffer\">Results Buffer (run inside results buffer)</h3>\n<pre><code class=\"hljs language-vim\">&quot; Re-<span class=\"hljs-keyword\">run</span> <span class=\"hljs-keyword\">query</span> that generated current results buffer\nR\n\n&quot; <span class=\"hljs-keyword\">Close</span> results buffer\nq</code></pre>\n<h3 id=\"command-history\">Command History</h3>\n<pre><code class=\"hljs language-vim\">&quot; List recently executed statements \n&quot; Press <span class=\"hljs-keyword\">RETURN</span> key <span class=\"hljs-keyword\">on</span> selected <span class=\"hljs-keyword\">statement</span> <span class=\"hljs-keyword\">to</span> re-<span class=\"hljs-keyword\">execute</span>\n\\sh</code></pre>\n",
+  "content": "<p>If you&#39;ve worked with PostgreSQL in the past using the <a href=\"http://www.postgresql.org/docs/current/static/app-psql.html\">psql</a> client you might have noticed that, although powerful, it&#39;s not a tool geared for writing (or reading) complex multi-line queries, or following a <strong>&#39;write-execute-refine&#39; workflow</strong>; that is, where you write some code, execute it, refine the code based on results... So, let&#39;s say I write some SQL code in vim, and I want to run it to see if it works. I would have to copy the block of code to a new buffer, save as it as a file, switch to psql, type <code>\\i &lt;path-to-file&gt;</code>, hit Enter and wait for the results (... oh, and now you have a new file to maintain temporarily).</p>\n<blockquote>\n<h2 id=\"wouldnt-it-be-nice-to-be-able-to-write-execute-and-view-the-results-from-within-vim\">Wouldn&#39;t it be nice to be able to write, execute, and view the results from within vim?</h2>\n</blockquote>\n<p>We can definitely streamline this workflow, and reduce it to one or two keystrokes from within vim (because god forbid we move our fingers away from the &#39;hjkl&#39; position!).</p>\n<p><a href=\"https://github.com/vim-scripts/dbext.vim\">dbext</a> is a vim plugin that aims to do exactly that (credit to the author Peter Bagyinszki)! Don&#39;t be put-off by the poorly presented <a href=\"https://github.com/vim-scripts/dbext.vim\">Github</a> or <a href=\"http://www.vim.org/scripts/script.php?script_id=356\">Vim scripts</a> page - the plugin comes with a helpful tutorial (described below) that covers what you need to know. Here, I will show you what I had to do to get started using dbext.</p>\n<h2 id=\"what-you-need\">What you need</h2>\n<p>You need to have <strong>vim 7+</strong>, and the <strong>psql</strong> client installed locally. You&#39;ll also need access to a <strong>PostgreSQL</strong> server.</p>\n<h2 id=\"download-and-configure-dbext\">Download and configure dbext</h2>\n<p>I use the <a href=\"https://github.com/tpope/vim-pathogen\">Pathogen</a> vim plugin to easily install other plugins and run-time files. If you do too, then just navigate to the <code>~/.vim/bundle/</code> folder in your home directory and clone the dbext Github repository.</p>\n<pre><code class=\"hljs language-bash\">$ <span class=\"hljs-keyword\">cd</span> ~/.<span class=\"hljs-keyword\">vim</span>/bundle/\n$ git clone http<span class=\"hljs-variable\">s:</span>//github.<span class=\"hljs-keyword\">com</span>/<span class=\"hljs-keyword\">vim</span>-scripts/dbext.<span class=\"hljs-keyword\">vim</span>\n$ <span class=\"hljs-keyword\">ls</span>\ndbext.<span class=\"hljs-keyword\">vim</span>/\n</code></pre>\n<p><strong>That&#39;s it - installed!</strong>&nbsp;&nbsp;&nbsp;🎉</p>\n<p>dbext works by relating every vim buffer to a database connection profile that we define in our <code>.vimrc</code>. A connection profile describes a set of parameters needed to connect to a database, such as username, host, port, database name etc. We can define various profiles, and also define a default profile to use whenever a new buffer is opened in vim. Open your <code>.vimrc</code> file and enter the following two lines, making sure you substitute your values for host, port, dbname, and user (for PostgreSQL, leave the type as &#39;PGSQL&#39;). In the example below, we are connecting to a database called <strong>&#39;jms&#39;</strong>, as user <strong>&#39;jms&#39;</strong>, on a server running on the same machine <strong>&#39;localhost&#39;</strong> via port <strong>5433</strong>.</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-string\">&quot; Each profile has the form:\n&quot;</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile<span class=\"hljs-number\">_</span><span class=\"hljs-string\">&#x27;profilename&#x27;</span> = <span class=\"hljs-string\">&#x27;var=value:var=value:...&#x27;</span>\n<span class=\"hljs-keyword\">let</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile<span class=\"hljs-number\">_p</span>sql = <span class=\"hljs-string\">&#x27;type=PGSQL:host=localhost:port=5433:dbname=jms:user=jms&#x27;</span>\n<span class=\"hljs-keyword\">let</span> g:dbext<span class=\"hljs-number\">_</span><span class=\"hljs-keyword\">default</span><span class=\"hljs-number\">_p</span>rofile = <span class=\"hljs-string\">&#x27;psql&#x27;</span>\n</code></pre>\n<p><strong>Notice that we&#39;re not entering our password</strong> - this is because the psql client will either ask us for a password when we connect, or looks for a <code>.pgpass</code> file in our home directory. I recommend having a <code>.pgpass</code> file. This file typically has a single line of the form: <code>hostname:port:database:username:password</code></p>\n<h2 id=\"running-queries\">Running queries</h2>\n<p>Now that we have dbext installed, let&#39;s see what we can do with it! I do recommend taking some time to read over the tutorial that comes with dbext by typing the following in vim:</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-symbol\">:h</span> dbext-tutorial\n</code></pre>\n<p>Now let&#39;s start running some code! Let&#39;s get some data from a table in our database.</p>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span> * <span class=\"hljs-keyword\">from</span> staging.customer;\n</code></pre>\n<p><strong>We can run this either in normal mode or visual mode</strong>. In normal mode, simply move the cursor somewhere within the query (in the example above this would be between the <strong>&#39;s&#39;</strong> or <strong>&#39;;&#39;</strong>, inclusive) and type the following, replacing <code>\\</code> with your leader character.</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-string\">\\se</span>\n</code></pre>\n<p><strong>This will bring up the results buffer</strong> - a read-only split window displaying the results for the executed statement(s); To focus on this press <code>Ctrl + w</code> twice in quick succession. You can navigate the results buffer as you would any other vim buffer. To close the results, first switch to it, and then press <code>q</code>. Additionally, if the results split is too small, you can even it out by pressing <code>Ctrl + w</code> once, followed by <code>=</code>. Alternatively, you can type <code>:res +5</code> or <code>:res -5</code> to make the split window bigger or smaller by 5 rows.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-1.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p>If we had multiple queries and only wanted to run one, or a couple of them, we could enter <strong>visual mode</strong> to select them (<code>Shift + v</code> followed by <code>j</code> or <code>k</code> to select rows down or up) and again type <code>\\se</code>, as before.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-2.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<p><strong>Isn&#39;t that exciting?!!</strong>&nbsp;&nbsp;🤓 That&#39;s just a taster - I&#39;ve added a small reference of dbext commands at the end of this post. Before that, there&#39;s a cool feature you&#39;ll love... <strong><em>auto-completion</em></strong>.</p>\n<h2 id=\"auto-completion\">Auto-completion</h2>\n<p>When working with a large number of tables/views, it can be hard to remember all their names. dbext can help-out with a pop-up menu of potential matches. This functionality does require the following to be done:</p>\n<ul>\n<li>You must be working from a saved file ending in .sql</li>\n<li>Populate the vim dictionary using either of the following commands <code>DBCompleteTables</code>, <code>DBCompleteViews</code>, or <code>DBCompleteProcedures</code></li>\n</ul>\n<p>To avoid having to type a <code>DBComplete*</code> command whenever I start a new buffer, I added this to my <code>.vimrc</code> (this runs the given command once all plugins have been loaded):</p>\n<pre><code class=\"hljs language-vim\"><span class=\"hljs-built_in\">auto</span>cmd VimEnter * DBCompleteTables\n</code></pre>\n<p>Once that&#39;s done and dusted, start typing a <code>SELECT</code> statement. After the <code>FROM</code> keyword, press <code>Ctrl + x</code> and <code>Ctrl + o</code> in quick succession, this will bring up a menu showing all matching tables. So, if we had started typing the name of the table, and then brought-up the menu, it would filter only tables matching what we&#39;ve typed so far. Scroll up and down the menu with <code>Ctrl + n</code> and <code>Ctrl + p</code>.</p>\n<p><img src=\"/img/improve-postgresql-workflow-vim-dbext-3.png\" class=\"img-fluid\" title=\"null\" alt=\"\"></p>\n<h2 id=\"quick-reference\">Quick Reference</h2>\n<h3 id=\"code-execution\">Code Execution</h3>\n<pre><code class=\"hljs language-vim\">&quot; Execute <span class=\"hljs-selector-tag\">code</span> in <span class=\"hljs-attribute\">normal</span> or visual mode. (s)ql (e)xecute\n\\se\n\n&quot; Execute just the current line. (s)ql (e)xecute (l)ine\n\\sel\n</code></pre>\n<h3 id=\"select-from-tables\">Select from Tables</h3>\n<pre><code class=\"hljs language-vim\">&quot; Select from table (s)ql (t)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\st\n\n&quot; Select from table, prompt for number of rows to return  (s)ql (T)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\sT\n\n&quot; Select from table, prompt for WHERE clause  (s)ql (t)able (w)here\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\stw\n</code></pre>\n<h3 id=\"describe-objects\">Describe Objects</h3>\n<pre><code class=\"hljs language-vim\">&quot; Describe table (s)ql (d)escribe (t)able\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>\n\\sdt\n\n&quot; Describe procedure (s)ql (d)escribe (p)rocedure\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">procedure</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">procedure</span> <span class=\"hljs-type\">name</span>\n\\sdp\n\n&quot; Describe procedure (s)ql (d)escribe (v)iew\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">view</span> <span class=\"hljs-type\">name</span>, <span class=\"hljs-keyword\">or</span> visual mode <span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">schema</span> &amp; <span class=\"hljs-keyword\">view</span> <span class=\"hljs-type\">name</span>\n\\sdv\n</code></pre>\n<h3 id=\"listing-objects\">Listing Objects</h3>\n<pre><code class=\"hljs language-vim\">&quot; List tables in database (s)ql (l)ist (t)able\n&quot; Prompts <span class=\"hljs-keyword\">for</span> string <span class=\"hljs-keyword\">to</span> match <span class=\"hljs-keyword\">tables</span> <span class=\"hljs-keyword\">by</span> <span class=\"hljs-type\">name</span>\n\\slt\n\n&quot; Same but for procedures\n\\slp\n\n&quot; Same but <span class=\"hljs-keyword\">for</span> views\n\\slv\n\n&quot; Get list of table columns in paste buffer (s)ql (l)ist (c)olumns\n&quot; Place <span class=\"hljs-keyword\">cursor</span> <span class=\"hljs-keyword\">over</span> <span class=\"hljs-keyword\">table</span> <span class=\"hljs-type\">name</span>. Recognises <span class=\"hljs-keyword\">schemas</span> <span class=\"hljs-keyword\">without</span> visual mode selection\n&quot; Prompts for alias prefix to be added\n\\slc\n</code></pre>\n<h3 id=\"results-buffer-run-inside-results-buffer\">Results Buffer (run inside results buffer)</h3>\n<pre><code class=\"hljs language-vim\">&quot; Re-<span class=\"hljs-keyword\">run</span> <span class=\"hljs-keyword\">query</span> that generated current results buffer\nR\n\n&quot; <span class=\"hljs-keyword\">Close</span> results buffer\nq\n</code></pre>\n<h3 id=\"command-history\">Command History</h3>\n<pre><code class=\"hljs language-vim\">&quot; List recently executed statements \n&quot; Press <span class=\"hljs-keyword\">RETURN</span> key <span class=\"hljs-keyword\">on</span> selected <span class=\"hljs-keyword\">statement</span> <span class=\"hljs-keyword\">to</span> re-<span class=\"hljs-keyword\">execute</span>\n\\sh\n</code></pre>\n",
   "date": "January 22, 2016"
 }, {
   "id": 3,
   "route": "clean-sql",
   "title": "Clean SQL",
-  "content": "<p>I analyse a lot of data daily, much of the time using SQL. As a language, SQL is relatively simple and self-contained, and newcomers usually don&#39;t take long to start writing code that works (after learning to think declaratively!). Like other languages, <strong>SQL can be written in a way that reads like poetry</strong>, where the logic of the query is clear to anyone who reads it. <strong>Often, however, reading someone else&#39;s SQL code is a very <a href=\"http://www.urbandictionary.com/define.php?term=clusterfuck\">unpleasant experience</a></strong>... and although it&#39;s usually code written by rookies, &#39;pro&#39; code can be just as painful at times.</p>\n<p>It seems that newcomers to SQL don&#39;t think it&#39;s important to write code that is easy to read and understand by others. Instead they focus solely on getting the data output needed. On the other hand, I feel <strong>experienced coders tend to over-engineer the formatting of the code</strong> (think <em>over alignment</em>).</p>\n<p>This has prompted me to write this post, which will serve as a living document of what I feel is the best way to write SQL code...</p>\n<h2 id=\"why-clean-code\">Why clean code?</h2>\n<p>In any project where code is written, whether for data analysis or a complex app, <strong>the compounding effects of messy code affects productivity and costs</strong>. Bad code slows down the pace of the team, making any change less and less trivial as time progresses. Unfortunately, the pace of projects, and the pressure to produce results urges the team to add more bad code. Eventually, you end-up with a colossal pile of 💩 that shatters when touched.</p>\n<blockquote>\n<h2 id=\"code-is-written-once-and-read-many-times-so-consistently-write-clear-human-readable-code\">Code is written once, and read many times. So consistently write clear, human-readable code.</h2>\n</blockquote>\n<h2 id=\"example-of-bad-code\">Example of bad code</h2>\n<p>Before I start looking at how to write clean SQL, let&#39;s explore the motivation behind this... What do you think is wrong in this first example below (sanitzed real-world example written in TSQL)?</p>\n<pre><code class=\"hljs language-sql\">SELECT\n    c<span class=\"hljs-selector-class\">.Date</span>\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span>,\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.description</span>,\n    e0<span class=\"hljs-selector-class\">.Classification</span>,\n    ExampleFlag = <span class=\"hljs-number\">1</span>,\n    FutureFcstMethod = CASE WHEN c<span class=\"hljs-selector-class\">.Discount</span> NOT NULL THEN <span class=\"hljs-string\">&#x27;Mthd1&#x27;</span>\n        WHEN (<span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Uplift</span> IS NOT NULL AND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Forecast</span> IS NOT NULL) THEN <span class=\"hljs-string\">&#x27;Mthd2&#x27;</span> END,\n    SUM(IIF(e0.Flag=<span class=\"hljs-number\">0</span>, cost, NULL))/NULLIF(SUM(IIF(e0.Flag=<span class=\"hljs-number\">0</span>, sales, NULL)),<span class=\"hljs-number\">0</span>) as Rate\nFROM Dim<span class=\"hljs-selector-class\">.Product</span> <span class=\"hljs-selector-tag\">a</span>\nLEFT JOIN fst<span class=\"hljs-selector-class\">.ProductClass</span> e0 ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = e0<span class=\"hljs-selector-class\">.ProductKey</span>\nLEFT JOIN fact<span class=\"hljs-selector-class\">.Discounts</span> c ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = c<span class=\"hljs-selector-class\">.ProductKey</span>\nINNER JOIN fst<span class=\"hljs-selector-class\">.A_Final_Product_Analysis</span> <span class=\"hljs-selector-tag\">b</span> ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.ProductKey</span>\nAND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.TransDate</span> &lt; c<span class=\"hljs-selector-class\">.Date</span>\nWHERE <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.productKey</span> NOT IN (<span class=\"hljs-number\">1234</span>, <span class=\"hljs-number\">5678</span>, <span class=\"hljs-number\">90123</span>)\nAND e0<span class=\"hljs-selector-class\">.Classification</span> IN (<span class=\"hljs-string\">&#x27;A&#x27;</span>, <span class=\"hljs-string\">&#x27;BC&#x27;</span>, <span class=\"hljs-string\">&#x27;A21&#x27;</span>)\nAND c<span class=\"hljs-selector-class\">.Discount</span> &gt; <span class=\"hljs-number\">0</span>\nGROUP BY\n    c<span class=\"hljs-selector-class\">.Date</span>\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.Product</span>,\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.description</span>,\n    e0<span class=\"hljs-selector-class\">.Classification</span>,\n    CASE WHEN c<span class=\"hljs-selector-class\">.Discount</span> NOT NULL THEN <span class=\"hljs-string\">&#x27;Mthd1&#x27;</span>\n        WHEN (<span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Uplift</span> IS NOT NULL AND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Forecast</span> IS NOT NULL) THEN <span class=\"hljs-string\">&#x27;Mthd2&#x27;</span> END</code></pre>\n<p>That&#39;s right... <strong><em>everything</em></strong>.</p>\n<p>The code is <strong>densely packed</strong>, <strong>mis-aligned</strong>, and uses <strong>obscure naming</strong>... it&#39;s hard to glean any information from it.</p>\n<h2 id=\"clean-code-rules\">Clean code rules</h2>\n<p>Most experienced programmers agree with a version of these rules. For an in-depth analysis of how to write clean code, I really recommend reading Robert Martin&#39;s <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>.</p>\n<h3 id=\"naming\">Naming</h3>\n<ul>\n<li>Name objects in a way that tells the purpose of the object - calling a field <code>acc_111</code> doesn&#39;t tell us anything. A rule of thumb is the ability to easily pronounce the name.</li>\n<li>Use <strong>camelCase</strong> for fields and <strong>TitleCase</strong> for tables - call a table <code>SalesTransactionHistory</code> instead of <code>sales_transaction_history</code>, and a field <code>totalRevenue</code> instead of <code>total_revenue</code>.</li>\n<li>Functions or stored procedures should start with a verb that tells what it does - <code>getSalesForecast</code> instead of <code>forecast</code>. Do not add any prefix like <code>sp_</code> or <code>fn_</code> or any other Hungarian Notation.</li>\n<li>Give consistent, meaningful aliases to joined tables in a query - <code>a</code>, <code>b</code>, <code>c</code> is just confusing. Instead, use <code>prd</code> for a product dimension table, or <code>sales</code> for a sales fact table.</li>\n</ul>\n<h3 id=\"formatting\">Formatting</h3>\n<ul>\n<li><strong>Don&#39;t capitalise SQL clauses</strong> like select, from, ... capital letters are hard on the eyes, and make the code look more dense.</li>\n<li>In general, <strong>structure your code vertically</strong> rather than horizontally. For example, list fields vertically in a select. If you want to be strict about it, any line should not exceed more than 80 characters in length.</li>\n<li><strong>Do not horizontally-align code</strong>. Code that has been overly aligned in this way creates too much separation between parts of the code that correspond to each other, drawing attention away from that relevant correspondence. For example, separating fields and data types in a create table statement draws you to look at the list of field names and not their data types.</li>\n<li>Lists of fields, where conditions, and tables after a from statement, must:</li>\n<li>start on a new line</li>\n<li>have one level of indentation</li>\n<li>be left-aligned</li>\n<li>Joins are clear when formatted as below, with the join clause double indented, and the joined fields triple indented.</li>\n</ul>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n     tbl1.field1\n    ,tbl1.field2\n<span class=\"hljs-keyword\">from</span>\n    table1 tb1\n        <span class=\"hljs-keyword\">inner</span> <span class=\"hljs-keyword\">join</span>\n    table2 tb2\n            <span class=\"hljs-keyword\">on</span>  tb1.field1 = tb2.field1\n            <span class=\"hljs-keyword\">and</span> tb1.field2 = tb2.field2\n        <span class=\"hljs-keyword\">left</span> <span class=\"hljs-keyword\">join</span>\n    table3 tb3\n            <span class=\"hljs-keyword\">on</span> ...</code></pre>\n<h3 id=\"comments\">Comments</h3>\n<ul>\n<li><strong>Use comments sparingly</strong> - a comment is only needed when the code is unclear enough that it needs to be explained. Messy code won&#39;t be made better with the addition of comments.</li>\n<li>In writing a comment, restrict it to stating the general purpose of a block of code in the most concise manner possible.</li>\n<li>Never leave commented code co-existing with live code.</li>\n</ul>\n<h3 id=\"queries-functions--procedures\">Queries, Functions &amp; Procedures</h3>\n<ul>\n<li>If the logic in a single query is hard to understand, then it is probably doing too much at once. Separate the logic into multiple steps using either CTEs or temporary tables.</li>\n<li>Each function or procedure should do one thing, do it well, and do it only - if it&#39;s doing too much, then split the logic into more than one function or procedure.</li>\n</ul>\n<h2 id=\"examples-of-clean-code\">Examples of clean code</h2>\n<p>It&#39;s easier to see how to write clean SQL code by seeing some examples.</p>\n<h3 id=\"select-statements\">Select statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n     rev.accountKey\n    ,rev.revenueType\n    ,coalesce(cus.indexedChurnDate, <span class=\"hljs-number\">0</span>) - coalesce(cus.indexedGrossAddDate, <span class=\"hljs-number\">0</span>) + <span class=\"hljs-number\">1</span> <span class=\"hljs-keyword\">as</span> totalMonths\n    ,sum(coalesce(rev.revenueValue, <span class=\"hljs-number\">0</span>)) <span class=\"hljs-keyword\">as</span> revenueValue\n<span class=\"hljs-keyword\">from</span>\n    fact.Revenue rev\n        <span class=\"hljs-keyword\">inner</span> <span class=\"hljs-keyword\">join</span>\n    dim.Customer cus\n            <span class=\"hljs-keyword\">on</span> rev.accountKey = cus.accountKey\n<span class=\"hljs-keyword\">where</span>\n    rev.accountKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> accountKey <span class=\"hljs-keyword\">from</span> shortLifeCustomers)\n<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">by</span>\n     rev.accountKey\n    ,rev.revenueType\n    ,totalMonths</code></pre>\n<h3 id=\"ctes-common-table-expressions\">CTEs (Common Table Expressions)</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">with</span> NewProducts <span class=\"hljs-keyword\">as</span> (\n    <span class=\"hljs-keyword\">select</span>\n        productKey\n    <span class=\"hljs-keyword\">from</span>\n        fact.storeProduct\n    <span class=\"hljs-keyword\">where</span>\n        storeKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> storeKey <span class=\"hljs-keyword\">from</span> config.StoreFilter)\n        <span class=\"hljs-keyword\">and</span> newProductFlag = <span class=\"hljs-number\">1</span>\n),\n\nAnotherTable <span class=\"hljs-keyword\">as</span> (\n    ...\n)\n\n    <span class=\"hljs-keyword\">select</span>\n         trx.transactionKey\n        ,trx.date\n        ,trx.storeKey\n        ,trx.productKey\n        ,trx.netSales\n    <span class=\"hljs-keyword\">from</span>\n        fact.TransactionHistory trx\n            <span class=\"hljs-keyword\">inner</span> <span class=\"hljs-keyword\">join</span>\n        NewProducts np\n                <span class=\"hljs-keyword\">on</span> trx.productKey = np.productKey;</code></pre>\n<h3 id=\"create-table-statements\">Create table statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">create</span> <span class=\"hljs-keyword\">table</span> base.Revenue (\n     contractKey <span class=\"hljs-built_in\">bigint</span>\n    ,dataDate <span class=\"hljs-built_in\">date</span>\n    ,<span class=\"hljs-keyword\">category</span> <span class=\"hljs-built_in\">text</span>\n    ,<span class=\"hljs-keyword\">value</span> <span class=\"hljs-built_in\">numeric</span>\n\n    <span class=\"hljs-keyword\">constraint</span> baseRevenuePrimaryKey primary <span class=\"hljs-keyword\">key</span> (dataDate, contractKey, <span class=\"hljs-keyword\">category</span>)\n);</code></pre>\n<h3 id=\"insert-statements\">Insert statements</h3>\n<pre><code class=\"hljs language-sql\">insert into dim.Customer (\n     contractKey\n    ,customerKey\n    ,customerType\n    ,activationDate\n    ,deactivationDate\n    ,billingLanguage\n    ,birthDate\n    ,tenure\n)\n    select\n         contract_Id <span class=\"hljs-keyword\">as</span> contractKey\n        ,customer_Id <span class=\"hljs-keyword\">as</span> customerKey\n        ,cust_type_id <span class=\"hljs-keyword\">as</span> customerType\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">activation_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> activationDate\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">deactivation_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> deactivationDate\n        ,bill_address <span class=\"hljs-keyword\">as</span> billingAddress\n        ,bill_language <span class=\"hljs-keyword\">as</span> billingLanguage\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">birth_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> birthDate\n        ,tenure\n    from\n        import.Customer;</code></pre>\n<h3 id=\"update-statements\">Update statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">update</span>\n    base.Traffic\n<span class=\"hljs-keyword\">set</span>\n     dataDate = <span class=\"hljs-keyword\">to_date</span>(<span class=\"hljs-string\">&#x27;2016/11&#x27;</span>, <span class=\"hljs-string\">&#x27;YYYY-MM&#x27;</span>)\n    ,updateDate = <span class=\"hljs-keyword\">now</span>()\n<span class=\"hljs-keyword\">where</span>\n    customerKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> customerKey <span class=\"hljs-keyword\">from</span> base.NewCustomer);</code></pre>\n<h3 id=\"delete-statements\">Delete statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">delete</span> <span class=\"hljs-keyword\">from</span>\n    base.Traffic\n<span class=\"hljs-keyword\">where</span>\n    dataDate = <span class=\"hljs-keyword\">to_date</span>(<span class=\"hljs-string\">&#x27;2013/03&#x27;</span>, <span class=\"hljs-string\">&#x27;YYYY-MM&#x27;</span>);</code></pre>\n",
+  "content": "<p>I analyse a lot of data daily, much of the time using SQL. As a language, SQL is relatively simple and self-contained, and newcomers usually don&#39;t take long to start writing code that works (after learning to think declaratively!). Like other languages, <strong>SQL can be written in a way that reads like poetry</strong>, where the logic of the query is clear to anyone who reads it. <strong>Often, however, reading someone else&#39;s SQL code is a very <a href=\"http://www.urbandictionary.com/define.php?term=clusterfuck\">unpleasant experience</a></strong>... and although it&#39;s usually code written by rookies, &#39;pro&#39; code can be just as painful at times.</p>\n<p>It seems that newcomers to SQL don&#39;t think it&#39;s important to write code that is easy to read and understand by others. Instead they focus solely on getting the data output needed. On the other hand, I feel <strong>experienced coders tend to over-engineer the formatting of the code</strong> (think <em>over alignment</em>).</p>\n<p>This has prompted me to write this post, which will serve as a living document of what I feel is the best way to write SQL code...</p>\n<h2 id=\"why-clean-code\">Why clean code?</h2>\n<p>In any project where code is written, whether for data analysis or a complex app, <strong>the compounding effects of messy code affects productivity and costs</strong>. Bad code slows down the pace of the team, making any change less and less trivial as time progresses. Unfortunately, the pace of projects, and the pressure to produce results urges the team to add more bad code. Eventually, you end-up with a colossal pile of 💩 that shatters when touched.</p>\n<blockquote>\n<h2 id=\"code-is-written-once-and-read-many-times-so-consistently-write-clear-human-readable-code\">Code is written once, and read many times. So consistently write clear, human-readable code.</h2>\n</blockquote>\n<h2 id=\"example-of-bad-code\">Example of bad code</h2>\n<p>Before I start looking at how to write clean SQL, let&#39;s explore the motivation behind this... What do you think is wrong in this first example below (sanitzed real-world example written in TSQL)?</p>\n<pre><code class=\"hljs language-sql\">SELECT\n    c<span class=\"hljs-selector-class\">.Date</span>\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span>,\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.description</span>,\n    e0<span class=\"hljs-selector-class\">.Classification</span>,\n    ExampleFlag = <span class=\"hljs-number\">1</span>,\n    FutureFcstMethod = CASE WHEN c<span class=\"hljs-selector-class\">.Discount</span> NOT NULL THEN <span class=\"hljs-string\">&#x27;Mthd1&#x27;</span>\n        WHEN (<span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Uplift</span> IS NOT NULL AND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Forecast</span> IS NOT NULL) THEN <span class=\"hljs-string\">&#x27;Mthd2&#x27;</span> END,\n    SUM(IIF(e0.Flag=<span class=\"hljs-number\">0</span>, cost, NULL))/NULLIF(SUM(IIF(e0.Flag=<span class=\"hljs-number\">0</span>, sales, NULL)),<span class=\"hljs-number\">0</span>) as Rate\nFROM Dim<span class=\"hljs-selector-class\">.Product</span> <span class=\"hljs-selector-tag\">a</span>\nLEFT JOIN fst<span class=\"hljs-selector-class\">.ProductClass</span> e0 ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = e0<span class=\"hljs-selector-class\">.ProductKey</span>\nLEFT JOIN fact<span class=\"hljs-selector-class\">.Discounts</span> c ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = c<span class=\"hljs-selector-class\">.ProductKey</span>\nINNER JOIN fst<span class=\"hljs-selector-class\">.A_Final_Product_Analysis</span> <span class=\"hljs-selector-tag\">b</span> ON <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.ProductKey</span> = <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.ProductKey</span>\nAND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.TransDate</span> &lt; c<span class=\"hljs-selector-class\">.Date</span>\nWHERE <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.productKey</span> NOT IN (<span class=\"hljs-number\">1234</span>, <span class=\"hljs-number\">5678</span>, <span class=\"hljs-number\">90123</span>)\nAND e0<span class=\"hljs-selector-class\">.Classification</span> IN (<span class=\"hljs-string\">&#x27;A&#x27;</span>, <span class=\"hljs-string\">&#x27;BC&#x27;</span>, <span class=\"hljs-string\">&#x27;A21&#x27;</span>)\nAND c<span class=\"hljs-selector-class\">.Discount</span> &gt; <span class=\"hljs-number\">0</span>\nGROUP BY\n    c<span class=\"hljs-selector-class\">.Date</span>\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.Product</span>,\n    <span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-class\">.description</span>,\n    e0<span class=\"hljs-selector-class\">.Classification</span>,\n    CASE WHEN c<span class=\"hljs-selector-class\">.Discount</span> NOT NULL THEN <span class=\"hljs-string\">&#x27;Mthd1&#x27;</span>\n        WHEN (<span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Uplift</span> IS NOT NULL AND <span class=\"hljs-selector-tag\">b</span><span class=\"hljs-selector-class\">.Forecast</span> IS NOT NULL) THEN <span class=\"hljs-string\">&#x27;Mthd2&#x27;</span> END\n</code></pre>\n<p>That&#39;s right... <strong><em>everything</em></strong>.</p>\n<p>The code is <strong>densely packed</strong>, <strong>mis-aligned</strong>, and uses <strong>obscure naming</strong>... it&#39;s hard to glean any information from it.</p>\n<h2 id=\"clean-code-rules\">Clean code rules</h2>\n<p>Most experienced programmers agree with a version of these rules. For an in-depth analysis of how to write clean code, I really recommend reading Robert Martin&#39;s <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>.</p>\n<h3 id=\"naming\">Naming</h3>\n<ul>\n<li>Name objects in a way that tells the purpose of the object - calling a field <code>acc_111</code> doesn&#39;t tell us anything. A rule of thumb is the ability to easily pronounce the name.</li>\n<li>Use <strong>camelCase</strong> for fields and <strong>TitleCase</strong> for tables - call a table <code>SalesTransactionHistory</code> instead of <code>sales_transaction_history</code>, and a field <code>totalRevenue</code> instead of <code>total_revenue</code>.</li>\n<li>Functions or stored procedures should start with a verb that tells what it does - <code>getSalesForecast</code> instead of <code>forecast</code>. Do not add any prefix like <code>sp_</code> or <code>fn_</code> or any other Hungarian Notation.</li>\n<li>Give consistent, meaningful aliases to joined tables in a query - <code>a</code>, <code>b</code>, <code>c</code> is just confusing. Instead, use <code>prd</code> for a product dimension table, or <code>sales</code> for a sales fact table.</li>\n</ul>\n<h3 id=\"formatting\">Formatting</h3>\n<ul>\n<li><strong>Don&#39;t capitalise SQL clauses</strong> like select, from, ... capital letters are hard on the eyes, and make the code look more dense.</li>\n<li>In general, <strong>structure your code vertically</strong> rather than horizontally. For example, list fields vertically in a select. If you want to be strict about it, any line should not exceed more than 80 characters in length.</li>\n<li><strong>Do not horizontally-align code</strong>. Code that has been overly aligned in this way creates too much separation between parts of the code that correspond to each other, drawing attention away from that relevant correspondence. For example, separating fields and data types in a create table statement draws you to look at the list of field names and not their data types.</li>\n<li>Lists of fields, where conditions, and tables after a from statement, must:</li>\n<li>start on a new line</li>\n<li>have one level of indentation</li>\n<li>be left-aligned</li>\n<li>Joins are clear when formatted as below, with the join clause double indented, and the joined fields triple indented.</li>\n</ul>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n     tbl1.field1\n    ,tbl1.field2\n<span class=\"hljs-keyword\">from</span>\n    table1 tb1\n        <span class=\"hljs-keyword\">inner</span> <span class=\"hljs-keyword\">join</span>\n    table2 tb2\n            <span class=\"hljs-keyword\">on</span>  tb1.field1 = tb2.field1\n            <span class=\"hljs-keyword\">and</span> tb1.field2 = tb2.field2\n        <span class=\"hljs-keyword\">left</span> <span class=\"hljs-keyword\">join</span>\n    table3 tb3\n            <span class=\"hljs-keyword\">on</span> ...\n</code></pre>\n<h3 id=\"comments\">Comments</h3>\n<ul>\n<li><strong>Use comments sparingly</strong> - a comment is only needed when the code is unclear enough that it needs to be explained. Messy code won&#39;t be made better with the addition of comments.</li>\n<li>In writing a comment, restrict it to stating the general purpose of a block of code in the most concise manner possible.</li>\n<li>Never leave commented code co-existing with live code.</li>\n</ul>\n<h3 id=\"queries-functions--procedures\">Queries, Functions &amp; Procedures</h3>\n<ul>\n<li>If the logic in a single query is hard to understand, then it is probably doing too much at once. Separate the logic into multiple steps using either CTEs or temporary tables.</li>\n<li>Each function or procedure should do one thing, do it well, and do it only - if it&#39;s doing too much, then split the logic into more than one function or procedure.</li>\n</ul>\n<h2 id=\"examples-of-clean-code\">Examples of clean code</h2>\n<p>It&#39;s easier to see how to write clean SQL code by seeing some examples.</p>\n<h3 id=\"select-statements\">Select statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">select</span>\n     rev.accountKey\n    ,rev.revenueType\n    ,coalesce(cus.indexedChurnDate, <span class=\"hljs-number\">0</span>) - coalesce(cus.indexedGrossAddDate, <span class=\"hljs-number\">0</span>) + <span class=\"hljs-number\">1</span> <span class=\"hljs-keyword\">as</span> totalMonths\n    ,sum(coalesce(rev.revenueValue, <span class=\"hljs-number\">0</span>)) <span class=\"hljs-keyword\">as</span> revenueValue\n<span class=\"hljs-keyword\">from</span>\n    fact.Revenue rev\n        <span class=\"hljs-keyword\">inner</span> <span class=\"hljs-keyword\">join</span>\n    dim.Customer cus\n            <span class=\"hljs-keyword\">on</span> rev.accountKey = cus.accountKey\n<span class=\"hljs-keyword\">where</span>\n    rev.accountKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> accountKey <span class=\"hljs-keyword\">from</span> shortLifeCustomers)\n<span class=\"hljs-keyword\">group</span> <span class=\"hljs-keyword\">by</span>\n     rev.accountKey\n    ,rev.revenueType\n    ,totalMonths\n</code></pre>\n<h3 id=\"ctes-common-table-expressions\">CTEs (Common Table Expressions)</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">with</span> NewProducts <span class=\"hljs-keyword\">as</span> (\n    <span class=\"hljs-keyword\">select</span>\n        productKey\n    <span class=\"hljs-keyword\">from</span>\n        fact.storeProduct\n    <span class=\"hljs-keyword\">where</span>\n        storeKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> storeKey <span class=\"hljs-keyword\">from</span> config.StoreFilter)\n        <span class=\"hljs-built_in\">and</span> newProductFlag = <span class=\"hljs-number\">1</span>\n),\n\nAnotherTable <span class=\"hljs-keyword\">as</span> (\n    ...\n)\n\n    <span class=\"hljs-keyword\">select</span>\n         trx.transactionKey\n        ,trx.<span class=\"hljs-type\">date</span>\n        ,trx.storeKey\n        ,trx.productKey\n        ,trx.netSales\n    <span class=\"hljs-keyword\">from</span>\n        fact.TransactionHistory trx\n            inner <span class=\"hljs-keyword\">join</span>\n        NewProducts np\n                <span class=\"hljs-keyword\">on</span> trx.productKey = np.productKey;\n</code></pre>\n<h3 id=\"create-table-statements\">Create table statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">create</span> <span class=\"hljs-keyword\">table</span> base.Revenue (\n     contractKey <span class=\"hljs-type\">bigint</span>\n    ,dataDate <span class=\"hljs-type\">date</span>\n    ,category text\n    ,<span class=\"hljs-keyword\">value</span> <span class=\"hljs-type\">numeric</span>\n\n    <span class=\"hljs-keyword\">constraint</span> baseRevenuePrimaryKey <span class=\"hljs-keyword\">primary</span> key (dataDate, contractKey, category)\n);\n</code></pre>\n<h3 id=\"insert-statements\">Insert statements</h3>\n<pre><code class=\"hljs language-sql\">insert into dim.Customer (\n     contractKey\n    ,customerKey\n    ,customerType\n    ,activationDate\n    ,deactivationDate\n    ,billingLanguage\n    ,birthDate\n    ,tenure\n)\n    select\n         contract_Id <span class=\"hljs-keyword\">as</span> contractKey\n        ,customer_Id <span class=\"hljs-keyword\">as</span> customerKey\n        ,cust_type_id <span class=\"hljs-keyword\">as</span> customerType\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">activation_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> activationDate\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">deactivation_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> deactivationDate\n        ,bill_address <span class=\"hljs-keyword\">as</span> billingAddress\n        ,bill_language <span class=\"hljs-keyword\">as</span> billingLanguage\n        ,<span class=\"hljs-keyword\">to</span><span class=\"hljs-constructor\">_date(<span class=\"hljs-params\">birth_dt</span>, &#x27;<span class=\"hljs-params\">yyyy</span>-<span class=\"hljs-params\">mm</span>-<span class=\"hljs-params\">dd</span>&#x27;)</span> <span class=\"hljs-keyword\">as</span> birthDate\n        ,tenure\n    from\n        import.Customer;\n</code></pre>\n<h3 id=\"update-statements\">Update statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">update</span>\n    base.Traffic\n<span class=\"hljs-keyword\">set</span>\n     dataDate = to_date(<span class=\"hljs-string\">&#x27;2016/11&#x27;</span>, <span class=\"hljs-string\">&#x27;YYYY-MM&#x27;</span>)\n    ,updateDate = now()\n<span class=\"hljs-keyword\">where</span>\n    customerKey <span class=\"hljs-keyword\">in</span> (<span class=\"hljs-keyword\">select</span> <span class=\"hljs-keyword\">distinct</span> customerKey <span class=\"hljs-keyword\">from</span> base.NewCustomer);\n</code></pre>\n<h3 id=\"delete-statements\">Delete statements</h3>\n<pre><code class=\"hljs language-sql\"><span class=\"hljs-keyword\">delete</span> <span class=\"hljs-keyword\">from</span>\n    base.Traffic\n<span class=\"hljs-keyword\">where</span>\n    dataDate = to_date(<span class=\"hljs-string\">&#x27;2013/03&#x27;</span>, <span class=\"hljs-string\">&#x27;YYYY-MM&#x27;</span>);\n</code></pre>\n",
   "date": "November 19, 2016"
 }, {
   "id": 4,
@@ -15840,9 +14126,6 @@ module.exports = {
 /*!********************************************!*\
   !*** ./src/client/config/code-projects.js ***!
   \********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 28:0-14 */
 /***/ ((module) => {
 
 // List of blog posts to render
@@ -15882,16 +14165,12 @@ module.exports = {
 /*!*****************************************!*\
   !*** ./src/client/routers/AppRouter.js ***!
   \*****************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
@@ -15916,32 +14195,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AppRouter = function AppRouter() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/",
-    component: _components_Home__WEBPACK_IMPORTED_MODULE_2__.default,
+    component: _components_Home__WEBPACK_IMPORTED_MODULE_2__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/bio",
-    component: _components_Bio__WEBPACK_IMPORTED_MODULE_3__.default,
+    component: _components_Bio__WEBPACK_IMPORTED_MODULE_3__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/clients",
-    component: _components_Client__WEBPACK_IMPORTED_MODULE_4__.default,
+    component: _components_Client__WEBPACK_IMPORTED_MODULE_4__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/blog",
-    component: _components_Blog__WEBPACK_IMPORTED_MODULE_6__.default,
+    component: _components_Blog__WEBPACK_IMPORTED_MODULE_6__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/blogpost/:route",
-    component: _components_BlogPost__WEBPACK_IMPORTED_MODULE_7__.default,
+    component: _components_BlogPost__WEBPACK_IMPORTED_MODULE_7__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
     path: "/code",
-    component: _components_Code__WEBPACK_IMPORTED_MODULE_5__.default,
+    component: _components_Code__WEBPACK_IMPORTED_MODULE_5__["default"],
     exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
-    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_8__.default
+    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_8__["default"]
   }))));
 };
 
@@ -15953,14 +14232,10 @@ var AppRouter = function AppRouter() {
 /*!******************************************!*\
   !*** ./node_modules/classnames/index.js ***!
   \******************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_exports__ */
-/*! CommonJS bailout: module.exports is used directly at 41:38-52 */
-/*! CommonJS bailout: module.exports is used directly at 43:2-16 */
 /***/ ((module, exports) => {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-  Copyright (c) 2017 Jed Watson.
+  Copyright (c) 2018 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
 */
@@ -15971,7 +14246,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 	var hasOwn = {}.hasOwnProperty;
 
-	function classNames () {
+	function classNames() {
 		var classes = [];
 
 		for (var i = 0; i < arguments.length; i++) {
@@ -15982,16 +14257,22 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 			if (argType === 'string' || argType === 'number') {
 				classes.push(arg);
-			} else if (Array.isArray(arg) && arg.length) {
-				var inner = classNames.apply(null, arg);
-				if (inner) {
-					classes.push(inner);
+			} else if (Array.isArray(arg)) {
+				if (arg.length) {
+					var inner = classNames.apply(null, arg);
+					if (inner) {
+						classes.push(inner);
+					}
 				}
 			} else if (argType === 'object') {
-				for (var key in arg) {
-					if (hasOwn.call(arg, key) && arg[key]) {
-						classes.push(key);
+				if (arg.toString === Object.prototype.toString) {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
 					}
+				} else {
+					classes.push(arg.toString());
 				}
 			}
 		}
@@ -16018,20 +14299,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /*!**********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/addEventListener.js ***!
   \**********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export onceSupported [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export optionsSupported [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "optionsSupported": () => /* binding */ optionsSupported,
-/* harmony export */   "onceSupported": () => /* binding */ onceSupported,
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "optionsSupported": () => (/* binding */ optionsSupported),
+/* harmony export */   "onceSupported": () => (/* binding */ onceSupported),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _canUseDOM__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
 /* eslint-disable no-return-assign */
@@ -16052,7 +14327,7 @@ try {
 
   };
 
-  if (_canUseDOM__WEBPACK_IMPORTED_MODULE_0__.default) {
+  if (_canUseDOM__WEBPACK_IMPORTED_MODULE_0__["default"]) {
     window.addEventListener('test', options, options);
     window.removeEventListener('test', options, true);
   }
@@ -16062,6 +14337,11 @@ try {
 
 /**
  * An `addEventListener` ponyfill, supports the `once` option
+ * 
+ * @param node the element
+ * @param eventName the event name
+ * @param handle the handler
+ * @param options event options
  */
 function addEventListener(node, eventName, handler, options) {
   if (options && typeof options !== 'boolean' && !onceSupported) {
@@ -16092,16 +14372,12 @@ function addEventListener(node, eventName, handler, options) {
 /*!**************************************************!*\
   !*** ./node_modules/dom-helpers/esm/camelize.js ***!
   \**************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ camelize
+/* harmony export */   "default": () => (/* binding */ camelize)
 /* harmony export */ });
 var rHyphen = /-(.)/g;
 function camelize(string) {
@@ -16116,16 +14392,12 @@ function camelize(string) {
 /*!***************************************************!*\
   !*** ./node_modules/dom-helpers/esm/canUseDOM.js ***!
   \***************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (!!(typeof window !== 'undefined' && window.document && window.document.createElement));
 
@@ -16135,16 +14407,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************!*\
   !*** ./node_modules/dom-helpers/esm/css.js ***!
   \*********************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _getComputedStyle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getComputedStyle */ "./node_modules/dom-helpers/esm/getComputedStyle.js");
 /* harmony import */ var _hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hyphenateStyle */ "./node_modules/dom-helpers/esm/hyphenateStyle.js");
@@ -16158,18 +14426,18 @@ function style(node, property) {
   var transforms = '';
 
   if (typeof property === 'string') {
-    return node.style.getPropertyValue((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__.default)(property)) || (0,_getComputedStyle__WEBPACK_IMPORTED_MODULE_0__.default)(node).getPropertyValue((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__.default)(property));
+    return node.style.getPropertyValue((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(property)) || (0,_getComputedStyle__WEBPACK_IMPORTED_MODULE_0__["default"])(node).getPropertyValue((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(property));
   }
 
   Object.keys(property).forEach(function (key) {
     var value = property[key];
 
     if (!value && value !== 0) {
-      node.style.removeProperty((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__.default)(key));
-    } else if ((0,_isTransform__WEBPACK_IMPORTED_MODULE_2__.default)(key)) {
+      node.style.removeProperty((0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(key));
+    } else if ((0,_isTransform__WEBPACK_IMPORTED_MODULE_2__["default"])(key)) {
       transforms += key + "(" + value + ") ";
     } else {
-      css += (0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__.default)(key) + ": " + value + ";";
+      css += (0,_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(key) + ": " + value + ";";
     }
   });
 
@@ -16188,21 +14456,24 @@ function style(node, property) {
 /*!**********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/getComputedStyle.js ***!
   \**********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ getComputedStyle
+/* harmony export */   "default": () => (/* binding */ getComputedStyle)
 /* harmony export */ });
 /* harmony import */ var _ownerWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerWindow */ "./node_modules/dom-helpers/esm/ownerWindow.js");
 
+/**
+ * Returns one or all computed style properties of an element.
+ * 
+ * @param node the element
+ * @param psuedoElement the style property
+ */
+
 function getComputedStyle(node, psuedoElement) {
-  return (0,_ownerWindow__WEBPACK_IMPORTED_MODULE_0__.default)(node).getComputedStyle(node, psuedoElement);
+  return (0,_ownerWindow__WEBPACK_IMPORTED_MODULE_0__["default"])(node).getComputedStyle(node, psuedoElement);
 }
 
 /***/ }),
@@ -16211,16 +14482,12 @@ function getComputedStyle(node, psuedoElement) {
 /*!***************************************************!*\
   !*** ./node_modules/dom-helpers/esm/hyphenate.js ***!
   \***************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ hyphenate
+/* harmony export */   "default": () => (/* binding */ hyphenate)
 /* harmony export */ });
 var rUpper = /([A-Z])/g;
 function hyphenate(string) {
@@ -16233,16 +14500,12 @@ function hyphenate(string) {
 /*!********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/hyphenateStyle.js ***!
   \********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ hyphenateStyleName
+/* harmony export */   "default": () => (/* binding */ hyphenateStyleName)
 /* harmony export */ });
 /* harmony import */ var _hyphenate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hyphenate */ "./node_modules/dom-helpers/esm/hyphenate.js");
 /**
@@ -16253,7 +14516,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var msPattern = /^ms-/;
 function hyphenateStyleName(string) {
-  return (0,_hyphenate__WEBPACK_IMPORTED_MODULE_0__.default)(string).replace(msPattern, '-ms-');
+  return (0,_hyphenate__WEBPACK_IMPORTED_MODULE_0__["default"])(string).replace(msPattern, '-ms-');
 }
 
 /***/ }),
@@ -16262,16 +14525,12 @@ function hyphenateStyleName(string) {
 /*!*****************************************************!*\
   !*** ./node_modules/dom-helpers/esm/isTransform.js ***!
   \*****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ isTransform
+/* harmony export */   "default": () => (/* binding */ isTransform)
 /* harmony export */ });
 var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
 function isTransform(value) {
@@ -16284,16 +14543,12 @@ function isTransform(value) {
 /*!************************************************!*\
   !*** ./node_modules/dom-helpers/esm/listen.js ***!
   \************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _addEventListener__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addEventListener */ "./node_modules/dom-helpers/esm/addEventListener.js");
 /* harmony import */ var _removeEventListener__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./removeEventListener */ "./node_modules/dom-helpers/esm/removeEventListener.js");
@@ -16301,9 +14556,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function listen(node, eventName, handler, options) {
-  (0,_addEventListener__WEBPACK_IMPORTED_MODULE_0__.default)(node, eventName, handler, options);
+  (0,_addEventListener__WEBPACK_IMPORTED_MODULE_0__["default"])(node, eventName, handler, options);
   return function () {
-    (0,_removeEventListener__WEBPACK_IMPORTED_MODULE_1__.default)(node, eventName, handler, options);
+    (0,_removeEventListener__WEBPACK_IMPORTED_MODULE_1__["default"])(node, eventName, handler, options);
   };
 }
 
@@ -16315,17 +14570,18 @@ function listen(node, eventName, handler, options) {
 /*!*******************************************************!*\
   !*** ./node_modules/dom-helpers/esm/ownerDocument.js ***!
   \*******************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ ownerDocument
+/* harmony export */   "default": () => (/* binding */ ownerDocument)
 /* harmony export */ });
+/**
+ * Returns the owner document of a given element.
+ * 
+ * @param node the element
+ */
 function ownerDocument(node) {
   return node && node.ownerDocument || document;
 }
@@ -16336,21 +14592,23 @@ function ownerDocument(node) {
 /*!*****************************************************!*\
   !*** ./node_modules/dom-helpers/esm/ownerWindow.js ***!
   \*****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ ownerWindow
+/* harmony export */   "default": () => (/* binding */ ownerWindow)
 /* harmony export */ });
 /* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
 
+/**
+ * Returns the owner window of a given element.
+ * 
+ * @param node the element
+ */
+
 function ownerWindow(node) {
-  var doc = (0,_ownerDocument__WEBPACK_IMPORTED_MODULE_0__.default)(node);
+  var doc = (0,_ownerDocument__WEBPACK_IMPORTED_MODULE_0__["default"])(node);
   return doc && doc.defaultView || window;
 }
 
@@ -16360,18 +14618,21 @@ function ownerWindow(node) {
 /*!**********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/querySelectorAll.js ***!
   \**********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ qsa
+/* harmony export */   "default": () => (/* binding */ qsa)
 /* harmony export */ });
 var toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
+/**
+ * Runs `querySelectorAll` on a given element.
+ * 
+ * @param element the element
+ * @param selector the selector
+ */
+
 function qsa(element, selector) {
   return toArray(element.querySelectorAll(selector));
 }
@@ -16382,17 +14643,21 @@ function qsa(element, selector) {
 /*!*************************************************************!*\
   !*** ./node_modules/dom-helpers/esm/removeEventListener.js ***!
   \*************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/**
+ * A `removeEventListener` ponyfill
+ * 
+ * @param node the element
+ * @param eventName the event name
+ * @param handle the handler
+ * @param options event options
+ */
 function removeEventListener(node, eventName, handler, options) {
   var capture = options && typeof options !== 'boolean' ? options.capture : options;
   node.removeEventListener(eventName, handler, capture);
@@ -16410,32 +14675,24 @@ function removeEventListener(node, eventName, handler, options) {
 /*!*******************************************************!*\
   !*** ./node_modules/dom-helpers/esm/transitionEnd.js ***!
   \*******************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ transitionEnd
+/* harmony export */   "default": () => (/* binding */ transitionEnd)
 /* harmony export */ });
 /* harmony import */ var _css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css */ "./node_modules/dom-helpers/esm/css.js");
 /* harmony import */ var _listen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listen */ "./node_modules/dom-helpers/esm/listen.js");
+/* harmony import */ var _triggerEvent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./triggerEvent */ "./node_modules/dom-helpers/esm/triggerEvent.js");
+
 
 
 
 function parseDuration(node) {
-  var str = (0,_css__WEBPACK_IMPORTED_MODULE_0__.default)(node, 'transitionDuration') || '';
+  var str = (0,_css__WEBPACK_IMPORTED_MODULE_0__["default"])(node, 'transitionDuration') || '';
   var mult = str.indexOf('ms') === -1 ? 1000 : 1;
   return parseFloat(str) * mult;
-}
-
-function triggerTransitionEnd(element) {
-  var evt = document.createEvent('HTMLEvents');
-  evt.initEvent('transitionend', true, true);
-  element.dispatchEvent(evt);
 }
 
 function emulateTransitionEnd(element, duration, padding) {
@@ -16445,9 +14702,9 @@ function emulateTransitionEnd(element, duration, padding) {
 
   var called = false;
   var handle = setTimeout(function () {
-    if (!called) triggerTransitionEnd(element);
+    if (!called) (0,_triggerEvent__WEBPACK_IMPORTED_MODULE_2__["default"])(element, 'transitionend', true);
   }, duration + padding);
-  var remove = (0,_listen__WEBPACK_IMPORTED_MODULE_1__.default)(element, 'transitionend', function () {
+  var remove = (0,_listen__WEBPACK_IMPORTED_MODULE_1__["default"])(element, 'transitionend', function () {
     called = true;
   }, {
     once: true
@@ -16461,7 +14718,7 @@ function emulateTransitionEnd(element, duration, padding) {
 function transitionEnd(element, handler, duration, padding) {
   if (duration == null) duration = parseDuration(element) || 0;
   var removeEmulate = emulateTransitionEnd(element, duration, padding);
-  var remove = (0,_listen__WEBPACK_IMPORTED_MODULE_1__.default)(element, 'transitionend', handler);
+  var remove = (0,_listen__WEBPACK_IMPORTED_MODULE_1__["default"])(element, 'transitionend', handler);
   return function () {
     removeEmulate();
     remove();
@@ -16470,32 +14727,59 @@ function transitionEnd(element, handler, duration, padding) {
 
 /***/ }),
 
-/***/ "./node_modules/history/esm/history.js":
-/*!*********************************************!*\
-  !*** ./node_modules/history/esm/history.js ***!
-  \*********************************************/
-/*! namespace exports */
-/*! export createBrowserHistory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createHashHistory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createLocation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createMemoryHistory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createPath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export locationsAreEqual [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export parsePath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ "./node_modules/dom-helpers/esm/triggerEvent.js":
+/*!******************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/triggerEvent.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createBrowserHistory": () => /* binding */ createBrowserHistory,
-/* harmony export */   "createHashHistory": () => /* binding */ createHashHistory,
-/* harmony export */   "createMemoryHistory": () => /* binding */ createMemoryHistory,
-/* harmony export */   "createLocation": () => /* binding */ createLocation,
-/* harmony export */   "locationsAreEqual": () => /* binding */ locationsAreEqual,
-/* harmony export */   "parsePath": () => /* binding */ parsePath,
-/* harmony export */   "createPath": () => /* binding */ createPath
+/* harmony export */   "default": () => (/* binding */ triggerEvent)
+/* harmony export */ });
+/**
+ * Triggers an event on a given element.
+ * 
+ * @param node the element
+ * @param eventName the event name to trigger
+ * @param bubbles whether the event should bubble up
+ * @param cancelable whether the event should be cancelable
+ */
+function triggerEvent(node, eventName, bubbles, cancelable) {
+  if (bubbles === void 0) {
+    bubbles = false;
+  }
+
+  if (cancelable === void 0) {
+    cancelable = true;
+  }
+
+  if (node) {
+    var event = document.createEvent('HTMLEvents');
+    event.initEvent(eventName, bubbles, cancelable);
+    node.dispatchEvent(event);
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/history/esm/history.js":
+/*!*********************************************!*\
+  !*** ./node_modules/history/esm/history.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createBrowserHistory": () => (/* binding */ createBrowserHistory),
+/* harmony export */   "createHashHistory": () => (/* binding */ createHashHistory),
+/* harmony export */   "createMemoryHistory": () => (/* binding */ createMemoryHistory),
+/* harmony export */   "createLocation": () => (/* binding */ createLocation),
+/* harmony export */   "locationsAreEqual": () => (/* binding */ locationsAreEqual),
+/* harmony export */   "parsePath": () => (/* binding */ parsePath),
+/* harmony export */   "createPath": () => (/* binding */ createPath)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var resolve_pathname__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! resolve-pathname */ "./node_modules/resolve-pathname/esm/resolve-pathname.js");
@@ -16566,7 +14850,7 @@ function createLocation(path, state, key, currentLocation) {
     location.state = state;
   } else {
     // One-arg form: push(location)
-    location = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, path);
+    location = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, path);
     if (location.pathname === undefined) location.pathname = '';
 
     if (location.search) {
@@ -16601,7 +14885,7 @@ function createLocation(path, state, key, currentLocation) {
     if (!location.pathname) {
       location.pathname = currentLocation.pathname;
     } else if (location.pathname.charAt(0) !== '/') {
-      location.pathname = (0,resolve_pathname__WEBPACK_IMPORTED_MODULE_1__.default)(location.pathname, currentLocation.pathname);
+      location.pathname = (0,resolve_pathname__WEBPACK_IMPORTED_MODULE_1__["default"])(location.pathname, currentLocation.pathname);
     }
   } else {
     // When there is no prior location and pathname is empty, set it to /
@@ -16613,14 +14897,14 @@ function createLocation(path, state, key, currentLocation) {
   return location;
 }
 function locationsAreEqual(a, b) {
-  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && (0,value_equal__WEBPACK_IMPORTED_MODULE_2__.default)(a.state, b.state);
+  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && (0,value_equal__WEBPACK_IMPORTED_MODULE_2__["default"])(a.state, b.state);
 }
 
 function createTransitionManager() {
   var prompt = null;
 
   function setPrompt(nextPrompt) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(prompt == null, 'A history supports only one prompt at a time') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(prompt == null, 'A history supports only one prompt at a time') : 0;
     prompt = nextPrompt;
     return function () {
       if (prompt === nextPrompt) prompt = null;
@@ -16638,7 +14922,7 @@ function createTransitionManager() {
         if (typeof getUserConfirmation === 'function') {
           getUserConfirmation(result, callback);
         } else {
-           true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : 0;
+           true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : 0;
           callback(true);
         }
       } else {
@@ -16751,7 +15035,7 @@ function createBrowserHistory(props) {
     props = {};
   }
 
-  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__.default)(false, 'Browser history needs a DOM') : 0 : void 0;
+  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Browser history needs a DOM') : 0 : void 0;
   var globalHistory = window.history;
   var canUseHistory = supportsHistory();
   var needsHashChangeListener = !supportsPopStateOnHashChange();
@@ -16774,7 +15058,7 @@ function createBrowserHistory(props) {
         search = _window$location.search,
         hash = _window$location.hash;
     var path = pathname + search + hash;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
     if (basename) path = stripBasename(path, basename);
     return createLocation(path, state, key);
   }
@@ -16786,7 +15070,7 @@ function createBrowserHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = globalHistory.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -16848,7 +15132,7 @@ function createBrowserHistory(props) {
   }
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -16876,14 +15160,14 @@ function createBrowserHistory(props) {
           });
         }
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : 0;
         window.location.href = href;
       }
     });
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -16909,7 +15193,7 @@ function createBrowserHistory(props) {
           });
         }
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : 0;
         window.location.replace(href);
       }
     });
@@ -17036,7 +15320,7 @@ function createHashHistory(props) {
     props = {};
   }
 
-  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__.default)(false, 'Hash history needs a DOM') : 0 : void 0;
+  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Hash history needs a DOM') : 0 : void 0;
   var globalHistory = window.history;
   var canGoWithoutReload = supportsGoWithoutReloadUsingHash();
   var _props = props,
@@ -17051,7 +15335,7 @@ function createHashHistory(props) {
 
   function getDOMLocation() {
     var path = decodePath(getHashPath());
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
     if (basename) path = stripBasename(path, basename);
     return createLocation(path);
   }
@@ -17059,7 +15343,7 @@ function createHashHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = globalHistory.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -17146,7 +15430,7 @@ function createHashHistory(props) {
   }
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Hash history cannot push state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot push state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, undefined, undefined, history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -17170,14 +15454,14 @@ function createHashHistory(props) {
           location: location
         });
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : 0;
         setState();
       }
     });
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Hash history cannot replace state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot replace state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, undefined, undefined, history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -17204,7 +15488,7 @@ function createHashHistory(props) {
   }
 
   function go(n) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : 0;
     globalHistory.go(n);
   }
 
@@ -17301,7 +15585,7 @@ function createMemoryHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = history.entries.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -17319,7 +15603,7 @@ function createMemoryHistory(props) {
   var createHref = createPath;
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -17344,7 +15628,7 @@ function createMemoryHistory(props) {
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -17429,9 +15713,6 @@ function createMemoryHistory(props) {
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
   \**********************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 103:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -17546,9 +15827,6 @@ module.exports = hoistNonReactStatics;
 /*!*******************************************!*\
   !*** ./node_modules/invariant/browser.js ***!
   \*******************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 49:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -17609,22 +15887,18 @@ module.exports = invariant;
 /*!******************************************************************!*\
   !*** ./node_modules/mini-create-react-context/dist/esm/index.js ***!
   \******************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.g, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
 
 
 
@@ -17679,7 +15953,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
   var contextProp = '__create-react-context-' + getUniqueId() + '__';
 
   var Provider = /*#__PURE__*/function (_Component) {
-    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(Provider, _Component);
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Provider, _Component);
 
     function Provider() {
       var _this;
@@ -17709,7 +15983,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
           changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
 
           if (true) {
-            (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
+            (0,tiny_warning__WEBPACK_IMPORTED_MODULE_2__["default"])((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
           }
 
           changedBits |= 0;
@@ -17728,10 +16002,10 @@ function createReactContext(defaultValue, calculateChangedBits) {
     return Provider;
   }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object.isRequired), _Provider$childContex);
+  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object.isRequired), _Provider$childContex);
 
   var Consumer = /*#__PURE__*/function (_Component2) {
-    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(Consumer, _Component2);
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Consumer, _Component2);
 
     function Consumer() {
       var _this2;
@@ -17791,7 +16065,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
     return Consumer;
   }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object), _Consumer$contextType);
+  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object), _Consumer$contextType);
   return {
     Provider: Provider,
     Consumer: Consumer
@@ -17809,9 +16083,6 @@ var index = react__WEBPACK_IMPORTED_MODULE_0__.createContext || createReactConte
 /*!***********************************************************!*\
   !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
   \***********************************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17825,9 +16096,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!**************************************************************!*\
   !*** ./node_modules/highlight.js/styles/monokai-sublime.css ***!
   \**************************************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17841,9 +16109,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!**************************************************!*\
   !*** ./node_modules/normalize.css/normalize.css ***!
   \**************************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17857,9 +16122,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************!*\
   !*** ./src/client/styles/styles.scss ***!
   \***************************************/
-/*! namespace exports */
-/*! exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17873,9 +16135,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
   \*********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -17977,9 +16236,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /*!**************************************************!*\
   !*** ./node_modules/prop-types-extra/lib/all.js ***!
   \**************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 42:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -17988,7 +16244,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = all;
+exports["default"] = all;
 
 var _createChainableTypeChecker = __webpack_require__(/*! ./utils/createChainableTypeChecker */ "./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js");
 
@@ -18032,9 +16288,6 @@ module.exports = exports['default'];
 /*!*******************************************************************************!*\
   !*** ./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js ***!
   \*******************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 43:0-14 */
 /***/ ((module, exports) => {
 
 "use strict";
@@ -18043,7 +16296,7 @@ module.exports = exports['default'];
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = createChainableTypeChecker;
+exports["default"] = createChainableTypeChecker;
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18088,9 +16341,6 @@ module.exports = exports['default'];
 /*!***************************************************!*\
   !*** ./node_modules/prop-types/checkPropTypes.js ***!
   \***************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 102:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -18108,7 +16358,7 @@ var printWarning = function() {};
 if (true) {
   var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
-  var has = Function.call.bind(Object.prototype.hasOwnProperty);
+  var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 
   printWarning = function(text) {
     var message = 'Warning: ' + text;
@@ -18120,7 +16370,7 @@ if (true) {
       // This error was thrown as a convenience so that you can use this stack
       // to find the callsite that caused this warning to fire.
       throw new Error(message);
-    } catch (x) {}
+    } catch (x) { /**/ }
   };
 }
 
@@ -18149,7 +16399,8 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
           if (typeof typeSpecs[typeSpecName] !== 'function') {
             var err = Error(
               (componentName || 'React class') + ': ' + location + ' type `' + typeSpecName + '` is invalid; ' +
-              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.'
+              'it must be a function, usually from the `prop-types` package, but received `' + typeof typeSpecs[typeSpecName] + '`.' +
+              'This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.'
             );
             err.name = 'Invariant Violation';
             throw err;
@@ -18204,9 +16455,6 @@ module.exports = checkPropTypes;
 /*!************************************************************!*\
   !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
   \************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 38:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -18223,9 +16471,9 @@ var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var has = __webpack_require__(/*! ./lib/has */ "./node_modules/prop-types/lib/has.js");
 var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
 
-var has = Function.call.bind(Object.prototype.hasOwnProperty);
 var printWarning = function() {};
 
 if (true) {
@@ -18326,6 +16574,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
   var ReactPropTypes = {
     array: createPrimitiveTypeChecker('array'),
+    bigint: createPrimitiveTypeChecker('bigint'),
     bool: createPrimitiveTypeChecker('boolean'),
     func: createPrimitiveTypeChecker('function'),
     number: createPrimitiveTypeChecker('number'),
@@ -18371,8 +16620,9 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    * is prohibitively expensive if they are created too often, such as what
    * happens in oneOfType() for any type before the one that matched.
    */
-  function PropTypeError(message) {
+  function PropTypeError(message, data) {
     this.message = message;
+    this.data = data && typeof data === 'object' ? data: {};
     this.stack = '';
   }
   // Make `instanceof Error` still work for returned errors.
@@ -18407,7 +16657,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           ) {
             printWarning(
               'You are manually calling a React.PropTypes validation ' +
-              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'function for the `' + propFullName + '` prop on `' + componentName + '`. This is deprecated ' +
               'and will throw in the standalone `prop-types` package. ' +
               'You may be seeing this warning due to a third-party PropTypes ' +
               'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
@@ -18446,7 +16696,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
         // 'of type `object`'.
         var preciseType = getPreciseType(propValue);
 
-        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+        return new PropTypeError(
+          'Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'),
+          {expectedType: expectedType}
+        );
       }
       return null;
     }
@@ -18590,14 +16843,19 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     }
 
     function validate(props, propName, componentName, location, propFullName) {
+      var expectedTypes = [];
       for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
         var checker = arrayOfTypeCheckers[i];
-        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+        var checkerResult = checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret);
+        if (checkerResult == null) {
           return null;
         }
+        if (checkerResult.data && has(checkerResult.data, 'expectedType')) {
+          expectedTypes.push(checkerResult.data.expectedType);
+        }
       }
-
-      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+      var expectedTypesMessage = (expectedTypes.length > 0) ? ', expected one of type [' + expectedTypes.join(', ') + ']': '';
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`' + expectedTypesMessage + '.'));
     }
     return createChainableTypeChecker(validate);
   }
@@ -18612,6 +16870,13 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return createChainableTypeChecker(validate);
   }
 
+  function invalidValidatorError(componentName, location, propFullName, key, type) {
+    return new PropTypeError(
+      (componentName || 'React class') + ': ' + location + ' type `' + propFullName + '.' + key + '` is invalid; ' +
+      'it must be a function, usually from the `prop-types` package, but received `' + type + '`.'
+    );
+  }
+
   function createShapeTypeChecker(shapeTypes) {
     function validate(props, propName, componentName, location, propFullName) {
       var propValue = props[propName];
@@ -18621,8 +16886,8 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       }
       for (var key in shapeTypes) {
         var checker = shapeTypes[key];
-        if (!checker) {
-          continue;
+        if (typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
         if (error) {
@@ -18641,16 +16906,18 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       if (propType !== 'object') {
         return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
       }
-      // We need to check all keys in case some are required but missing from
-      // props.
+      // We need to check all keys in case some are required but missing from props.
       var allKeys = assign({}, props[propName], shapeTypes);
       for (var key in allKeys) {
         var checker = shapeTypes[key];
+        if (has(shapeTypes, key) && typeof checker !== 'function') {
+          return invalidValidatorError(componentName, location, propFullName, key, getPreciseType(checker));
+        }
         if (!checker) {
           return new PropTypeError(
             'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
             '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
-            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+            '\nValid keys: ' + JSON.stringify(Object.keys(shapeTypes), null, '  ')
           );
         }
         var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
@@ -18809,9 +17076,6 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /*!******************************************!*\
   !*** ./node_modules/prop-types/index.js ***!
   \******************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 14:2-16 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
@@ -18837,9 +17101,6 @@ if (true) {
 /*!*************************************************************!*\
   !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
   \*************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -18859,20 +17120,27 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
+/***/ "./node_modules/prop-types/lib/has.js":
+/*!********************************************!*\
+  !*** ./node_modules/prop-types/lib/has.js ***!
+  \********************************************/
+/***/ ((module) => {
+
+module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
 /***/ "./node_modules/react-bootstrap/esm/AbstractNav.js":
 /*!*********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/AbstractNav.js ***!
   \*********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -18885,6 +17153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _TabContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./TabContext */ "./node_modules/react-bootstrap/esm/TabContext.js");
 
 
+var _excluded = ["as", "onSelect", "activeKey", "role", "onKeyDown"];
 
 
 
@@ -18896,21 +17165,21 @@ __webpack_require__.r(__webpack_exports__);
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 var noop = function noop() {};
 
-var AbstractNav = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var AbstractNav = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'ul' : _ref$as,
       onSelect = _ref.onSelect,
       activeKey = _ref.activeKey,
       role = _ref.role,
       onKeyDown = _ref.onKeyDown,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["as", "onSelect", "activeKey", "role", "onKeyDown"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   // A ref and forceUpdate for refocus, b/c we only want to trigger when needed
   // and don't want to reset the set in the effect
-  var forceUpdate = (0,_restart_hooks_useForceUpdate__WEBPACK_IMPORTED_MODULE_4__.default)();
+  var forceUpdate = (0,_restart_hooks_useForceUpdate__WEBPACK_IMPORTED_MODULE_4__["default"])();
   var needsRefocusRef = (0,react__WEBPACK_IMPORTED_MODULE_3__.useRef)(false);
-  var parentOnSelect = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__.default);
-  var tabContext = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_TabContext__WEBPACK_IMPORTED_MODULE_7__.default);
+  var parentOnSelect = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__["default"]);
+  var tabContext = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_TabContext__WEBPACK_IMPORTED_MODULE_7__["default"]);
   var getControlledId, getControllerId;
 
   if (tabContext) {
@@ -18925,7 +17194,7 @@ var AbstractNav = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, 
   var getNextActiveChild = function getNextActiveChild(offset) {
     var currentListNode = listNode.current;
     if (!currentListNode) return null;
-    var items = (0,dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__.default)(currentListNode, '[data-rb-event-key]:not(.disabled)');
+    var items = (0,dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(currentListNode, '[data-rb-event-key]:not(.disabled)');
     var activeChild = currentListNode.querySelector('.active');
     if (!activeChild) return null;
     var index = items.indexOf(activeChild);
@@ -18976,10 +17245,10 @@ var AbstractNav = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, 
 
     needsRefocusRef.current = false;
   });
-  var mergedRef = (0,_restart_hooks_useMergedRefs__WEBPACK_IMPORTED_MODULE_5__.default)(ref, listNode);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__.default.Provider, {
+  var mergedRef = (0,_restart_hooks_useMergedRefs__WEBPACK_IMPORTED_MODULE_5__["default"])(ref, listNode);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__["default"].Provider, {
     value: handleSelect
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_NavContext__WEBPACK_IMPORTED_MODULE_8__.default.Provider, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_NavContext__WEBPACK_IMPORTED_MODULE_8__["default"].Provider, {
     value: {
       role: role,
       // used by NavLink to determine it's role
@@ -18987,7 +17256,7 @@ var AbstractNav = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, 
       getControlledId: getControlledId || noop,
       getControllerId: getControllerId || noop
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     onKeyDown: handleKeyDown,
     ref: mergedRef,
     role: role
@@ -19001,16 +17270,12 @@ var AbstractNav = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, 
 /*!*************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/AbstractNavItem.js ***!
   \*************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19024,6 +17289,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SelectableContext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SelectableContext */ "./node_modules/react-bootstrap/esm/SelectableContext.js");
 
 
+var _excluded = ["active", "className", "eventKey", "onSelect", "onClick", "as"];
 
 
 
@@ -19033,18 +17299,18 @@ __webpack_require__.r(__webpack_exports__);
 var defaultProps = {
   disabled: false
 };
-var AbstractNavItem = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var AbstractNavItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var active = _ref.active,
       className = _ref.className,
       eventKey = _ref.eventKey,
       onSelect = _ref.onSelect,
       onClick = _ref.onClick,
       Component = _ref.as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["active", "className", "eventKey", "onSelect", "onClick", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   var navKey = (0,_SelectableContext__WEBPACK_IMPORTED_MODULE_6__.makeEventKey)(eventKey, props.href);
-  var parentOnSelect = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__.default);
-  var navContext = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_NavContext__WEBPACK_IMPORTED_MODULE_7__.default);
+  var parentOnSelect = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_SelectableContext__WEBPACK_IMPORTED_MODULE_6__["default"]);
+  var navContext = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_NavContext__WEBPACK_IMPORTED_MODULE_7__["default"]);
   var isActive = active;
 
   if (navContext) {
@@ -19060,17 +17326,21 @@ var AbstractNavItem = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_r
   }
 
   if (props.role === 'tab') {
-    props.tabIndex = isActive ? props.tabIndex : -1;
+    if (props.disabled) {
+      props.tabIndex = -1;
+      props['aria-disabled'] = true;
+    }
+
     props['aria-selected'] = isActive;
   }
 
-  var handleOnclick = (0,_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__.default)(function (e) {
+  var handleOnclick = (0,_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__["default"])(function (e) {
     if (onClick) onClick(e);
     if (navKey == null) return;
     if (onSelect) onSelect(navKey, e);
     if (parentOnSelect) parentOnSelect(navKey, e);
   });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     ref: ref,
     onClick: handleOnclick,
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, isActive && 'active')
@@ -19085,20 +17355,16 @@ AbstractNavItem.defaultProps = defaultProps;
 /*!*********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/CardContext.js ***!
   \*********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var context = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+var context = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 context.displayName = 'CardContext';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (context);
 
@@ -19108,16 +17374,12 @@ context.displayName = 'CardContext';
 /*!*************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Col.js ***!
   \*************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19127,17 +17389,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "className", "as"];
 
 
 
 var DEVICE_SIZES = ['xl', 'lg', 'md', 'sm', 'xs'];
-var Col = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef( // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+var Col = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef( // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       className = _ref.className,
       _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'div' : _ref$as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "className", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   var prefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'col');
   var spans = [];
@@ -19168,7 +17431,7 @@ function (_ref, ref) {
     spans.push(prefix); // plain 'col'
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     ref: ref,
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default().apply(void 0, [className].concat(spans, classes))
   }));
@@ -19182,29 +17445,26 @@ Col.displayName = 'Col';
 /*!******************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Collapse.js ***!
   \******************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var dom_helpers_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dom-helpers/css */ "./node_modules/dom-helpers/esm/css.js");
-/* harmony import */ var dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dom-helpers/transitionEnd */ "./node_modules/dom-helpers/esm/transitionEnd.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-transition-group/Transition */ "./node_modules/react-transition-group/esm/Transition.js");
-/* harmony import */ var _createChainedFunction__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./createChainedFunction */ "./node_modules/react-bootstrap/esm/createChainedFunction.js");
-/* harmony import */ var _triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./triggerBrowserReflow */ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-transition-group/Transition */ "./node_modules/react-transition-group/esm/Transition.js");
+/* harmony import */ var _transitionEndListener__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./transitionEndListener */ "./node_modules/react-bootstrap/esm/transitionEndListener.js");
+/* harmony import */ var _createChainedFunction__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./createChainedFunction */ "./node_modules/react-bootstrap/esm/createChainedFunction.js");
+/* harmony import */ var _triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./triggerBrowserReflow */ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js");
 
 
+var _excluded = ["onEnter", "onEntering", "onEntered", "onExit", "onExiting", "className", "children", "dimension", "getDimensionValue"];
 
 var _collapseStyles;
 
@@ -19225,11 +17485,11 @@ function getDefaultDimensionValue(dimension, elem) {
   var value = elem[offset];
   var margins = MARGINS[dimension];
   return value + // @ts-ignore
-  parseInt((0,dom_helpers_css__WEBPACK_IMPORTED_MODULE_3__.default)(elem, margins[0]), 10) + // @ts-ignore
-  parseInt((0,dom_helpers_css__WEBPACK_IMPORTED_MODULE_3__.default)(elem, margins[1]), 10);
+  parseInt((0,dom_helpers_css__WEBPACK_IMPORTED_MODULE_3__["default"])(elem, margins[0]), 10) + // @ts-ignore
+  parseInt((0,dom_helpers_css__WEBPACK_IMPORTED_MODULE_3__["default"])(elem, margins[1]), 10);
 }
 
-var collapseStyles = (_collapseStyles = {}, _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__.EXITED] = 'collapse', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__.EXITING] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__.ENTERING] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__.ENTERED] = 'collapse show', _collapseStyles);
+var collapseStyles = (_collapseStyles = {}, _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__.EXITED] = 'collapse', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__.EXITING] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__.ENTERING] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__.ENTERED] = 'collapse show', _collapseStyles);
 var defaultProps = {
   in: false,
   timeout: 300,
@@ -19238,7 +17498,7 @@ var defaultProps = {
   appear: false,
   getDimensionValue: getDefaultDimensionValue
 };
-var Collapse = react__WEBPACK_IMPORTED_MODULE_5__.forwardRef(function (_ref, ref) {
+var Collapse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (_ref, ref) {
   var onEnter = _ref.onEnter,
       onEntering = _ref.onEntering,
       onEntered = _ref.onEntered,
@@ -19250,45 +17510,45 @@ var Collapse = react__WEBPACK_IMPORTED_MODULE_5__.forwardRef(function (_ref, ref
       dimension = _ref$dimension === void 0 ? 'height' : _ref$dimension,
       _ref$getDimensionValu = _ref.getDimensionValue,
       getDimensionValue = _ref$getDimensionValu === void 0 ? getDefaultDimensionValue : _ref$getDimensionValu,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["onEnter", "onEntering", "onEntered", "onExit", "onExiting", "className", "children", "dimension", "getDimensionValue"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   /* Compute dimension */
   var computedDimension = typeof dimension === 'function' ? dimension() : dimension;
   /* -- Expanding -- */
 
-  var handleEnter = (0,react__WEBPACK_IMPORTED_MODULE_5__.useMemo)(function () {
-    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_7__.default)(function (elem) {
+  var handleEnter = (0,react__WEBPACK_IMPORTED_MODULE_4__.useMemo)(function () {
+    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_6__["default"])(function (elem) {
       elem.style[computedDimension] = '0';
     }, onEnter);
   }, [computedDimension, onEnter]);
-  var handleEntering = (0,react__WEBPACK_IMPORTED_MODULE_5__.useMemo)(function () {
-    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_7__.default)(function (elem) {
+  var handleEntering = (0,react__WEBPACK_IMPORTED_MODULE_4__.useMemo)(function () {
+    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_6__["default"])(function (elem) {
       var scroll = "scroll" + computedDimension[0].toUpperCase() + computedDimension.slice(1);
       elem.style[computedDimension] = elem[scroll] + "px";
     }, onEntering);
   }, [computedDimension, onEntering]);
-  var handleEntered = (0,react__WEBPACK_IMPORTED_MODULE_5__.useMemo)(function () {
-    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_7__.default)(function (elem) {
+  var handleEntered = (0,react__WEBPACK_IMPORTED_MODULE_4__.useMemo)(function () {
+    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_6__["default"])(function (elem) {
       elem.style[computedDimension] = null;
     }, onEntered);
   }, [computedDimension, onEntered]);
   /* -- Collapsing -- */
 
-  var handleExit = (0,react__WEBPACK_IMPORTED_MODULE_5__.useMemo)(function () {
-    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_7__.default)(function (elem) {
+  var handleExit = (0,react__WEBPACK_IMPORTED_MODULE_4__.useMemo)(function () {
+    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_6__["default"])(function (elem) {
       elem.style[computedDimension] = getDimensionValue(computedDimension, elem) + "px";
-      (0,_triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_8__.default)(elem);
+      (0,_triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_7__["default"])(elem);
     }, onExit);
   }, [onExit, getDimensionValue, computedDimension]);
-  var handleExiting = (0,react__WEBPACK_IMPORTED_MODULE_5__.useMemo)(function () {
-    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_7__.default)(function (elem) {
+  var handleExiting = (0,react__WEBPACK_IMPORTED_MODULE_4__.useMemo)(function () {
+    return (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_6__["default"])(function (elem) {
       elem.style[computedDimension] = null;
     }, onExiting);
   }, [computedDimension, onExiting]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_6__.default // @ts-ignore
-  , (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__["default"] // @ts-ignore
+  , (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     ref: ref,
-    addEndListener: dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_4__.default
+    addEndListener: _transitionEndListener__WEBPACK_IMPORTED_MODULE_8__["default"]
   }, props, {
     "aria-expanded": props.role ? props.in : null,
     onEnter: handleEnter,
@@ -19297,7 +17557,7 @@ var Collapse = react__WEBPACK_IMPORTED_MODULE_5__.forwardRef(function (_ref, ref
     onExit: handleExit,
     onExiting: handleExiting
   }), function (state, innerProps) {
-    return react__WEBPACK_IMPORTED_MODULE_5__.cloneElement(children, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, innerProps, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.cloneElement(children, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, innerProps, {
       className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, children.props.className, collapseStyles[state], computedDimension === 'width' && 'width')
     }));
   });
@@ -19313,16 +17573,12 @@ Collapse.defaultProps = defaultProps;
 /*!*******************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Container.js ***!
   \*******************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19332,23 +17588,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "fluid", "as", "className"];
 
 
 
 var defaultProps = {
   fluid: false
 };
-var Container = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var Container = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       fluid = _ref.fluid,
       _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'div' : _ref$as,
       className = _ref.className,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "fluid", "as", "className"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   var prefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'container');
   var suffix = typeof fluid === 'string' ? "-" + fluid : '-fluid';
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     ref: ref
   }, props, {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, fluid ? "" + prefix + suffix : prefix)
@@ -19364,16 +17621,12 @@ Container.defaultProps = defaultProps;
 /*!*************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Nav.js ***!
   \*************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19382,7 +17635,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types_extra_lib_all__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types-extra/lib/all */ "./node_modules/prop-types-extra/lib/all.js");
 /* harmony import */ var prop_types_extra_lib_all__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types_extra_lib_all__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/esm/index.js");
+/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/lib/esm/index.js");
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 /* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
 /* harmony import */ var _CardContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CardContext */ "./node_modules/react-bootstrap/esm/CardContext.js");
@@ -19391,6 +17644,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavLink__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./NavLink */ "./node_modules/react-bootstrap/esm/NavLink.js");
 
 
+var _excluded = ["as", "bsPrefix", "variant", "fill", "justify", "navbar", "navbarScroll", "className", "children", "activeKey"];
 
 
 
@@ -19405,7 +17659,7 @@ var defaultProps = {
   justify: false,
   fill: false
 };
-var Nav = react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (uncontrolledProps, ref) {
+var Nav = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (uncontrolledProps, ref) {
   var _classNames;
 
   var _useUncontrolled = (0,uncontrollable__WEBPACK_IMPORTED_MODULE_5__.useUncontrolled)(uncontrolledProps, {
@@ -19418,17 +17672,18 @@ var Nav = react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (uncontrolledPr
       fill = _useUncontrolled.fill,
       justify = _useUncontrolled.justify,
       navbar = _useUncontrolled.navbar,
+      navbarScroll = _useUncontrolled.navbarScroll,
       className = _useUncontrolled.className,
       children = _useUncontrolled.children,
       activeKey = _useUncontrolled.activeKey,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_useUncontrolled, ["as", "bsPrefix", "variant", "fill", "justify", "navbar", "className", "children", "activeKey"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_useUncontrolled, _excluded);
 
   var bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_6__.useBootstrapPrefix)(initialBsPrefix, 'nav');
   var navbarBsPrefix;
   var cardHeaderBsPrefix;
   var isNavbar = false;
-  var navbarContext = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_NavbarContext__WEBPACK_IMPORTED_MODULE_7__.default);
-  var cardContext = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_CardContext__WEBPACK_IMPORTED_MODULE_8__.default);
+  var navbarContext = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_NavbarContext__WEBPACK_IMPORTED_MODULE_7__["default"]);
+  var cardContext = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_CardContext__WEBPACK_IMPORTED_MODULE_8__["default"]);
 
   if (navbarContext) {
     navbarBsPrefix = navbarContext.bsPrefix;
@@ -19437,17 +17692,17 @@ var Nav = react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (uncontrolledPr
     cardHeaderBsPrefix = cardContext.cardHeaderBsPrefix;
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(_AbstractNav__WEBPACK_IMPORTED_MODULE_9__.default, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(_AbstractNav__WEBPACK_IMPORTED_MODULE_9__["default"], (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     as: as,
     ref: ref,
     activeKey: activeKey,
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, (_classNames = {}, _classNames[bsPrefix] = !isNavbar, _classNames[navbarBsPrefix + "-nav"] = isNavbar, _classNames[cardHeaderBsPrefix + "-" + variant] = !!cardHeaderBsPrefix, _classNames[bsPrefix + "-" + variant] = !!variant, _classNames[bsPrefix + "-fill"] = fill, _classNames[bsPrefix + "-justified"] = justify, _classNames))
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, (_classNames = {}, _classNames[bsPrefix] = !isNavbar, _classNames[navbarBsPrefix + "-nav"] = isNavbar, _classNames[navbarBsPrefix + "-nav-scroll"] = isNavbar && navbarScroll, _classNames[cardHeaderBsPrefix + "-" + variant] = !!cardHeaderBsPrefix, _classNames[bsPrefix + "-" + variant] = !!variant, _classNames[bsPrefix + "-fill"] = fill, _classNames[bsPrefix + "-justified"] = justify, _classNames))
   }, props), children);
 });
 Nav.displayName = 'Nav';
 Nav.defaultProps = defaultProps;
-Nav.Item = _NavItem__WEBPACK_IMPORTED_MODULE_10__.default;
-Nav.Link = _NavLink__WEBPACK_IMPORTED_MODULE_11__.default;
+Nav.Item = _NavItem__WEBPACK_IMPORTED_MODULE_10__["default"];
+Nav.Link = _NavLink__WEBPACK_IMPORTED_MODULE_11__["default"];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
 
 /***/ }),
@@ -19456,21 +17711,17 @@ Nav.Link = _NavLink__WEBPACK_IMPORTED_MODULE_11__.default;
 /*!********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavContext.js ***!
   \********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
  // TODO: check this
 
-var NavContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+var NavContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 NavContext.displayName = 'NavContext';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavContext);
 
@@ -19480,16 +17731,12 @@ NavContext.displayName = 'NavContext';
 /*!*****************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavItem.js ***!
   \*****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19499,20 +17746,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "className", "children", "as"];
 
 
 
-var NavItem = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef( // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+var NavItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef( // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       className = _ref.className,
       children = _ref.children,
       _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'div' : _ref$as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "className", "children", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'nav-item');
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     ref: ref,
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix)
   }), children);
@@ -19526,16 +17774,12 @@ NavItem.displayName = 'NavItem';
 /*!*****************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavLink.js ***!
   \*****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19547,6 +17791,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "disabled", "className", "href", "eventKey", "onSelect", "as"];
 
 
 
@@ -19554,9 +17799,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var defaultProps = {
   disabled: false,
-  as: _SafeAnchor__WEBPACK_IMPORTED_MODULE_4__.default
+  as: _SafeAnchor__WEBPACK_IMPORTED_MODULE_4__["default"]
 };
-var NavLink = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var NavLink = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       disabled = _ref.disabled,
       className = _ref.className,
@@ -19564,10 +17809,10 @@ var NavLink = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref)
       eventKey = _ref.eventKey,
       onSelect = _ref.onSelect,
       as = _ref.as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "disabled", "className", "href", "eventKey", "onSelect", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__.useBootstrapPrefix)(bsPrefix, 'nav-link');
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_AbstractNavItem__WEBPACK_IMPORTED_MODULE_6__.default, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_AbstractNavItem__WEBPACK_IMPORTED_MODULE_6__["default"], (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     href: href,
     ref: ref,
     eventKey: eventKey,
@@ -19587,23 +17832,19 @@ NavLink.defaultProps = defaultProps;
 /*!****************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Navbar.js ***!
   \****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/esm/index.js");
+/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/lib/esm/index.js");
 /* harmony import */ var _createWithBsPrefix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./createWithBsPrefix */ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js");
 /* harmony import */ var _NavbarBrand__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./NavbarBrand */ "./node_modules/react-bootstrap/esm/NavbarBrand.js");
 /* harmony import */ var _NavbarCollapse__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./NavbarCollapse */ "./node_modules/react-bootstrap/esm/NavbarCollapse.js");
@@ -19613,6 +17854,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SelectableContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SelectableContext */ "./node_modules/react-bootstrap/esm/SelectableContext.js");
 
 
+var _excluded = ["bsPrefix", "expand", "variant", "bg", "fixed", "sticky", "className", "children", "as", "expanded", "onToggle", "onSelect", "collapseOnSelect"];
 
 
 
@@ -19623,7 +17865,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var NavbarText = (0,_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_5__.default)('navbar-text', {
+var NavbarText = (0,_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_5__["default"])('navbar-text', {
   Component: 'span'
 });
 var defaultProps = {
@@ -19631,7 +17873,7 @@ var defaultProps = {
   variant: 'light',
   collapseOnSelect: false
 };
-var Navbar = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref) {
+var Navbar = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref) {
   var _useUncontrolled = (0,uncontrollable__WEBPACK_IMPORTED_MODULE_4__.useUncontrolled)(props, {
     expanded: 'onToggle'
   }),
@@ -19649,7 +17891,7 @@ var Navbar = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref)
       _onToggle = _useUncontrolled.onToggle,
       onSelect = _useUncontrolled.onSelect,
       collapseOnSelect = _useUncontrolled.collapseOnSelect,
-      controlledProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_useUncontrolled, ["bsPrefix", "expand", "variant", "bg", "fixed", "sticky", "className", "children", "as", "expanded", "onToggle", "onSelect", "collapseOnSelect"]);
+      controlledProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_useUncontrolled, _excluded);
 
   var bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_6__.useBootstrapPrefix)(initialBsPrefix, 'navbar');
   var handleCollapse = (0,react__WEBPACK_IMPORTED_MODULE_3__.useCallback)(function () {
@@ -19679,11 +17921,11 @@ var Navbar = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref)
       expanded: !!expanded
     };
   }, [bsPrefix, expanded, _onToggle]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_7__.default.Provider, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_7__["default"].Provider, {
     value: navbarContext
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_8__.default.Provider, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_8__["default"].Provider, {
     value: handleCollapse
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     ref: ref
   }, controlledProps, {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix, expand && expandClass, variant && bsPrefix + "-" + variant, bg && "bg-" + bg, sticky && "sticky-" + sticky, fixed && "fixed-" + fixed)
@@ -19691,9 +17933,9 @@ var Navbar = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref)
 });
 Navbar.defaultProps = defaultProps;
 Navbar.displayName = 'Navbar';
-Navbar.Brand = _NavbarBrand__WEBPACK_IMPORTED_MODULE_9__.default;
-Navbar.Toggle = _NavbarToggle__WEBPACK_IMPORTED_MODULE_10__.default;
-Navbar.Collapse = _NavbarCollapse__WEBPACK_IMPORTED_MODULE_11__.default;
+Navbar.Brand = _NavbarBrand__WEBPACK_IMPORTED_MODULE_9__["default"];
+Navbar.Toggle = _NavbarToggle__WEBPACK_IMPORTED_MODULE_10__["default"];
+Navbar.Collapse = _NavbarCollapse__WEBPACK_IMPORTED_MODULE_11__["default"];
 Navbar.Text = NavbarText;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);
 
@@ -19703,16 +17945,12 @@ Navbar.Text = NavbarText;
 /*!*********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarBrand.js ***!
   \*********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19722,18 +17960,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "className", "as"];
 
 
 
-var NavbarBrand = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var NavbarBrand = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       className = _ref.className,
       as = _ref.as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "className", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'navbar-brand');
   var Component = as || (props.href ? 'a' : 'span');
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     ref: ref,
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix)
   }));
@@ -19747,16 +17986,12 @@ NavbarBrand.displayName = 'NavbarBrand';
 /*!************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarCollapse.js ***!
   \************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19766,18 +18001,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
 
 
+var _excluded = ["children", "bsPrefix"];
 
 
 
 
-var NavbarCollapse = react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function (_ref, ref) {
+var NavbarCollapse = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function (_ref, ref) {
   var children = _ref.children,
       bsPrefix = _ref.bsPrefix,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["children", "bsPrefix"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_3__.useBootstrapPrefix)(bsPrefix, 'navbar-collapse');
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_4__.default.Consumer, null, function (context) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_Collapse__WEBPACK_IMPORTED_MODULE_5__.default, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_4__["default"].Consumer, null, function (context) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_Collapse__WEBPACK_IMPORTED_MODULE_5__["default"], (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
       in: !!(context && context.expanded)
     }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
       ref: ref,
@@ -19794,21 +18030,17 @@ NavbarCollapse.displayName = 'NavbarCollapse';
 /*!***********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarContext.js ***!
   \***********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
  // TODO: check
 
-var context = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+var context = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 context.displayName = 'NavbarContext';
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (context);
 
@@ -19818,16 +18050,12 @@ context.displayName = 'NavbarContext';
 /*!**********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarToggle.js ***!
   \**********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19839,6 +18067,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
 
 
+var _excluded = ["bsPrefix", "className", "children", "label", "as", "onClick"];
 
 
 
@@ -19847,7 +18076,7 @@ __webpack_require__.r(__webpack_exports__);
 var defaultProps = {
   label: 'Toggle navigation'
 };
-var NavbarToggle = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var NavbarToggle = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       className = _ref.className,
       children = _ref.children,
@@ -19855,15 +18084,15 @@ var NavbarToggle = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref,
       _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'button' : _ref$as,
       onClick = _ref.onClick,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "className", "children", "label", "as", "onClick"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   bsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__.useBootstrapPrefix)(bsPrefix, 'navbar-toggler');
 
-  var _ref2 = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_NavbarContext__WEBPACK_IMPORTED_MODULE_6__.default) || {},
+  var _ref2 = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_NavbarContext__WEBPACK_IMPORTED_MODULE_6__["default"]) || {},
       onToggle = _ref2.onToggle,
       expanded = _ref2.expanded;
 
-  var handleClick = (0,_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__.default)(function (e) {
+  var handleClick = (0,_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__["default"])(function (e) {
     if (onClick) onClick(e);
     if (onToggle) onToggle();
   });
@@ -19872,7 +18101,7 @@ var NavbarToggle = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref,
     props.type = 'button';
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     ref: ref,
     onClick: handleClick,
     "aria-label": label,
@@ -19891,16 +18120,12 @@ NavbarToggle.defaultProps = defaultProps;
 /*!*************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Row.js ***!
   \*************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19910,6 +18135,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["bsPrefix", "className", "noGutters", "as"];
 
 
 
@@ -19917,13 +18143,13 @@ var DEVICE_SIZES = ['xl', 'lg', 'md', 'sm', 'xs'];
 var defaultProps = {
   noGutters: false
 };
-var Row = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
+var Row = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
   var bsPrefix = _ref.bsPrefix,
       className = _ref.className,
       noGutters = _ref.noGutters,
       _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'div' : _ref$as,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["bsPrefix", "className", "noGutters", "as"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   var decoratedBsPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__.useBootstrapPrefix)(bsPrefix, 'row');
   var sizePrefix = decoratedBsPrefix + "-cols";
@@ -19942,7 +18168,7 @@ var Row = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (_ref, ref) {
     var infix = brkPoint !== 'xs' ? "-" + brkPoint : '';
     if (cols != null) classes.push("" + sizePrefix + infix + "-" + cols);
   });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     ref: ref
   }, props, {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default().apply(void 0, [className, decoratedBsPrefix, noGutters && 'no-gutters'].concat(classes))
@@ -19958,16 +18184,12 @@ Row.defaultProps = defaultProps;
 /*!********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/SafeAnchor.js ***!
   \********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -19975,6 +18197,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _createChainedFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./createChainedFunction */ "./node_modules/react-bootstrap/esm/createChainedFunction.js");
 
 
+var _excluded = ["as", "disabled", "onKeyDown"];
 
 
 
@@ -19990,12 +18213,12 @@ function isTrivialHref(href) {
  */
 
 
-var SafeAnchor = react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function (_ref, ref) {
+var SafeAnchor = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function (_ref, ref) {
   var _ref$as = _ref.as,
       Component = _ref$as === void 0 ? 'a' : _ref$as,
       disabled = _ref.disabled,
       onKeyDown = _ref.onKeyDown,
-      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["as", "disabled", "onKeyDown"]);
+      props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, _excluded);
 
   var handleClick = function handleClick(event) {
     var href = props.href,
@@ -20034,11 +18257,11 @@ var SafeAnchor = react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function (_ref, r
     props['aria-disabled'] = true;
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     ref: ref
   }, props, {
     onClick: handleClick,
-    onKeyDown: (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_3__.default)(handleKeyDown, onKeyDown)
+    onKeyDown: (0,_createChainedFunction__WEBPACK_IMPORTED_MODULE_3__["default"])(handleKeyDown, onKeyDown)
   }));
 });
 SafeAnchor.displayName = 'SafeAnchor';
@@ -20050,23 +18273,18 @@ SafeAnchor.displayName = 'SafeAnchor';
 /*!***************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/SelectableContext.js ***!
   \***************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export makeEventKey [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "makeEventKey": () => /* binding */ makeEventKey,
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "makeEventKey": () => (/* binding */ makeEventKey),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
  // TODO (apparently this is a bare "onSelect"?)
 
-var SelectableContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+var SelectableContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 var makeEventKey = function makeEventKey(eventKey, href) {
   if (href === void 0) {
     href = null;
@@ -20083,20 +18301,16 @@ var makeEventKey = function makeEventKey(eventKey, href) {
 /*!********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/TabContext.js ***!
   \********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
-var TabContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
+var TabContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TabContext);
 
 /***/ }),
@@ -20105,28 +18319,21 @@ var TabContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext(null);
 /*!***********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/ThemeProvider.js ***!
   \***********************************************************/
-/*! namespace exports */
-/*! export ThemeConsumer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createBootstrapComponent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useBootstrapPrefix [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useBootstrapPrefix": () => /* binding */ useBootstrapPrefix,
-/* harmony export */   "createBootstrapComponent": () => /* binding */ createBootstrapComponent,
-/* harmony export */   "ThemeConsumer": () => /* binding */ Consumer,
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "useBootstrapPrefix": () => (/* binding */ useBootstrapPrefix),
+/* harmony export */   "createBootstrapComponent": () => (/* binding */ createBootstrapComponent),
+/* harmony export */   "ThemeConsumer": () => (/* binding */ Consumer),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 
-var ThemeContext = react__WEBPACK_IMPORTED_MODULE_1__.createContext({});
+var ThemeContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createContext({});
 var Consumer = ThemeContext.Consumer,
     Provider = ThemeContext.Provider;
 
@@ -20134,7 +18341,7 @@ function ThemeProvider(_ref) {
   var prefixes = _ref.prefixes,
       children = _ref.children;
   var copiedPrefixes = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(function () {
-    return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, prefixes);
+    return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, prefixes);
   }, [prefixes]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Provider, {
     value: copiedPrefixes
@@ -20156,12 +18363,12 @@ function createBootstrapComponent(Component, opts) {
       prefix = _opts.prefix,
       _opts$forwardRefAs = _opts.forwardRefAs,
       forwardRefAs = _opts$forwardRefAs === void 0 ? isClassy ? 'ref' : 'innerRef' : _opts$forwardRefAs;
-  var Wrapped = react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(function (_ref2, ref) {
-    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, _ref2);
+  var Wrapped = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(function (_ref2, ref) {
+    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _ref2);
 
     props[forwardRefAs] = ref;
     var bsPrefix = useBootstrapPrefix(props.bsPrefix, prefix);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
       bsPrefix: bsPrefix
     }));
   });
@@ -20178,16 +18385,12 @@ function createBootstrapComponent(Component, opts) {
 /*!*******************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/createChainedFunction.js ***!
   \*******************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /**
  * Safe chained function
@@ -20232,16 +18435,12 @@ function createChainedFunction() {
 /*!****************************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/createWithBsPrefix.js ***!
   \****************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ createWithBsPrefix
+/* harmony export */   "default": () => (/* binding */ createWithBsPrefix)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
@@ -20252,13 +18451,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
 
 
+var _excluded = ["className", "bsPrefix", "as"];
 
 
 
 
 
 var pascalCase = function pascalCase(str) {
-  return str[0].toUpperCase() + (0,dom_helpers_camelize__WEBPACK_IMPORTED_MODULE_3__.default)(str).slice(1);
+  return str[0].toUpperCase() + (0,dom_helpers_camelize__WEBPACK_IMPORTED_MODULE_3__["default"])(str).slice(1);
 };
 
 // TODO: emstricten & fix the typing here! `createWithBsPrefix<TElementType>...`
@@ -20269,15 +18469,15 @@ function createWithBsPrefix(prefix, _temp) {
       Component = _ref.Component,
       defaultProps = _ref.defaultProps;
 
-  var BsComponent = react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (_ref2, ref) {
+  var BsComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.forwardRef(function (_ref2, ref) {
     var className = _ref2.className,
         bsPrefix = _ref2.bsPrefix,
         _ref2$as = _ref2.as,
         Tag = _ref2$as === void 0 ? Component || 'div' : _ref2$as,
-        props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref2, ["className", "bsPrefix", "as"]);
+        props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, _excluded);
 
     var resolvedPrefix = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__.useBootstrapPrefix)(bsPrefix, prefix);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(Tag, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(Tag, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
       ref: ref,
       className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, resolvedPrefix)
     }, props));
@@ -20289,20 +18489,51 @@ function createWithBsPrefix(prefix, _temp) {
 
 /***/ }),
 
-/***/ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/triggerBrowserReflow.js ***!
-  \******************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ "./node_modules/react-bootstrap/esm/transitionEndListener.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/transitionEndListener.js ***!
+  \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ triggerBrowserReflow
+/* harmony export */   "default": () => (/* binding */ transitionEndListener)
+/* harmony export */ });
+/* harmony import */ var dom_helpers_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom-helpers/css */ "./node_modules/dom-helpers/esm/css.js");
+/* harmony import */ var dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dom-helpers/transitionEnd */ "./node_modules/dom-helpers/esm/transitionEnd.js");
+
+
+
+function parseDuration(node, property) {
+  var str = (0,dom_helpers_css__WEBPACK_IMPORTED_MODULE_0__["default"])(node, property) || '';
+  var mult = str.indexOf('ms') === -1 ? 1000 : 1;
+  return parseFloat(str) * mult;
+}
+
+function transitionEndListener(element, handler) {
+  var duration = parseDuration(element, 'transitionDuration');
+  var delay = parseDuration(element, 'transitionDelay');
+  var remove = (0,dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_1__["default"])(element, function (e) {
+    if (e.target === element) {
+      remove();
+      handler(e);
+    }
+  }, duration + delay);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/triggerBrowserReflow.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ triggerBrowserReflow)
 /* harmony export */ });
 // reading a dimension prop will cause the browser to recalculate,
 // which will let our animations work
@@ -20317,20 +18548,6 @@ function triggerBrowserReflow(node) {
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
   \*************************************************************/
-/*! default exports */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createPortal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export findDOMNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export flushSync [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export hydrate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export render [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unmountComponentAtNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_batchedUpdates [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_createPortal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_renderSubtreeIntoContainer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export version [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__ */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -45354,21 +43571,6 @@ exports.version = ReactVersion;
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
   \*****************************************/
-/*! dynamic exports */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED */
-/*! export __esModule [not provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .createPortal */
-/*! export findDOMNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .findDOMNode */
-/*! export flushSync [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .flushSync */
-/*! export hydrate [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .hydrate */
-/*! export render [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .render */
-/*! export unmountComponentAtNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unmountComponentAtNode */
-/*! export unstable_batchedUpdates [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_batchedUpdates */
-/*! export unstable_createPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_createPortal */
-/*! export unstable_renderSubtreeIntoContainer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_renderSubtreeIntoContainer */
-/*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .version */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -45413,37 +43615,6 @@ if (false) {} else {
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
   \***********************************************************/
-/*! default exports */
-/*! export AsyncMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ConcurrentMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ContextConsumer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ContextProvider [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Element [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ForwardRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Fragment [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Lazy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Memo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Portal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Profiler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export StrictMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Suspense [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isAsyncMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isConcurrentMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isContextConsumer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isContextProvider [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isForwardRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isFragment [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isLazy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isMemo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isPortal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isProfiler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isStrictMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isSuspense [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isValidElementType [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export typeOf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -45636,38 +43807,6 @@ exports.typeOf = typeOf;
 /*!****************************************!*\
   !*** ./node_modules/react-is/index.js ***!
   \****************************************/
-/*! dynamic exports */
-/*! export AsyncMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .AsyncMode */
-/*! export ConcurrentMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .ConcurrentMode */
-/*! export ContextConsumer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .ContextConsumer */
-/*! export ContextProvider [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .ContextProvider */
-/*! export Element [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Element */
-/*! export ForwardRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .ForwardRef */
-/*! export Fragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Fragment */
-/*! export Lazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Lazy */
-/*! export Memo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Memo */
-/*! export Portal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Portal */
-/*! export Profiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Profiler */
-/*! export StrictMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .StrictMode */
-/*! export Suspense [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .Suspense */
-/*! export __esModule [not provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isAsyncMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isAsyncMode */
-/*! export isConcurrentMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isConcurrentMode */
-/*! export isContextConsumer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isContextConsumer */
-/*! export isContextProvider [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isContextProvider */
-/*! export isElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isElement */
-/*! export isForwardRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isForwardRef */
-/*! export isFragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isFragment */
-/*! export isLazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isLazy */
-/*! export isMemo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isMemo */
-/*! export isPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isPortal */
-/*! export isProfiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isProfiler */
-/*! export isStrictMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isStrictMode */
-/*! export isSuspense [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isSuspense */
-/*! export isValidElementType [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .isValidElementType */
-/*! export typeOf [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-is/cjs/react-is.development.js .typeOf */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -45684,16 +43823,12 @@ if (false) {} else {
 /*!****************************************************************************!*\
   !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
   \****************************************************************************/
-/*! namespace exports */
-/*! export polyfill [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "polyfill": () => /* binding */ polyfill
+/* harmony export */   "polyfill": () => (/* binding */ polyfill)
 /* harmony export */ });
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -45861,13 +43996,10 @@ function polyfill(Component) {
 /*!*******************************************!*\
   !*** ./node_modules/react-reveal/Fade.js ***!
   \*******************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 1:2060-2074 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
-function _interopRequireDefault(o){return o&&o.__esModule?o:{default:o}}function _objectWithoutProperties(o,e){var r={};for(var t in o)e.indexOf(t)>=0||Object.prototype.hasOwnProperty.call(o,t)&&(r[t]=o[t]);return r}function make(o,e){var r=e.distance,t=e.left,p=e.right,a=e.up,l=e.down,i=e.top,u=e.bottom,n=e.big,s=e.mirror,d=e.opposite,_=(r?r.toString():0)+((t?1:0)|(p?2:0)|(i||l?4:0)|(u||a?8:0)|(s?16:0)|(d?32:0)|(o?64:0)|(n?128:0));if(lookup.hasOwnProperty(_))return lookup[_];var f=t||p||a||l||i||u,y=void 0,b=void 0;if(f){if(!s!=!(o&&d)){var v=[p,t,u,i,l,a];t=v[0],p=v[1],i=v[2],u=v[3],a=v[4],l=v[5]}var c=r||(n?"2000px":"100%");y=t?"-"+c:p?c:"0",b=l||i?"-"+c:a||u?c:"0"}return lookup[_]=(0,_globals.animation)((o?"to":"from")+" {opacity: 0;"+(f?" transform: translate3d("+y+", "+b+", 0);":"")+"}\n     "+(o?"from":"to")+" {opacity: 1;transform: none;} "),lookup[_]}function Fade(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:_globals.defaults,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=o.children,t=(o.out,o.forever),p=o.timeout,a=o.duration,l=void 0===a?_globals.defaults.duration:a,i=o.delay,u=void 0===i?_globals.defaults.delay:i,n=o.count,s=void 0===n?_globals.defaults.count:n,d=_objectWithoutProperties(o,["children","out","forever","timeout","duration","delay","count"]),_={make:make,duration:void 0===p?l:p,delay:u,forever:t,count:s,style:{animationFillMode:"both"},reverse:d.left};return e?(0,_wrap2.default)(d,_,_,r):_}Object.defineProperty(exports, "__esModule", ({value:!0}));var _propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_globals=__webpack_require__(/*! ./globals */ "./node_modules/react-reveal/globals.js"),_wrap=__webpack_require__(/*! ./wrap */ "./node_modules/react-reveal/wrap.js"),_wrap2=_interopRequireDefault(_wrap),propTypes={out:_propTypes.bool,left:_propTypes.bool,right:_propTypes.bool,top:_propTypes.bool,bottom:_propTypes.bool,big:_propTypes.bool,mirror:_propTypes.bool,opposite:_propTypes.bool,duration:_propTypes.number,timeout:_propTypes.number,distance:_propTypes.string,delay:_propTypes.number,count:_propTypes.number,forever:_propTypes.bool},lookup={};Fade.propTypes=propTypes,exports.default=Fade,module.exports=exports.default;
+function _interopRequireDefault(o){return o&&o.__esModule?o:{default:o}}function _objectWithoutProperties(o,e){var r={};for(var t in o)e.indexOf(t)>=0||Object.prototype.hasOwnProperty.call(o,t)&&(r[t]=o[t]);return r}function make(o,e){var r=e.distance,t=e.left,p=e.right,a=e.up,l=e.down,i=e.top,u=e.bottom,n=e.big,s=e.mirror,d=e.opposite,_=(r?r.toString():0)+((t?1:0)|(p?2:0)|(i||l?4:0)|(u||a?8:0)|(s?16:0)|(d?32:0)|(o?64:0)|(n?128:0));if(lookup.hasOwnProperty(_))return lookup[_];var f=t||p||a||l||i||u,y=void 0,b=void 0;if(f){if(!s!=!(o&&d)){var v=[p,t,u,i,l,a];t=v[0],p=v[1],i=v[2],u=v[3],a=v[4],l=v[5]}var c=r||(n?"2000px":"100%");y=t?"-"+c:p?c:"0",b=l||i?"-"+c:a||u?c:"0"}return lookup[_]=(0,_globals.animation)((o?"to":"from")+" {opacity: 0;"+(f?" transform: translate3d("+y+", "+b+", 0);":"")+"}\n     "+(o?"from":"to")+" {opacity: 1;transform: none;} "),lookup[_]}function Fade(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:_globals.defaults,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=o.children,t=(o.out,o.forever),p=o.timeout,a=o.duration,l=void 0===a?_globals.defaults.duration:a,i=o.delay,u=void 0===i?_globals.defaults.delay:i,n=o.count,s=void 0===n?_globals.defaults.count:n,d=_objectWithoutProperties(o,["children","out","forever","timeout","duration","delay","count"]),_={make:make,duration:void 0===p?l:p,delay:u,forever:t,count:s,style:{animationFillMode:"both"},reverse:d.left};return e?(0,_wrap2.default)(d,_,_,r):_}Object.defineProperty(exports, "__esModule", ({value:!0}));var _propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_globals=__webpack_require__(/*! ./globals */ "./node_modules/react-reveal/globals.js"),_wrap=__webpack_require__(/*! ./wrap */ "./node_modules/react-reveal/wrap.js"),_wrap2=_interopRequireDefault(_wrap),propTypes={out:_propTypes.bool,left:_propTypes.bool,right:_propTypes.bool,top:_propTypes.bool,bottom:_propTypes.bool,big:_propTypes.bool,mirror:_propTypes.bool,opposite:_propTypes.bool,duration:_propTypes.number,timeout:_propTypes.number,distance:_propTypes.string,delay:_propTypes.number,count:_propTypes.number,forever:_propTypes.bool},lookup={};Fade.propTypes=propTypes,exports["default"]=Fade,module.exports=exports.default;
 
 /***/ }),
 
@@ -45875,13 +44007,10 @@ function _interopRequireDefault(o){return o&&o.__esModule?o:{default:o}}function
 /*!*************************************************!*\
   !*** ./node_modules/react-reveal/RevealBase.js ***!
   \*************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 1:13381-13395 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
-function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _defineProperty(e,t,i){return t in e?Object.defineProperty(e,t,{value:i,enumerable:!0,configurable:!0,writable:!0}):e[t]=i,e}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(exports, "__esModule", ({value:!0}));var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},_slicedToArray=function(){function e(e,t){var i=[],s=!0,o=!1,n=void 0;try{for(var r,a=e[Symbol.iterator]();!(s=(r=a.next()).done)&&(i.push(r.value),!t||i.length!==t);s=!0);}catch(e){o=!0,n=e}finally{try{!s&&a.return&&a.return()}finally{if(o)throw n}}return i}return function(t,i){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,i);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var i=arguments[t];for(var s in i)Object.prototype.hasOwnProperty.call(i,s)&&(e[s]=i[s])}return e},_createClass=function(){function e(e,t){for(var i=0;i<t.length;i++){var s=t[i];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(e,s.key,s)}}return function(t,i,s){return i&&e(t.prototype,i),s&&e(t,s),t}}(),_react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_globals=__webpack_require__(/*! ./globals */ "./node_modules/react-reveal/globals.js"),inOut=(0,_propTypes.shape)({make:_propTypes.func,duration:_propTypes.number.isRequired,delay:_propTypes.number.isRequired,forever:_propTypes.bool,count:_propTypes.number.isRequired,style:_propTypes.object.isRequired,reverse:_propTypes.bool}),propTypes={collapse:_propTypes.bool,collapseEl:_propTypes.element,cascade:_propTypes.bool,wait:_propTypes.number,force:_propTypes.bool,disabled:_propTypes.bool,appear:_propTypes.bool,enter:_propTypes.bool,exit:_propTypes.bool,fraction:_propTypes.number,refProp:_propTypes.string,innerRef:_propTypes.func,onReveal:_propTypes.func,unmountOnExit:_propTypes.bool,mountOnEnter:_propTypes.bool,inEffect:inOut.isRequired,outEffect:(0,_propTypes.oneOfType)([inOut,(0,_propTypes.oneOf)([!1])]).isRequired,ssrReveal:_propTypes.bool,collapseOnly:_propTypes.bool,ssrFadeout:_propTypes.bool},defaultProps={fraction:.2,refProp:"ref"},contextTypes={transitionGroup:_propTypes.object},RevealBase=function(e){function t(e,i){_classCallCheck(this,t);var s=_possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e,i));return s.isOn=void 0===e.when||!!e.when,s.state={collapse:e.collapse?t.getInitialCollapseStyle(e):void 0,style:{opacity:s.isOn&&!e.ssrReveal||!e.outEffect?void 0:0}},s.savedChild=!1,s.isShown=!1,_globals.observerMode?s.handleObserve=s.handleObserve.bind(s):(s.revealHandler=s.makeHandler(s.reveal),s.resizeHandler=s.makeHandler(s.resize)),s.saveRef=s.saveRef.bind(s),s}return _inherits(t,e),_createClass(t,[{key:"saveRef",value:function(e){this.childRef&&this.childRef(e),this.props.innerRef&&this.props.innerRef(e),this.el!==e&&(this.el=e&&"offsetHeight"in e?e:void 0,this.observe(this.props,!0))}},{key:"invisible",value:function(){this&&this.el&&(this.savedChild=!1,this.isShown||(this.setState({hasExited:!0,collapse:this.props.collapse?_extends({},this.state.collapse,{visibility:"hidden"}):null,style:{opacity:0}}),!_globals.observerMode&&this.props.collapse&&window.document.dispatchEvent(_globals.collapseend)))}},{key:"animationEnd",value:function(e,t,i){var s=this,o=i.forever,n=i.count,r=i.delay,a=i.duration;if(!o){var l=function(){s&&s.el&&(s.animationEndTimeout=void 0,e.call(s))};this.animationEndTimeout=window.setTimeout(l,r+(a+(t?a:0)*n))}}},{key:"getDimensionValue",value:function(){return this.el.offsetHeight+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-top"),10)+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-bottom"),10)}},{key:"collapse",value:function(e,t,i){var s=i.duration+(t.cascade?i.duration:0),o=this.isOn?this.getDimensionValue():0,n=void 0,r=void 0;if(t.collapseOnly)n=i.duration/3,r=i.delay;else{var a=s>>2,l=a>>1;n=a,r=i.delay+(this.isOn?0:s-a-l),e.style.animationDuration=s-a+(this.isOn?l:-l)+"ms",e.style.animationDelay=i.delay+(this.isOn?a-l:0)+"ms"}return e.collapse={height:o,transition:"height "+n+"ms ease "+r+"ms",overflow:t.collapseOnly?"hidden":void 0},e}},{key:"animate",value:function(e){if(this&&this.el&&(this.unlisten(),this.isShown!==this.isOn)){this.isShown=this.isOn;var t=!this.isOn&&e.outEffect,i=e[t?"outEffect":"inEffect"],s="style"in i&&i.style.animationName||void 0,o=void 0;e.collapseOnly?o={hasAppeared:!0,hasExited:!1,style:{opacity:1}}:((e.outEffect||this.isOn)&&i.make&&(s=i.make),o={hasAppeared:!0,hasExited:!1,collapse:void 0,style:_extends({},i.style,{animationDuration:i.duration+"ms",animationDelay:i.delay+"ms",animationIterationCount:i.forever?"infinite":i.count,opacity:1,animationName:s}),className:i.className}),this.setState(e.collapse?this.collapse(o,e,i):o),t?(this.savedChild=_react2.default.cloneElement(this.getChild()),this.animationEnd(this.invisible,e.cascade,i)):this.savedChild=!1,this.onReveal(e)}}},{key:"onReveal",value:function(e){e.onReveal&&this.isOn&&(this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),e.wait?this.onRevealTimeout=window.setTimeout(e.onReveal,e.wait):e.onReveal())}},{key:"componentWillUnmount",value:function(){this.unlisten(),_globals.ssr&&(0,_globals.disableSsr)()}},{key:"handleObserve",value:function(e,t){_slicedToArray(e,1)[0].intersectionRatio>0&&(t.disconnect(),this.observer=null,this.reveal(this.props,!0))}},{key:"observe",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];if(this.el&&_globals.observerMode){if(this.observer){if(!t)return;this.observer.disconnect()}else if(t)return;this.observer=new IntersectionObserver(this.handleObserve,{threshold:e.fraction}),this.observer.observe(this.el)}}},{key:"reveal",value:function(e){var t=this,i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];_globals.globalHide||(0,_globals.hideAll)(),this&&this.el&&(e||(e=this.props),_globals.ssr&&(0,_globals.disableSsr)(),this.isOn&&this.isShown&&void 0!==e.spy?(this.isShown=!1,this.setState({style:{}}),window.setTimeout(function(){return t.reveal(e)},200)):i||this.inViewport(e)||e.force?this.animate(e):_globals.observerMode?this.observe(e):this.listen())}},{key:"componentDidMount",value:function(){var e=this;if(this.el&&!this.props.disabled){this.props.collapseOnly||("make"in this.props.inEffect&&this.props.inEffect.make(!1,this.props),void 0!==this.props.when&&this.props.outEffect&&"make"in this.props.outEffect&&this.props.outEffect.make(!0,this.props));var i=this.context.transitionGroup,s=i&&!i.isMounting?!("enter"in this.props&&!1===this.props.enter):this.props.appear;return this.isOn&&((void 0!==this.props.when||void 0!==this.props.spy)&&!s||_globals.ssr&&!_globals.fadeOutEnabled&&!this.props.ssrFadeout&&this.props.outEffect&&!this.props.ssrReveal&&t.getTop(this.el)<window.pageYOffset+window.innerHeight)?(this.isShown=!0,this.setState({hasAppeared:!0,collapse:this.props.collapse?{height:this.getDimensionValue()}:this.state.collapse,style:{opacity:1}}),void this.onReveal(this.props)):_globals.ssr&&(_globals.fadeOutEnabled||this.props.ssrFadeout)&&this.props.outEffect&&t.getTop(this.el)<window.pageYOffset+window.innerHeight?(this.setState({style:{opacity:0,transition:"opacity 1000ms 1000ms"}}),void window.setTimeout(function(){return e.reveal(e.props,!0)},2e3)):void(this.isOn&&(this.props.force?this.animate(this.props):this.reveal(this.props)))}}},{key:"cascade",value:function(e){var t=this,i=void 0;i="string"==typeof e?e.split("").map(function(e,t){return _react2.default.createElement("span",{key:t,style:{display:"inline-block",whiteSpace:"pre"}},e)}):_react2.default.Children.toArray(e);var s=this.props[this.isOn||!this.props.outEffect?"inEffect":"outEffect"],o=s.duration,n=s.reverse,r=i.length,a=2*o;this.props.collapse&&(a=parseInt(this.state.style.animationDuration,10),o=a/2);var l=n?r:0;return i=i.map(function(e){return"object"===(void 0===e?"undefined":_typeof(e))&&e?_react2.default.cloneElement(e,{style:_extends({},e.props.style,t.state.style,{animationDuration:Math.round((0,_globals.cascade)(n?l--:l++,0,r,o,a))+"ms"})}):e})}},{key:"componentWillReceiveProps",value:function(e){if(void 0!==e.when&&(this.isOn=!!e.when),e.fraction!==this.props.fraction&&this.observe(e,!0),!this.isOn&&e.onExited&&"exit"in e&&!1===e.exit)return void e.onExited();e.disabled||(e.collapse&&!this.props.collapse&&(this.setState({style:{},collapse:t.getInitialCollapseStyle(e)}),this.isShown=!1),e.when===this.props.when&&e.spy===this.props.spy||this.reveal(e),this.onRevealTimeout&&!this.isOn&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)))}},{key:"getChild",value:function(){if(this.savedChild&&!this.props.disabled)return this.savedChild;if("object"===_typeof(this.props.children)){var e=_react2.default.Children.only(this.props.children);return"type"in e&&"string"==typeof e.type||"ref"!==this.props.refProp?e:_react2.default.createElement("div",null,e)}return _react2.default.createElement("div",null,this.props.children)}},{key:"render",value:function(){var e=void 0;e=this.state.hasAppeared?!this.props.unmountOnExit||!this.state.hasExited||this.isOn:!this.props.mountOnEnter||this.isOn;var t=this.getChild();"function"==typeof t.ref&&(this.childRef=t.ref);var i=!1,s=t.props,o=s.style,n=s.className,r=s.children,a=this.props.disabled?n:(this.props.outEffect?_globals.namespace:"")+(this.state.className?" "+this.state.className:"")+(n?" "+n:"")||void 0,l=void 0;"function"==typeof this.state.style.animationName&&(this.state.style.animationName=this.state.style.animationName(!this.isOn,this.props)),this.props.cascade&&!this.props.disabled&&r&&this.state.style.animationName?(i=this.cascade(r),l=_extends({},o,{opacity:1})):l=this.props.disabled?o:_extends({},o,this.state.style);var p=_extends({},this.props.props,_defineProperty({className:a,style:l},this.props.refProp,this.saveRef)),h=_react2.default.cloneElement(t,p,e?i||r:void 0);return void 0!==this.props.collapse?this.props.collapseEl?_react2.default.cloneElement(this.props.collapseEl,{style:_extends({},this.props.collapseEl.style,this.props.disabled?void 0:this.state.collapse),children:h}):_react2.default.createElement("div",{style:this.props.disabled?void 0:this.state.collapse,children:h}):h}},{key:"makeHandler",value:function(e){var t=this,i=function(){e.call(t,t.props),t.ticking=!1};return function(){t.ticking||((0,_globals.raf)(i),t.ticking=!0)}}},{key:"inViewport",value:function(e){if(!this.el||window.document.hidden)return!1;var i=this.el.offsetHeight,s=window.pageYOffset-t.getTop(this.el),o=Math.min(i,window.innerHeight)*(_globals.globalHide?e.fraction:0);return s>o-window.innerHeight&&s<i-o}},{key:"resize",value:function(e){this&&this.el&&this.isOn&&this.inViewport(e)&&(this.unlisten(),this.isShown=this.isOn,this.setState({hasExited:!this.isOn,hasAppeared:!0,collapse:void 0,style:{opacity:this.isOn||!e.outEffect?1:0}}),this.onReveal(e))}},{key:"listen",value:function(){_globals.observerMode||this.isListener||(this.isListener=!0,window.addEventListener("scroll",this.revealHandler,{passive:!0}),window.addEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.addEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.addEventListener("collapseend",this.revealHandler,{passive:!0}),window.addEventListener("resize",this.resizeHandler,{passive:!0}))}},{key:"unlisten",value:function(){!_globals.observerMode&&this.isListener&&(window.removeEventListener("scroll",this.revealHandler,{passive:!0}),window.removeEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.removeEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.removeEventListener("collapseend",this.revealHandler,{passive:!0}),window.removeEventListener("resize",this.resizeHandler,{passive:!0}),this.isListener=!1),this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),this.animationEndTimeout&&(this.animationEndTimeout=window.clearTimeout(this.animationEndTimeout))}}],[{key:"getInitialCollapseStyle",value:function(e){return{height:0,visibility:e.when?void 0:"hidden"}}},{key:"getTop",value:function(e){for(;void 0===e.offsetTop;)e=e.parentNode;for(var t=e.offsetTop;e.offsetParent;t+=e.offsetTop)e=e.offsetParent;return t}}]),t}(_react2.default.Component);RevealBase.propTypes=propTypes,RevealBase.defaultProps=defaultProps,RevealBase.contextTypes=contextTypes,RevealBase.displayName="RevealBase",exports.default=RevealBase,module.exports=exports.default;
+function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _defineProperty(e,t,i){return t in e?Object.defineProperty(e,t,{value:i,enumerable:!0,configurable:!0,writable:!0}):e[t]=i,e}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(exports, "__esModule", ({value:!0}));var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},_slicedToArray=function(){function e(e,t){var i=[],s=!0,o=!1,n=void 0;try{for(var r,a=e[Symbol.iterator]();!(s=(r=a.next()).done)&&(i.push(r.value),!t||i.length!==t);s=!0);}catch(e){o=!0,n=e}finally{try{!s&&a.return&&a.return()}finally{if(o)throw n}}return i}return function(t,i){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,i);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var i=arguments[t];for(var s in i)Object.prototype.hasOwnProperty.call(i,s)&&(e[s]=i[s])}return e},_createClass=function(){function e(e,t){for(var i=0;i<t.length;i++){var s=t[i];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(e,s.key,s)}}return function(t,i,s){return i&&e(t.prototype,i),s&&e(t,s),t}}(),_react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_globals=__webpack_require__(/*! ./globals */ "./node_modules/react-reveal/globals.js"),inOut=(0,_propTypes.shape)({make:_propTypes.func,duration:_propTypes.number.isRequired,delay:_propTypes.number.isRequired,forever:_propTypes.bool,count:_propTypes.number.isRequired,style:_propTypes.object.isRequired,reverse:_propTypes.bool}),propTypes={collapse:_propTypes.bool,collapseEl:_propTypes.element,cascade:_propTypes.bool,wait:_propTypes.number,force:_propTypes.bool,disabled:_propTypes.bool,appear:_propTypes.bool,enter:_propTypes.bool,exit:_propTypes.bool,fraction:_propTypes.number,refProp:_propTypes.string,innerRef:_propTypes.func,onReveal:_propTypes.func,unmountOnExit:_propTypes.bool,mountOnEnter:_propTypes.bool,inEffect:inOut.isRequired,outEffect:(0,_propTypes.oneOfType)([inOut,(0,_propTypes.oneOf)([!1])]).isRequired,ssrReveal:_propTypes.bool,collapseOnly:_propTypes.bool,ssrFadeout:_propTypes.bool},defaultProps={fraction:.2,refProp:"ref"},contextTypes={transitionGroup:_propTypes.object},RevealBase=function(e){function t(e,i){_classCallCheck(this,t);var s=_possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e,i));return s.isOn=void 0===e.when||!!e.when,s.state={collapse:e.collapse?t.getInitialCollapseStyle(e):void 0,style:{opacity:s.isOn&&!e.ssrReveal||!e.outEffect?void 0:0}},s.savedChild=!1,s.isShown=!1,_globals.observerMode?s.handleObserve=s.handleObserve.bind(s):(s.revealHandler=s.makeHandler(s.reveal),s.resizeHandler=s.makeHandler(s.resize)),s.saveRef=s.saveRef.bind(s),s}return _inherits(t,e),_createClass(t,[{key:"saveRef",value:function(e){this.childRef&&this.childRef(e),this.props.innerRef&&this.props.innerRef(e),this.el!==e&&(this.el=e&&"offsetHeight"in e?e:void 0,this.observe(this.props,!0))}},{key:"invisible",value:function(){this&&this.el&&(this.savedChild=!1,this.isShown||(this.setState({hasExited:!0,collapse:this.props.collapse?_extends({},this.state.collapse,{visibility:"hidden"}):null,style:{opacity:0}}),!_globals.observerMode&&this.props.collapse&&window.document.dispatchEvent(_globals.collapseend)))}},{key:"animationEnd",value:function(e,t,i){var s=this,o=i.forever,n=i.count,r=i.delay,a=i.duration;if(!o){var l=function(){s&&s.el&&(s.animationEndTimeout=void 0,e.call(s))};this.animationEndTimeout=window.setTimeout(l,r+(a+(t?a:0)*n))}}},{key:"getDimensionValue",value:function(){return this.el.offsetHeight+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-top"),10)+parseInt(window.getComputedStyle(this.el,null).getPropertyValue("margin-bottom"),10)}},{key:"collapse",value:function(e,t,i){var s=i.duration+(t.cascade?i.duration:0),o=this.isOn?this.getDimensionValue():0,n=void 0,r=void 0;if(t.collapseOnly)n=i.duration/3,r=i.delay;else{var a=s>>2,l=a>>1;n=a,r=i.delay+(this.isOn?0:s-a-l),e.style.animationDuration=s-a+(this.isOn?l:-l)+"ms",e.style.animationDelay=i.delay+(this.isOn?a-l:0)+"ms"}return e.collapse={height:o,transition:"height "+n+"ms ease "+r+"ms",overflow:t.collapseOnly?"hidden":void 0},e}},{key:"animate",value:function(e){if(this&&this.el&&(this.unlisten(),this.isShown!==this.isOn)){this.isShown=this.isOn;var t=!this.isOn&&e.outEffect,i=e[t?"outEffect":"inEffect"],s="style"in i&&i.style.animationName||void 0,o=void 0;e.collapseOnly?o={hasAppeared:!0,hasExited:!1,style:{opacity:1}}:((e.outEffect||this.isOn)&&i.make&&(s=i.make),o={hasAppeared:!0,hasExited:!1,collapse:void 0,style:_extends({},i.style,{animationDuration:i.duration+"ms",animationDelay:i.delay+"ms",animationIterationCount:i.forever?"infinite":i.count,opacity:1,animationName:s}),className:i.className}),this.setState(e.collapse?this.collapse(o,e,i):o),t?(this.savedChild=_react2.default.cloneElement(this.getChild()),this.animationEnd(this.invisible,e.cascade,i)):this.savedChild=!1,this.onReveal(e)}}},{key:"onReveal",value:function(e){e.onReveal&&this.isOn&&(this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),e.wait?this.onRevealTimeout=window.setTimeout(e.onReveal,e.wait):e.onReveal())}},{key:"componentWillUnmount",value:function(){this.unlisten(),_globals.ssr&&(0,_globals.disableSsr)()}},{key:"handleObserve",value:function(e,t){_slicedToArray(e,1)[0].intersectionRatio>0&&(t.disconnect(),this.observer=null,this.reveal(this.props,!0))}},{key:"observe",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];if(this.el&&_globals.observerMode){if(this.observer){if(!t)return;this.observer.disconnect()}else if(t)return;this.observer=new IntersectionObserver(this.handleObserve,{threshold:e.fraction}),this.observer.observe(this.el)}}},{key:"reveal",value:function(e){var t=this,i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];_globals.globalHide||(0,_globals.hideAll)(),this&&this.el&&(e||(e=this.props),_globals.ssr&&(0,_globals.disableSsr)(),this.isOn&&this.isShown&&void 0!==e.spy?(this.isShown=!1,this.setState({style:{}}),window.setTimeout(function(){return t.reveal(e)},200)):i||this.inViewport(e)||e.force?this.animate(e):_globals.observerMode?this.observe(e):this.listen())}},{key:"componentDidMount",value:function(){var e=this;if(this.el&&!this.props.disabled){this.props.collapseOnly||("make"in this.props.inEffect&&this.props.inEffect.make(!1,this.props),void 0!==this.props.when&&this.props.outEffect&&"make"in this.props.outEffect&&this.props.outEffect.make(!0,this.props));var i=this.context.transitionGroup,s=i&&!i.isMounting?!("enter"in this.props&&!1===this.props.enter):this.props.appear;return this.isOn&&((void 0!==this.props.when||void 0!==this.props.spy)&&!s||_globals.ssr&&!_globals.fadeOutEnabled&&!this.props.ssrFadeout&&this.props.outEffect&&!this.props.ssrReveal&&t.getTop(this.el)<window.pageYOffset+window.innerHeight)?(this.isShown=!0,this.setState({hasAppeared:!0,collapse:this.props.collapse?{height:this.getDimensionValue()}:this.state.collapse,style:{opacity:1}}),void this.onReveal(this.props)):_globals.ssr&&(_globals.fadeOutEnabled||this.props.ssrFadeout)&&this.props.outEffect&&t.getTop(this.el)<window.pageYOffset+window.innerHeight?(this.setState({style:{opacity:0,transition:"opacity 1000ms 1000ms"}}),void window.setTimeout(function(){return e.reveal(e.props,!0)},2e3)):void(this.isOn&&(this.props.force?this.animate(this.props):this.reveal(this.props)))}}},{key:"cascade",value:function(e){var t=this,i=void 0;i="string"==typeof e?e.split("").map(function(e,t){return _react2.default.createElement("span",{key:t,style:{display:"inline-block",whiteSpace:"pre"}},e)}):_react2.default.Children.toArray(e);var s=this.props[this.isOn||!this.props.outEffect?"inEffect":"outEffect"],o=s.duration,n=s.reverse,r=i.length,a=2*o;this.props.collapse&&(a=parseInt(this.state.style.animationDuration,10),o=a/2);var l=n?r:0;return i=i.map(function(e){return"object"===(void 0===e?"undefined":_typeof(e))&&e?_react2.default.cloneElement(e,{style:_extends({},e.props.style,t.state.style,{animationDuration:Math.round((0,_globals.cascade)(n?l--:l++,0,r,o,a))+"ms"})}):e})}},{key:"componentWillReceiveProps",value:function(e){if(void 0!==e.when&&(this.isOn=!!e.when),e.fraction!==this.props.fraction&&this.observe(e,!0),!this.isOn&&e.onExited&&"exit"in e&&!1===e.exit)return void e.onExited();e.disabled||(e.collapse&&!this.props.collapse&&(this.setState({style:{},collapse:t.getInitialCollapseStyle(e)}),this.isShown=!1),e.when===this.props.when&&e.spy===this.props.spy||this.reveal(e),this.onRevealTimeout&&!this.isOn&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)))}},{key:"getChild",value:function(){if(this.savedChild&&!this.props.disabled)return this.savedChild;if("object"===_typeof(this.props.children)){var e=_react2.default.Children.only(this.props.children);return"type"in e&&"string"==typeof e.type||"ref"!==this.props.refProp?e:_react2.default.createElement("div",null,e)}return _react2.default.createElement("div",null,this.props.children)}},{key:"render",value:function(){var e=void 0;e=this.state.hasAppeared?!this.props.unmountOnExit||!this.state.hasExited||this.isOn:!this.props.mountOnEnter||this.isOn;var t=this.getChild();"function"==typeof t.ref&&(this.childRef=t.ref);var i=!1,s=t.props,o=s.style,n=s.className,r=s.children,a=this.props.disabled?n:(this.props.outEffect?_globals.namespace:"")+(this.state.className?" "+this.state.className:"")+(n?" "+n:"")||void 0,l=void 0;"function"==typeof this.state.style.animationName&&(this.state.style.animationName=this.state.style.animationName(!this.isOn,this.props)),this.props.cascade&&!this.props.disabled&&r&&this.state.style.animationName?(i=this.cascade(r),l=_extends({},o,{opacity:1})):l=this.props.disabled?o:_extends({},o,this.state.style);var p=_extends({},this.props.props,_defineProperty({className:a,style:l},this.props.refProp,this.saveRef)),h=_react2.default.cloneElement(t,p,e?i||r:void 0);return void 0!==this.props.collapse?this.props.collapseEl?_react2.default.cloneElement(this.props.collapseEl,{style:_extends({},this.props.collapseEl.style,this.props.disabled?void 0:this.state.collapse),children:h}):_react2.default.createElement("div",{style:this.props.disabled?void 0:this.state.collapse,children:h}):h}},{key:"makeHandler",value:function(e){var t=this,i=function(){e.call(t,t.props),t.ticking=!1};return function(){t.ticking||((0,_globals.raf)(i),t.ticking=!0)}}},{key:"inViewport",value:function(e){if(!this.el||window.document.hidden)return!1;var i=this.el.offsetHeight,s=window.pageYOffset-t.getTop(this.el),o=Math.min(i,window.innerHeight)*(_globals.globalHide?e.fraction:0);return s>o-window.innerHeight&&s<i-o}},{key:"resize",value:function(e){this&&this.el&&this.isOn&&this.inViewport(e)&&(this.unlisten(),this.isShown=this.isOn,this.setState({hasExited:!this.isOn,hasAppeared:!0,collapse:void 0,style:{opacity:this.isOn||!e.outEffect?1:0}}),this.onReveal(e))}},{key:"listen",value:function(){_globals.observerMode||this.isListener||(this.isListener=!0,window.addEventListener("scroll",this.revealHandler,{passive:!0}),window.addEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.addEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.addEventListener("collapseend",this.revealHandler,{passive:!0}),window.addEventListener("resize",this.resizeHandler,{passive:!0}))}},{key:"unlisten",value:function(){!_globals.observerMode&&this.isListener&&(window.removeEventListener("scroll",this.revealHandler,{passive:!0}),window.removeEventListener("orientationchange",this.revealHandler,{passive:!0}),window.document.removeEventListener("visibilitychange",this.revealHandler,{passive:!0}),window.document.removeEventListener("collapseend",this.revealHandler,{passive:!0}),window.removeEventListener("resize",this.resizeHandler,{passive:!0}),this.isListener=!1),this.onRevealTimeout&&(this.onRevealTimeout=window.clearTimeout(this.onRevealTimeout)),this.animationEndTimeout&&(this.animationEndTimeout=window.clearTimeout(this.animationEndTimeout))}}],[{key:"getInitialCollapseStyle",value:function(e){return{height:0,visibility:e.when?void 0:"hidden"}}},{key:"getTop",value:function(e){for(;void 0===e.offsetTop;)e=e.parentNode;for(var t=e.offsetTop;e.offsetParent;t+=e.offsetTop)e=e.offsetParent;return t}}]),t}(_react2.default.Component);RevealBase.propTypes=propTypes,RevealBase.defaultProps=defaultProps,RevealBase.contextTypes=contextTypes,RevealBase.displayName="RevealBase",exports["default"]=RevealBase,module.exports=exports.default;
 
 /***/ }),
 
@@ -45889,30 +44018,10 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!**********************************************!*\
   !*** ./node_modules/react-reveal/globals.js ***!
   \**********************************************/
-/*! flagged exports */
-/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export animation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export cascade [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export collapseend [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export defaults [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export disableSsr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export fadeOutEnabled [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export globalHide [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export hideAll [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ie10 [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export insertRule [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export namespace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export observerMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export raf [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ssr [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ssrFadeout [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
-function insertRule(e){try{return sheet.insertRule(e,sheet.cssRules.length)}catch(e){console.warn("react-reveal - animation failed")}}function cascade(e,n,t,o,r){var s=Math.log(o),i=Math.log(r),a=(i-s)/(t-n);return Math.exp(s+a*(e-n))}function animation(e){if(!sheet)return"";var n="@keyframes "+(name+counter)+"{"+e+"}",t=effectMap[e];return t?""+name+t:(sheet.insertRule(n,sheet.cssRules.length),effectMap[e]=counter,""+name+counter++)}function hideAll(){globalHide||(exports.globalHide=globalHide=!0,window.removeEventListener("scroll",hideAll,!0),insertRule("."+namespace+" { opacity: 0; }"),window.removeEventListener("orientationchange",hideAll,!0),window.document.removeEventListener("visibilitychange",hideAll))}function config(e){var n=e.ssrFadeout;exports.fadeOutEnabled=fadeOutEnabled=n}Object.defineProperty(exports, "__esModule", ({value:!0})),exports.insertRule=insertRule,exports.cascade=cascade,exports.animation=animation,exports.hideAll=hideAll,exports.default=config;var namespace=exports.namespace="react-reveal",defaults=exports.defaults={duration:1e3,delay:0,count:1},ssr=exports.ssr=!0,observerMode=exports.observerMode=!1,raf=exports.raf=function(e){return window.setTimeout(e,66)},disableSsr=exports.disableSsr=function(){return exports.ssr=ssr=!1},fadeOutEnabled=exports.fadeOutEnabled=!1,ssrFadeout=exports.ssrFadeout=function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return exports.fadeOutEnabled=fadeOutEnabled=e},globalHide=exports.globalHide=!1,ie10=exports.ie10=!1,collapseend=exports.collapseend=void 0,counter=1,effectMap={},sheet=!1,name=namespace+"-"+Math.floor(1e15*Math.random())+"-";if("undefined"!=typeof window&&"nodejs"!==window.name&&window.document&&"undefined"!=typeof navigator){exports.observerMode=observerMode="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype&&/\{\s*\[native code\]\s*\}/.test(""+IntersectionObserver),exports.raf=raf=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||raf,exports.ssr=ssr=window.document.querySelectorAll("div[data-reactroot]").length>0,-1!==navigator.appVersion.indexOf("MSIE 10")&&(exports.ie10=ie10=!0),ssr&&"performance"in window&&"timing"in window.performance&&"domContentLoadedEventEnd"in window.performance.timing&&window.performance.timing.domLoading&&Date.now()-window.performance.timing.domLoading<300&&(exports.ssr=ssr=!1),ssr&&window.setTimeout(disableSsr,1500),observerMode||(exports.collapseend=collapseend=document.createEvent("Event"),collapseend.initEvent("collapseend",!0,!0));var element=document.createElement("style");document.head.appendChild(element),element.sheet&&element.sheet.cssRules&&element.sheet.insertRule&&(sheet=element.sheet,window.addEventListener("scroll",hideAll,!0),window.addEventListener("orientationchange",hideAll,!0),window.document.addEventListener("visibilitychange",hideAll))}
+function insertRule(e){try{return sheet.insertRule(e,sheet.cssRules.length)}catch(e){console.warn("react-reveal - animation failed")}}function cascade(e,n,t,o,r){var s=Math.log(o),i=Math.log(r),a=(i-s)/(t-n);return Math.exp(s+a*(e-n))}function animation(e){if(!sheet)return"";var n="@keyframes "+(name+counter)+"{"+e+"}",t=effectMap[e];return t?""+name+t:(sheet.insertRule(n,sheet.cssRules.length),effectMap[e]=counter,""+name+counter++)}function hideAll(){globalHide||(exports.globalHide=globalHide=!0,window.removeEventListener("scroll",hideAll,!0),insertRule("."+namespace+" { opacity: 0; }"),window.removeEventListener("orientationchange",hideAll,!0),window.document.removeEventListener("visibilitychange",hideAll))}function config(e){var n=e.ssrFadeout;exports.fadeOutEnabled=fadeOutEnabled=n}Object.defineProperty(exports, "__esModule", ({value:!0})),exports.insertRule=insertRule,exports.cascade=cascade,exports.animation=animation,exports.hideAll=hideAll,exports["default"]=config;var namespace=exports.namespace="react-reveal",defaults=exports.defaults={duration:1e3,delay:0,count:1},ssr=exports.ssr=!0,observerMode=exports.observerMode=!1,raf=exports.raf=function(e){return window.setTimeout(e,66)},disableSsr=exports.disableSsr=function(){return exports.ssr=ssr=!1},fadeOutEnabled=exports.fadeOutEnabled=!1,ssrFadeout=exports.ssrFadeout=function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return exports.fadeOutEnabled=fadeOutEnabled=e},globalHide=exports.globalHide=!1,ie10=exports.ie10=!1,collapseend=exports.collapseend=void 0,counter=1,effectMap={},sheet=!1,name=namespace+"-"+Math.floor(1e15*Math.random())+"-";if("undefined"!=typeof window&&"nodejs"!==window.name&&window.document&&"undefined"!=typeof navigator){exports.observerMode=observerMode="IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype&&/\{\s*\[native code\]\s*\}/.test(""+IntersectionObserver),exports.raf=raf=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||raf,exports.ssr=ssr=window.document.querySelectorAll("div[data-reactroot]").length>0,-1!==navigator.appVersion.indexOf("MSIE 10")&&(exports.ie10=ie10=!0),ssr&&"performance"in window&&"timing"in window.performance&&"domContentLoadedEventEnd"in window.performance.timing&&window.performance.timing.domLoading&&Date.now()-window.performance.timing.domLoading<300&&(exports.ssr=ssr=!1),ssr&&window.setTimeout(disableSsr,1500),observerMode||(exports.collapseend=collapseend=document.createEvent("Event"),collapseend.initEvent("collapseend",!0,!0));var element=document.createElement("style");document.head.appendChild(element),element.sheet&&element.sheet.cssRules&&element.sheet.insertRule&&(sheet=element.sheet,window.addEventListener("scroll",hideAll,!0),window.addEventListener("orientationchange",hideAll,!0),window.document.addEventListener("visibilitychange",hideAll))}
 
 /***/ }),
 
@@ -45920,13 +44029,10 @@ function insertRule(e){try{return sheet.insertRule(e,sheet.cssRules.length)}catc
 /*!***************************************************!*\
   !*** ./node_modules/react-reveal/makeCarousel.js ***!
   \***************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 1:4722-4736 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
-function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}function makeCarousel(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return function(r){function n(e){_classCallCheck(this,n);var t=_possibleConstructorReturn(this,(n.__proto__||Object.getPrototypeOf(n)).call(this,e));return t.state={current:0,next:1,backwards:!1,swap:!1,appear:!1},t.turn=0,t.stop=!1,t.handleReveal=t.handleReveal.bind(t),t.handleSwipe=t.handleSwipe.bind(t),t.target=t.target.bind(t),t}return _inherits(n,r),_createClass(n,null,[{key:"propTypes",get:function(){return{children:_propTypes.node.isRequired,defaultWait:_propTypes.number,maxTurns:_propTypes.number,swipe:_propTypes.bool}}},{key:"defaultProps",get:function(){return{defaultWait:t.defaultWait||5e3,maxTurns:t.maxTurns||5,swipe:t.swipe||!0}}}]),_createClass(n,[{key:"target",value:function(e){var t=e.currentTarget;this.move(+t.getAttribute("data-position"))}},{key:"handleReveal",value:function(){this.turn>=this.props.maxTurns||this.move(this.state.current+1)}},{key:"componentWillUnmount",value:function(){this.turn=-1}},{key:"move",value:function(e){if(!(this.turn<0||e===this.state.current)){var t=e,r=_react2.default.Children.count(this.props.children);e>=r?(this.turn++,t=0):e<0&&(t=r-1),this.setState({current:t,next:this.state.current,backwards:e<this.state.current,swap:!this.state.swap,appear:!0})}}},{key:"handleSwipe",value:function(e){this.props.swipe&&("left"===e?this.move(this.state.current+1):"right"===e&&this.move(this.state.current-1))}},{key:"componentDidMount",value:function(){this.beforeNode&&this.afterNode&&((0,_swipedetect2.default)(this.beforeNode,this.handleSwipe),(0,_swipedetect2.default)(this.afterNode,this.handleSwipe))}},{key:"render",value:function(){var t=this,r=this.props.children,n=_react2.default.Children.toArray(r),a=n.length,o=this.state,i=o.swap,s=o.next,u=o.current,l=o.backwards;u%=a,s%=a;var p=void 0,c=void 0;switch(a){case 0:p=_react2.default.createElement("div",null),c=_react2.default.createElement("div",null);case 1:p=n[0],c=n[0];default:p=n[i?s:u],c=n[i?u:s]}return"object"!==(void 0===p?"undefined":_typeof(p))&&(p=_react2.default.createElement("div",null,p)),"object"!==(void 0===c?"undefined":_typeof(c))&&(c=_react2.default.createElement("div",null,c)),_react2.default.createElement(e,_extends({},this.props,{position:u,handleClick:this.target,total:a,children:[_react2.default.createElement("div",{ref:function(e){return t.beforeNode=e},key:1,style:{position:"absolute",left:0,top:0,width:"100%",height:"100%",zIndex:i?1:2}},_react2.default.createElement(p.type,_extends({mountOnEnter:!0,unmountOnExit:!0,appear:this.state.appear,wait:this.props.defaultWait},p.props,{opposite:!0,when:!i,mirror:l,onReveal:i?void 0:this.handleReveal}))),_react2.default.createElement("div",{key:2,ref:function(e){return t.afterNode=e},style:{position:"absolute",left:0,top:0,width:"100%",height:"100%",zIndex:i?2:1}},_react2.default.createElement(c.type,_extends({mountOnEnter:!0,unmountOnExit:!0,appear:this.state.appear,wait:this.props.defaultWait},c.props,{opposite:!0,when:i,mirror:l,onReveal:i?this.handleReveal:void 0})))]}))}}]),n}(_react2.default.Component)}Object.defineProperty(exports, "__esModule", ({value:!0}));var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},_createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_swipedetect=__webpack_require__(/*! ./swipedetect */ "./node_modules/react-reveal/swipedetect.js"),_swipedetect2=_interopRequireDefault(_swipedetect);exports.default=makeCarousel,module.exports=exports.default;
+function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _possibleConstructorReturn(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function _inherits(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}function makeCarousel(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return function(r){function n(e){_classCallCheck(this,n);var t=_possibleConstructorReturn(this,(n.__proto__||Object.getPrototypeOf(n)).call(this,e));return t.state={current:0,next:1,backwards:!1,swap:!1,appear:!1},t.turn=0,t.stop=!1,t.handleReveal=t.handleReveal.bind(t),t.handleSwipe=t.handleSwipe.bind(t),t.target=t.target.bind(t),t}return _inherits(n,r),_createClass(n,null,[{key:"propTypes",get:function(){return{children:_propTypes.node.isRequired,defaultWait:_propTypes.number,maxTurns:_propTypes.number,swipe:_propTypes.bool}}},{key:"defaultProps",get:function(){return{defaultWait:t.defaultWait||5e3,maxTurns:t.maxTurns||5,swipe:t.swipe||!0}}}]),_createClass(n,[{key:"target",value:function(e){var t=e.currentTarget;this.move(+t.getAttribute("data-position"))}},{key:"handleReveal",value:function(){this.turn>=this.props.maxTurns||this.move(this.state.current+1)}},{key:"componentWillUnmount",value:function(){this.turn=-1}},{key:"move",value:function(e){if(!(this.turn<0||e===this.state.current)){var t=e,r=_react2.default.Children.count(this.props.children);e>=r?(this.turn++,t=0):e<0&&(t=r-1),this.setState({current:t,next:this.state.current,backwards:e<this.state.current,swap:!this.state.swap,appear:!0})}}},{key:"handleSwipe",value:function(e){this.props.swipe&&("left"===e?this.move(this.state.current+1):"right"===e&&this.move(this.state.current-1))}},{key:"componentDidMount",value:function(){this.beforeNode&&this.afterNode&&((0,_swipedetect2.default)(this.beforeNode,this.handleSwipe),(0,_swipedetect2.default)(this.afterNode,this.handleSwipe))}},{key:"render",value:function(){var t=this,r=this.props.children,n=_react2.default.Children.toArray(r),a=n.length,o=this.state,i=o.swap,s=o.next,u=o.current,l=o.backwards;u%=a,s%=a;var p=void 0,c=void 0;switch(a){case 0:p=_react2.default.createElement("div",null),c=_react2.default.createElement("div",null);case 1:p=n[0],c=n[0];default:p=n[i?s:u],c=n[i?u:s]}return"object"!==(void 0===p?"undefined":_typeof(p))&&(p=_react2.default.createElement("div",null,p)),"object"!==(void 0===c?"undefined":_typeof(c))&&(c=_react2.default.createElement("div",null,c)),_react2.default.createElement(e,_extends({},this.props,{position:u,handleClick:this.target,total:a,children:[_react2.default.createElement("div",{ref:function(e){return t.beforeNode=e},key:1,style:{position:"absolute",left:0,top:0,width:"100%",height:"100%",zIndex:i?1:2}},_react2.default.createElement(p.type,_extends({mountOnEnter:!0,unmountOnExit:!0,appear:this.state.appear,wait:this.props.defaultWait},p.props,{opposite:!0,when:!i,mirror:l,onReveal:i?void 0:this.handleReveal}))),_react2.default.createElement("div",{key:2,ref:function(e){return t.afterNode=e},style:{position:"absolute",left:0,top:0,width:"100%",height:"100%",zIndex:i?2:1}},_react2.default.createElement(c.type,_extends({mountOnEnter:!0,unmountOnExit:!0,appear:this.state.appear,wait:this.props.defaultWait},c.props,{opposite:!0,when:i,mirror:l,onReveal:i?this.handleReveal:void 0})))]}))}}]),n}(_react2.default.Component)}Object.defineProperty(exports, "__esModule", ({value:!0}));var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},_createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_propTypes=__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"),_swipedetect=__webpack_require__(/*! ./swipedetect */ "./node_modules/react-reveal/swipedetect.js"),_swipedetect2=_interopRequireDefault(_swipedetect);exports["default"]=makeCarousel,module.exports=exports.default;
 
 /***/ }),
 
@@ -45934,13 +44040,10 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!**************************************************!*\
   !*** ./node_modules/react-reveal/swipedetect.js ***!
   \**************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 1:559-573 */
 /***/ ((module, exports) => {
 
 "use strict";
-function swipedetect(e,t){var a,s,n,o,d,i,u,c=e,p=t||function(e){};c.addEventListener("touchstart",function(e){var t=e.changedTouches[0];a="none",s=t.pageX,n=t.pageY,u=(new Date).getTime()},{passive:!0}),c.addEventListener("touchend",function(e){var t=e.changedTouches[0];o=t.pageX-s,d=t.pageY-n,i=(new Date).getTime()-u,i<=300&&(Math.abs(o)>=150&&Math.abs(d)<=100?a=o<0?"left":"right":Math.abs(d)>=150&&Math.abs(o)<=100&&(a=d<0?"up":"down")),p(a)},{passive:!0})}Object.defineProperty(exports, "__esModule", ({value:!0})),exports.default=swipedetect,module.exports=exports.default;
+function swipedetect(e,t){var a,s,n,o,d,i,u,c=e,p=t||function(e){};c.addEventListener("touchstart",function(e){var t=e.changedTouches[0];a="none",s=t.pageX,n=t.pageY,u=(new Date).getTime()},{passive:!0}),c.addEventListener("touchend",function(e){var t=e.changedTouches[0];o=t.pageX-s,d=t.pageY-n,i=(new Date).getTime()-u,i<=300&&(Math.abs(o)>=150&&Math.abs(d)<=100?a=o<0?"left":"right":Math.abs(d)>=150&&Math.abs(o)<=100&&(a=d<0?"up":"down")),p(a)},{passive:!0})}Object.defineProperty(exports, "__esModule", ({value:!0})),exports["default"]=swipedetect,module.exports=exports.default;
 
 /***/ }),
 
@@ -45948,13 +44051,10 @@ function swipedetect(e,t){var a,s,n,o,d,i,u,c=e,p=t||function(e){};c.addEventLis
 /*!*******************************************!*\
   !*** ./node_modules/react-reveal/wrap.js ***!
   \*******************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 1:976-990 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
-function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function wrap(e,t,a,r){return"in"in e&&(e.when=e.in),_react2.default.Children.count(r)<2?_react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r})):(r=_react2.default.Children.map(r,function(r){return _react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r}))}),"Fragment"in _react2.default?_react2.default.createElement(_react2.default.Fragment,null,r):_react2.default.createElement("span",null,r))}Object.defineProperty(exports, "__esModule", ({value:!0}));var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var r in a)Object.prototype.hasOwnProperty.call(a,r)&&(e[r]=a[r])}return e};exports.default=wrap;var _react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_RevealBase=__webpack_require__(/*! ./RevealBase */ "./node_modules/react-reveal/RevealBase.js"),_RevealBase2=_interopRequireDefault(_RevealBase);module.exports=exports.default;
+function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function wrap(e,t,a,r){return"in"in e&&(e.when=e.in),_react2.default.Children.count(r)<2?_react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r})):(r=_react2.default.Children.map(r,function(r){return _react2.default.createElement(_RevealBase2.default,_extends({},e,{inEffect:t,outEffect:a,children:r}))}),"Fragment"in _react2.default?_react2.default.createElement(_react2.default.Fragment,null,r):_react2.default.createElement("span",null,r))}Object.defineProperty(exports, "__esModule", ({value:!0}));var _extends=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var r in a)Object.prototype.hasOwnProperty.call(a,r)&&(e[r]=a[r])}return e};exports["default"]=wrap;var _react=__webpack_require__(/*! react */ "./node_modules/react/index.js"),_react2=_interopRequireDefault(_react),_RevealBase=__webpack_require__(/*! ./RevealBase */ "./node_modules/react-reveal/RevealBase.js"),_RevealBase2=_interopRequireDefault(_RevealBase);module.exports=exports.default;
 
 /***/ }),
 
@@ -45962,60 +44062,39 @@ function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! namespace exports */
-/*! export BrowserRouter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export HashRouter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Link [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export MemoryRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .MemoryRouter */
-/*! export NavLink [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Prompt [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Prompt */
-/*! export Redirect [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Redirect */
-/*! export Route [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Route */
-/*! export Router [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Router */
-/*! export StaticRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .StaticRouter */
-/*! export Switch [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .Switch */
-/*! export generatePath [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .generatePath */
-/*! export matchPath [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .matchPath */
-/*! export useHistory [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .useHistory */
-/*! export useLocation [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .useLocation */
-/*! export useParams [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .useParams */
-/*! export useRouteMatch [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .useRouteMatch */
-/*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/react-router/esm/react-router.js .withRouter */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.n, __webpack_require__.r, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MemoryRouter": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.MemoryRouter,
-/* harmony export */   "Prompt": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Prompt,
-/* harmony export */   "Redirect": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Redirect,
-/* harmony export */   "Route": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Route,
-/* harmony export */   "Router": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Router,
-/* harmony export */   "StaticRouter": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.StaticRouter,
-/* harmony export */   "Switch": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Switch,
-/* harmony export */   "generatePath": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.generatePath,
-/* harmony export */   "matchPath": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.matchPath,
-/* harmony export */   "useHistory": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useHistory,
-/* harmony export */   "useLocation": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useLocation,
-/* harmony export */   "useParams": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useParams,
-/* harmony export */   "useRouteMatch": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useRouteMatch,
-/* harmony export */   "withRouter": () => /* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.withRouter,
-/* harmony export */   "BrowserRouter": () => /* binding */ BrowserRouter,
-/* harmony export */   "HashRouter": () => /* binding */ HashRouter,
-/* harmony export */   "Link": () => /* binding */ Link,
-/* harmony export */   "NavLink": () => /* binding */ NavLink
+/* harmony export */   "MemoryRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.MemoryRouter),
+/* harmony export */   "Prompt": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Prompt),
+/* harmony export */   "Redirect": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Redirect),
+/* harmony export */   "Route": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Route),
+/* harmony export */   "Router": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Router),
+/* harmony export */   "StaticRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.StaticRouter),
+/* harmony export */   "Switch": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Switch),
+/* harmony export */   "generatePath": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.generatePath),
+/* harmony export */   "matchPath": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.matchPath),
+/* harmony export */   "useHistory": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useHistory),
+/* harmony export */   "useLocation": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useLocation),
+/* harmony export */   "useParams": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useParams),
+/* harmony export */   "useRouteMatch": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useRouteMatch),
+/* harmony export */   "withRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.withRouter),
+/* harmony export */   "BrowserRouter": () => (/* binding */ BrowserRouter),
+/* harmony export */   "HashRouter": () => (/* binding */ HashRouter),
+/* harmony export */   "Link": () => (/* binding */ Link),
+/* harmony export */   "NavLink": () => (/* binding */ NavLink)
 /* harmony export */ });
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
 
 
@@ -46032,10 +44111,8 @@ __webpack_require__.r(__webpack_exports__);
  * The public API for a <Router> that uses HTML5 history.
  */
 
-var BrowserRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(BrowserRouter, _React$Component);
+var BrowserRouter = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(BrowserRouter, _React$Component);
 
   function BrowserRouter() {
     var _this;
@@ -46045,14 +44122,14 @@ function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = (0,history__WEBPACK_IMPORTED_MODULE_6__.createBrowserHistory)(_this.props);
+    _this.history = (0,history__WEBPACK_IMPORTED_MODULE_5__.createBrowserHistory)(_this.props);
     return _this;
   }
 
   var _proto = BrowserRouter.prototype;
 
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.Router, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.Router, {
       history: this.history,
       children: this.props.children
     });
@@ -46063,15 +44140,15 @@ function (_React$Component) {
 
 if (true) {
   BrowserRouter.propTypes = {
-    basename: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-    children: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().node),
-    forceRefresh: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func),
-    keyLength: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().number)
+    basename: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string),
+    children: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().node),
+    forceRefresh: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
+    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
+    keyLength: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().number)
   };
 
   BrowserRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__.default)(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__["default"])(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : 0;
   };
 }
 
@@ -46079,10 +44156,8 @@ if (true) {
  * The public API for a <Router> that uses window.location.hash.
  */
 
-var HashRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(HashRouter, _React$Component);
+var HashRouter = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(HashRouter, _React$Component);
 
   function HashRouter() {
     var _this;
@@ -46092,14 +44167,14 @@ function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = (0,history__WEBPACK_IMPORTED_MODULE_6__.createHashHistory)(_this.props);
+    _this.history = (0,history__WEBPACK_IMPORTED_MODULE_5__.createHashHistory)(_this.props);
     return _this;
   }
 
   var _proto = HashRouter.prototype;
 
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.Router, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.Router, {
       history: this.history,
       children: this.props.children
     });
@@ -46110,14 +44185,14 @@ function (_React$Component) {
 
 if (true) {
   HashRouter.propTypes = {
-    basename: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-    children: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().node),
-    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func),
-    hashType: prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOf(["hashbang", "noslash", "slash"])
+    basename: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string),
+    children: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().node),
+    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
+    hashType: prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOf(["hashbang", "noslash", "slash"])
   };
 
   HashRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__.default)(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__["default"])(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : 0;
   };
 }
 
@@ -46125,7 +44200,7 @@ var resolveToLocation = function resolveToLocation(to, currentLocation) {
   return typeof to === "function" ? to(currentLocation) : to;
 };
 var normalizeToLocation = function normalizeToLocation(to, currentLocation) {
-  return typeof to === "string" ? (0,history__WEBPACK_IMPORTED_MODULE_6__.createLocation)(to, null, null, currentLocation) : to;
+  return typeof to === "string" ? (0,history__WEBPACK_IMPORTED_MODULE_5__.createLocation)(to, null, null, currentLocation) : to;
 };
 
 var forwardRefShim = function forwardRefShim(C) {
@@ -46146,11 +44221,11 @@ var LinkAnchor = forwardRef(function (_ref, forwardedRef) {
   var innerRef = _ref.innerRef,
       navigate = _ref.navigate,
       _onClick = _ref.onClick,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref, ["innerRef", "navigate", "onClick"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_4__["default"])(_ref, ["innerRef", "navigate", "onClick"]);
 
   var target = rest.target;
 
-  var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+  var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, rest, {
     onClick: function onClick(event) {
       try {
         if (_onClick) _onClick(event);
@@ -46179,7 +44254,7 @@ var LinkAnchor = forwardRef(function (_ref, forwardedRef) {
   /* eslint-disable-next-line jsx-a11y/anchor-has-content */
 
 
-  return react__WEBPACK_IMPORTED_MODULE_2__.createElement("a", props);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("a", props);
 });
 
 if (true) {
@@ -46196,19 +44271,20 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       replace = _ref2.replace,
       to = _ref2.to,
       innerRef = _ref2.innerRef,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref2, ["component", "replace", "to", "innerRef"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_4__["default"])(_ref2, ["component", "replace", "to", "innerRef"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__.default)(false, "You should not use <Link> outside a <Router>") : 0 : void 0;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <Link> outside a <Router>") : 0 : void 0;
     var history = context.history;
     var location = normalizeToLocation(resolveToLocation(to, context.location), context.location);
     var href = location ? history.createHref(location) : "";
 
-    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, rest, {
       href: href,
       navigate: function navigate() {
         var location = resolveToLocation(to, context.location);
-        var method = replace ? history.replace : history.push;
+        var isDuplicateNavigation = (0,history__WEBPACK_IMPORTED_MODULE_5__.createPath)(context.location) === (0,history__WEBPACK_IMPORTED_MODULE_5__.createPath)(normalizeToLocation(location));
+        var method = replace || isDuplicateNavigation ? history.replace : history.push;
         method(location);
       }
     }); // React 15 compat
@@ -46220,21 +44296,21 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       props.innerRef = innerRef;
     }
 
-    return react__WEBPACK_IMPORTED_MODULE_2__.createElement(component, props);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(component, props);
   });
 });
 
 if (true) {
-  var toType = prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_3___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func)]);
-  var refType = prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_3___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func), prop_types__WEBPACK_IMPORTED_MODULE_3___default().shape({
-    current: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().any)
+  var toType = prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func)]);
+  var refType = prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func), prop_types__WEBPACK_IMPORTED_MODULE_6___default().shape({
+    current: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().any)
   })]);
   Link.displayName = "Link";
   Link.propTypes = {
     innerRef: refType,
-    onClick: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func),
-    replace: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-    target: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
+    onClick: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
+    replace: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
+    target: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string),
     to: toType.isRequired
   };
 }
@@ -46278,10 +44354,10 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       styleProp = _ref.style,
       to = _ref.to,
       innerRef = _ref.innerRef,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_4__["default"])(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__.default)(false, "You should not use <NavLink> outside a <Router>") : 0 : void 0;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <NavLink> outside a <Router>") : 0 : void 0;
     var currentLocation = locationProp || context.location;
     var toLocation = normalizeToLocation(resolveToLocation(to, currentLocation), currentLocation);
     var path = toLocation.pathname; // Regex taken from: https://github.com/pillarjs/path-to-regexp/blob/master/index.js#L202
@@ -46294,10 +44370,15 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       strict: strict
     }) : null;
     var isActive = !!(isActiveProp ? isActiveProp(match, currentLocation) : match);
-    var className = isActive ? joinClassnames(classNameProp, activeClassName) : classNameProp;
-    var style = isActive ? (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, styleProp, {}, activeStyle) : styleProp;
+    var className = typeof classNameProp === "function" ? classNameProp(isActive) : classNameProp;
+    var style = typeof styleProp === "function" ? styleProp(isActive) : styleProp;
 
-    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({
+    if (isActive) {
+      className = joinClassnames(className, activeClassName);
+      style = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, style, activeStyle);
+    }
+
+    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({
       "aria-current": isActive && ariaCurrent || null,
       className: className,
       style: style,
@@ -46311,24 +44392,24 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       props.innerRef = innerRef;
     }
 
-    return react__WEBPACK_IMPORTED_MODULE_2__.createElement(Link, props);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(Link, props);
   });
 });
 
 if (true) {
   NavLink.displayName = "NavLink";
-  var ariaCurrentType = prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOf(["page", "step", "location", "date", "time", "true"]);
-  NavLink.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, Link.propTypes, {
+  var ariaCurrentType = prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOf(["page", "step", "location", "date", "time", "true", "false"]);
+  NavLink.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, Link.propTypes, {
     "aria-current": ariaCurrentType,
-    activeClassName: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-    activeStyle: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object),
-    className: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-    exact: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-    isActive: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().func),
-    location: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object),
-    sensitive: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-    strict: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().bool),
-    style: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object)
+    activeClassName: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string),
+    activeStyle: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().object),
+    className: prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func)]),
+    exact: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
+    isActive: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
+    location: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().object),
+    sensitive: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
+    strict: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
+    style: prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func)])
   });
 }
 
@@ -46342,62 +44423,43 @@ if (true) {
 /*!*******************************************************!*\
   !*** ./node_modules/react-router/esm/react-router.js ***!
   \*******************************************************/
-/*! namespace exports */
-/*! export MemoryRouter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Prompt [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Redirect [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Route [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Router [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export StaticRouter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Switch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __HistoryContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __RouterContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export generatePath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export matchPath [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useHistory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useLocation [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useParams [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useRouteMatch [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export withRouter [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MemoryRouter": () => /* binding */ MemoryRouter,
-/* harmony export */   "Prompt": () => /* binding */ Prompt,
-/* harmony export */   "Redirect": () => /* binding */ Redirect,
-/* harmony export */   "Route": () => /* binding */ Route,
-/* harmony export */   "Router": () => /* binding */ Router,
-/* harmony export */   "StaticRouter": () => /* binding */ StaticRouter,
-/* harmony export */   "Switch": () => /* binding */ Switch,
-/* harmony export */   "__HistoryContext": () => /* binding */ historyContext,
-/* harmony export */   "__RouterContext": () => /* binding */ context,
-/* harmony export */   "generatePath": () => /* binding */ generatePath,
-/* harmony export */   "matchPath": () => /* binding */ matchPath,
-/* harmony export */   "useHistory": () => /* binding */ useHistory,
-/* harmony export */   "useLocation": () => /* binding */ useLocation,
-/* harmony export */   "useParams": () => /* binding */ useParams,
-/* harmony export */   "useRouteMatch": () => /* binding */ useRouteMatch,
-/* harmony export */   "withRouter": () => /* binding */ withRouter
+/* harmony export */   "MemoryRouter": () => (/* binding */ MemoryRouter),
+/* harmony export */   "Prompt": () => (/* binding */ Prompt),
+/* harmony export */   "Redirect": () => (/* binding */ Redirect),
+/* harmony export */   "Route": () => (/* binding */ Route),
+/* harmony export */   "Router": () => (/* binding */ Router),
+/* harmony export */   "StaticRouter": () => (/* binding */ StaticRouter),
+/* harmony export */   "Switch": () => (/* binding */ Switch),
+/* harmony export */   "__HistoryContext": () => (/* binding */ historyContext),
+/* harmony export */   "__RouterContext": () => (/* binding */ context),
+/* harmony export */   "generatePath": () => (/* binding */ generatePath),
+/* harmony export */   "matchPath": () => (/* binding */ matchPath),
+/* harmony export */   "useHistory": () => (/* binding */ useHistory),
+/* harmony export */   "useLocation": () => (/* binding */ useLocation),
+/* harmony export */   "useParams": () => (/* binding */ useParams),
+/* harmony export */   "useRouteMatch": () => (/* binding */ useRouteMatch),
+/* harmony export */   "withRouter": () => (/* binding */ withRouter)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var history__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
 /* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-/* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
+/* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
 /* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -46414,35 +44476,21 @@ __webpack_require__.r(__webpack_exports__);
 // TODO: Replace with React.createContext once we can assume React 16+
 
 var createNamedContext = function createNamedContext(name) {
-  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__.default)();
+  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_2__["default"])();
   context.displayName = name;
   return context;
 };
 
-var historyContext =
-/*#__PURE__*/
-createNamedContext("Router-History");
+var historyContext = /*#__PURE__*/createNamedContext("Router-History");
 
-// TODO: Replace with React.createContext once we can assume React 16+
-
-var createNamedContext$1 = function createNamedContext(name) {
-  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__.default)();
-  context.displayName = name;
-  return context;
-};
-
-var context =
-/*#__PURE__*/
-createNamedContext$1("Router");
+var context = /*#__PURE__*/createNamedContext("Router");
 
 /**
  * The public API for putting history on context.
  */
 
-var Router =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Router, _React$Component);
+var Router = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Router, _React$Component);
 
   Router.computeRootMatch = function computeRootMatch(pathname) {
     return {
@@ -46496,18 +44544,22 @@ function (_React$Component) {
   };
 
   _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.unlisten) this.unlisten();
+    if (this.unlisten) {
+      this.unlisten();
+      this._isMounted = false;
+      this._pendingLocation = null;
+    }
   };
 
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Provider, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Provider, {
       value: {
         history: this.props.history,
         location: this.state.location,
         match: Router.computeRootMatch(this.state.location.pathname),
         staticContext: this.props.staticContext
       }
-    }, react__WEBPACK_IMPORTED_MODULE_1__.createElement(historyContext.Provider, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(historyContext.Provider, {
       children: this.props.children || null,
       value: this.props.history
     }));
@@ -46518,13 +44570,13 @@ function (_React$Component) {
 
 if (true) {
   Router.propTypes = {
-    children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node),
-    history: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object.isRequired),
-    staticContext: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)
+    children: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().node),
+    history: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object.isRequired),
+    staticContext: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object)
   };
 
   Router.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(prevProps.history === this.props.history, "You cannot change <Router history>") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(prevProps.history === this.props.history, "You cannot change <Router history>") : 0;
   };
 }
 
@@ -46532,10 +44584,8 @@ if (true) {
  * The public API for a <Router> that stores location in memory.
  */
 
-var MemoryRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(MemoryRouter, _React$Component);
+var MemoryRouter = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(MemoryRouter, _React$Component);
 
   function MemoryRouter() {
     var _this;
@@ -46552,7 +44602,7 @@ function (_React$Component) {
   var _proto = MemoryRouter.prototype;
 
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, {
       history: this.history,
       children: this.props.children
     });
@@ -46563,22 +44613,20 @@ function (_React$Component) {
 
 if (true) {
   MemoryRouter.propTypes = {
-    initialEntries: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().array),
-    initialIndex: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
-    keyLength: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-    children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node)
+    initialEntries: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().array),
+    initialIndex: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().number),
+    getUserConfirmation: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().func),
+    keyLength: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().number),
+    children: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().node)
   };
 
   MemoryRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : 0;
   };
 }
 
-var Lifecycle =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Lifecycle, _React$Component);
+var Lifecycle = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Lifecycle, _React$Component);
 
   function Lifecycle() {
     return _React$Component.apply(this, arguments) || this;
@@ -46613,11 +44661,11 @@ function Prompt(_ref) {
   var message = _ref.message,
       _ref$when = _ref.when,
       when = _ref$when === void 0 ? true : _ref$when;
-  return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Prompt> outside a <Router>") : 0 : void 0;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Prompt> outside a <Router>") : 0 : void 0;
     if (!when || context.staticContext) return null;
     var method = context.history.block;
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Lifecycle, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Lifecycle, {
       onMount: function onMount(self) {
         self.release = method(message);
       },
@@ -46636,9 +44684,9 @@ function Prompt(_ref) {
 }
 
 if (true) {
-  var messageType = prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]);
+  var messageType = prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().string)]);
   Prompt.propTypes = {
-    when: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+    when: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().bool),
     message: messageType.isRequired
   };
 }
@@ -46649,7 +44697,7 @@ var cacheCount = 0;
 
 function compilePath(path) {
   if (cache[path]) return cache[path];
-  var generator = path_to_regexp__WEBPACK_IMPORTED_MODULE_5___default().compile(path);
+  var generator = path_to_regexp__WEBPACK_IMPORTED_MODULE_4___default().compile(path);
 
   if (cacheCount < cacheLimit) {
     cache[path] = generator;
@@ -46686,12 +44734,12 @@ function Redirect(_ref) {
       to = _ref.to,
       _ref$push = _ref.push,
       push = _ref$push === void 0 ? false : _ref$push;
-  return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Redirect> outside a <Router>") : 0 : void 0;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Redirect> outside a <Router>") : 0 : void 0;
     var history = context.history,
         staticContext = context.staticContext;
     var method = push ? history.push : history.replace;
-    var location = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, to, {
+    var location = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, to, {
       pathname: generatePath(to.pathname, computedMatch.params)
     }) : to); // When rendering in a static context,
     // set the new location immediately.
@@ -46701,14 +44749,14 @@ function Redirect(_ref) {
       return null;
     }
 
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Lifecycle, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Lifecycle, {
       onMount: function onMount() {
         method(location);
       },
       onUpdate: function onUpdate(self, prevProps) {
         var prevLocation = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(prevProps.to);
 
-        if (!(0,history__WEBPACK_IMPORTED_MODULE_10__.locationsAreEqual)(prevLocation, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+        if (!(0,history__WEBPACK_IMPORTED_MODULE_10__.locationsAreEqual)(prevLocation, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, location, {
           key: prevLocation.key
         }))) {
           method(location);
@@ -46721,9 +44769,9 @@ function Redirect(_ref) {
 
 if (true) {
   Redirect.propTypes = {
-    push: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
-    from: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-    to: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)]).isRequired
+    push: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().bool),
+    from: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().string),
+    to: prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object)]).isRequired
   };
 }
 
@@ -46736,7 +44784,7 @@ function compilePath$1(path, options) {
   var pathCache = cache$1[cacheKey] || (cache$1[cacheKey] = {});
   if (pathCache[path]) return pathCache[path];
   var keys = [];
-  var regexp = path_to_regexp__WEBPACK_IMPORTED_MODULE_5___default()(path, keys, options);
+  var regexp = path_to_regexp__WEBPACK_IMPORTED_MODULE_4___default()(path, keys, options);
   var result = {
     regexp: regexp,
     keys: keys
@@ -46813,7 +44861,7 @@ function isEmptyChildren(children) {
 
 function evalChildrenDev(children, props, path) {
   var value = children(props);
-   true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(value !== undefined, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : 0;
+   true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(value !== undefined, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : 0;
   return value || null;
 }
 /**
@@ -46821,10 +44869,8 @@ function evalChildrenDev(children, props, path) {
  */
 
 
-var Route =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Route, _React$Component);
+var Route = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Route, _React$Component);
 
   function Route() {
     return _React$Component.apply(this, arguments) || this;
@@ -46835,13 +44881,13 @@ function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context$1) {
-      !context$1 ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Route> outside a <Router>") : 0 : void 0;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context$1) {
+      !context$1 ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Route> outside a <Router>") : 0 : void 0;
       var location = _this.props.location || context$1.location;
       var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
       : _this.props.path ? matchPath(location.pathname, _this.props) : context$1.match;
 
-      var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, context$1, {
+      var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, context$1, {
         location: location,
         match: match
       });
@@ -46852,13 +44898,13 @@ function (_React$Component) {
           render = _this$props.render; // Preact uses an empty array as children by
       // default, so use null if that's the case.
 
-      if (Array.isArray(children) && children.length === 0) {
+      if (Array.isArray(children) && isEmptyChildren(children)) {
         children = null;
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Provider, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Provider, {
         value: props
-      }, props.match ? children ? typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : 0 : children : component ? react__WEBPACK_IMPORTED_MODULE_1__.createElement(component, props) : render ? render(props) : null : typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : 0 : null);
+      }, props.match ? children ? typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : 0 : children : component ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(component, props) : render ? render(props) : null : typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : 0 : null);
     });
   };
 
@@ -46867,29 +44913,29 @@ function (_React$Component) {
 
 if (true) {
   Route.propTypes = {
-    children: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node)]),
+    children: prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().node)]),
     component: function component(props, propName) {
-      if (props[propName] && !(0,react_is__WEBPACK_IMPORTED_MODULE_6__.isValidElementType)(props[propName])) {
+      if (props[propName] && !(0,react_is__WEBPACK_IMPORTED_MODULE_5__.isValidElementType)(props[propName])) {
         return new Error("Invalid prop 'component' supplied to 'Route': the prop is not a valid React component");
       }
     },
-    exact: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
-    location: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object),
-    path: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), prop_types__WEBPACK_IMPORTED_MODULE_2___default().arrayOf((prop_types__WEBPACK_IMPORTED_MODULE_2___default().string))]),
-    render: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
-    sensitive: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
-    strict: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool)
+    exact: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().bool),
+    location: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object),
+    path: prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().string), prop_types__WEBPACK_IMPORTED_MODULE_8___default().arrayOf((prop_types__WEBPACK_IMPORTED_MODULE_8___default().string))]),
+    render: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().func),
+    sensitive: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().bool),
+    strict: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().bool)
   };
 
   Route.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : 0;
   };
 
   Route.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
   };
 }
 
@@ -46899,7 +44945,7 @@ function addLeadingSlash(path) {
 
 function addBasename(basename, location) {
   if (!basename) return location;
-  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, location, {
     pathname: addLeadingSlash(basename) + location.pathname
   });
 }
@@ -46908,7 +44954,7 @@ function stripBasename(basename, location) {
   if (!basename) return location;
   var base = addLeadingSlash(basename);
   if (location.pathname.indexOf(base) !== 0) return location;
-  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, location, {
     pathname: location.pathname.substr(base.length)
   });
 }
@@ -46919,7 +44965,7 @@ function createURL(location) {
 
 function staticHandler(methodName) {
   return function () {
-      true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You cannot %s with <StaticRouter>", methodName) : 0 ;
+      true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You cannot %s with <StaticRouter>", methodName) : 0 ;
   };
 }
 
@@ -46932,10 +44978,8 @@ function noop() {}
  */
 
 
-var StaticRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(StaticRouter, _React$Component);
+var StaticRouter = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(StaticRouter, _React$Component);
 
   function StaticRouter() {
     var _this;
@@ -46986,7 +45030,7 @@ function (_React$Component) {
         context = _this$props2$context === void 0 ? {} : _this$props2$context,
         _this$props2$location = _this$props2.location,
         location = _this$props2$location === void 0 ? "/" : _this$props2$location,
-        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__.default)(_this$props2, ["basename", "context", "location"]);
+        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_6__["default"])(_this$props2, ["basename", "context", "location"]);
 
     var history = {
       createHref: function createHref(path) {
@@ -47002,7 +45046,7 @@ function (_React$Component) {
       listen: this.handleListen,
       block: this.handleBlock
     };
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, rest, {
       history: history,
       staticContext: context
     }));
@@ -47013,13 +45057,13 @@ function (_React$Component) {
 
 if (true) {
   StaticRouter.propTypes = {
-    basename: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-    context: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object),
-    location: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)])
+    basename: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().string),
+    context: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object),
+    location: prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object)])
   };
 
   StaticRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : 0;
   };
 }
 
@@ -47027,10 +45071,8 @@ if (true) {
  * The public API for rendering the first <Route> that matches.
  */
 
-var Switch =
-/*#__PURE__*/
-function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Switch, _React$Component);
+var Switch = /*#__PURE__*/function (_React$Component) {
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Switch, _React$Component);
 
   function Switch() {
     return _React$Component.apply(this, arguments) || this;
@@ -47041,8 +45083,8 @@ function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Switch> outside a <Router>") : 0 : void 0;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
+      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Switch> outside a <Router>") : 0 : void 0;
       var location = _this.props.location || context.location;
       var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
       // here because toArray adds keys to all child elements and we do not want
@@ -47050,15 +45092,15 @@ function (_React$Component) {
       // component at different URLs.
 
       react__WEBPACK_IMPORTED_MODULE_1__.Children.forEach(_this.props.children, function (child) {
-        if (match == null && react__WEBPACK_IMPORTED_MODULE_1__.isValidElement(child)) {
+        if (match == null && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.isValidElement(child)) {
           element = child;
           var path = child.props.path || child.props.from;
-          match = path ? matchPath(location.pathname, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, child.props, {
+          match = path ? matchPath(location.pathname, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, child.props, {
             path: path
           })) : context.match;
         }
       });
-      return match ? react__WEBPACK_IMPORTED_MODULE_1__.cloneElement(element, {
+      return match ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.cloneElement(element, {
         location: location,
         computedMatch: match
       }) : null;
@@ -47070,13 +45112,13 @@ function (_React$Component) {
 
 if (true) {
   Switch.propTypes = {
-    children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node),
-    location: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)
+    children: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().node),
+    location: (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object)
   };
 
   Switch.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
   };
 }
 
@@ -47089,11 +45131,11 @@ function withRouter(Component) {
 
   var C = function C(props) {
     var wrappedComponentRef = props.wrappedComponentRef,
-        remainingProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__.default)(props, ["wrappedComponentRef"]);
+        remainingProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_6__["default"])(props, ["wrappedComponentRef"]);
 
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <" + displayName + " /> outside a <Router>") : 0 : void 0;
-      return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, remainingProps, context, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
+      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <" + displayName + " /> outside a <Router>") : 0 : void 0;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_3__["default"])({}, remainingProps, context, {
         ref: wrappedComponentRef
       }));
     });
@@ -47104,31 +45146,31 @@ function withRouter(Component) {
 
   if (true) {
     C.propTypes = {
-      wrappedComponentRef: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)])
+      wrappedComponentRef: prop_types__WEBPACK_IMPORTED_MODULE_8___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_8___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_8___default().object)])
     };
   }
 
-  return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8___default()(C, Component);
+  return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_7___default()(C, Component);
 }
 
 var useContext = react__WEBPACK_IMPORTED_MODULE_1__.useContext;
 function useHistory() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useHistory()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useHistory()") : 0 : void 0;
   }
 
   return useContext(historyContext);
 }
 function useLocation() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useLocation()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useLocation()") : 0 : void 0;
   }
 
   return useContext(context).location;
 }
 function useParams() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useParams()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useParams()") : 0 : void 0;
   }
 
   var match = useContext(context).match;
@@ -47136,7 +45178,7 @@ function useParams() {
 }
 function useRouteMatch(path) {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useRouteMatch()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useRouteMatch()") : 0 : void 0;
   }
 
   var location = useLocation();
@@ -47176,9 +45218,6 @@ if (true) {
 /*!*****************************************************************!*\
   !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
   \*****************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
 /***/ ((module) => {
 
 module.exports = Array.isArray || function (arr) {
@@ -47192,9 +45231,6 @@ module.exports = Array.isArray || function (arr) {
 /*!************************************************************************!*\
   !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
   \************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js")
@@ -47631,36 +45667,27 @@ function pathToRegexp (path, keys, options) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-transition-group/esm/Transition.js ***!
   \***************************************************************/
-/*! namespace exports */
-/*! export ENTERED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export ENTERING [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export EXITED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export EXITING [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export UNMOUNTED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "UNMOUNTED": () => /* binding */ UNMOUNTED,
-/* harmony export */   "EXITED": () => /* binding */ EXITED,
-/* harmony export */   "ENTERING": () => /* binding */ ENTERING,
-/* harmony export */   "ENTERED": () => /* binding */ ENTERED,
-/* harmony export */   "EXITING": () => /* binding */ EXITING,
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "UNMOUNTED": () => (/* binding */ UNMOUNTED),
+/* harmony export */   "EXITED": () => (/* binding */ EXITED),
+/* harmony export */   "ENTERING": () => (/* binding */ ENTERING),
+/* harmony export */   "ENTERED": () => (/* binding */ ENTERED),
+/* harmony export */   "EXITING": () => (/* binding */ EXITING),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./config */ "./node_modules/react-transition-group/esm/config.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ "./node_modules/react-transition-group/esm/config.js");
 /* harmony import */ var _utils_PropTypes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utils/PropTypes */ "./node_modules/react-transition-group/esm/utils/PropTypes.js");
-/* harmony import */ var _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./TransitionGroupContext */ "./node_modules/react-transition-group/esm/TransitionGroupContext.js");
+/* harmony import */ var _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./TransitionGroupContext */ "./node_modules/react-transition-group/esm/TransitionGroupContext.js");
 
 
 
@@ -47767,7 +45794,7 @@ var EXITING = 'exiting';
  */
 
 var Transition = /*#__PURE__*/function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(Transition, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Transition, _React$Component);
 
   function Transition(props, context) {
     var _this;
@@ -47905,7 +45932,7 @@ var Transition = /*#__PURE__*/function (_React$Component) {
     var enter = this.props.enter;
     var appearing = this.context ? this.context.isMounting : mounting;
 
-    var _ref2 = this.props.nodeRef ? [appearing] : [react_dom__WEBPACK_IMPORTED_MODULE_4__.findDOMNode(this), appearing],
+    var _ref2 = this.props.nodeRef ? [appearing] : [react_dom__WEBPACK_IMPORTED_MODULE_3__.findDOMNode(this), appearing],
         maybeNode = _ref2[0],
         maybeAppearing = _ref2[1];
 
@@ -47913,7 +45940,7 @@ var Transition = /*#__PURE__*/function (_React$Component) {
     var enterTimeout = appearing ? timeouts.appear : timeouts.enter; // no enter animation skip right to ENTERED
     // if we are mounting and running this it means appear _must_ be set
 
-    if (!mounting && !enter || _config__WEBPACK_IMPORTED_MODULE_5__.default.disabled) {
+    if (!mounting && !enter || _config__WEBPACK_IMPORTED_MODULE_4__["default"].disabled) {
       this.safeSetState({
         status: ENTERED
       }, function () {
@@ -47943,9 +45970,9 @@ var Transition = /*#__PURE__*/function (_React$Component) {
 
     var exit = this.props.exit;
     var timeouts = this.getTimeouts();
-    var maybeNode = this.props.nodeRef ? undefined : react_dom__WEBPACK_IMPORTED_MODULE_4__.findDOMNode(this); // no exit animation skip right to EXITED
+    var maybeNode = this.props.nodeRef ? undefined : react_dom__WEBPACK_IMPORTED_MODULE_3__.findDOMNode(this); // no exit animation skip right to EXITED
 
-    if (!exit || _config__WEBPACK_IMPORTED_MODULE_5__.default.disabled) {
+    if (!exit || _config__WEBPACK_IMPORTED_MODULE_4__["default"].disabled) {
       this.safeSetState({
         status: EXITED
       }, function () {
@@ -48007,7 +46034,7 @@ var Transition = /*#__PURE__*/function (_React$Component) {
 
   _proto.onTransitionEnd = function onTransitionEnd(timeout, handler) {
     this.setNextCallback(handler);
-    var node = this.props.nodeRef ? this.props.nodeRef.current : react_dom__WEBPACK_IMPORTED_MODULE_4__.findDOMNode(this);
+    var node = this.props.nodeRef ? this.props.nodeRef.current : react_dom__WEBPACK_IMPORTED_MODULE_3__.findDOMNode(this);
     var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;
 
     if (!node || doesNotHaveTimeoutOrListener) {
@@ -48052,21 +46079,21 @@ var Transition = /*#__PURE__*/function (_React$Component) {
         _onExiting = _this$props.onExiting,
         _onExited = _this$props.onExited,
         _nodeRef = _this$props.nodeRef,
-        childProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__.default)(_this$props, ["children", "in", "mountOnEnter", "unmountOnExit", "appear", "enter", "exit", "timeout", "addEndListener", "onEnter", "onEntering", "onEntered", "onExit", "onExiting", "onExited", "nodeRef"]);
+        childProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_this$props, ["children", "in", "mountOnEnter", "unmountOnExit", "appear", "enter", "exit", "timeout", "addEndListener", "onEnter", "onEntering", "onEntered", "onExit", "onExiting", "onExited", "nodeRef"]);
 
     return (
       /*#__PURE__*/
       // allows for nested Transitions
-      react__WEBPACK_IMPORTED_MODULE_3__.createElement(_TransitionGroupContext__WEBPACK_IMPORTED_MODULE_6__.default.Provider, {
+      react__WEBPACK_IMPORTED_MODULE_2__.createElement(_TransitionGroupContext__WEBPACK_IMPORTED_MODULE_5__["default"].Provider, {
         value: null
-      }, typeof children === 'function' ? children(status, childProps) : react__WEBPACK_IMPORTED_MODULE_3__.cloneElement(react__WEBPACK_IMPORTED_MODULE_3__.Children.only(children), childProps))
+      }, typeof children === 'function' ? children(status, childProps) : react__WEBPACK_IMPORTED_MODULE_2__.cloneElement(react__WEBPACK_IMPORTED_MODULE_2__.Children.only(children), childProps))
     );
   };
 
   return Transition;
-}(react__WEBPACK_IMPORTED_MODULE_3__.Component);
+}(react__WEBPACK_IMPORTED_MODULE_2__.Component);
 
-Transition.contextType = _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_6__.default;
+Transition.contextType = _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_5__["default"];
 Transition.propTypes =  true ? {
   /**
    * A React reference to DOM element that need to transition:
@@ -48079,8 +46106,11 @@ Transition.propTypes =  true ? {
    *     (see
    *     [test/CSSTransition-test.js](https://github.com/reactjs/react-transition-group/blob/13435f897b3ab71f6e19d724f145596f5910581c/test/CSSTransition-test.js#L362-L437)).
    */
-  nodeRef: prop_types__WEBPACK_IMPORTED_MODULE_2___default().shape({
-    current: typeof Element === 'undefined' ? (prop_types__WEBPACK_IMPORTED_MODULE_2___default().any) : prop_types__WEBPACK_IMPORTED_MODULE_2___default().instanceOf(Element)
+  nodeRef: prop_types__WEBPACK_IMPORTED_MODULE_6___default().shape({
+    current: typeof Element === 'undefined' ? (prop_types__WEBPACK_IMPORTED_MODULE_6___default().any) : function (propValue, key, componentName, location, propFullName, secret) {
+      var value = propValue[key];
+      return prop_types__WEBPACK_IMPORTED_MODULE_6___default().instanceOf(value && 'ownerDocument' in value ? value.ownerDocument.defaultView.Element : Element)(propValue, key, componentName, location, propFullName, secret);
+    }
   }),
 
   /**
@@ -48097,12 +46127,12 @@ Transition.propTypes =  true ? {
    * </Transition>
    * ```
    */
-  children: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().func.isRequired), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().element.isRequired)]).isRequired,
+  children: prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().func.isRequired), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().element.isRequired)]).isRequired,
 
   /**
    * Show the component; triggers the enter or exit states
    */
-  in: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  in: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * By default the child component is mounted immediately along with
@@ -48110,13 +46140,13 @@ Transition.propTypes =  true ? {
    * first `in={true}` you can set `mountOnEnter`. After the first enter transition the component will stay
    * mounted, even on "exited", unless you also specify `unmountOnExit`.
    */
-  mountOnEnter: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  mountOnEnter: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * By default the child component stays mounted after it reaches the `'exited'` state.
    * Set `unmountOnExit` if you'd prefer to unmount the component after it finishes exiting.
    */
-  unmountOnExit: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  unmountOnExit: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * By default the child component does not perform the enter transition when
@@ -48129,17 +46159,17 @@ Transition.propTypes =  true ? {
    * > additional `.appear-*` classes, that way you can choose to style it
    * > differently.
    */
-  appear: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  appear: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * Enable or disable enter transitions.
    */
-  enter: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  enter: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * Enable or disable exit transitions.
    */
-  exit: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  exit: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().bool),
 
   /**
    * The duration of the transition, in milliseconds.
@@ -48192,7 +46222,7 @@ Transition.propTypes =  true ? {
    * }}
    * ```
    */
-  addEndListener: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  addEndListener: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired before the "entering" status is applied. An extra parameter
@@ -48202,7 +46232,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement, isAppearing: bool) -> void
    */
-  onEnter: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  onEnter: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired after the "entering" status is applied. An extra parameter
@@ -48212,7 +46242,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement, isAppearing: bool)
    */
-  onEntering: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  onEntering: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired after the "entered" status is applied. An extra parameter
@@ -48222,7 +46252,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement, isAppearing: bool) -> void
    */
-  onEntered: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  onEntered: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired before the "exiting" status is applied.
@@ -48231,7 +46261,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement) -> void
    */
-  onExit: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  onExit: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired after the "exiting" status is applied.
@@ -48240,7 +46270,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement) -> void
    */
-  onExiting: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func),
+  onExiting: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func),
 
   /**
    * Callback fired after the "exited" status is applied.
@@ -48249,7 +46279,7 @@ Transition.propTypes =  true ? {
    *
    * @type Function(node: HtmlElement) -> void
    */
-  onExited: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func)
+  onExited: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func)
 } : 0; // Name the function so it is clearer in the documentation
 
 function noop() {}
@@ -48281,16 +46311,12 @@ Transition.EXITING = EXITING;
 /*!***************************************************************************!*\
   !*** ./node_modules/react-transition-group/esm/TransitionGroupContext.js ***!
   \***************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
@@ -48302,16 +46328,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!***********************************************************!*\
   !*** ./node_modules/react-transition-group/esm/config.js ***!
   \***********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   disabled: false
@@ -48323,18 +46345,13 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************************************************!*\
   !*** ./node_modules/react-transition-group/esm/utils/PropTypes.js ***!
   \********************************************************************/
-/*! namespace exports */
-/*! export classNamesShape [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export timeoutsShape [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "timeoutsShape": () => /* binding */ timeoutsShape,
-/* harmony export */   "classNamesShape": () => /* binding */ classNamesShape
+/* harmony export */   "timeoutsShape": () => (/* binding */ timeoutsShape),
+/* harmony export */   "classNamesShape": () => (/* binding */ classNamesShape)
 /* harmony export */ });
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
@@ -48363,37 +46380,6 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default().
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
-/*! default exports */
-/*! export Children [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Component [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Fragment [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Profiler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export PureComponent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export StrictMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Suspense [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export cloneElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createFactory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export forwardRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isValidElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export lazy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export memo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useDebugValue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useEffect [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useImperativeHandle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useLayoutEffect [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useMemo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useReducer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useState [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export version [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__ */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -50317,38 +48303,6 @@ exports.version = ReactVersion;
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
-/*! dynamic exports */
-/*! export Children [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Children */
-/*! export Component [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Component */
-/*! export Fragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Fragment */
-/*! export Profiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Profiler */
-/*! export PureComponent [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .PureComponent */
-/*! export StrictMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .StrictMode */
-/*! export Suspense [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Suspense */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED */
-/*! export __esModule [not provided] [no usage info] [missing usage info prevents renaming] */
-/*! export cloneElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .cloneElement */
-/*! export createContext [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createContext */
-/*! export createElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createElement */
-/*! export createFactory [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createFactory */
-/*! export createRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createRef */
-/*! export forwardRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .forwardRef */
-/*! export isValidElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .isValidElement */
-/*! export lazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .lazy */
-/*! export memo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .memo */
-/*! export useCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useCallback */
-/*! export useContext [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useContext */
-/*! export useDebugValue [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useDebugValue */
-/*! export useEffect [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useEffect */
-/*! export useImperativeHandle [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useImperativeHandle */
-/*! export useLayoutEffect [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useLayoutEffect */
-/*! export useMemo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useMemo */
-/*! export useReducer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useReducer */
-/*! export useRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useRef */
-/*! export useState [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useState */
-/*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .version */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -50365,16 +48319,12 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/resolve-pathname/esm/resolve-pathname.js ***!
   \***************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 function isAbsolute(pathname) {
   return pathname.charAt(0) === '/';
@@ -50459,18 +48409,6 @@ function resolvePathname(to, from) {
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
   \*********************************************************************/
-/*! default exports */
-/*! export __interactionsRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __subscriberRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_clear [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getCurrent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getThreadID [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_subscribe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_trace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_unsubscribe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_wrap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -50831,38 +48769,6 @@ exports.unstable_wrap = unstable_wrap;
 /*!*************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
   \*************************************************************/
-/*! default exports */
-/*! export unstable_IdlePriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_ImmediatePriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_LowPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_NormalPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_Profiling [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_UserBlockingPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_cancelCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_continueExecution [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_forceFrameRate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getCurrentPriorityLevel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getFirstCallbackNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_next [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_now [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_pauseExecution [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_requestPaint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_runWithPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_scheduleCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_shouldYield [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 39:26-46 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 132:13-33 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 156:24-44 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 200:15-35 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 555:28-48 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 572:25-45 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 598:20-40 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 722:20-40 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 810:24-44 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 827:20-40 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -51732,28 +49638,6 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
 /*!*****************************************!*\
   !*** ./node_modules/scheduler/index.js ***!
   \*****************************************/
-/*! dynamic exports */
-/*! export unstable_IdlePriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_IdlePriority */
-/*! export unstable_ImmediatePriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_ImmediatePriority */
-/*! export unstable_LowPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_LowPriority */
-/*! export unstable_NormalPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_NormalPriority */
-/*! export unstable_Profiling [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_Profiling */
-/*! export unstable_UserBlockingPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_UserBlockingPriority */
-/*! export unstable_cancelCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_cancelCallback */
-/*! export unstable_continueExecution [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_continueExecution */
-/*! export unstable_forceFrameRate [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_forceFrameRate */
-/*! export unstable_getCurrentPriorityLevel [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_getCurrentPriorityLevel */
-/*! export unstable_getFirstCallbackNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_getFirstCallbackNode */
-/*! export unstable_next [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_next */
-/*! export unstable_now [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_now */
-/*! export unstable_pauseExecution [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_pauseExecution */
-/*! export unstable_requestPaint [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_requestPaint */
-/*! export unstable_runWithPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_runWithPriority */
-/*! export unstable_scheduleCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_scheduleCallback */
-/*! export unstable_shouldYield [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_shouldYield */
-/*! export unstable_wrapCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_wrapCallback */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -51770,18 +49654,6 @@ if (false) {} else {
 /*!*******************************************!*\
   !*** ./node_modules/scheduler/tracing.js ***!
   \*******************************************/
-/*! dynamic exports */
-/*! export __interactionsRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .__interactionsRef */
-/*! export __subscriberRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .__subscriberRef */
-/*! export unstable_clear [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_clear */
-/*! export unstable_getCurrent [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_getCurrent */
-/*! export unstable_getThreadID [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_getThreadID */
-/*! export unstable_subscribe [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_subscribe */
-/*! export unstable_trace [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_trace */
-/*! export unstable_unsubscribe [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_unsubscribe */
-/*! export unstable_wrap [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_wrap */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -51798,16 +49670,12 @@ if (false) {} else {
 /*!****************************************************************!*\
   !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
   \****************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (/* binding */ invariant)
 /* harmony export */ });
 var isProduction = "development" === 'production';
 var prefix = 'Invariant failed';
@@ -51818,10 +49686,12 @@ function invariant(condition, message) {
     if (isProduction) {
         throw new Error(prefix);
     }
-    throw new Error(prefix + ": " + (message || ''));
+    var provided = typeof message === 'function' ? message() : message;
+    var value = provided ? prefix + ": " + provided : prefix;
+    throw new Error(value);
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (invariant);
+
 
 
 /***/ }),
@@ -51830,16 +49700,12 @@ function invariant(condition, message) {
 /*!************************************************************!*\
   !*** ./node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
   \************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var isProduction = "development" === 'production';
 function warning(condition, message) {
@@ -51865,27 +49731,22 @@ function warning(condition, message) {
 
 /***/ }),
 
-/***/ "./node_modules/uncontrollable/esm/hook.js":
-/*!*************************************************!*\
-  !*** ./node_modules/uncontrollable/esm/hook.js ***!
-  \*************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useUncontrolledProp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ "./node_modules/uncontrollable/lib/esm/hook.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/uncontrollable/lib/esm/hook.js ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useUncontrolledProp": () => /* binding */ useUncontrolledProp,
-/* harmony export */   "default": () => /* binding */ useUncontrolled
+/* harmony export */   "useUncontrolledProp": () => (/* binding */ useUncontrolledProp),
+/* harmony export */   "default": () => (/* binding */ useUncontrolled)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "./node_modules/uncontrollable/esm/utils.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "./node_modules/uncontrollable/lib/esm/utils.js");
 
 
 
@@ -51933,7 +49794,7 @@ function useUncontrolled(props, config) {
     var _ref = result,
         defaultValue = _ref[_utils__WEBPACK_IMPORTED_MODULE_3__.defaultKey(fieldName)],
         propsValue = _ref[fieldName],
-        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, [_utils__WEBPACK_IMPORTED_MODULE_3__.defaultKey(fieldName), fieldName].map(_toPropertyKey));
+        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, [_utils__WEBPACK_IMPORTED_MODULE_3__.defaultKey(fieldName), fieldName].map(_toPropertyKey));
 
     var handlerName = config[fieldName];
 
@@ -51941,52 +49802,42 @@ function useUncontrolled(props, config) {
         value = _useUncontrolledProp[0],
         handler = _useUncontrolledProp[1];
 
-    return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, rest, (_extends2 = {}, _extends2[fieldName] = value, _extends2[handlerName] = handler, _extends2));
+    return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, rest, (_extends2 = {}, _extends2[fieldName] = value, _extends2[handlerName] = handler, _extends2));
   }, props);
 }
 
 /***/ }),
 
-/***/ "./node_modules/uncontrollable/esm/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/uncontrollable/esm/index.js ***!
-  \**************************************************/
-/*! namespace exports */
-/*! export uncontrollable [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/uncontrollable/esm/uncontrollable.js .default */
-/*! export useUncontrolled [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/uncontrollable/esm/hook.js .default */
-/*! export useUncontrolledProp [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/uncontrollable/esm/hook.js .useUncontrolledProp */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
+/***/ "./node_modules/uncontrollable/lib/esm/index.js":
+/*!******************************************************!*\
+  !*** ./node_modules/uncontrollable/lib/esm/index.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useUncontrolled": () => /* reexport safe */ _hook__WEBPACK_IMPORTED_MODULE_0__.default,
-/* harmony export */   "useUncontrolledProp": () => /* reexport safe */ _hook__WEBPACK_IMPORTED_MODULE_0__.useUncontrolledProp,
-/* harmony export */   "uncontrollable": () => /* reexport safe */ _uncontrollable__WEBPACK_IMPORTED_MODULE_1__.default
+/* harmony export */   "useUncontrolled": () => (/* reexport safe */ _hook__WEBPACK_IMPORTED_MODULE_0__["default"]),
+/* harmony export */   "useUncontrolledProp": () => (/* reexport safe */ _hook__WEBPACK_IMPORTED_MODULE_0__.useUncontrolledProp),
+/* harmony export */   "uncontrollable": () => (/* reexport safe */ _uncontrollable__WEBPACK_IMPORTED_MODULE_1__["default"])
 /* harmony export */ });
-/* harmony import */ var _hook__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hook */ "./node_modules/uncontrollable/esm/hook.js");
-/* harmony import */ var _uncontrollable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./uncontrollable */ "./node_modules/uncontrollable/esm/uncontrollable.js");
+/* harmony import */ var _hook__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hook */ "./node_modules/uncontrollable/lib/esm/hook.js");
+/* harmony import */ var _uncontrollable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./uncontrollable */ "./node_modules/uncontrollable/lib/esm/uncontrollable.js");
 
 
 
 /***/ }),
 
-/***/ "./node_modules/uncontrollable/esm/uncontrollable.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/uncontrollable/esm/uncontrollable.js ***!
-  \***********************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ "./node_modules/uncontrollable/lib/esm/uncontrollable.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/uncontrollable/lib/esm/uncontrollable.js ***!
+  \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => /* binding */ uncontrollable
+/* harmony export */   "default": () => (/* binding */ uncontrollable)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
@@ -51995,10 +49846,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_lifecycles_compat__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! invariant */ "./node_modules/invariant/browser.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils */ "./node_modules/uncontrollable/esm/utils.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils */ "./node_modules/uncontrollable/lib/esm/utils.js");
 
 
 
+var _jsxFileName = "/Users/jquense/src/uncontrollable/src/uncontrollable.js";
 
 
 
@@ -52017,7 +49869,7 @@ function uncontrollable(Component, controlledValues, methods) {
   var UncontrolledComponent =
   /*#__PURE__*/
   function (_React$Component) {
-    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__.default)(UncontrolledComponent, _React$Component);
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__["default"])(UncontrolledComponent, _React$Component);
 
     function UncontrolledComponent() {
       var _this;
@@ -52051,7 +49903,7 @@ function uncontrollable(Component, controlledValues, methods) {
 
             var values = _ref.values;
             return {
-              values: (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)(Object.create(null), values, (_extends2 = {}, _extends2[propName] = value, _extends2))
+              values: (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])(Object.create(null), values, (_extends2 = {}, _extends2[propName] = value, _extends2))
             };
           });
         };
@@ -52083,7 +49935,7 @@ function uncontrollable(Component, controlledValues, methods) {
       var values = _ref2.values,
           prevProps = _ref2.prevProps;
       var nextState = {
-        values: (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)(Object.create(null), values),
+        values: (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])(Object.create(null), values),
         prevProps: {}
       };
       controlledProps.forEach(function (key) {
@@ -52109,7 +49961,7 @@ function uncontrollable(Component, controlledValues, methods) {
 
       var _this$props2 = this.props,
           innerRef = _this$props2.innerRef,
-          props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__.default)(_this$props2, ["innerRef"]);
+          props = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_this$props2, ["innerRef"]);
 
       PROPS_TO_OMIT.forEach(function (prop) {
         delete props[prop];
@@ -52119,7 +49971,7 @@ function uncontrollable(Component, controlledValues, methods) {
         var propValue = _this2.props[propName];
         newProps[propName] = propValue !== undefined ? propValue : _this2.state.values[propName];
       });
-      return react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)({}, props, newProps, this.handlers, {
+      return react__WEBPACK_IMPORTED_MODULE_3__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, newProps, this.handlers, {
         ref: innerRef || this.attachRef
       }));
     };
@@ -52129,7 +49981,7 @@ function uncontrollable(Component, controlledValues, methods) {
 
   (0,react_lifecycles_compat__WEBPACK_IMPORTED_MODULE_4__.polyfill)(UncontrolledComponent);
   UncontrolledComponent.displayName = "Uncontrolled(" + displayName + ")";
-  UncontrolledComponent.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)({
+  UncontrolledComponent.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     innerRef: function innerRef() {}
   }, _utils__WEBPACK_IMPORTED_MODULE_6__.uncontrolledPropTypes(controlledValues, displayName));
   methods.forEach(function (method) {
@@ -52143,8 +49995,13 @@ function uncontrollable(Component, controlledValues, methods) {
 
   if (react__WEBPACK_IMPORTED_MODULE_3__.forwardRef) {
     WrappedComponent = react__WEBPACK_IMPORTED_MODULE_3__.forwardRef(function (props, ref) {
-      return react__WEBPACK_IMPORTED_MODULE_3__.createElement(UncontrolledComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)({}, props, {
-        innerRef: ref
+      return react__WEBPACK_IMPORTED_MODULE_3__.createElement(UncontrolledComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+        innerRef: ref,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128
+        },
+        __self: this
       }));
     });
     WrappedComponent.propTypes = UncontrolledComponent.propTypes;
@@ -52161,7 +50018,7 @@ function uncontrollable(Component, controlledValues, methods) {
       additions = {};
     }
 
-    return uncontrollable(newComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__.default)({}, controlledValues, additions), nextMethods);
+    return uncontrollable(newComponent, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, controlledValues, additions), nextMethods);
   };
 
   return WrappedComponent;
@@ -52169,26 +50026,19 @@ function uncontrollable(Component, controlledValues, methods) {
 
 /***/ }),
 
-/***/ "./node_modules/uncontrollable/esm/utils.js":
-/*!**************************************************!*\
-  !*** ./node_modules/uncontrollable/esm/utils.js ***!
-  \**************************************************/
-/*! namespace exports */
-/*! export canAcceptRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export defaultKey [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isProp [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export uncontrolledPropTypes [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ "./node_modules/uncontrollable/lib/esm/utils.js":
+/*!******************************************************!*\
+  !*** ./node_modules/uncontrollable/lib/esm/utils.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "uncontrolledPropTypes": () => /* binding */ uncontrolledPropTypes,
-/* harmony export */   "isProp": () => /* binding */ isProp,
-/* harmony export */   "defaultKey": () => /* binding */ defaultKey,
-/* harmony export */   "canAcceptRef": () => /* binding */ canAcceptRef
+/* harmony export */   "uncontrolledPropTypes": () => (/* binding */ uncontrolledPropTypes),
+/* harmony export */   "isProp": () => (/* binding */ isProp),
+/* harmony export */   "defaultKey": () => (/* binding */ defaultKey),
+/* harmony export */   "canAcceptRef": () => (/* binding */ canAcceptRef)
 /* harmony export */ });
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! invariant */ "./node_modules/invariant/browser.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_0__);
@@ -52245,16 +50095,12 @@ function canAcceptRef(component) {
 /*!*****************************************************!*\
   !*** ./node_modules/value-equal/esm/value-equal.js ***!
   \*****************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 function valueOf(obj) {
   return obj.valueOf ? obj.valueOf() : Object.prototype.valueOf.call(obj);
@@ -52300,9 +50146,6 @@ function valueEqual(a, b) {
 /*!*****************************************!*\
   !*** ./node_modules/warning/warning.js ***!
   \*****************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 62:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -52370,6 +50213,108 @@ if (__DEV__) {
 module.exports = warning;
 
 
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _extends)
+/* harmony export */ });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _inheritsLoose)
+/* harmony export */ });
+/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  (0,_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _objectWithoutPropertiesLoose)
+/* harmony export */ });
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _setPrototypeOf)
+/* harmony export */ });
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
 /***/ })
 
 /******/ 	});
@@ -52380,8 +50325,9 @@ module.exports = warning;
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -52403,8 +50349,8 @@ module.exports = warning;
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
 /******/ 		__webpack_require__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				() => module['default'] :
-/******/ 				() => module;
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
@@ -52436,7 +50382,7 @@ module.exports = warning;
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -52451,10 +50397,34 @@ module.exports = warning;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	// startup
-/******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/client/app.js");
-/******/ 	// This entry module used 'exports' so it can't be inlined
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+/*!***************************!*\
+  !*** ./src/client/app.js ***!
+  \***************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! normalize.css/normalize.css */ "./node_modules/normalize.css/normalize.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/styles.scss */ "./src/client/styles/styles.scss");
+/* harmony import */ var _routers_AppRouter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./routers/AppRouter */ "./src/client/routers/AppRouter.js");
+
+
+
+ // import 'highlightjs/styles/github.css';
+// import 'highlightjs/styles/monokai.css';
+// import 'highlightjs/styles/monokai-sublime.css';
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_routers_AppRouter__WEBPACK_IMPORTED_MODULE_6__["default"], null), document.getElementById('app'));
+})();
+
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map
