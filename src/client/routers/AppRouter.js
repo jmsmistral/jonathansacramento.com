@@ -14,11 +14,13 @@ import NotFound from '../components/NotFound';
 
 
 const AppRouter = () => (
-  <BrowserRouter>
+  // Note: using HashRouter for deploying on GitHub Pages
+  // as it doesn't support Single Page Applications.
+  // <BrowserRouter>
+  <HashRouter>
     <div>
       <Header />
-      {/* <Switch> */}
-      <HashRouter>
+      <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/bio" component={Bio} exact />
         <Route path="/clients" component={Client} exact />
@@ -26,10 +28,10 @@ const AppRouter = () => (
         <Route path="/blogpost/:route" component={BlogPost} exact/>
         <Route path="/code" component={Code} exact />
         <Route component={NotFound} />
-      </HashRouter>
-      {/* </Switch> */}
+      </Switch>
     </div>
-  </BrowserRouter>
+  </HashRouter>
+  // </BrowserRouter>
 );
 
 export default AppRouter;
