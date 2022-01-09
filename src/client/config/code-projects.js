@@ -3,7 +3,7 @@ const codeProjects = [
   {
     id          : 1,
     name        : 'lorix',
-    description : 'DataFrame API for Javascript',
+    description : 'DataFrames in Javascript',
     link        : 'https://github.com/jmsmistral/lorix'
   },
   {
@@ -15,7 +15,7 @@ const codeProjects = [
   {
     id          : 3,
     name        : 'transflow',
-    description : '[in dev] DAG-based data transformation library',
+    description : '[in dev] DAG-based workflows in Javascript',
     link        : 'https://github.com/jmsmistral/transflow'
   },
   {
