@@ -13347,7 +13347,7 @@ var Bio = function Bio() {
     xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
-    className: "bio__section-one text-left"
+    className: "bio__section bio__section-one text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-one__title"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -13378,7 +13378,7 @@ var Bio = function Bio() {
     xs: 4
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
-    className: "bio__section-two text-right"
+    className: "bio__section bio__section-two text-right"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-two__title"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -13417,7 +13417,7 @@ var Bio = function Bio() {
     xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 6,
-    className: "bio__section-three text-left"
+    className: "bio__section bio__section-three text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-three__title"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -13440,19 +13440,19 @@ var Bio = function Bio() {
     className: "bio__section-three__highlight"
   }, "open source"), ' ', "projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "bio__section-three__row"
-  }, "sometimes get my hands dirty with some", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+  }, "search for", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-three__highlight"
-  }, "gardening")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, "great companies"), ' ', "to invest in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "bio__section-three__row"
   }, "watch", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-three__highlight"
-  }, "football"), "...", ' ', "I am an avid", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+  }, "football"), "...", ' ', "visca el", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-three__highlight"
-  }, "FC Barcelona"), ' ', "fan")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Barca"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 4
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
-    className: "bio__section text-center"
+    className: "bio__section__padding text-center"
   }))));
 };
 
@@ -13973,7 +13973,7 @@ var Home = function Home() {
     className: "text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "sub-banner__title fadein-subbanner"
-  }, "I help clients make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+  }, "I help people make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "sub-banner__highlight"
   }, "better business decisions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
     xs: 2
@@ -14132,7 +14132,7 @@ module.exports = {
 var codeProjects = [{
   id: 1,
   name: 'lorix',
-  description: 'DataFrame API for Javascript',
+  description: 'DataFrames in Javascript',
   link: 'https://github.com/jmsmistral/lorix'
 }, {
   id: 2,
@@ -14142,7 +14142,7 @@ var codeProjects = [{
 }, {
   id: 3,
   name: 'transflow',
-  description: '[in dev] DAG-based data transformation library',
+  description: '[in dev] DAG-based workflows in Javascript',
   link: 'https://github.com/jmsmistral/transflow'
 }, {
   id: 4,
@@ -14202,6 +14202,8 @@ __webpack_require__.r(__webpack_exports__);
 var AppRouter = function AppRouter() {
   return (
     /*#__PURE__*/
+    // Note: using HashRouter for deploying on GitHub Pages
+    // as it doesn't support Single Page Applications.
     // <BrowserRouter>
     react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.HashRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__.Route, {
       path: "/",
