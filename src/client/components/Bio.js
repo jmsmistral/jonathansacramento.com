@@ -41,7 +41,7 @@ const Bio = () => (
 
         {/* Bio Section One */}
         <Col xs={2}></Col>
-        <Col xs={6} className="bio__section-one text-left">
+        <Col xs={6} className="bio__section bio__section-one text-left">
           <h2 className="bio__section-one__title">
             <span className="bio__section-one__title__highlight">I bring</span>
           </h2>
@@ -85,7 +85,7 @@ const Bio = () => (
 
         {/* Bio Section Two */}
         <Col xs={4}></Col>
-        <Col xs={6} className="bio__section-two text-right">
+        <Col xs={6} className="bio__section bio__section-two text-right">
           {/* sample */}
           <h2 className="bio__section-two__title">
             <span className="bio__section-two__title__highlight">Previously I have</span>
@@ -139,7 +139,7 @@ const Bio = () => (
 
         {/* Bio Section Three */}
         <Col xs={2}></Col>
-        <Col xs={6} className="bio__section-three text-left">
+        <Col xs={6} className="bio__section bio__section-three text-left">
           <h2 className="bio__section-three__title">
             <span className="bio__section-three__title__highlight">When I am not working, I</span>
           </h2>
@@ -173,9 +173,11 @@ const Bio = () => (
           </p>
 
           <p className="bio__section-three__row">
-            sometimes get my hands dirty with some
+            search for
             {' '}
-            <span className="bio__section-three__highlight">gardening</span>
+            <span className="bio__section-three__highlight">great companies</span>
+            {' '}
+            to invest in
           </p>
 
           <p className="bio__section-three__row">
@@ -184,16 +186,14 @@ const Bio = () => (
             <span className="bio__section-three__highlight">football</span>
             ...
             {' '}
-            I am an avid
+            visca el
             {' '}
-            <span className="bio__section-three__highlight">FC Barcelona</span>
-            {' '}
-            fan
+            <span className="bio__section-three__highlight">Barca</span>
           </p>
         </Col>
         <Col xs={4}></Col>
 
-        <Col xs={12} className="bio__section text-center">
+        <Col xs={12} className="bio__section__padding text-center">
           {/* sample */}
         </Col>
 

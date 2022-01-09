@@ -67,7 +67,7 @@ const Home = () => (
             <Col xs={2}></Col>
             <Col xs={8} className="text-left">
               <h2 className="sub-banner__title fadein-subbanner">
-                I help clients make
+                I help people make
                 {' '}
                 <span className="sub-banner__highlight">better business decisions</span>
               </h2>
