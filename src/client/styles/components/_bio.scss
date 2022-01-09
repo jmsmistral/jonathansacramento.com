@@ -120,15 +120,3 @@
   margin-bottom: 1rem;
   color: #dee2e6;  // Custom colour (not part of pallete)
 }
-
-
-// Only for large screens
-@media (min-width: 992px) {
-  .bio__section__left {
-    padding-left: 33%;
-  }
-
-  .bio__section__right {
-    padding-right: 33%;
-  }
-}

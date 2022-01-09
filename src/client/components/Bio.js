@@ -10,6 +10,8 @@ const Bio = () => (
 
     <Container>
       <Row>
+
+        {/* Header text */}
         <Col xs={2}></Col>
         <Col xs={8} className="text-left">
           <p className="bio__sub-banner__title">
@@ -39,9 +41,10 @@ const Bio = () => (
         <Col xs={2}></Col>
 
 
+
         {/* Bio Section One */}
         <Col xs={2}></Col>
-        <Col xs={6} className="bio__section bio__section-one text-left">
+        <Col xs={8} className="bio__section bio__section-one text-left">
           <h2 className="bio__section-one__title">
             <span className="bio__section-one__title__highlight">I bring</span>
           </h2>
@@ -80,12 +83,12 @@ const Bio = () => (
             <span className="bio__section-one__highlight">best practices</span>
           </p>
         </Col>
-        <Col xs={4}></Col>
+        <Col xs={2}></Col>
 
 
         {/* Bio Section Two */}
-        <Col xs={4}></Col>
-        <Col xs={6} className="bio__section bio__section-two text-right">
+        <Col xs={2}></Col>
+        <Col xs={8} className="bio__section bio__section-two text-left">
           {/* sample */}
           <h2 className="bio__section-two__title">
             <span className="bio__section-two__title__highlight">Previously I have</span>
@@ -139,7 +142,7 @@ const Bio = () => (
 
         {/* Bio Section Three */}
         <Col xs={2}></Col>
-        <Col xs={6} className="bio__section bio__section-three text-left">
+        <Col xs={8} className="bio__section bio__section-three text-left">
           <h2 className="bio__section-three__title">
             <span className="bio__section-three__title__highlight">When I am not working, I</span>
           </h2>
@@ -191,7 +194,7 @@ const Bio = () => (
             <span className="bio__section-three__highlight">Barca</span>
           </p>
         </Col>
-        <Col xs={4}></Col>
+        <Col xs={2}></Col>
 
         <Col xs={12} className="bio__section__padding text-center">
           {/* sample */}
