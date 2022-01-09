@@ -11113,15 +11113,6 @@ a:hover {
   color: #dee2e6;
 }
 
-@media (min-width: 992px) {
-  .bio__section__left {
-    padding-left: 33%;
-  }
-
-  .bio__section__right {
-    padding-right: 33%;
-  }
-}
 .client__banner__title {
   font-size: 2rem;
   line-height: 2;

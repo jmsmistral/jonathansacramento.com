@@ -13346,7 +13346,7 @@ var Bio = function Bio() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 6,
+    xs: 8,
     className: "bio__section bio__section-one text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-one__title"
@@ -13373,12 +13373,12 @@ var Bio = function Bio() {
   }, "commitment to", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-one__highlight"
   }, "best practices"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 4
+    xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 4
+    xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 6,
-    className: "bio__section bio__section-two text-right"
+    xs: 8,
+    className: "bio__section bio__section-two text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-two__title"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -13416,7 +13416,7 @@ var Bio = function Bio() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 6,
+    xs: 8,
     className: "bio__section bio__section-three text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "bio__section-three__title"
@@ -13449,7 +13449,7 @@ var Bio = function Bio() {
   }, "football"), "...", ' ', "visca el", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "bio__section-three__highlight"
   }, "Barca"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    xs: 4
+    xs: 2
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["default"], {
     xs: 12,
     className: "bio__section__padding text-center"
