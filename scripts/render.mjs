@@ -21,6 +21,7 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
   <link rel="canonical" href="${e(site.url)}/${route==='index.html'?'':route}">
   <title>${e(title)}${page==='index'?'':` — ${e(site.name)}`}</title>
   <link rel="stylesheet" href="${prefix}css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="${prefix}favicon.svg">
   ${page==='article'?'<script type="module" src="../js/post-age.js"></script>':''}
   ${page==='index'?'<script src="./js/legacy-links.js" defer></script>':''}
 </head>
@@ -71,6 +72,6 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
     await write(`${route.slice(1)}/index.html`,redirect('../'.repeat(route.split('/').length-1)+target));
   }
   await write('essays.html',redirect('./blog.html'));
-  await write('404.html',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found</title><style>body{max-width:40em;margin:12vh auto;padding:0 2rem;background:#191b1e;color:#e9e9e7;font:1.1rem/1.7 system-ui}a{color:#b9afdb}</style></head><body><h1>Page not found</h1><p>That address doesn’t match a page on this site.</p><a href="${e(site.url)}/">Return home</a></body></html>`);
+  await write('404.html',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found</title><link rel="icon" type="image/svg+xml" href="${e(site.url)}/favicon.svg"><style>body{max-width:40em;margin:12vh auto;padding:0 2rem;background:#191b1e;color:#e9e9e7;font:1.1rem/1.7 system-ui}a{color:#b9afdb}</style></head><body><h1>Page not found</h1><p>That address doesn’t match a page on this site.</p><a href="${e(site.url)}/">Return home</a></body></html>`);
   console.log(`Built After Hours: ${posts.length} posts, ${projects.length} projects, and legacy redirects.`);
 }

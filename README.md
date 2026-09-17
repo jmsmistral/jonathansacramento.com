@@ -22,6 +22,7 @@ Open <http://127.0.0.1:4173>. Stop with **Ctrl+C**. After editing, run `npm run 
 | --- | --- |
 | Homepage heading, introduction, labels, footer, social links | `src/site.json` |
 | Colours, fonts, spacing, mobile layout | `src/css/styles.css` |
+| Tilde favicon (browser tab icon) | `src/favicon.svg` |
 | HTML layout and smaller navigation labels | `scripts/render.mjs` |
 | Code projects and their GitHub links | `src/projects.json` |
 | Post titles, summaries, and topics (optional) | `src/posts.json` |
@@ -69,7 +70,7 @@ dist/
   blog/<post-slug>.html
   css/styles.css, fonts/, img/
   js/post-age.js, js/legacy-links.js
-  CNAME, .nojekyll
+  favicon.svg, CNAME, .nojekyll
   blog/index.html, code/index.html, bio/index.html, clients/index.html
   blogpost/<post-slug>/index.html, essays.html
 ```

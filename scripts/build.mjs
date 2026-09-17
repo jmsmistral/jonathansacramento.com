@@ -70,6 +70,7 @@ for (const dir of ['css', 'img', 'fonts', 'js']) {
   await cp(path.join(src, dir), path.join(out, dir), { recursive: true });
 }
 await cp(path.join(src, 'CNAME'), path.join(out, 'CNAME'));
+await cp(path.join(src, 'favicon.svg'), path.join(out, 'favicon.svg'));
 await write('.nojekyll', '');
 const projects = JSON.parse(await read('projects.json'));
 const site = JSON.parse(await read('site.json'));
