@@ -1,0 +1,18 @@
+{
+  "predicting-churn-without-machine-learning": {
+    "summary": "A practical way to understand customer behaviour through patterns of inactivity.",
+    "topic": "Data analysis"
+  },
+  "clean-sql": {
+    "summary": "On writing queries that are as easy to read as they are to run.",
+    "topic": "Programming"
+  },
+  "improve-your-postgresql-workflow-with-vim-and-dbext": {
+    "summary": "A tighter feedback loop for writing, running, and refining SQL.",
+    "topic": "Workflow"
+  },
+  "on-transposing-data": {
+    "summary": "Different ways to turn data around — and a small tool built for the job.",
+    "topic": "Data engineering"
+  }
+}

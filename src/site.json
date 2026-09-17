@@ -1,0 +1,24 @@
+{
+  "name": "Jonathan Sacramento",
+  "url": "https://jonathansacramento.com",
+  "description": "Jonathan Sacramento — data engineer, writing about software and systems.",
+  "homeLabel": "A personal index of thoughts, ideas & code",
+  "headline": [
+    "Making sense",
+    "of complex things."
+  ],
+  "intro": "I’m Jonathan Sacramento. I work with data, build software, and love understanding the systems underneath it all.",
+  "blogTitle": "Writing",
+  "blogIntro": "Notes on data, programming, and understanding how things work.",
+  "codeLabel": "Free and open source / on GitHub",
+  "codeTitle": "Code & experiments",
+  "codeIntro": "Small tools, useful abstractions, and ideas explored through code.",
+  "footer": "Always a work in progress.",
+  "ageNote": "Things may have changed since then.",
+  "socials": {
+    "github": "https://github.com/jmsmistral",
+    "linkedin": "https://www.linkedin.com/pub/jonathan-sacramento/65/920/584",
+    "x": "https://x.com/jmsmistral",
+    "email": "mailto:jmsmistral@gmail.com"
+  }
+}

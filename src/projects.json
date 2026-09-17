@@ -1,0 +1,38 @@
+[
+  {
+    "name": "lorix",
+    "description": "DataFrames in Javascript",
+    "url": "https://github.com/jmsmistral/lorix",
+    "language": "JavaScript"
+  },
+  {
+    "name": "sassy",
+    "description": "Simple but powerful language for text interpolation",
+    "url": "https://github.com/jmsmistral/sassy",
+    "language": "Language design"
+  },
+  {
+    "name": "transflow",
+    "description": "[in dev] DAG-based workflows in Javascript",
+    "url": "https://github.com/jmsmistral/transflow",
+    "language": "JavaScript"
+  },
+  {
+    "name": "data streaming",
+    "description": "Docker-based data streaming PoC with Kafka, Spark, and Zeppelin",
+    "url": "https://github.com/jmsmistral/streaming-docker-poc",
+    "language": "Data infrastructure"
+  },
+  {
+    "name": "tpose",
+    "description": "Transpose or “pivot” delimited text files in parallel",
+    "url": "https://github.com/jmsmistral/tpose",
+    "language": "C"
+  },
+  {
+    "name": "btree",
+    "description": "In-memory btree library in C",
+    "url": "https://github.com/jmsmistral/btree",
+    "language": "C"
+  }
+]
