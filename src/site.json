@@ -4,10 +4,9 @@
   "description": "Jonathan Sacramento — data engineer, writing about software and systems.",
   "homeLabel": "A personal index of thoughts, ideas & code",
   "headline": [
-    "Making sense",
-    "of complex things."
+    "Hello, I’m Jonathan"
   ],
-  "intro": "I’m Jonathan Sacramento. I work with data, occasionally build useful software, and love understanding the systems underneath it all.",
+  "intro": "I work with data, occasionally build useful software, and love understanding the systems underneath it all.",
   "blogTitle": "Writing",
   "blogIntro": "Notes on data, programming, and understanding how things work.",
   "codeLabel": "Free and open source / on GitHub",
