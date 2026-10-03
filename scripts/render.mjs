@@ -35,7 +35,7 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
 </body>
 </html>`;
   }
-  const postRows = () => `<div class="post-list">${posts.map(p=>`<a class="post-row" href="./blog/${p.slug}.html"><div class="post-summary"><h3>${e(p.title)}</h3>${p.summary?`<p>${e(p.summary)}</p>`:''}</div><time datetime="${p.date}">${p.dateLabel}</time><span class="row-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
+  const postRows = () => `<div class="post-list">${posts.map(p=>`<a class="post-row" href="./blog/${p.slug}.html"><div class="post-summary"><h3>${e(p.title)}</h3></div><time datetime="${p.date}">${p.dateLabel}</time><span class="row-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
   const projectRows = () => `<div class="project-list">${projects.map(p=>`<a class="project" href="${e(p.url)}"><div class="project-heading"><h3>${e(p.name)}</h3><span aria-hidden="true">↗</span></div><p>${e(p.description)}</p>${p.language?`<span class="project-language">${e(p.language)}</span>`:''}</a>`).join('')}</div>`;
   const sectionHead = (label, number, link, linkText) => `<div class="section-heading"><h2><span>${number}</span>${e(label)}</h2><a href="${link}">${linkText} <span aria-hidden="true">↗</span></a></div>`;
   const hero = `<section class="hero"><div class="hero-copy"><p class="eyebrow">${e(site.homeLabel)}</p><h1>${site.headline.map(e).join('<br>')}</h1><p class="intro">${e(site.intro)}</p>${socials()}</div></section>`;

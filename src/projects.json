@@ -19,9 +19,9 @@
   },
   {
     "name": "sassy",
-    "description": "Simple but powerful language for text interpolation",
+    "description": "SAS-inspired text interpolation language",
     "url": "https://github.com/jmsmistral/sassy",
-    "language": "Language design"
+    "language": "Python"
   },
   {
     "name": "btree",
