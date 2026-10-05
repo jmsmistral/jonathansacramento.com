@@ -1,4 +1,7 @@
 {
+  "so-what-is-engineering-anyways": {
+    "title": "So what is engineering anyways?"
+  },
   "predicting-churn-without-machine-learning": {
     "summary": "A practical way to understand customer behaviour through patterns of inactivity.",
     "topic": "Data analysis"

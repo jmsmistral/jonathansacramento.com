@@ -49,7 +49,7 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
   for (const p of posts) {
     const age = postAgeYears(p.date);
     const ageNote = `<aside class="post-age-note" data-post-date="${p.date}" aria-label="Post age"${age===null?' hidden':''}><p><strong data-post-age>${age===null?'':postAgeText(age)}</strong> ${e(site.ageNote)}</p></aside>`;
-    const article = `<article class="article"><header class="article-header"><a class="back-link" href="../blog.html">← Back to writing</a><p class="eyebrow">${e(p.topic||'Notes')} <span> / </span><time datetime="${p.date}">${p.dateLabel}</time></p><h1>${e(p.title)}</h1>${ageNote}</header><div class="prose">${p.html}</div><div class="article-end"><span>Thanks for reading.</span><a href="../blog.html">More from the blog ↗</a></div></article>`;
+    const article = `<article class="article${p.html.includes('class="sidenote-paragraph"')?' article-with-sidenotes':''}"><header class="article-header"><a class="back-link" href="../blog.html">← Back to writing</a><p class="eyebrow">${e(p.topic||'Notes')} <span> / </span><time datetime="${p.date}">${p.dateLabel}</time></p><h1>${e(p.title)}</h1>${ageNote}</header><div class="prose">${p.html}</div><div class="article-end"><span>Thanks for reading.</span><a href="../blog.html">More from the blog ↗</a></div></article>`;
     await write(`blog/${p.slug}.html`,shell('article',article,p.title,`blog/${p.slug}.html`));
   }
   const routes = {'/':'index.html','/blog':'blog.html','/code':'code.html','/bio':'index.html','/clients':'index.html'};

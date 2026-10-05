@@ -25,7 +25,7 @@ Open <http://127.0.0.1:4173>. Stop with **Ctrl+C**. After editing, run `npm run 
 | Tilde favicon (browser tab icon) | `src/favicon.svg` |
 | HTML layout and smaller navigation labels | `scripts/render.mjs` |
 | Code projects and their GitHub links | `src/projects.json` |
-| Post titles, summaries, and topics (optional) | `src/posts.json` |
+| Post titles and topics (optional) | `src/posts.json` |
 | Article images | `src/img/` |
 
 The `headline` array in `site.json` puts each entry on its own line. Keep JSON valid: quote strings and separate entries with commas.
@@ -51,14 +51,41 @@ The `headline` array in `site.json` puts each entry on its own line. Keep JSON v
    ```json
    "understanding-systems": {
      "title": "Understanding systems",
-     "summary": "A short description for the blog list.",
      "topic": "Data engineering"
    }
    ```
 
+   Use `title` for punctuation or capitalisation that differs from the filename. For example, keep `20200811-so-what-is-engineering-anyways.md` unchanged and add:
+
+   ```json
+   "so-what-is-engineering-anyways": {
+     "title": "So what is engineering anyways?"
+   }
+   ```
+
+   This title appears in the homepage blog list, the Blog page, and the article heading. The filename still determines the URL. Add these entries inside the existing JSON object, separated by commas. Post summaries are not displayed in the lists.
+
 5. Build and check locally, then commit the source files and open a pull request.
 
 Posts appear newest first. Archive years come from post dates. Posts at least one year old get the highlighted age note; it is generated at build time and refreshed when opened. `src/image-descriptions.json` supplies descriptions for legacy images only.
+
+### Add a margin note
+
+Put a reference such as `[^context]` in an ordinary paragraph, then define the note on its own line elsewhere in the same post (usually at the end):
+
+```markdown
+Engineering involves making decisions under uncertainty.[^context]
+
+Another paragraph continues the article.
+
+[^context]: Here, *uncertainty* includes imperfect measurements and changing requirements. See [this reference](https://example.com/reference).
+```
+
+The build replaces the reference with a small, linked superscript number and numbers notes automatically in the order they appear. The matching note sits beside its paragraph in the right margin on screens at least 1100px wide. On narrower screens, it appears directly below the paragraph. Click the reference to jump to the note, or the note's number to return. No browser JavaScript is needed.
+
+Use a unique label for each note, containing letters, numbers, dashes, or underscores; the label is not displayed. Keep each definition on one line. Note text supports inline Markdown such as links, emphasis, and code. You can put multiple notes in one paragraph. Each label must be referenced only once, in an ordinary paragraph rather than a heading, list, or blockquote. Notes cannot contain other notes. The build reports missing or duplicate definitions and repeated references.
+
+Run `npm run build` and refresh the local article preview to see the result.
 
 ## What the build creates
 

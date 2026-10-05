@@ -1,8 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { Marked } from 'marked';
-import hljs from 'highlight.js';
+import { renderMarkdown } from './markdown.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const src = path.join(root, 'src');
@@ -15,27 +14,6 @@ async function write(name, html) {
 }
 
 const imageDescriptions = JSON.parse(await read('image-descriptions.json'));
-const markdown = new Marked({
-  gfm: true,
-  renderer: {
-    code({ text, lang }) {
-      const language = (lang || 'text').split(/\s/)[0];
-      const highlighted = hljs.getLanguage(language) ? hljs.highlight(text, { language }).value : escape(text);
-      return `<pre tabindex="0" aria-label="${escape(language)} code"><code class="hljs language-${escape(language)}">${highlighted}</code></pre>\n`;
-    },
-    image({ href, title, text }) {
-      const url = href.startsWith('/img/') ? `..${href}` : href;
-      const alt = text || imageDescriptions[path.basename(href)];
-      if (!alt) throw new Error(`Missing image description: ${href}`);
-      return `<img src="${escape(url)}" alt="${escape(alt)}"${title ? ` title="${escape(title)}"` : ''} loading="lazy" decoding="async">`;
-    },
-    paragraph({ tokens }) {
-      const content = this.parser.parseInline(tokens);
-      return tokens.length === 1 && tokens[0].type === 'image'
-        ? `<figure>${content}</figure>\n` : `<p>${content}</p>\n`;
-    },
-  },
-});
 
 // The original filenames are the source of dates, titles, and legacy slugs.
 const posts = [];
@@ -59,7 +37,7 @@ for (const filename of (await readdir(path.join(src, 'posts'))).filter((f) => f.
     title: details.title || rawTitle[0].toUpperCase() + rawTitle.slice(1),
     date,
     dateLabel: new Date(`${date}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }),
-    html: markdown.parse(await read(`posts/${filename}`)),
+    html: renderMarkdown(await read(`posts/${filename}`), imageDescriptions),
   });
 }
 
