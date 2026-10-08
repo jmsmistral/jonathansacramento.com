@@ -1,10 +1,11 @@
 import { Marked } from 'marked';
 import hljs from 'highlight.js';
 import path from 'node:path';
+import { externalLinkAttributes } from './links.mjs';
 
 const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
-export function renderMarkdown(source, imageDescriptions = {}) {
+export function renderMarkdown(source, imageDescriptions = {}, siteUrl) {
   const markdown = new Marked({
     gfm: true,
     extensions: [
@@ -33,6 +34,9 @@ export function renderMarkdown(source, imageDescriptions = {}) {
       },
     ],
     renderer: {
+      link({ href, title, tokens }) {
+        return `<a href="${escape(href)}"${externalLinkAttributes(href, siteUrl)}${title ? ` title="${escape(title)}"` : ''}>${this.parser.parseInline(tokens)}</a>`;
+      },
       code({ text, lang }) {
         const language = (lang || 'text').split(/\s/)[0];
         const highlighted = hljs.getLanguage(language) ? hljs.highlight(text, { language }).value : escape(text);

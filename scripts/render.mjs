@@ -1,4 +1,5 @@
 import { postAgeYears, postAgeText } from '../src/js/post-age.js';
+import { externalLinkAttributes } from './links.mjs';
 
 export async function renderSite({ posts, projects, site, write, escape: e }) {
   const paths = {
@@ -8,7 +9,7 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
     email: '<g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></g>',
   };
   const icon = (name) => `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${paths[name]}</svg>`;
-  const socials = () => `<nav class="socials" aria-label="Social links">${Object.entries(site.socials).map(([id,url]) => `<a href="${e(url)}" aria-label="${{github:'GitHub',linkedin:'LinkedIn',x:'X',email:'Email'}[id]}" title="${{github:'GitHub',linkedin:'LinkedIn',x:'X',email:'Email'}[id]}">${icon(id)}</a>`).join('')}</nav>`;
+  const socials = () => `<nav class="socials" aria-label="Social links">${Object.entries(site.socials).map(([id,url]) => `<a href="${e(url)}"${externalLinkAttributes(url, site.url)} aria-label="${{github:'GitHub',linkedin:'LinkedIn',x:'X',email:'Email'}[id]}" title="${{github:'GitHub',linkedin:'LinkedIn',x:'X',email:'Email'}[id]}">${icon(id)}</a>`).join('')}</nav>`;
   const nav = (page, prefix) => `<nav class="main-nav" aria-label="Main navigation">${[['index','About'],['blog','Blog'],['code','Code']].map(([id,label]) => `<a href="${prefix}${id}.html"${page===id?' aria-current="page"':page==='article'&&id==='blog'?' aria-current="location"':''}>${label}</a>`).join('')}</nav>`;
   function shell(page, content, title, route) {
     const prefix = page === 'article' ? '../' : './';
@@ -36,7 +37,7 @@ export async function renderSite({ posts, projects, site, write, escape: e }) {
 </html>`;
   }
   const postRows = () => `<div class="post-list">${posts.map(p=>`<a class="post-row" href="./blog/${p.slug}.html"><div class="post-summary"><h3>${e(p.title)}</h3></div><time datetime="${p.date}">${p.dateLabel}</time><span class="row-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
-  const projectRows = () => `<div class="project-list">${projects.map(p=>`<a class="project" href="${e(p.url)}"><div class="project-heading"><h3>${e(p.name)}</h3><span aria-hidden="true">↗</span></div><p>${e(p.description)}</p>${p.language?`<span class="project-language">${e(p.language)}</span>`:''}</a>`).join('')}</div>`;
+  const projectRows = () => `<div class="project-list">${projects.map(p=>`<a class="project" href="${e(p.url)}"${externalLinkAttributes(p.url, site.url)}><div class="project-heading"><h3>${e(p.name)}</h3><span aria-hidden="true">↗</span></div><p>${e(p.description)}</p>${p.language?`<span class="project-language">${e(p.language)}</span>`:''}</a>`).join('')}</div>`;
   const sectionHead = (label, number, link, linkText) => `<div class="section-heading"><h2><span>${number}</span>${e(label)}</h2><a href="${link}">${linkText} <span aria-hidden="true">↗</span></a></div>`;
   const hero = `<section class="hero"><div class="hero-copy"><p class="eyebrow">${e(site.homeLabel)}</p><h1>${site.headline.map(e).join('<br>')}</h1><p class="intro">${e(site.intro)}</p>${socials()}</div></section>`;
   const home = `${hero}<div class="home-content"><section class="writing-section">${sectionHead('From the blog','01','./blog.html','All posts')}${postRows()}</section><section class="code-section">${sectionHead(site.codeTitle,'02','./code.html','All projects')}${projectRows()}</section></div>`;

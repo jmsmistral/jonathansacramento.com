@@ -14,6 +14,7 @@ async function write(name, html) {
 }
 
 const imageDescriptions = JSON.parse(await read('image-descriptions.json'));
+const site = JSON.parse(await read('site.json'));
 
 // The original filenames are the source of dates, titles, and legacy slugs.
 const posts = [];
@@ -37,7 +38,7 @@ for (const filename of (await readdir(path.join(src, 'posts'))).filter((f) => f.
     title: details.title || rawTitle[0].toUpperCase() + rawTitle.slice(1),
     date,
     dateLabel: new Date(`${date}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }),
-    html: renderMarkdown(await read(`posts/${filename}`), imageDescriptions),
+    html: renderMarkdown(await read(`posts/${filename}`), imageDescriptions, site.url),
   });
 }
 
@@ -51,6 +52,5 @@ await cp(path.join(src, 'CNAME'), path.join(out, 'CNAME'));
 await cp(path.join(src, 'favicon.svg'), path.join(out, 'favicon.svg'));
 await write('.nojekyll', '');
 const projects = JSON.parse(await read('projects.json'));
-const site = JSON.parse(await read('site.json'));
 const { renderSite } = await import('./render.mjs');
 await renderSite({ posts, projects, site, write, escape });

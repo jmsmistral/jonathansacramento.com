@@ -49,3 +49,22 @@ test('legacy React hash and direct URLs map to the new article', async () => {
   assert.match(pages.get('essays.html'),/url=.\/blog.html/);
   assert.equal([...pages.keys()].some(p=>p.startsWith('templates/')),false);
 });
+
+test('profile and project links open in a new tab while navigation and email do not', async () => {
+  const pages = new Map();
+  await renderSite({ posts:[post('2026-09-17','a-post')], projects:[{name:'Tool',url:'https://github.com/jmsmistral/tool',description:'A tool'}], site, escape, write:async (path, html)=>pages.set(path,html) });
+  for (const page of ['index.html', 'blog.html', 'code.html', 'blog/a-post.html']) {
+    const anchors = [...pages.get(page).matchAll(/<a\b[^>]*>/g)].map(m => m[0]);
+    for (const anchor of anchors) {
+      if (/href="https?:\/\//.test(anchor)) {
+        assert.match(anchor, /target="_blank"/);
+        assert.match(anchor, /rel="noopener noreferrer"/);
+      } else {
+        assert.doesNotMatch(anchor, /target=/);
+      }
+    }
+    assert.ok(anchors.some(a=>a.includes('href="https://github.com/jmsmistral"')));
+  }
+  assert.match(pages.get('code.html'), /href="https:\/\/github.com\/jmsmistral\/tool" target="_blank"/);
+  assert.match(pages.get('404.html'), /<a href="https:\/\/jonathansacramento.com\/">Return home<\/a>/);
+});

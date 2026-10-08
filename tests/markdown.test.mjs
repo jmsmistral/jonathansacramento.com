@@ -45,3 +45,19 @@ test('existing article features still render without margin notes', () => {
   assert.match(html, /class="hljs language-sql"/);
   assert.doesNotMatch(html, /sidenote-paragraph/);
 });
+
+test('external article and margin-note links open in a new tab; site and email links stay local', () => {
+  const html = renderMarkdown(`[External **reference**](https://example.com/?a=1&b=2 "A reference") and <https://example.org>.
+
+[Internal](../blog.html), [section](#section), [absolute internal](https://jonathansacramento.com/blog.html), and [email](mailto:hello@example.com).[^context]
+
+[^context]: [Source](//example.net/source).`, {}, 'https://jonathansacramento.com');
+  assert.match(html, /href="https:\/\/example.com\/\?a=1&amp;b=2" target="_blank" rel="noopener noreferrer" title="A reference">External <strong>reference<\/strong>/);
+  assert.match(html, /href="https:\/\/example.org" target="_blank"/);
+  assert.match(html, /href="\/\/example.net\/source" target="_blank"/);
+  for (const href of ['../blog.html', '#section', 'https://jonathansacramento.com/blog.html', 'mailto:hello@example.com', '#margin-note-1', '#note-ref-1']) {
+    const anchor = [...html.matchAll(/<a\b[^>]*>/g)].map(m => m[0]).find(a => a.includes(`href="${href}"`));
+    assert.ok(anchor, `Missing ${href}`);
+    assert.doesNotMatch(anchor, /target=/);
+  }
+});
